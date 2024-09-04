@@ -1,0 +1,36 @@
+name: Run main.js
+
+# Controls when the action will run
+on:
+  # Runs every hour
+  schedule:
+    - cron: '0 * * * *'
+
+  # Allows you to manually run the workflow from the GitHub Actions tab
+  workflow_dispatch:
+
+  # Triggers the workflow on push to any branch
+  push:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16' # Specify the Node.js version
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Run your script
+      - name: Run Script
+        run: node ./scripts/main.js
