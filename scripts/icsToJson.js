@@ -11,7 +11,6 @@ function convertIcsToJson(icsFilePath, jsonFilePath) {
 			console.error('Error: ICS file is empty or could not be read.');
 			return;
 		}
-		console.log('ICS Data:', icsData); // Log ICS data for debugging
 
 		// Parse ICS data
 		const parsedData = ical.parseICS(icsData);
