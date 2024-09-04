@@ -1,45 +1,36 @@
-name: Update Matches
+name: Run main.js
 
+# Controls when the action will run
 on:
-  schedule:
-    - cron: '0 * * * *' # Runs every hour
+  # Runs every hour
+  # schedule:
+  #   - cron: '0 * * * *'
+
+  # Allows you to manually run the workflow from the GitHub Actions tab
   workflow_dispatch:
 
+  # Triggers the workflow on push to any branch
+  push:
+
 jobs:
-  build:
+  run-script:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
+      # Step 2: Set up Node.js
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '16' # Specify the Node.js version
 
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: npm install
 
-      - name: Run Update Scripts Sequentially
-        env:
-          PUPPETEER_EXECUTABLE_PATH: '/usr/bin/google-chrome-stable'
-          DEBUG: puppeteer:*
-        run: |
-          node ./scripts/icsToJson.js &&
-          node ./scripts/pastEventFiltering.js &&
-          node ./scripts/findPastEvents.js &&
-          node ./scripts/updatePastEvents.js &&
-          node ./scripts/updateLast10Matches.js &&
-          node ./scripts/fetchUpcomingMatches.js &&
-          node ./scripts/mergeJsonFiles.js jsons/pastEvents.json jsons/futureMatches.json jsons/mergedData.json &&
-          node ./scripts/jsonToIcs.js
-
-      - name: Commit changes
-        run: |
-          git config --global user.name 'GitHub Actions'
-          git config --global user.email 'actions@github.com'
-          git add .
-          git commit -m 'Update matches'
-          git push
-        continue-on-error: true
+      # Step 4: Run your script
+      - name: Run Script
+        run: node ./scripts/main.js
