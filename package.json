@@ -1,0 +1,23 @@
+{
+  "name": "counter-strike-calendar",
+  "version": "0.1.0",
+  "description": "A program intended to fetch and parse all top tier CS tournaments into a calendar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Silas McNutt",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "fs": "^0.0.1-security",
+    "hltv": "^3.5.0",
+    "ical": "^0.8.0",
+    "ical-generator": "^7.2.0",
+    "ical.js": "^2.0.1",
+    "path": "^0.12.7",
+    "puppeteer": "^23.2.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
