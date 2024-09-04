@@ -9,8 +9,8 @@ on:
   # Allows you to manually run the workflow from the GitHub Actions tab
   workflow_dispatch:
 
-  # Triggers the workflow on push to any branch
-  push:
+  # # Triggers the workflow on push to any branch
+  # push:
 
 jobs:
   run-script:
@@ -31,6 +31,16 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Step 4: Run your script
+      # Step 4: Install Google Chrome
+      - name: Install Google Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget gnupg2
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          sudo sh -c 'echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
+      # Step 5: Run your script
       - name: Run Script
         run: node ./scripts/main.js
