@@ -11,6 +11,8 @@ async function updateLast10Events() {
 	);
 	const matchDataDirectory = path.join(__dirname, '../downloadedPages');
 	const browser = await puppeteer.launch({
+		executablePath:
+			process.env.PUPPETEER_EXECUTABLE_PATH || puppeteer.executablePath(),
 		headless: true,
 		args: [
 			'--no-sandbox',

@@ -1,4 +1,4 @@
-name: Run main.js
+name: Run Script on Schedule and Push
 
 # Controls when the action will run
 on:
@@ -31,6 +31,16 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Step 4: Run your script
+      # Step 4: Install Chrome
+      - name: Install Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget unzip
+          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo apt-get install -y ./google-chrome-stable_current_amd64.deb
+
+      # Step 5: Run your script
       - name: Run Script
+        env:
+          PUPPETEER_EXECUTABLE_PATH: '/usr/bin/google-chrome-stable'
         run: node ./scripts/main.js
