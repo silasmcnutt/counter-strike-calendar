@@ -50,12 +50,12 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and push changes to master
+      - name: Commit and push changes to main
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions-bot@users.noreply.github.com'
           git add ics/*
-          git commit -m 'Update schedules on master' || echo "No changes to commit"
-          git push origin master
+          git commit -m 'Update schedules on main' || echo "No changes to commit"
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
