@@ -18,7 +18,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false # This ensures the push step works correctly with GitHub token
+          token: ${{ secrets.GITHUB_TOKEN }} # Use GITHUB_TOKEN to authenticate the checkout
+          persist-credentials: false
 
       # Step 2: Set up Node.js
       - name: Set up Node.js
@@ -50,12 +51,9 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+      # Step 7: Commit and push changes to main
       - name: Commit and push changes to main
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions-bot@users.noreply.github.com'
           git add ics/*
           git commit -m 'Update schedules on main' || echo "No changes to commit"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
