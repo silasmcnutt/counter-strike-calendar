@@ -1,40 +1,59 @@
-name: Run Script on Schedule and Push
+name: Update Matches
 
 on:
   schedule:
     - cron: '0 * * * *' # Runs every hour
-  workflow_dispatch: # Allows manual triggering
-  push: # Triggers on any push
+  workflow_dispatch:
 
 jobs:
-  run-script:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v2
         with:
-          node-version: '16' # Specify your Node.js version
+          node-version: '14' # or the Node.js version you're using
 
       - name: Install dependencies
         run: npm install
 
-      - name: Install Google Chrome
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y wget gnupg2
-          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          sudo sh -c 'echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
+      - name: Convert ICS to JSON
+        run: node ./scripts/icsToJson.js
 
-      - name: Verify Chrome installation
-        run: google-chrome-stable --version
+      - name: Filter Past Events
+        run: node ./scripts/pastEventFiltering.js
 
-      - name: Run Puppeteer Script
+      - name: Find Past Events
+        run: node ./scripts/findPastEvents.js
+
+      - name: Update Past Events
+        run: node ./scripts/updatePastEvents.js
+
+      - name: Run Puppeteer Script for Last 10 Matches
         env:
           PUPPETEER_EXECUTABLE_PATH: '/usr/bin/google-chrome-stable'
+          DEBUG: puppeteer:*
         run: node ./scripts/updateLast10Matches.js
+
+      - name: Fetch Upcoming Matches
+        run: node ./scripts/fetchUpcomingMatches.js
+
+      - name: Merge JSON Files
+        run: |
+          node ./scripts/mergeJsonFiles.js ./jsons/pastEvents.json ./jsons/futureMatches.json jsons/mergedData.json
+
+      - name: Convert JSON to ICS
+        run: node ./scripts/jsonToIcs.js
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add .
+          git commit -m 'Update matches'
+          git push
+        continue-on-error: true
