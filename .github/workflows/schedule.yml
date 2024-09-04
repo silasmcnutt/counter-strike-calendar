@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false # Ensures the push step works correctly with GitHub token
+          persist-credentials: false # This ensures the push step works correctly with GitHub token
 
       # Step 2: Set up Node.js
       - name: Set up Node.js
@@ -44,20 +44,22 @@ jobs:
       - name: Run Script
         run: node ./scripts/main.js
 
-      # Step 6: Configure Git for committing
+      # Step 6: Set up Git user for committing changes
       - name: Set up Git user
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      # Step 7: Commit the changes
+      # Step 7: Commit changes
       - name: Commit changes
         run: |
           git add .
-          git commit -m "Update calendar and events from workflow"
+          git commit -m "Update calendar and events from workflow" || echo "No changes to commit"
 
-      # Step 8: Push the changes to the repository
+      # Step 8: Push changes back to repository
       - name: Push changes
-        uses: ad-m/github-push-action@v1
+        uses: actions/github-script@v6
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const exec = require('@actions/exec');
+            await exec.exec('git', ['push', 'origin', 'HEAD']);
