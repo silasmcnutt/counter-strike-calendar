@@ -16,38 +16,24 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14' # or the Node.js version you're using
+          node-version: '20'
 
       - name: Install dependencies
         run: npm install
 
-      - name: Convert ICS to JSON
-        run: node ./scripts/icsToJson.js
-
-      - name: Filter Past Events
-        run: node ./scripts/pastEventFiltering.js
-
-      - name: Find Past Events
-        run: node ./scripts/findPastEvents.js
-
-      - name: Update Past Events
-        run: node ./scripts/updatePastEvents.js
-
-      - name: Run Puppeteer Script for Last 10 Matches
+      - name: Run Update Scripts Sequentially
         env:
           PUPPETEER_EXECUTABLE_PATH: '/usr/bin/google-chrome-stable'
           DEBUG: puppeteer:*
-        run: node ./scripts/updateLast10Matches.js
-
-      - name: Fetch Upcoming Matches
-        run: node ./scripts/fetchUpcomingMatches.js
-
-      - name: Merge JSON Files
         run: |
-          node ./scripts/mergeJsonFiles.js ./jsons/pastEvents.json ./jsons/futureMatches.json jsons/mergedData.json
-
-      - name: Convert JSON to ICS
-        run: node ./scripts/jsonToIcs.js
+          node ./scripts/icsToJson.js &&
+          node ./scripts/pastEventFiltering.js &&
+          node ./scripts/findPastEvents.js &&
+          node ./scripts/updatePastEvents.js &&
+          node ./scripts/updateLast10Matches.js &&
+          node ./scripts/fetchUpcomingMatches.js &&
+          node ./scripts/mergeJsonFiles.js jsons/pastEvents.json jsons/futureMatches.json jsons/mergedData.json &&
+          node ./scripts/jsonToIcs.js
 
       - name: Commit changes
         run: |
