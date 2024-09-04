@@ -57,3 +57,41 @@ jobs:
           git add ics/*
           git commit -m 'Update schedules on main' || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
+
+      - name: Stash changes on main branch
+        run: git stash --include-untracked
+
+      - name: Checkout gh-pages branch
+        run: |
+          git fetch origin gh-pages
+          git checkout gh-pages || git checkout --orphan gh-pages
+
+      - name: Ensure ics directory exists in gh-pages branch
+        run: mkdir -p ics
+
+      - name: Copy ics files from main branch to gh-pages branch
+        run: |
+          git checkout main -- ics/
+          cp -r ics/* ../ics/ || echo "No .ics files to copy"
+
+      - name: List files in gh-pages ics directory
+        run: ls -R ics
+
+      - name: Commit and push changes to gh-pages
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions-bot@users.noreply.github.com'
+          if [ -n "$(ls -A ics)" ]; then
+            git add ics/*
+            git commit -m 'Update .ics files on gh-pages'
+            git push origin gh-pages
+          else
+            echo "No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Restore main branch and apply stashed changes
+        run: |
+          git checkout main
+          git stash pop || echo "No stashed changes to apply"
