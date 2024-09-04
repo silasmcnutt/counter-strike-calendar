@@ -1,8 +1,15 @@
 <div align="center">
+
+<svg fill="none" width="100%" height="80.88" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="80.88px">
+  <div xmlns="http://www.w3.org/1999/xhtml">
+
 <h1 style="text-align: center; display: flex; justify-content: center; align-items: center;">
     <img style="max-width: 25px; margin-right: 10px;" src="https://static.wikia.nocookie.net/logopedia/images/4/49/Counter-Strike_2_%28Icon%29.png/revision/latest?cb=20230330015359" alt="Counter-Strike Logo">
     Counter-Strike Calendar
 </h1>
+</div>
+</svg>
 <p>A calendar for all professional tier one CS matches using the help of gigobyte's <a href=https://github.com/gigobyte/HLTV>HLTV API</a>.</p>
 <img src="https://img.shields.io/badge/made_with_♡_by-silas-red">
 <a href="https://github.com/silasmcnutt/counter-strike-calendar/blob/main/LICENSE.txt"><img src="https://img.shields.io/badge/License-MIT-green"></a>
@@ -11,15 +18,16 @@
 ## Usage
 
 ### Google Calendar:
+
 1. Copy the link to the .ics file (TBD)
 2. Go to your Google Calendar
 3. Other Calendars > + > From URL and then paste the link
 
-*Optional* - Change update time to be every hour:
+_Optional_ - Change update time to be every hour:
+
 1. Go to derekantrican's [GAS-ICS-Sync repo](https://github.com/derekantrican/GAS-ICS-Sync)
 2. Open a new copy of the script ([link](https://script.google.com/d/1BOk8MDLbLaHh6SwG1M1tsgNXjkcC-79LE0QoipRuTDxbO3fMVvqoROQD/edit?newcopy=true))
 3. Follow the instructions, changing the settings as you please
-
 
 ## Support
 
