@@ -1,46 +1,40 @@
 name: Run Script on Schedule and Push
 
-# Controls when the action will run
 on:
-  # Runs every hour
   schedule:
-    - cron: '0 * * * *'
-
-  # Allows you to manually run the workflow from the GitHub Actions tab
-  workflow_dispatch:
-
-  # Triggers the workflow on push to any branch
-  push:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch: # Allows manual triggering
+  push: # Triggers on any push
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # Specify the Node.js version
+          node-version: '16' # Specify your Node.js version
 
-      # Step 3: Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # Step 4: Install Chrome
-      - name: Install Chrome
+      - name: Install Google Chrome
         run: |
           sudo apt-get update
-          sudo apt-get install -y wget unzip
-          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo apt-get install -y ./google-chrome-stable_current_amd64.deb
+          sudo apt-get install -y wget gnupg2
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          sudo sh -c 'echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
 
-      # Step 5: Run your script
-      - name: Run Script
+      - name: Verify Chrome installation
+        run: google-chrome-stable --version
+
+      - name: Run Puppeteer Script
         env:
           PUPPETEER_EXECUTABLE_PATH: '/usr/bin/google-chrome-stable'
-        run: node ./scripts/main.js
+        run: node ./scripts/updateLast10Matches.js
