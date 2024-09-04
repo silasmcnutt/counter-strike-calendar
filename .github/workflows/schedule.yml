@@ -2,15 +2,12 @@ name: Run main.js
 
 # Controls when the action will run
 on:
-  # Runs every hour
-  # schedule:
-  #   - cron: '0 * * * *'
-
   # Allows you to manually run the workflow from the GitHub Actions tab
   workflow_dispatch:
 
-  # # Triggers the workflow on push to any branch
-  # push:
+  schedule:
+    # Runs every hour
+    - cron: '0 * * * *'
 
 jobs:
   run-script:
@@ -20,12 +17,14 @@ jobs:
       # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false # Ensures the push step works correctly with GitHub token
 
       # Step 2: Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # Specify the Node.js version
+          node-version: '16'
 
       # Step 3: Install dependencies
       - name: Install dependencies
@@ -41,6 +40,24 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
 
-      # Step 5: Run your script
+      # Step 5: Run your main.js script
       - name: Run Script
         run: node ./scripts/main.js
+
+      # Step 6: Configure Git for committing
+      - name: Set up Git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Step 7: Commit the changes
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Update calendar and events from workflow"
+
+      # Step 8: Push the changes to the repository
+      - name: Push changes
+        uses: ad-m/github-push-action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
