@@ -9,6 +9,7 @@ const outputJsonFilePath = path.join(
 
 async function fetchPastMatches(startDate, endDate) {
 	try {
+		// ---------------------------- Past Events ---------------------------- /
 		console.log('Fetching past month results...');
 		const pastResults = await HLTV.getPastEvents({
 			startDate,
@@ -27,7 +28,31 @@ async function fetchPastMatches(startDate, endDate) {
 			filteredPastResults.length
 		);
 
-		const eventIds = filteredPastResults.map((event) => event.id);
+		// ---------------------------- Current Events ---------------------------- //
+
+		console.log('Fetching current results...');
+		const currentEvents = await HLTV.getEvents();
+
+		console.log('Filtering featured events...');
+		const featuredEvents = currentEvents.filter((event) => event.featured);
+
+		console.log('Filtering based on start date...');
+		const now = Date.now();
+		const filteredFeaturedEvents = featuredEvents.filter(
+			(event) => event.dateStart <= now
+		);
+
+		// ---------------------------- Doing Stuff ---------------------------- /
+
+		// Add event IDs to a single array
+		const eventIds = [];
+		filteredPastResults.forEach((event) => {
+			eventIds.push(event.id);
+		});
+		filteredFeaturedEvents.forEach((event) => {
+			eventIds.push(event.id);
+		});
+
 		console.log('Fetching results for event IDs:', eventIds);
 
 		const resultsPromises = eventIds.map((id) =>

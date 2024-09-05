@@ -1,72 +1,58 @@
 [
   {
-    "start": "2024-09-04T07:30:00.000Z",
-    "end": "2024-09-04T09:30:00.000Z",
-    "summary": "Spirit vs Wildcard",
-    "description": "Format: bo3 | Match ID: 2375356",
-    "location": "ESL Pro League Season 20"
-  },
-  {
-    "start": "2024-09-04T07:30:00.000Z",
-    "end": "2024-09-04T09:30:00.000Z",
-    "summary": "The MongolZ vs 3DMAX",
-    "description": "Format: bo3 | Match ID: 2375357",
-    "location": "ESL Pro League Season 20"
-  },
-  {
-    "start": "2024-09-04T10:30:00.000Z",
-    "end": "2024-09-04T12:30:00.000Z",
-    "summary": "FlyQuest vs FaZe",
-    "description": "Format: bo3 | Match ID: 2375366",
-    "location": "ESL Pro League Season 20"
-  },
-  {
-    "start": "2024-09-04T10:30:00.000Z",
-    "end": "2024-09-04T12:30:00.000Z",
-    "summary": "Eternal Fire vs Sangal",
-    "description": "Format: bo3 | Match ID: 2375368",
-    "location": "ESL Pro League Season 20"
-  },
-  {
-    "start": "2024-09-04T13:30:00.000Z",
-    "end": "2024-09-04T15:30:00.000Z",
-    "summary": "Natus Vincere vs Ninjas in Pyjamas",
-    "description": "Format: bo3 | Match ID: 2375367",
-    "location": "ESL Pro League Season 20"
-  },
-  {
-    "start": "2024-09-04T13:30:00.000Z",
-    "end": "2024-09-04T15:30:00.000Z",
-    "summary": "Lynn Vision vs HEROIC",
-    "description": "Format: bo3 | Match ID: 2375369",
-    "location": "ESL Pro League Season 20"
-  },
-  {
     "start": "2024-09-05T07:30:00.000Z",
     "end": "2024-09-05T09:30:00.000Z",
-    "summary": "MIBR vs Spirit/Wildcard winner",
+    "summary": "MIBR vs Spirit",
     "description": "Format: bo3 | Match ID: 2375370",
     "location": "ESL Pro League Season 20"
   },
   {
     "start": "2024-09-05T07:30:00.000Z",
     "end": "2024-09-05T09:30:00.000Z",
-    "summary": "KOI vs The MongolZ/3DMAX loser",
+    "summary": "KOI vs The MongolZ",
     "description": "Format: bo3 | Match ID: 2375371",
     "location": "ESL Pro League Season 20"
   },
   {
     "start": "2024-09-05T10:30:00.000Z",
     "end": "2024-09-05T12:30:00.000Z",
-    "summary": "9z vs Spirit/Wildcard loser",
+    "summary": "9z vs Wildcard",
     "description": "Format: bo3 | Match ID: 2375372",
     "location": "ESL Pro League Season 20"
   },
   {
     "start": "2024-09-05T10:30:00.000Z",
     "end": "2024-09-05T12:30:00.000Z",
-    "summary": "G2 vs The MongolZ/3DMAX winner",
+    "summary": "G2 vs 3DMAX",
     "description": "Format: bo3 | Match ID: 2375373",
+    "location": "ESL Pro League Season 20"
+  },
+  {
+    "start": "2024-09-05T13:30:00.000Z",
+    "end": "2024-09-05T15:30:00.000Z",
+    "summary": "FaZe vs Ninjas in Pyjamas",
+    "description": "Format: bo3 | Match ID: 2375374",
+    "location": "ESL Pro League Season 20"
+  },
+  {
+    "start": "2024-09-05T13:30:00.000Z",
+    "end": "2024-09-05T15:30:00.000Z",
+    "summary": "Sangal vs HEROIC",
+    "description": "Format: bo3 | Match ID: 2375375",
+    "location": "ESL Pro League Season 20"
+  },
+  {
+    "start": "2024-09-06T10:30:00.000Z",
+    "end": "2024-09-06T12:30:00.000Z",
+    "summary": "FlyQuest vs Lynn Vision",
+    "description": "Format: bo3 | Match ID: 2375378",
+    "location": "ESL Pro League Season 20"
+  },
+  {
+    "start": "2024-09-07T13:30:00.000Z",
+    "end": "2024-09-07T15:30:00.000Z",
+    "summary": "Eternal Fire vs Natus Vincere",
+    "description": "Format: bo3 | Match ID: 2375386",
     "location": "ESL Pro League Season 20"
   },
   {

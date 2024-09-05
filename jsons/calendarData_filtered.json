@@ -312,63 +312,111 @@
     "id": "44ab5bc1-dedf-4c3a-901f-f860c2296e97"
   },
   {
-    "summary": "(2) Spirit vs. (1) MOUZ",
-    "start": "2024-08-30T14:45:00.000Z",
-    "end": "2024-08-30T16:45:00.000Z",
-    "description": "Match ID: 2375021"
+    "summary": "(2) Spirit vs (1) MOUZ",
+    "start": "2024-08-30T18:09:56.000Z",
+    "end": "2024-08-30T20:09:56.000Z",
+    "description": "Format: bo3 | Match ID: 2375021",
+    "location": "No Location",
+    "id": "1e939864-3597-4549-886c-cbaced50c22b"
   },
   {
-    "summary": "(2) Eternal Fire vs. (0) paiN",
-    "start": "2024-08-31T07:15:00.000Z",
-    "end": "2024-08-31T09:15:00.000Z",
-    "description": "Match ID: 2375022"
+    "summary": "(2) Eternal Fire vs (0) paiN",
+    "start": "2024-08-31T09:26:29.000Z",
+    "end": "2024-08-31T11:26:29.000Z",
+    "description": "Format: bo3 | Match ID: 2375022",
+    "location": "No Location",
+    "id": "e407535c-4f04-469e-ad62-cec75b996a6e"
   },
   {
-    "summary": "(0) MOUZ vs. (2) Eternal Fire",
-    "start": "2024-08-31T12:00:00.000Z",
-    "end": "2024-08-31T14:00:00.000Z",
-    "description": "Match ID: 2375023"
+    "summary": "(0) MOUZ vs (2) Eternal Fire",
+    "start": "2024-08-31T14:31:10.000Z",
+    "end": "2024-08-31T16:31:10.000Z",
+    "description": "Format: bo3 | Match ID: 2375023",
+    "location": "No Location",
+    "id": "76b5d29c-19e7-463e-bf8f-abfd1a6e3985"
   },
   {
-    "summary": "(3) Spirit vs. (0) Eternal Fire",
-    "start": "2024-09-01T07:00:00.000Z",
-    "end": "2024-09-01T09:00:00.000Z",
-    "description": "Match ID: 2375024"
+    "summary": "(3) Spirit vs (0) Eternal Fire",
+    "start": "2024-09-01T10:05:50.000Z",
+    "end": "2024-09-01T12:05:50.000Z",
+    "description": "Format: bo5 | Match ID: 2375024",
+    "location": "No Location",
+    "id": "a418833c-d5f5-45fe-893e-2c34bc8eb887"
   },
   {
-    "summary": "(0) FlyQuest vs. (2) Eternal Fire",
+    "summary": "FlyQuest vs Eternal Fire",
     "start": "2024-09-03T07:30:00.000Z",
     "end": "2024-09-03T09:30:00.000Z",
-    "description": "Match ID: 2375350"
+    "description": "Event: ESL Pro League Season 20 | Match ID: 2375350 | Match Page: https://www.hltv.org/matches/2375350/flyquest vs eternal-fire-esl-pro-league-season-20",
+    "location": "ESL Pro League Season 20",
+    "id": "dbbf67b6-5b49-40e7-870e-c360021fd04d"
   },
   {
-    "summary": "(0) Lynn Vision vs. (2) Natus Vincere",
+    "summary": "Lynn Vision vs Natus Vincere",
     "start": "2024-09-03T07:30:00.000Z",
     "end": "2024-09-03T09:30:00.000Z",
-    "description": "Match ID: 2375351"
+    "description": "Event: ESL Pro League Season 20 | Match ID: 2375351 | Match Page: https://www.hltv.org/matches/2375351/lynn-vision vs natus-vincere-esl-pro-league-season-20",
+    "location": "ESL Pro League Season 20",
+    "id": "78e5b8e7-f052-4b7b-8f0c-89b72035de21"
   },
   {
     "summary": "(1) FaZe vs. (2) Sangal",
-    "start": "2024-09-03T10:30:00.000Z",
-    "end": "2024-09-03T12:30:00.000Z",
+    "start": "2024-09-03T14:30:00.000Z",
+    "end": "2024-09-03T16:30:00.000Z",
     "description": "Match ID: 2375352"
   },
   {
     "summary": "(1) HEROIC vs. (2) Ninjas in Pyjamas",
-    "start": "2024-09-03T10:40:00.000Z",
-    "end": "2024-09-03T12:40:00.000Z",
+    "start": "2024-09-03T14:40:00.000Z",
+    "end": "2024-09-03T16:40:00.000Z",
     "description": "Match ID: 2375353"
   },
   {
     "summary": "(2) MIBR vs. (0) 9z",
-    "start": "2024-09-03T13:30:00.000Z",
-    "end": "2024-09-03T15:30:00.000Z",
+    "start": "2024-09-03T17:30:00.000Z",
+    "end": "2024-09-03T19:30:00.000Z",
     "description": "Match ID: 2375354"
   },
   {
     "summary": "(0) KOI vs. (2) G2",
-    "start": "2024-09-03T13:55:00.000Z",
-    "end": "2024-09-03T15:55:00.000Z",
+    "start": "2024-09-03T17:55:00.000Z",
+    "end": "2024-09-03T19:55:00.000Z",
     "description": "Match ID: 2375355"
+  },
+  {
+    "summary": "(2) Spirit vs. (0) Wildcard",
+    "start": "2024-09-04T11:30:00.000Z",
+    "end": "2024-09-04T13:30:00.000Z",
+    "description": "Match ID: 2375356"
+  },
+  {
+    "summary": "(0) The MongolZ vs. (2) 3DMAX",
+    "start": "2024-09-04T11:30:00.000Z",
+    "end": "2024-09-04T13:30:00.000Z",
+    "description": "Match ID: 2375357"
+  },
+  {
+    "summary": "(0) FlyQuest vs. (2) FaZe",
+    "start": "2024-09-04T14:30:00.000Z",
+    "end": "2024-09-04T16:30:00.000Z",
+    "description": "Match ID: 2375366"
+  },
+  {
+    "summary": "(2) Eternal Fire vs. (0) Sangal",
+    "start": "2024-09-04T14:30:00.000Z",
+    "end": "2024-09-04T16:30:00.000Z",
+    "description": "Match ID: 2375368"
+  },
+  {
+    "summary": "(1) Lynn Vision vs. (2) HEROIC",
+    "start": "2024-09-04T17:30:00.000Z",
+    "end": "2024-09-04T19:30:00.000Z",
+    "description": "Match ID: 2375369"
+  },
+  {
+    "summary": "(2) Natus Vincere vs. (0) Ninjas in Pyjamas",
+    "start": "2024-09-04T17:30:00.000Z",
+    "end": "2024-09-04T19:30:00.000Z",
+    "description": "Match ID: 2375367"
   }
 ]

@@ -75,7 +75,7 @@ async function fetchUpcomingMatches() {
 						start: new Date(
 							startDate.getTime() - 4 * 60 * 60 * 1000
 						).toISOString(),
-						end: new Date(endDate.getTime() - 4 * 60 * 60 * 1000).toISOString(),
+						end: new Date(endDate.getTime()).toISOString(),
 						summary: `${match.team1.name} vs ${match.team2.name}`,
 						description: `Format: bo3 | Match ID: ${match.id}`,
 						location:

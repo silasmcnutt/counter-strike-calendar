@@ -2,16 +2,13 @@ const { exec } = require('child_process');
 const path = require('path');
 
 // Set Puppeteer executable path
-process.env.PUPPETEER_EXECUTABLE_PATH = '/usr/bin/google-chrome-stable';
-
+if (process.platform === 'linux') {
+	process.env.PUPPETEER_EXECUTABLE_PATH = '/usr/bin/google-chrome-stable';
+}
 // Define paths for JSON files
 const pastEventsFile = path.join(__dirname, '../jsons/pastEvents.json');
 const futureMatchesFile = path.join(__dirname, '../jsons/futureMatches.json');
 const mergedFile = path.join(__dirname, '../jsons/mergedData.json');
-const calendarFile = path.join(
-	__dirname,
-	'../jsons/calendarData_filtered.json'
-);
 
 // Define the commands for each script
 const scripts = [
