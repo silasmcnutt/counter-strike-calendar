@@ -398,9 +398,7 @@ DTSTART:20240903T073000Z
 DTEND:20240903T093000Z
 SUMMARY:FlyQuest vs Eternal Fire
 LOCATION:ESL Pro League Season 20
-DESCRIPTION:Event: ESL Pro League Season 20 | Match ID: 2375350 | Match Page
- : https://www.hltv.org/matches/2375350/flyquest vs eternal-fire-esl-pro-le
- ague-season-20
+DESCRIPTION:Event: ESL Pro League Season 20 | Match ID: 2375350
 END:VEVENT
 BEGIN:VEVENT
 UID:78e5b8e7-f052-4b7b-8f0c-89b72035de21
@@ -410,9 +408,7 @@ DTSTART:20240903T073000Z
 DTEND:20240903T093000Z
 SUMMARY:Lynn Vision vs Natus Vincere
 LOCATION:ESL Pro League Season 20
-DESCRIPTION:Event: ESL Pro League Season 20 | Match ID: 2375351 | Match Page
- : https://www.hltv.org/matches/2375351/lynn-vision vs natus-vincere-esl-pr
- o-league-season-20
+DESCRIPTION:Event: ESL Pro League Season 20 | Match ID: 2375351
 END:VEVENT
 BEGIN:VEVENT
 UID:0b7d6a67-7d2c-457f-ba7b-d3b4adb189a7
@@ -422,9 +418,7 @@ DTSTART:20240903T103000Z
 DTEND:20240903T123000Z
 SUMMARY:FaZe vs Sangal
 LOCATION:ESL Pro League Season 20
-DESCRIPTION:Event: ESL Pro League Season 20 | Match ID: 2375352 | Match Page
- : https://www.hltv.org/matches/2375352/faze vs sangal-esl-pro-league-seaso
- n-20
+DESCRIPTION:Event: ESL Pro League Season 20 | Match ID: 2375352
 END:VEVENT
 BEGIN:VEVENT
 UID:a9c89eb0-31da-4854-a5a1-722201e4edc0
