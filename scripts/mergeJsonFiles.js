@@ -1,5 +1,21 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto'); // Add the crypto module
+
+function generateUniqueId() {
+	return crypto.randomBytes(16).toString('hex'); // Generate a 32-character alphanumeric ID
+}
+
+function addOrUpdateIds(jsonArray) {
+	return jsonArray.map((item) => {
+		if (!item.id) {
+			item.id = generateUniqueId(); // Add a new ID if it doesn't exist
+		} else {
+			item.id = generateUniqueId(); // Update the ID if it exists
+		}
+		return item;
+	});
+}
 
 function mergeJsonFiles(file1Path, file2Path, outputPath) {
 	try {
@@ -31,13 +47,14 @@ function mergeJsonFiles(file1Path, file2Path, outputPath) {
 		// Combine the contents of both JSON files
 		const combinedJson = [...file1Json, ...uniqueEvents];
 
-		// Write the combined data to the output file
-		fs.writeFileSync(
-			outputPath,
-			JSON.stringify(combinedJson, null, 2),
-			'utf-8'
+		// Add or update IDs for all elements
+		const updatedJson = addOrUpdateIds(combinedJson);
+
+		// Write the combined and updated data to the output file
+		fs.writeFileSync(outputPath, JSON.stringify(updatedJson, null, 2), 'utf-8');
+		console.log(
+			`Files merged and IDs added/updated successfully into ${outputPath}`
 		);
-		console.log(`Files merged successfully into ${outputPath}`);
 	} catch (error) {
 		console.error('Error merging JSON files:', error.message);
 	}

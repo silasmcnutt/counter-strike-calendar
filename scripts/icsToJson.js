@@ -40,7 +40,7 @@ function convertIcsToJson(icsFilePath, jsonFilePath) {
 }
 
 // File paths
-const icsFilePath = path.join(__dirname, '../ics/matches.ics'); // Replace 'input.ics' with your ICS file path
+const icsFilePath = path.join(__dirname, '../ics/finalCalendar.ics'); // Replace 'input.ics' with your ICS file path
 const jsonFilePath = path.join(__dirname, '../jsons/calendarData.json'); // Replace 'output.json' with your desired JSON file path
 
 // Convert ICS to JSON
