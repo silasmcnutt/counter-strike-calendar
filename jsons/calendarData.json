@@ -1,11 +1,355 @@
 [
   {
+    "summary": "(2) FaZe vs (0) Liquid",
+    "start": "2024-08-10T13:28:19.000Z",
+    "end": "2024-08-10T15:28:19.000Z",
+    "description": "Format: bo3 | Match ID: 2374302",
+    "location": "No Location",
+    "id": "3da56a98ae4898160e9068fbf9fddaef"
+  },
+  {
+    "summary": "(1) Virtus.pro vs (2) Complexity",
+    "start": "2024-08-10T14:43:36.000Z",
+    "end": "2024-08-10T16:43:36.000Z",
+    "description": "Format: bo3 | Match ID: 2374303",
+    "location": "No Location",
+    "id": "5c987c4611a40880ff13a44fdaef3e9d"
+  },
+  {
+    "summary": "(0) G2 vs (2) SAW",
+    "start": "2024-08-10T15:43:34.000Z",
+    "end": "2024-08-10T17:43:34.000Z",
+    "description": "Format: bo3 | Match ID: 2374299",
+    "location": "No Location",
+    "id": "1b34940b38f205158406b5b649b7fda3"
+  },
+  {
+    "summary": "(2) Astralis vs (0) 9z",
+    "start": "2024-08-10T16:59:30.000Z",
+    "end": "2024-08-10T18:59:30.000Z",
+    "description": "Format: bo3 | Match ID: 2374301",
+    "location": "No Location",
+    "id": "b926a03d70c17755495f917c9f03088a"
+  },
+  {
+    "summary": "(0) Spirit vs (2) The MongolZ",
+    "start": "2024-08-10T18:44:28.000Z",
+    "end": "2024-08-10T20:44:28.000Z",
+    "description": "Format: bo3 | Match ID: 2374300",
+    "location": "No Location",
+    "id": "293f714e5768887b961d11c7ed578fbc"
+  },
+  {
+    "summary": "(2) Natus Vincere vs (0) paiN",
+    "start": "2024-08-10T18:57:44.000Z",
+    "end": "2024-08-10T20:57:44.000Z",
+    "description": "Format: bo3 | Match ID: 2374298",
+    "location": "No Location",
+    "id": "5a01717b696e83207a68878b1b3d72b4"
+  },
+  {
+    "summary": "(2) Vitality vs (0) FURIA",
+    "start": "2024-08-11T13:08:00.000Z",
+    "end": "2024-08-11T15:08:00.000Z",
+    "description": "Format: bo3 | Match ID: 2374305",
+    "location": "No Location",
+    "id": "28d81fdb09fa1f378e1128108382a94e"
+  },
+  {
+    "summary": "(2) MOUZ vs (1) Falcons",
+    "start": "2024-08-11T14:15:46.000Z",
+    "end": "2024-08-11T16:15:46.000Z",
+    "description": "Format: bo3 | Match ID: 2374304",
+    "location": "No Location",
+    "id": "7a78ce87c7ba0b72ef601bbc5e013859"
+  },
+  {
+    "summary": "(0) Astralis vs (2) Natus Vincere",
+    "start": "2024-08-11T16:14:16.000Z",
+    "end": "2024-08-11T18:14:16.000Z",
+    "description": "Format: bo3 | Match ID: 2374306",
+    "location": "No Location",
+    "id": "78e743add1898bbd20b5723f803bc6ed"
+  },
+  {
+    "summary": "(2) SAW vs (1) The MongolZ",
+    "start": "2024-08-11T16:55:55.000Z",
+    "end": "2024-08-11T18:55:55.000Z",
+    "description": "Format: bo3 | Match ID: 2374307",
+    "location": "No Location",
+    "id": "446b3aebd6d9564fcccc126acfe3c7dd"
+  },
+  {
+    "summary": "(2) G2 vs (0) Spirit",
+    "start": "2024-08-11T18:16:41.000Z",
+    "end": "2024-08-11T20:16:41.000Z",
+    "description": "Format: bo3 | Match ID: 2374309",
+    "location": "No Location",
+    "id": "17f2f4de903fba10f643e6d576420ea3"
+  },
+  {
+    "summary": "(1) 9z vs (2) paiN",
+    "start": "2024-08-11T20:33:47.000Z",
+    "end": "2024-08-11T22:33:47.000Z",
+    "description": "Format: bo3 | Match ID: 2374308",
+    "location": "No Location",
+    "id": "6002a8d46dcfdf4898da98d9cbc7ab7c"
+  },
+  {
+    "summary": "(2) Liquid vs (0) FURIA",
+    "start": "2024-08-12T13:37:49.000Z",
+    "end": "2024-08-12T15:37:49.000Z",
+    "description": "Format: bo3 | Match ID: 2374317",
+    "location": "No Location",
+    "id": "b691182c26b707586b50f98dc5eda4e9"
+  },
+  {
+    "summary": "(1) Virtus.pro vs (2) Falcons",
+    "start": "2024-08-12T14:42:41.000Z",
+    "end": "2024-08-12T16:42:41.000Z",
+    "description": "Format: bo3 | Match ID: 2374316",
+    "location": "No Location",
+    "id": "4ebd4ec64daf48ca453d2a20e8effdcc"
+  },
+  {
+    "summary": "(0) Complexity vs (2) MOUZ",
+    "start": "2024-08-12T16:56:44.000Z",
+    "end": "2024-08-12T18:56:44.000Z",
+    "description": "Format: bo3 | Match ID: 2374314",
+    "location": "No Location",
+    "id": "f99eccce231524e4ea2ba3c4f4d1e45e"
+  },
+  {
+    "summary": "(1) FaZe vs (2) Vitality",
+    "start": "2024-08-12T17:14:18.000Z",
+    "end": "2024-08-12T19:14:18.000Z",
+    "description": "Format: bo3 | Match ID: 2374315",
+    "location": "No Location",
+    "id": "9372cb3369943d3841e562a37bbed967"
+  },
+  {
+    "summary": "(1) Astralis vs (2) G2",
+    "start": "2024-08-12T20:05:55.000Z",
+    "end": "2024-08-12T22:05:55.000Z",
+    "description": "Format: bo3 | Match ID: 2374311",
+    "location": "No Location",
+    "id": "074c263f1e4e581bf3060b8b9218bbf2"
+  },
+  {
+    "summary": "(1) The MongolZ vs (2) paiN",
+    "start": "2024-08-12T20:39:22.000Z",
+    "end": "2024-08-12T22:39:22.000Z",
+    "description": "Format: bo3 | Match ID: 2374310",
+    "location": "No Location",
+    "id": "13b866044e816ccaf94e0f0cab4b3c36"
+  },
+  {
+    "summary": "(2) Liquid vs (0) Complexity",
+    "start": "2024-08-13T13:12:49.000Z",
+    "end": "2024-08-13T15:12:49.000Z",
+    "description": "Format: bo3 | Match ID: 2374319",
+    "location": "No Location",
+    "id": "bb15721aef562ba439fe83d831edf625"
+  },
+  {
+    "summary": "(0) Falcons vs (2) FaZe",
+    "start": "2024-08-13T13:33:37.000Z",
+    "end": "2024-08-13T15:33:37.000Z",
+    "description": "Format: bo3 | Match ID: 2374318",
+    "location": "No Location",
+    "id": "7acbaeac94253e32ee8615ffb9da1f16"
+  },
+  {
+    "summary": "(2) G2 vs (0) paiN",
+    "start": "2024-08-13T15:17:04.000Z",
+    "end": "2024-08-13T17:17:04.000Z",
+    "description": "Format: bo3 | Match ID: 2374313",
+    "location": "No Location",
+    "id": "477c41b5cc0570c88ff8e3500ef69c58"
+  },
+  {
+    "summary": "(2) Natus Vincere vs (1) SAW",
+    "start": "2024-08-13T16:34:02.000Z",
+    "end": "2024-08-13T18:34:02.000Z",
+    "description": "Format: bo3 | Match ID: 2374312",
+    "location": "No Location",
+    "id": "f37eaae9805b3d507b41dca2c78effc5"
+  },
+  {
+    "summary": "(0) MOUZ vs (2) Vitality",
+    "start": "2024-08-13T18:58:15.000Z",
+    "end": "2024-08-13T20:58:15.000Z",
+    "description": "Format: bo3 | Match ID: 2374320",
+    "location": "No Location",
+    "id": "4bd08c614a926f969155992c671a1e55"
+  },
+  {
+    "summary": "(1) Liquid vs (2) FaZe",
+    "start": "2024-08-13T20:11:58.000Z",
+    "end": "2024-08-13T22:11:58.000Z",
+    "description": "Format: bo3 | Match ID: 2374321",
+    "location": "No Location",
+    "id": "cce0f2f050ec7da2ebb9b9d50a444018"
+  },
+  {
+    "summary": "(2) SAW vs (1) FaZe",
+    "start": "2024-08-16T17:00:33.000Z",
+    "end": "2024-08-16T19:00:33.000Z",
+    "description": "Format: bo3 | Match ID: 2374323",
+    "location": "No Location",
+    "id": "9529f16d3bb840422c431064a9ccdb9b"
+  },
+  {
+    "summary": "(2) MOUZ vs (0) G2",
+    "start": "2024-08-16T19:48:15.000Z",
+    "end": "2024-08-16T21:48:15.000Z",
+    "description": "Format: bo3 | Match ID: 2374322",
+    "location": "No Location",
+    "id": "883e6ec092d50910c6aac7a309292234"
+  },
+  {
+    "summary": "(2) Vitality vs (0) SAW",
+    "start": "2024-08-17T15:24:14.000Z",
+    "end": "2024-08-17T17:24:14.000Z",
+    "description": "Format: bo3 | Match ID: 2374325",
+    "location": "No Location",
+    "id": "44f681509b317c7756a9bad849192c04"
+  },
+  {
+    "summary": "(2) Natus Vincere vs (0) MOUZ",
+    "start": "2024-08-17T19:23:21.000Z",
+    "end": "2024-08-17T21:23:21.000Z",
+    "description": "Format: bo3 | Match ID: 2374324",
+    "location": "No Location",
+    "id": "7d80e67c5be2112c98a29eed217c1542"
+  },
+  {
+    "summary": "(3) Vitality vs (1) Natus Vincere",
+    "start": "2024-08-18T20:29:38.000Z",
+    "end": "2024-08-18T22:29:38.000Z",
+    "description": "Format: bo5 | Match ID: 2374326",
+    "location": "No Location",
+    "id": "ad4c3d7424b6c270a6e62588820713be"
+  },
+  {
+    "summary": "(2) Spirit vs (0) Falcons",
+    "start": "2024-08-28T11:02:28.000Z",
+    "end": "2024-08-28T13:02:28.000Z",
+    "description": "Format: bo3 | Match ID: 2375014",
+    "location": "No Location",
+    "id": "36b9d549b2067cb13da378248ea83db0"
+  },
+  {
+    "summary": "(0) Virtus.pro vs (2) FURIA",
+    "start": "2024-08-28T13:45:36.000Z",
+    "end": "2024-08-28T15:45:36.000Z",
+    "description": "Format: bo3 | Match ID: 2375013",
+    "location": "No Location",
+    "id": "3a8465c5228a53e0f94a8c001af53fd3"
+  },
+  {
+    "summary": "(1) HEROIC vs (2) paiN",
+    "start": "2024-08-28T20:00:45.000Z",
+    "end": "2024-08-28T22:00:45.000Z",
+    "description": "Format: bo3 | Match ID: 2375012",
+    "location": "No Location",
+    "id": "e0375b8f0564c876cf36a30f05e36fe8"
+  },
+  {
+    "summary": "(2) MOUZ vs (0) Eternal Fire",
+    "start": "2024-08-28T22:28:56.000Z",
+    "end": "2024-08-29T00:28:56.000Z",
+    "description": "Format: bo3 | Match ID: 2375011",
+    "location": "No Location",
+    "id": "05eb83ab7fac15bd887074513e3e0198"
+  },
+  {
+    "summary": "(1) Falcons vs (2) Virtus.pro",
+    "start": "2024-08-29T12:01:57.000Z",
+    "end": "2024-08-29T14:01:57.000Z",
+    "description": "Format: bo3 | Match ID: 2375016",
+    "location": "No Location",
+    "id": "720b723ec2657fcf9ad5f692c82cb526"
+  },
+  {
+    "summary": "(0) HEROIC vs (2) Eternal Fire",
+    "start": "2024-08-29T14:40:52.000Z",
+    "end": "2024-08-29T16:40:52.000Z",
+    "description": "Format: bo3 | Match ID: 2375015",
+    "location": "No Location",
+    "id": "c860728a38903cf42704161d69139fa9"
+  },
+  {
+    "summary": "(2) Spirit vs (0) FURIA",
+    "start": "2024-08-29T17:08:23.000Z",
+    "end": "2024-08-29T19:08:23.000Z",
+    "description": "Format: bo3 | Match ID: 2375018",
+    "location": "No Location",
+    "id": "93a825e5cc8bb33bc5281caa12a9e8a3"
+  },
+  {
+    "summary": "(1) paiN vs (2) MOUZ",
+    "start": "2024-08-29T21:03:55.000Z",
+    "end": "2024-08-29T23:03:55.000Z",
+    "description": "Format: bo3 | Match ID: 2375017",
+    "location": "No Location",
+    "id": "eeeb61f5d3d1dcd30f2175776a893a03"
+  },
+  {
+    "summary": "(2) Eternal Fire vs (1) FURIA",
+    "start": "2024-08-30T13:31:23.000Z",
+    "end": "2024-08-30T15:31:23.000Z",
+    "description": "Format: bo3 | Match ID: 2375019",
+    "location": "No Location",
+    "id": "1233d29d7eb639c392a7d62164c19c9d"
+  },
+  {
+    "summary": "(1) Virtus.pro vs (2) paiN",
+    "start": "2024-08-30T17:45:07.000Z",
+    "end": "2024-08-30T19:45:07.000Z",
+    "description": "Format: bo3 | Match ID: 2375020",
+    "location": "No Location",
+    "id": "ea9051b4080d5b654e8965c7d3342cde"
+  },
+  {
+    "summary": "(2) Spirit vs (1) MOUZ",
+    "start": "2024-08-30T22:09:56.000Z",
+    "end": "2024-08-31T00:09:56.000Z",
+    "description": "Format: bo3 | Match ID: 2375021",
+    "location": "No Location",
+    "id": "7530a149223f1b789b082889208aa821"
+  },
+  {
+    "summary": "(2) Eternal Fire vs (0) paiN",
+    "start": "2024-08-31T13:26:29.000Z",
+    "end": "2024-08-31T15:26:29.000Z",
+    "description": "Format: bo3 | Match ID: 2375022",
+    "location": "No Location",
+    "id": "dfe90b4a62175562d2c9ae3952fdb801"
+  },
+  {
+    "summary": "(0) MOUZ vs (2) Eternal Fire",
+    "start": "2024-08-31T18:31:10.000Z",
+    "end": "2024-08-31T20:31:10.000Z",
+    "description": "Format: bo3 | Match ID: 2375023",
+    "location": "No Location",
+    "id": "f5ed30665c6da00957aa44a5cf999f40"
+  },
+  {
+    "summary": "(3) Spirit vs (0) Eternal Fire",
+    "start": "2024-09-01T14:05:50.000Z",
+    "end": "2024-09-01T16:05:50.000Z",
+    "description": "Format: bo5 | Match ID: 2375024",
+    "location": "No Location",
+    "id": "e1253b0b60d23c1c91daf9ea0daf9758"
+  },
+  {
     "summary": "FaZe vs Sangal",
     "start": "2024-09-03T10:30:00.000Z",
     "end": "2024-09-03T12:30:00.000Z",
     "description": "Event: ESL Pro League Season 20 | Match ID: 2375352",
     "location": "No Location",
-    "id": "865b73362ea35544d7ca6a66c5e29afd"
+    "id": "ebdd7d95233c76b32ce14844216b20e6"
   },
   {
     "summary": "HEROIC vs Ninjas in Pyjamas",
@@ -13,7 +357,23 @@
     "end": "2024-09-03T12:30:00.000Z",
     "description": "Event: ESL Pro League Season 20 | Match ID: 2375353",
     "location": "No Location",
-    "id": "2d21834c6f65bdce6285b09e5dafd90a"
+    "id": "87083165cc5aaa548f7c0e3b2d80a5c8"
+  },
+  {
+    "summary": "(0) FlyQuest vs (2) Eternal Fire",
+    "start": "2024-09-03T13:25:04.000Z",
+    "end": "2024-09-03T15:25:04.000Z",
+    "description": "Format: bo3 | Match ID: 2375350",
+    "location": "No Location",
+    "id": "cec5800e9320fb1594b4c7248a169128"
+  },
+  {
+    "summary": "(0) Lynn Vision vs (2) Natus Vincere",
+    "start": "2024-09-03T13:29:09.000Z",
+    "end": "2024-09-03T15:29:09.000Z",
+    "description": "Format: bo3 | Match ID: 2375351",
+    "location": "No Location",
+    "id": "32fde78534e26ce727dd54e63a296ea4"
   },
   {
     "summary": "MIBR vs 9z",
@@ -21,7 +381,7 @@
     "end": "2024-09-03T15:30:00.000Z",
     "description": "Event: ESL Pro League Season 20 | Match ID: 2375354",
     "location": "No Location",
-    "id": "b25b273dbb99cb3ba1363dd57761b12e"
+    "id": "094c0868cf95b3cc7dd6552f85ca2c78"
   },
   {
     "summary": "KOI vs G2",
@@ -29,7 +389,7 @@
     "end": "2024-09-03T15:30:00.000Z",
     "description": "Event: ESL Pro League Season 20 | Match ID: 2375355",
     "location": "No Location",
-    "id": "60423a78648d89217d317f994d6f7786"
+    "id": "0ce8ae7d48b5c3a0b2d5bc58a4ed1313"
   },
   {
     "summary": "(2) Spirit vs. (0) Wildcard",
@@ -37,7 +397,7 @@
     "end": "2024-09-04T09:30:00.000Z",
     "description": "Match ID: 2375356",
     "location": "No Location",
-    "id": "65596c0a3b9865dbd1b9f178d10aaf7d"
+    "id": "61173245b65a05f9b47f1b5dcf1d8869"
   },
   {
     "summary": "(0) The MongolZ vs. (2) 3DMAX",
@@ -45,7 +405,7 @@
     "end": "2024-09-04T09:30:00.000Z",
     "description": "Match ID: 2375357",
     "location": "No Location",
-    "id": "1c517a51a607d250fefa246ff55a251c"
+    "id": "511d0fff779fb768cb7169bd699f1c0b"
   },
   {
     "summary": "(0) FlyQuest vs. (2) FaZe",
@@ -53,7 +413,7 @@
     "end": "2024-09-04T12:30:00.000Z",
     "description": "Match ID: 2375366",
     "location": "No Location",
-    "id": "4f7f7d5db3e768f004e3fddd1e12e085"
+    "id": "02e426abca186c3c1e629e1d91bef35d"
   },
   {
     "summary": "(2) Eternal Fire vs. (0) Sangal",
@@ -61,7 +421,7 @@
     "end": "2024-09-04T12:30:00.000Z",
     "description": "Match ID: 2375368",
     "location": "No Location",
-    "id": "021aa36494b5bcaa5ffc57c14980de1e"
+    "id": "907f2385b33134b103453f249935e144"
   },
   {
     "summary": "(1) Lynn Vision vs. (2) HEROIC",
@@ -69,7 +429,7 @@
     "end": "2024-09-04T15:30:00.000Z",
     "description": "Match ID: 2375369",
     "location": "No Location",
-    "id": "04a91cc9101c21e531df367adcda944d"
+    "id": "23f561672cf4029f920303f2c2b933a4"
   },
   {
     "summary": "(2) Natus Vincere vs. (0) Ninjas in Pyjamas",
@@ -77,7 +437,7 @@
     "end": "2024-09-04T15:30:00.000Z",
     "description": "Match ID: 2375367",
     "location": "No Location",
-    "id": "8336df69f92aca7d0a2903b88b75f438"
+    "id": "a39257be7ae6a84c161c5c38c224917b"
   },
   {
     "summary": "(2) MIBR vs. (1) Spirit",
@@ -85,7 +445,7 @@
     "end": "2024-09-05T09:30:00.000Z",
     "description": "Match ID: 2375370",
     "location": "No Location",
-    "id": "6a17f705b3845621ad3ba2ac9d934569"
+    "id": "312dd3ed2627d843a29603171b49b545"
   },
   {
     "summary": "(0) KOI vs. (2) The MongolZ",
@@ -93,7 +453,7 @@
     "end": "2024-09-05T09:30:00.000Z",
     "description": "Match ID: 2375371",
     "location": "No Location",
-    "id": "2c9f611a838a55f655d326190016257c"
+    "id": "d32c1f8ae0a0e0a18477c7e619cfc4ba"
   },
   {
     "summary": "(2) 9z vs. (0) Wildcard",
@@ -101,7 +461,7 @@
     "end": "2024-09-05T12:30:00.000Z",
     "description": "Match ID: 2375372",
     "location": "No Location",
-    "id": "792ee900ce751aeb2ae15251bbf35a29"
+    "id": "60a9774ced0ad960c1d1d4f2ec16a68a"
   },
   {
     "summary": "(2) G2 vs. (1) 3DMAX",
@@ -109,150 +469,198 @@
     "end": "2024-09-05T12:55:00.000Z",
     "description": "Match ID: 2375373",
     "location": "No Location",
-    "id": "8033cc5668744dd8d876249856aa2e39"
+    "id": "664911b1099607fa24803c28d5e44f8d"
   },
   {
-    "summary": "(2) Sangal vs (1) HEROIC",
-    "start": "2024-09-05T20:34:22.000Z",
-    "end": "2024-09-05T22:34:22.000Z",
-    "description": "Format: bo3 | Match ID: 2375375",
+    "summary": "(2) Sangal vs. (1) HEROIC",
+    "start": "2024-09-05T13:30:00.000Z",
+    "end": "2024-09-05T15:30:00.000Z",
+    "description": "Match ID: 2375375",
     "location": "No Location",
-    "id": "793abdc4f0be454f53b2a82a2aeb6366"
+    "id": "535797c7aff765f242c88fba6aa8c64a"
   },
   {
-    "summary": "(2) FaZe vs (1) Ninjas in Pyjamas",
-    "start": "2024-09-05T20:54:20.000Z",
-    "end": "2024-09-05T22:54:20.000Z",
-    "description": "Format: bo3 | Match ID: 2375374",
+    "summary": "(2) FaZe vs. (1) Ninjas in Pyjamas",
+    "start": "2024-09-05T14:05:00.000Z",
+    "end": "2024-09-05T16:05:00.000Z",
+    "description": "Match ID: 2375374",
     "location": "No Location",
-    "id": "f07012647d83494c501a910b36c4194f"
+    "id": "4fde374388912da3a6bbb85a827338d7"
   },
   {
-    "summary": "9z vs 3DMAX",
-    "start": "2024-09-06T11:30:00.000Z",
-    "end": "2024-09-06T13:30:00.000Z",
-    "description": "Format: bo3 | Match ID: 2375376",
+    "summary": "(1) The MongolZ vs. (2) Spirit",
+    "start": "2024-09-06T07:30:00.000Z",
+    "end": "2024-09-06T09:30:00.000Z",
+    "description": "Match ID: 2375377",
     "location": "No Location",
-    "id": "7519486b1c26c4d94f740e09910d3580"
+    "id": "c41ead704c4cf7ba01a927825e52db23"
   },
   {
-    "summary": "The MongolZ vs Spirit",
-    "start": "2024-09-06T11:30:00.000Z",
-    "end": "2024-09-06T13:30:00.000Z",
-    "description": "Format: bo3 | Match ID: 2375377",
+    "summary": "(0) 9z vs. (2) 3DMAX",
+    "start": "2024-09-06T07:30:00.000Z",
+    "end": "2024-09-06T09:30:00.000Z",
+    "description": "Match ID: 2375376",
     "location": "No Location",
-    "id": "69672c50c76b8cbb8fa16b924b3199cd"
+    "id": "abe41c01ee5ba3fe037efed1d1c103aa"
   },
   {
-    "summary": "FlyQuest vs Lynn Vision",
-    "start": "2024-09-06T14:30:00.000Z",
-    "end": "2024-09-06T16:30:00.000Z",
-    "description": "Format: bo3 | Match ID: 2375378",
+    "summary": "(2) FlyQuest vs. (1) Lynn Vision",
+    "start": "2024-09-06T10:30:00.000Z",
+    "end": "2024-09-06T12:30:00.000Z",
+    "description": "Match ID: 2375378",
     "location": "No Location",
-    "id": "f1b7bf147da60ff497eb0f4a872a76dd"
+    "id": "00fe77f39dfc00fc233afd35303f586c"
   },
   {
-    "summary": "Sangal vs FaZe",
-    "start": "2024-09-06T14:30:00.000Z",
-    "end": "2024-09-06T16:30:00.000Z",
-    "description": "Format: bo3 | Match ID: 2375379",
+    "summary": "(0) Sangal vs. (2) FaZe",
+    "start": "2024-09-06T10:45:00.000Z",
+    "end": "2024-09-06T12:45:00.000Z",
+    "description": "Match ID: 2375379",
     "location": "No Location",
-    "id": "6b3d73df62f9fc639c09debf9c276eda"
+    "id": "c9b3d1b9a7a78e0b0558e097859edf78"
   },
   {
-    "summary": "KOI vs Wildcard",
-    "start": "2024-09-06T17:30:00.000Z",
-    "end": "2024-09-06T19:30:00.000Z",
-    "description": "Format: bo3 | Match ID: 2375380",
+    "summary": "(1) 3DMAX vs. (2) Spirit",
+    "start": "2024-09-06T13:30:00.000Z",
+    "end": "2024-09-06T15:30:00.000Z",
+    "description": "Match ID: 2375381",
     "location": "No Location",
-    "id": "cdadc68e1972683a156f70311a7ced6c"
+    "id": "82a75d847e21acb1dbc04e926a5e5ca3"
   },
   {
-    "summary": "HEROIC vs Ninjas in Pyjamas",
-    "start": "2024-09-07T11:30:00.000Z",
-    "end": "2024-09-07T13:30:00.000Z",
-    "description": "Format: bo3 | Match ID: 2375382",
+    "summary": "(0) KOI vs. (2) Wildcard",
+    "start": "2024-09-06T14:05:00.000Z",
+    "end": "2024-09-06T16:05:00.000Z",
+    "description": "Match ID: 2375380",
     "location": "No Location",
-    "id": "a0f08e7530c9404616528c136b54cd28"
+    "id": "9f9414f8822396a44f9f9bd1f11bdd01"
   },
   {
-    "summary": "Eternal Fire vs Natus Vincere",
-    "start": "2024-09-07T17:30:00.000Z",
-    "end": "2024-09-07T19:30:00.000Z",
-    "description": "Format: bo3 | Match ID: 2375386",
+    "summary": "(0) 9z vs. (2) The MongolZ",
+    "start": "2024-09-07T07:30:00.000Z",
+    "end": "2024-09-07T09:30:00.000Z",
+    "description": "Match ID: 2375383",
     "location": "No Location",
-    "id": "520be3af0557facbfc0eb8aa0dea5618"
+    "id": "85f75214a41cee487f870ace08ce460a"
+  },
+  {
+    "summary": "(2) Sangal vs. (0) FlyQuest",
+    "start": "2024-09-07T07:30:00.000Z",
+    "end": "2024-09-07T09:30:00.000Z",
+    "description": "Match ID: 2375384",
+    "location": "No Location",
+    "id": "5e3e4ee9d6db69b9cbf9298e441d97b0"
+  },
+  {
+    "summary": "(2) HEROIC vs. (1) Ninjas in Pyjamas",
+    "start": "2024-09-07T10:30:00.000Z",
+    "end": "2024-09-07T12:30:00.000Z",
+    "description": "Match ID: 2375382",
+    "location": "No Location",
+    "id": "45ff7823d66440e3fa46560d91c047f5"
+  },
+  {
+    "summary": "(0) Wildcard vs. (2) 3DMAX",
+    "start": "2024-09-07T10:30:00.000Z",
+    "end": "2024-09-07T12:30:00.000Z",
+    "description": "Match ID: 2375385",
+    "location": "No Location",
+    "id": "cb0c0447b9eb44465fb90719186aa907"
+  },
+  {
+    "summary": "(0) Eternal Fire vs. (2) Natus Vincere",
+    "start": "2024-09-07T14:00:00.000Z",
+    "end": "2024-09-07T16:00:00.000Z",
+    "description": "Match ID: 2375386",
+    "location": "No Location",
+    "id": "9afe4234bdfb3bc395af7ac5a494b7fd"
+  },
+  {
+    "summary": "The MongolZ vs 3DMAX",
+    "start": "2024-09-08T07:30:00.000Z",
+    "end": "2024-09-08T09:30:00.000Z",
+    "description": "Format: bo3 | Match ID: 2375388",
+    "location": "No Location",
+    "id": "43f46f0a1a8cac1646c66804fa245f16"
+  },
+  {
+    "summary": "Sangal vs HEROIC",
+    "start": "2024-09-08T10:30:00.000Z",
+    "end": "2024-09-08T12:30:00.000Z",
+    "description": "Format: bo3 | Match ID: 2375387",
+    "location": "No Location",
+    "id": "7782c74bcbad42439eb09250f39d7242"
   },
   {
     "summary": "MIBR vs G2",
-    "start": "2024-09-08T17:30:00.000Z",
-    "end": "2024-09-08T19:30:00.000Z",
+    "start": "2024-09-08T13:30:00.000Z",
+    "end": "2024-09-08T15:30:00.000Z",
     "description": "Format: bo3 | Match ID: 2375389",
     "location": "No Location",
-    "id": "e9e5a76c98b487579687a49aa7014a97"
+    "id": "9ba0cc50dc3d9664a1da7ebd90f564af"
   },
   {
     "summary": "fnatic vs Astralis",
-    "start": "2024-09-10T11:30:00.000Z",
-    "end": "2024-09-10T13:30:00.000Z",
+    "start": "2024-09-10T07:30:00.000Z",
+    "end": "2024-09-10T09:30:00.000Z",
     "description": "Format: bo3 | Match ID: 2375358",
     "location": "No Location",
-    "id": "da90bc89d1d416f18a80dc072e235a99"
+    "id": "697dc88900aa0943bac38f7ac37cce94"
   },
   {
     "summary": "MOUZ vs Rooster",
-    "start": "2024-09-10T11:30:00.000Z",
-    "end": "2024-09-10T13:30:00.000Z",
+    "start": "2024-09-10T07:30:00.000Z",
+    "end": "2024-09-10T09:30:00.000Z",
     "description": "Format: bo3 | Match ID: 2375359",
     "location": "No Location",
-    "id": "54876442ed968e5276f8b7a014caca55"
+    "id": "b92342055db71a3e08dfa31b3c06cfdd"
   },
   {
     "summary": "BIG vs Imperial",
-    "start": "2024-09-10T14:30:00.000Z",
-    "end": "2024-09-10T16:30:00.000Z",
+    "start": "2024-09-10T10:30:00.000Z",
+    "end": "2024-09-10T12:30:00.000Z",
     "description": "Format: bo3 | Match ID: 2375360",
     "location": "No Location",
-    "id": "714e1ba3bb914d0ca6367b3a6d5035da"
+    "id": "5676d88125ac98760eda53fca38eec5b"
   },
   {
     "summary": "Liquid vs ENCE",
-    "start": "2024-09-10T14:30:00.000Z",
-    "end": "2024-09-10T16:30:00.000Z",
+    "start": "2024-09-10T10:30:00.000Z",
+    "end": "2024-09-10T12:30:00.000Z",
     "description": "Format: bo3 | Match ID: 2375362",
     "location": "No Location",
-    "id": "4a739afdf26b39e338ab46527f910b6e"
+    "id": "b7fd8aaa7c183885cffb19aaf11256f5"
   },
   {
     "summary": "Complexity vs M80",
-    "start": "2024-09-10T17:30:00.000Z",
-    "end": "2024-09-10T19:30:00.000Z",
+    "start": "2024-09-10T13:30:00.000Z",
+    "end": "2024-09-10T15:30:00.000Z",
     "description": "Format: bo3 | Match ID: 2375361",
     "location": "No Location",
-    "id": "4b0fb4024aa99d376eff9043db4172a7"
+    "id": "e31c316d44f13ea9ab898ddef86e8dab"
   },
   {
     "summary": "RED Canids vs Virtus.pro",
-    "start": "2024-09-10T17:30:00.000Z",
-    "end": "2024-09-10T19:30:00.000Z",
+    "start": "2024-09-10T13:30:00.000Z",
+    "end": "2024-09-10T15:30:00.000Z",
     "description": "Format: bo3 | Match ID: 2375363",
     "location": "No Location",
-    "id": "2fd4b4981dad149d1431147dc6e11f28"
+    "id": "b7c67d3c4ee9f401adfb25cc9dd266b5"
   },
   {
     "summary": "FURIA vs Falcons",
-    "start": "2024-09-11T11:30:00.000Z",
-    "end": "2024-09-11T13:30:00.000Z",
+    "start": "2024-09-11T07:30:00.000Z",
+    "end": "2024-09-11T09:30:00.000Z",
     "description": "Format: bo3 | Match ID: 2375364",
     "location": "No Location",
-    "id": "12437ddcbce29c958bb68bf1af9d1416"
+    "id": "049164ea566514875dba02d0097b1ce5"
   },
   {
     "summary": "Vitality vs ATOX",
-    "start": "2024-09-11T11:30:00.000Z",
-    "end": "2024-09-11T13:30:00.000Z",
+    "start": "2024-09-11T07:30:00.000Z",
+    "end": "2024-09-11T09:30:00.000Z",
     "description": "Format: bo3 | Match ID: 2375365",
     "location": "No Location",
-    "id": "edddbe9d1c6555b1eade63492f95162f"
+    "id": "2eedd28ac137b93fd1d32dccf6066c0b"
   }
 ]

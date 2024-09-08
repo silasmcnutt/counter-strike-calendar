@@ -301,6 +301,83 @@
     "location": "No location."
   },
   {
+    "start": "2024-09-07T20:37:09.000Z",
+    "end": "2024-09-07T22:37:09.000Z",
+    "summary": "(0) Eternal Fire vs (2) Natus Vincere",
+    "description": "Format: bo3 | Match ID: 2375386",
+    "location": "No location."
+  },
+  {
+    "start": "2024-09-07T17:39:18.000Z",
+    "end": "2024-09-07T19:39:18.000Z",
+    "summary": "(2) HEROIC vs (1) Ninjas in Pyjamas",
+    "description": "Format: bo3 | Match ID: 2375382",
+    "location": "No location."
+  },
+  {
+    "start": "2024-09-07T16:10:18.000Z",
+    "end": "2024-09-07T18:10:18.000Z",
+    "summary": "(0) Wildcard vs (2) 3DMAX",
+    "description": "Format: bo3 | Match ID: 2375385",
+    "location": "No location."
+  },
+  {
+    "start": "2024-09-07T13:30:36.000Z",
+    "end": "2024-09-07T15:30:36.000Z",
+    "summary": "(2) Sangal vs (0) FlyQuest",
+    "description": "Format: bo3 | Match ID: 2375384",
+    "location": "No location."
+  },
+  {
+    "start": "2024-09-07T13:23:18.000Z",
+    "end": "2024-09-07T15:23:18.000Z",
+    "summary": "(0) 9z vs (2) The MongolZ",
+    "description": "Format: bo3 | Match ID: 2375383",
+    "location": "No location."
+  },
+  {
+    "start": "2024-09-06T20:06:43.000Z",
+    "end": "2024-09-06T22:06:43.000Z",
+    "summary": "(1) 3DMAX vs (2) Spirit",
+    "description": "Format: bo3 | Match ID: 2375381",
+    "location": "No location."
+  },
+  {
+    "start": "2024-09-06T19:59:27.000Z",
+    "end": "2024-09-06T21:59:27.000Z",
+    "summary": "(0) KOI vs (2) Wildcard",
+    "description": "Format: bo3 | Match ID: 2375380",
+    "location": "No location."
+  },
+  {
+    "start": "2024-09-06T17:40:22.000Z",
+    "end": "2024-09-06T19:40:22.000Z",
+    "summary": "(2) FlyQuest vs (1) Lynn Vision",
+    "description": "Format: bo3 | Match ID: 2375378",
+    "location": "No location."
+  },
+  {
+    "start": "2024-09-06T16:37:15.000Z",
+    "end": "2024-09-06T18:37:15.000Z",
+    "summary": "(0) Sangal vs (2) FaZe",
+    "description": "Format: bo3 | Match ID: 2375379",
+    "location": "No location."
+  },
+  {
+    "start": "2024-09-06T14:22:23.000Z",
+    "end": "2024-09-06T16:22:23.000Z",
+    "summary": "(1) The MongolZ vs (2) Spirit",
+    "description": "Format: bo3 | Match ID: 2375377",
+    "location": "No location."
+  },
+  {
+    "start": "2024-09-06T13:38:26.000Z",
+    "end": "2024-09-06T15:38:26.000Z",
+    "summary": "(0) 9z vs (2) 3DMAX",
+    "description": "Format: bo3 | Match ID: 2375376",
+    "location": "No location."
+  },
+  {
     "start": "2024-09-05T20:54:20.000Z",
     "end": "2024-09-05T22:54:20.000Z",
     "summary": "(2) FaZe vs (1) Ninjas in Pyjamas",

@@ -9,7 +9,7 @@
 
 ### Google Calendar:
 
-1. Copy the link to the .ics file (TBD)
+1. Copy the [link](https://silasmcnutt.github.io/counter-strike-calendar/ics/finalCalendar.ics) to the .ics file 
 2. Go to your Google Calendar
 3. Other Calendars > + > From URL and then paste the link
 
