@@ -24,17 +24,16 @@ function jsonToICS(jsonFilePath, icsFilePath) {
 				event.dtstamp ||
 				new Date().toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z'
 			}\n`;
-			calendar += `DTSTART:${
+			calendar += `DTSTART;TZID="/America/New York":${
 				event.start.replace(/[-:]/g, '').split('.')[0] + 'Z'
 			}\n`;
-			calendar += `DTEND:${
+			calendar += `DTEND;TZID="/America/New York":${
 				event.end
 					? event.end.replace(/[-:]/g, '').split('.')[0] + 'Z'
 					: new Date(new Date(event.start).getTime() + 2 * 60 * 60 * 1000)
 							.toISOString()
 							.replace(/[-:]/g, '')
-							.split('.')[0] + 'Z'
-			}\n`;
+							.split('.')[0]}\n`;
 			calendar += `SUMMARY:${event.summary || 'No Summary'}\n`;
 			calendar += `DESCRIPTION:${event.description || 'No Description'}\n`;
 			calendar += `END:VEVENT\n`;
