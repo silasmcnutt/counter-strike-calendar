@@ -1,4 +1,3 @@
-// Google Scripts Code
 function updateCalendar() {
   const calendarId = "your_google_calendar_id"; // Replace with your Google Calendar ID
   const icsUrl = "your_ics_calendar_url"; // Replace with the URL to the ICS file

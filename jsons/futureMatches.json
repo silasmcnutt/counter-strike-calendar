@@ -1,77 +1,56 @@
 [
   {
-    "start": "2024-09-08T07:30:00.000Z",
-    "end": "2024-09-08T09:30:00.000Z",
-    "summary": "The MongolZ vs 3DMAX",
-    "description": "Format: bo3 | Match ID: 2375388",
-    "location": "ESL Pro League Season 20"
-  },
-  {
-    "start": "2024-09-08T10:30:00.000Z",
-    "end": "2024-09-08T12:30:00.000Z",
-    "summary": "Sangal vs HEROIC",
-    "description": "Format: bo3 | Match ID: 2375387",
-    "location": "ESL Pro League Season 20"
-  },
-  {
-    "start": "2024-09-08T13:30:00.000Z",
-    "end": "2024-09-08T15:30:00.000Z",
-    "summary": "MIBR vs G2",
-    "description": "Format: bo3 | Match ID: 2375389",
-    "location": "ESL Pro League Season 20"
-  },
-  {
-    "start": "2024-09-10T07:30:00.000Z",
-    "end": "2024-09-10T09:30:00.000Z",
+    "start": "2024-09-10T11:30:00.000Z",
+    "end": "2024-09-10T13:30:00.000Z",
     "summary": "fnatic vs Astralis",
     "description": "Format: bo3 | Match ID: 2375358",
     "location": "ESL Pro League Season 20"
   },
   {
-    "start": "2024-09-10T07:30:00.000Z",
-    "end": "2024-09-10T09:30:00.000Z",
+    "start": "2024-09-10T11:30:00.000Z",
+    "end": "2024-09-10T13:30:00.000Z",
     "summary": "MOUZ vs Rooster",
     "description": "Format: bo3 | Match ID: 2375359",
     "location": "ESL Pro League Season 20"
   },
   {
-    "start": "2024-09-10T10:30:00.000Z",
-    "end": "2024-09-10T12:30:00.000Z",
+    "start": "2024-09-10T14:30:00.000Z",
+    "end": "2024-09-10T16:30:00.000Z",
     "summary": "BIG vs Imperial",
     "description": "Format: bo3 | Match ID: 2375360",
     "location": "ESL Pro League Season 20"
   },
   {
-    "start": "2024-09-10T10:30:00.000Z",
-    "end": "2024-09-10T12:30:00.000Z",
+    "start": "2024-09-10T14:30:00.000Z",
+    "end": "2024-09-10T16:30:00.000Z",
     "summary": "Liquid vs ENCE",
     "description": "Format: bo3 | Match ID: 2375362",
     "location": "ESL Pro League Season 20"
   },
   {
-    "start": "2024-09-10T13:30:00.000Z",
-    "end": "2024-09-10T15:30:00.000Z",
+    "start": "2024-09-10T17:30:00.000Z",
+    "end": "2024-09-10T19:30:00.000Z",
     "summary": "Complexity vs M80",
     "description": "Format: bo3 | Match ID: 2375361",
     "location": "ESL Pro League Season 20"
   },
   {
-    "start": "2024-09-10T13:30:00.000Z",
-    "end": "2024-09-10T15:30:00.000Z",
+    "start": "2024-09-10T17:30:00.000Z",
+    "end": "2024-09-10T19:30:00.000Z",
     "summary": "RED Canids vs Virtus.pro",
     "description": "Format: bo3 | Match ID: 2375363",
     "location": "ESL Pro League Season 20"
   },
   {
-    "start": "2024-09-11T07:30:00.000Z",
-    "end": "2024-09-11T09:30:00.000Z",
+    "start": "2024-09-11T11:30:00.000Z",
+    "end": "2024-09-11T13:30:00.000Z",
     "summary": "FURIA vs Falcons",
     "description": "Format: bo3 | Match ID: 2375364",
     "location": "ESL Pro League Season 20"
   },
   {
-    "start": "2024-09-11T07:30:00.000Z",
-    "end": "2024-09-11T09:30:00.000Z",
+    "start": "2024-09-11T11:30:00.000Z",
+    "end": "2024-09-11T13:30:00.000Z",
     "summary": "Vitality vs ATOX",
     "description": "Format: bo3 | Match ID: 2375365",
     "location": "ESL Pro League Season 20"

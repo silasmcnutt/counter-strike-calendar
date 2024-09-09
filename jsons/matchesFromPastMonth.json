@@ -301,6 +301,27 @@
     "location": "No location."
   },
   {
+    "start": "2024-09-08T19:28:40.000Z",
+    "end": "2024-09-08T21:28:40.000Z",
+    "summary": "(0) MIBR vs (2) G2",
+    "description": "Format: bo3 | Match ID: 2375389",
+    "location": "No location."
+  },
+  {
+    "start": "2024-09-08T16:15:26.000Z",
+    "end": "2024-09-08T18:15:26.000Z",
+    "summary": "(0) Sangal vs (2) HEROIC",
+    "description": "Format: bo3 | Match ID: 2375387",
+    "location": "No location."
+  },
+  {
+    "start": "2024-09-08T13:14:16.000Z",
+    "end": "2024-09-08T15:14:16.000Z",
+    "summary": "(2) The MongolZ vs (0) 3DMAX",
+    "description": "Format: bo3 | Match ID: 2375388",
+    "location": "No location."
+  },
+  {
     "start": "2024-09-07T20:37:09.000Z",
     "end": "2024-09-07T22:37:09.000Z",
     "summary": "(0) Eternal Fire vs (2) Natus Vincere",
