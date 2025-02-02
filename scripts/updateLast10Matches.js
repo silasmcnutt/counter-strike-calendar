@@ -93,7 +93,7 @@ async function updateLast10Events() {
 					let startDate = new Date(parseInt(timeUnix, 10));
 
 					// Subtract 4 hours
-					startDate = new Date(startDate.getTime() - 3 * 60 * 60 * 1000);
+					startDate = new Date(startDate.getTime() - 5 * 60 * 60 * 1000);
 
 					// Convert to ISO string
 					startTime = startDate.toISOString();

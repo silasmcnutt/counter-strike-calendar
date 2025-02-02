@@ -59,9 +59,9 @@ async function fetchUpcomingMatches() {
 				if (match.team1.name !== 'Unknown' && match.team2.name !== 'Unknown') {
 					// Parse the date and handle errors
 					console.log(match.date);
-					let startDate = new Date(match.date - 3 * 60 * 60 * 1000);
+					let startDate = new Date(match.date - 5 * 60 * 60 * 1000);
 					if (isNaN(startDate.getTime())) {
-						startDate = new Date(Number(match.date - 3 * 60 * 60 * 1000));
+						startDate = new Date(Number(match.date - 5 * 60 * 60 * 1000));
 						if (isNaN(startDate.getTime())) {
 							console.warn(
 								`Invalid date for match ID: ${match.id}, date: ${match.date}`
