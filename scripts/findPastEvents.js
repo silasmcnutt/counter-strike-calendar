@@ -78,8 +78,8 @@ function formatMatches(matches) {
 				return null;
 			}
 
-			const startTime = new Date(match.date - 4 * 60 * 60 *1000);
-			const endTime = new Date(startTime.getTime() + 2 * 60 * 60 * 1000); // Assuming a 2-hour match
+			const startTime = new Date(match.date - 3 * 60 * 60 * 1000);
+			const endTime = new Date(startTime.getTime() + 3 * 60 * 60 * 1000); // Assuming a 2-hour match
 
 			return {
 				start: startTime.toISOString(),

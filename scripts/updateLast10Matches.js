@@ -93,7 +93,7 @@ async function updateLast10Events() {
 					let startDate = new Date(parseInt(timeUnix, 10));
 
 					// Subtract 4 hours
-					startDate = new Date(startDate.getTime() - 4 * 60 * 60 * 1000);
+					startDate = new Date(startDate.getTime() - 3 * 60 * 60 * 1000);
 
 					// Convert to ISO string
 					startTime = startDate.toISOString();
@@ -115,7 +115,7 @@ async function updateLast10Events() {
 					end:
 						startTime !== 'N/A'
 							? new Date(
-									new Date(startTime).getTime() + 2 * 60 * 60 * 1000
+									new Date(startTime).getTime() + 3 * 60 * 60 * 1000
 							  ).toISOString()
 							: 'N/A',
 					description: `Match ID: ${matchId}`,
