@@ -5,11 +5,25 @@
 <a href="https://github.com/silasmcnutt/counter-strike-calendar/blob/main/LICENSE.txt"><img src="https://img.shields.io/badge/License-MIT-green"></a>
 </div>
 
+## Features
+
+<ul>
+    <li>Grabs all tier 1 matches from HLTV's "Featured" events page</li>
+    <li>Updates past matches to include the score</li>
+    <li>Updates every hour</li>
+</ul>
+
+## Known Problems / Future Improvements
+
+- [ ] Randomly fetches unfeatured matches for some reason (PLEASE pull request this if you have a fix)
+- [ ] Include match data including event, format, and stats in the calendar event description
+- [ ] Somehow fix HLTV's occasional Cloudflare rate limiting when fetching with the API
+
 ## Usage
 
 ### Google Calendar:
 
-1. Copy the [link](https://silasmcnutt.github.io/counter-strike-calendar/ics/finalCalendar.ics) to the .ics file 
+1. Copy the [link](https://silasmcnutt.github.io/counter-strike-calendar/ics/finalCalendar.ics) to the .ics file
 2. Go to your Google Calendar
 3. Other Calendars > + > From URL and then paste the link
 
