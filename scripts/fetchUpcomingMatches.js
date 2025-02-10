@@ -26,6 +26,10 @@ async function fetchUpcomingMatches() {
 			);
 		});
 
+		upcomingEvents.forEach((event) => {
+			console.log(event.name);
+		});
+
 		upcomingEventIds = [];
 		upcomingEvents.forEach((event) => {
 			upcomingEventIds.push(event.id);
@@ -43,16 +47,10 @@ async function fetchUpcomingMatches() {
 			eventIds: upcomingEventIds,
 		});
 
-		// Check if upcomingMatches are retrieved correctly
-		if (!upcomingMatches || !Array.isArray(upcomingMatches)) {
-			throw new Error(
-				'No upcoming matches data or upcoming matches data is not an array'
-			);
-		}
-
 		let calendarData = [];
 
 		upcomingMatches.forEach((match) => {
+			console.log(match);
 			// Check if match properties are defined
 			if (match && match.id && match.team1 && match.team2) {
 				// Exclude matches where both teams are unknown
