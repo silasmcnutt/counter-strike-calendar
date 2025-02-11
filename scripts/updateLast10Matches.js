@@ -64,8 +64,9 @@ async function updateLast10Events() {
 		const matchUrl = `https://www.hltv.org/matches/${matchId}/match`;
 		try {
 			await page.goto(matchUrl, { waitUntil: 'networkidle2' });
+			// page.on('console', (msg) => console.log('PAGE LOG:', msg.text()));
 
-			const matchInfo = await page.evaluate((matchId) => {
+			const matchInfo = await page.evaluate(async (matchId) => {
 				const team1Name =
 					document
 						.querySelector('.team1-gradient .teamName')
@@ -83,9 +84,38 @@ async function updateLast10Events() {
 						.querySelector('.team2-gradient .won, .team2-gradient .lost')
 						?.innerText.trim() || null;
 
-				// Extract the time data-unix attribute
 				const timeUnix =
 					document.querySelector('div.time')?.getAttribute('data-unix') || null;
+
+				const csEvent = document
+					.querySelector('.timeAndEvent .event.text-ellipsis a')
+					.getAttribute('title');
+
+				const miscInfo = document
+					.querySelector(
+						'div.standard-box.veto-box > div.padding.preformatted-text'
+					)
+					?.innerText.trim()
+					.replace('\n\n* ', '\n');
+
+				const maps = Array.from(document.querySelectorAll('.mapname')).map(
+					(el) => el.innerText.trim()
+				);
+				const scoresLeft = Array.from(
+					document.querySelectorAll('.results-left')
+				).map((el) => el.innerText.trim().replace('\n', ' '));
+
+				const scoresRight = Array.from(
+					document.querySelectorAll('.results-right')
+				).map((el) => el.innerText.trim().replace('\n', ' '));
+
+				const finalScores = [];
+				for (i = 0; i < maps.length; i++) {
+					finalScores[i] = `${maps[i]}: ${scoresLeft[i]} - ${scoresRight[i]}`;
+					if (finalScores[i].includes(' - - ')) {
+						finalScores.splice(i, 1);
+					}
+				}
 
 				let startTime = 'N/A';
 				if (timeUnix && !isNaN(parseInt(timeUnix, 10))) {
@@ -118,12 +148,13 @@ async function updateLast10Events() {
 									new Date(startTime).getTime() + 3 * 60 * 60 * 1000
 							  ).toISOString()
 							: 'N/A',
-					description: `Match ID: ${matchId}`,
+					description: `${csEvent}\n\n${miscInfo}\n\n${finalScores.join('\n')}`,
 				};
 			}, matchId);
 
 			console.log(`Fetched match data for ID ${matchId}.`);
 			console.log(`Start Time (with -4 hours): ${matchInfo.start}`);
+			console.log(`${matchInfo.description}`);
 			updatedMatches.push(matchInfo);
 		} catch (error) {
 			console.error(
