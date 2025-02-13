@@ -96,7 +96,7 @@ async function updateLast10Events() {
 						'div.standard-box.veto-box > div.padding.preformatted-text'
 					)
 					?.innerText.trim()
-					.replace('\n\n* ', '\n');
+					.replace('\n\n* ', '');
 
 				const maps = Array.from(document.querySelectorAll('.mapname')).map(
 					(el) => el.innerText.trim()
@@ -148,7 +148,9 @@ async function updateLast10Events() {
 									new Date(startTime).getTime() + 3 * 60 * 60 * 1000
 							  ).toISOString()
 							: 'N/A',
-					description: `${csEvent}\n\n${miscInfo}\n\n${finalScores.join('\n')}`,
+					description: `${csEvent}\\n\\n${miscInfo}\\n\\n${finalScores.join(
+						'\\n'
+					)}`,
 				};
 			}, matchId);
 
