@@ -5,6 +5,12 @@
 <a href="https://github.com/silasmcnutt/counter-strike-calendar/blob/main/LICENSE.txt"><img src="https://img.shields.io/badge/License-MIT-green"></a>
 </div>
 
+<br></br>
+
+# ⚠️ Please note that this project is currently undergoing a rewrite. It is not functioning as intended. ⚠️
+
+<br></br>
+
 ## Features
 
 <ul>
