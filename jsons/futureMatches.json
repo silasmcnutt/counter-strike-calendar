@@ -1,58 +1,30 @@
 [
   {
-    "start": "2024-09-10T11:30:00.000Z",
-    "end": "2024-09-10T13:30:00.000Z",
-    "summary": "fnatic vs Astralis",
-    "description": "Format: bo3 | Match ID: 2375358",
-    "location": "ESL Pro League Season 20"
+    "start": "2025-02-21T03:00:00.000Z",
+    "end": "2025-02-21T06:00:00.000Z",
+    "summary": "paiN vs MOUZ",
+    "description": "Format: bo3 | Match ID: 2379359",
+    "location": "PGL Cluj-Napoca 2025"
   },
   {
-    "start": "2024-09-10T11:30:00.000Z",
-    "end": "2024-09-10T13:30:00.000Z",
-    "summary": "MOUZ vs Rooster",
-    "description": "Format: bo3 | Match ID: 2375359",
-    "location": "ESL Pro League Season 20"
+    "start": "2025-02-21T06:00:00.000Z",
+    "end": "2025-02-21T09:00:00.000Z",
+    "summary": "The MongolZ vs Astralis",
+    "description": "Format: bo3 | Match ID: 2379360",
+    "location": "PGL Cluj-Napoca 2025"
   },
   {
-    "start": "2024-09-10T14:30:00.000Z",
-    "end": "2024-09-10T16:30:00.000Z",
-    "summary": "BIG vs Imperial",
-    "description": "Format: bo3 | Match ID: 2375360",
-    "location": "ESL Pro League Season 20"
+    "start": "2025-02-21T09:00:00.000Z",
+    "end": "2025-02-21T12:00:00.000Z",
+    "summary": "Falcons vs Eternal Fire",
+    "description": "Format: bo3 | Match ID: 2379361",
+    "location": "PGL Cluj-Napoca 2025"
   },
   {
-    "start": "2024-09-10T14:30:00.000Z",
-    "end": "2024-09-10T16:30:00.000Z",
-    "summary": "Liquid vs ENCE",
-    "description": "Format: bo3 | Match ID: 2375362",
-    "location": "ESL Pro League Season 20"
-  },
-  {
-    "start": "2024-09-10T17:30:00.000Z",
-    "end": "2024-09-10T19:30:00.000Z",
-    "summary": "Complexity vs M80",
-    "description": "Format: bo3 | Match ID: 2375361",
-    "location": "ESL Pro League Season 20"
-  },
-  {
-    "start": "2024-09-10T17:30:00.000Z",
-    "end": "2024-09-10T19:30:00.000Z",
-    "summary": "RED Canids vs Virtus.pro",
-    "description": "Format: bo3 | Match ID: 2375363",
-    "location": "ESL Pro League Season 20"
-  },
-  {
-    "start": "2024-09-11T11:30:00.000Z",
-    "end": "2024-09-11T13:30:00.000Z",
-    "summary": "FURIA vs Falcons",
-    "description": "Format: bo3 | Match ID: 2375364",
-    "location": "ESL Pro League Season 20"
-  },
-  {
-    "start": "2024-09-11T11:30:00.000Z",
-    "end": "2024-09-11T13:30:00.000Z",
-    "summary": "Vitality vs ATOX",
-    "description": "Format: bo3 | Match ID: 2375365",
-    "location": "ESL Pro League Season 20"
+    "start": "2025-02-21T12:00:00.000Z",
+    "end": "2025-02-21T15:00:00.000Z",
+    "summary": "FaZe vs SAW",
+    "description": "Format: bo3 | Match ID: 2379362",
+    "location": "PGL Cluj-Napoca 2025"
   }
 ]

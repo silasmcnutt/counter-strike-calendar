@@ -11,19 +11,34 @@ const newMatchesFilePath = path.join(
 	'../jsons/matchesFromPastMonth.json'
 );
 
-// Function to load JSON from a file
+// Function to load JSON from a file safely
 function loadJsonFile(filePath) {
-	return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+	try {
+		if (!fs.existsSync(filePath)) {
+			console.warn(`Warning: ${filePath} not found. Initializing as empty.`);
+			return [];
+		}
+		const data = fs.readFileSync(filePath, 'utf8');
+		return data.trim() ? JSON.parse(data) : [];
+	} catch (error) {
+		console.error(`Error reading or parsing ${filePath}:`, error.message);
+		return [];
+	}
 }
 
 // Function to save JSON to a file
 function saveJsonFile(filePath, data) {
-	fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+	try {
+		fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+		console.log(`Successfully updated ${filePath}`);
+	} catch (error) {
+		console.error(`Error saving ${filePath}:`, error.message);
+	}
 }
 
 // Function to extract match ID from description
 function extractMatchId(description) {
-	const matchIdMatch = description.match(/Match ID: (\d+)/);
+	const matchIdMatch = description?.match(/Match ID: (\d+)/);
 	return matchIdMatch ? matchIdMatch[1] : null;
 }
 
@@ -33,7 +48,7 @@ function updateCalendarWithNewMatches(baseFilePath, newMatchesFilePath) {
 	const newMatchesData = loadJsonFile(newMatchesFilePath);
 
 	const baseIds = new Set(
-		baseData.map((event) => extractMatchId(event.description))
+		baseData.map((event) => extractMatchId(event.description)).filter(Boolean)
 	);
 	const newMatchesToAdd = newMatchesData.filter((match) => {
 		const matchId = extractMatchId(match.description);
@@ -52,7 +67,6 @@ function updateCalendarWithNewMatches(baseFilePath, newMatchesFilePath) {
 
 	// Save updated and sorted data to the base file
 	saveJsonFile(baseFilePath, baseData);
-	console.log(`Updated and sorted ${baseFilePath} with new matches.`);
 }
 
 // Run the script

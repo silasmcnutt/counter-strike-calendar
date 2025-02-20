@@ -46,6 +46,7 @@ async function fetchUpcomingMatches() {
 		const upcomingMatches = await HLTV.getMatches({
 			eventIds: upcomingEventIds,
 		});
+		console.log('Fetched matches.');
 
 		let calendarData = [];
 
