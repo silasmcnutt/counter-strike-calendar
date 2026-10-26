@@ -6,21 +6,32 @@ const {
 	mergeCalendarEvent,
 	normalizeCitoMatch,
 	isQualifyingPrestige,
+	isQualifyingEvent,
 	citoSlot,
 	isCitoSlot,
 	filterMatches,
 	toIcs,
 } = require('../scripts/generateCalendar');
 
-test('keeps only matches with prestige score 80 or higher', () => {
+test('uses the documented default event filter thresholds', () => {
+	assert.equal(isQualifyingEvent({ prestigeScore: 80, prizePool: 100000 }), true);
+	assert.equal(isQualifyingEvent({ prestigeScore: 79.99, prizePool: 100000 }), false);
+	assert.equal(isQualifyingEvent({ prestigeScore: 80, prizePool: 99999 }), false);
+});
+
+test('keeps only matches with qualifying prestige and prize pool', () => {
 	assert.equal(isQualifyingPrestige(80), true);
 	assert.equal(isQualifyingPrestige(100), true);
 	assert.equal(isQualifyingPrestige(79), false);
+	assert.equal(isQualifyingEvent({ prestigeScore: 80, prizePool: 100000 }), true);
+	assert.equal(isQualifyingEvent({ prestigeScore: 80, prizePool: '$100,000' }), true);
+	assert.equal(isQualifyingEvent({ prestigeScore: 80, prizePool: 99999 }), false);
+	assert.equal(isQualifyingEvent({ prestigeScore: 79, prizePool: 100000 }), false);
 	assert.equal(normalizeCitoMatch({
 		id: 'cs2-match-1',
 		startsAt: '2026-10-26T18:00:00.000Z',
 		status: 'upcoming',
-		event: { name: 'Example', prestigeScore: 80 },
+		event: { name: 'Example', prestigeScore: 80, prizePool: 100000 },
 		bestOf: 3,
 		team1Name: 'Spirit',
 		team2Name: 'G2',
@@ -31,6 +42,13 @@ test('keeps only matches with prestige score 80 or higher', () => {
 		id: 'cs2-match-2',
 		startsAt: '2026-10-26T18:00:00.000Z',
 		event: { name: 'Lower prestige', prestigeScore: 79 },
+		team1Name: 'Spirit',
+		team2Name: 'G2',
+	}), null);
+	assert.equal(normalizeCitoMatch({
+		id: 'cs2-match-3',
+		startsAt: '2026-10-26T18:00:00.000Z',
+		event: { name: 'Lower prize pool', prestigeScore: 80, prizePool: 99999 },
 		team1Name: 'Spirit',
 		team2Name: 'G2',
 	}), null);

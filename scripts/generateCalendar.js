@@ -7,7 +7,6 @@ const CITO_API_BASE_URL = (process.env.CITO_API_BASE_URL || 'https://api.citoapi
 const CITO_UPCOMING_PATH = '/api/v1/cs2/matches/upcoming';
 const CITO_RECENT_PATH = '/api/v1/cs2/matches/recent';
 const CITO_STATE_PATH = path.join(ROOT, 'jsons', 'cito-api-state.json');
-const MINIMUM_PRESTIGE_SCORE = 80;
 
 /**
  * Load local environment values without printing them.
@@ -17,7 +16,6 @@ const MINIMUM_PRESTIGE_SCORE = 80;
  * a dotenv runtime dependency.
  */
 function loadLocalEnv() {
-	if (process.env.CITO_API_KEY) return;
 	try {
 		const dotenv = require('node:fs').readFileSync(path.join(ROOT, '.env'), 'utf8');
 		for (const line of dotenv.split(/\r?\n/)) {
@@ -29,6 +27,15 @@ function loadLocalEnv() {
 		if (error.code !== 'ENOENT') throw error;
 	}
 }
+
+loadLocalEnv();
+
+/**
+ * Values used for event filtering; this will likely change until I get it
+ * somewhere I like.
+ */
+const MINIMUM_PRESTIGE_SCORE = 80;
+const MINIMUM_PRIZE_POOL = 100000;
 
 /**
  * Fetch upcoming and recent matches from CitoAPI.
@@ -74,6 +81,17 @@ async function fetchCitoMatches() {
  */
 function isQualifyingPrestige(prestigeScore) {
 	return Number(prestigeScore) >= MINIMUM_PRESTIGE_SCORE;
+}
+
+/**
+ * Return whether an event meets both calendar qualification requirements.
+ *
+ * @param {unknown} event Event metadata.
+ * @returns {boolean} Whether the event should enter the calendar.
+ */
+function isQualifyingEvent(event) {
+	return isQualifyingPrestige(event?.prestigeScore) &&
+		Number(String(event?.prizePool ?? '').replace(/[$,\s]/g, '')) >= MINIMUM_PRIZE_POOL;
 }
 
 /**
@@ -168,7 +186,7 @@ function teamName(team) {
  * @returns {object|null} Normalized match or null for non-S/A events.
  */
 function normalizeCitoMatch(match) {
-	if (!isQualifyingPrestige(match?.event?.prestigeScore)) return null;
+	if (!isQualifyingEvent(match?.event)) return null;
 	const team1Name = match.team1Name || teamName(match.team1);
 	const team2Name = match.team2Name || teamName(match.team2);
 	if (!team1Name || !team2Name || !match.id) return null;
@@ -466,6 +484,7 @@ module.exports = {
 	normalizeMatch,
 	normalizeCitoMatch,
 	isQualifyingPrestige,
+	isQualifyingEvent,
 	citoSlot,
 	isCitoSlot,
 	filterMatches,
