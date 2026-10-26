@@ -4,8 +4,10 @@ const path = require('node:path');
 const ROOT = path.join(__dirname, '..');
 const LOOKBACK_DAYS = Number(process.env.MATCH_LOOKBACK_DAYS || 14);
 const CITO_API_BASE_URL = (process.env.CITO_API_BASE_URL || 'https://api.citoapi.com').replace(/\/$/, '');
-const CITO_MATCHES_PATH = '/api/v1/cs2/matches/today';
+const CITO_UPCOMING_PATH = '/api/v1/cs2/matches/upcoming';
+const CITO_RECENT_PATH = '/api/v1/cs2/matches/recent';
 const CITO_STATE_PATH = path.join(ROOT, 'jsons', 'cito-api-state.json');
+const MINIMUM_PRESTIGE_SCORE = 80;
 
 /**
  * Load local environment values without printing them.
@@ -29,14 +31,14 @@ function loadLocalEnv() {
 }
 
 /**
- * Fetch today's matches from CitoAPI exactly once.
+ * Fetch upcoming and recent matches from CitoAPI.
  *
  * @returns {Promise<object[]>} Cito match records.
  */
-async function fetchCitoMatches() {
+async function fetchCitoEndpoint(endpoint) {
 	loadLocalEnv();
 	if (!process.env.CITO_API_KEY) throw new Error('CITO_API_KEY is not configured');
-	const response = await fetch(`${CITO_API_BASE_URL}${CITO_MATCHES_PATH}`, {
+	const response = await fetch(`${CITO_API_BASE_URL}${endpoint}`, {
 		headers: { accept: 'application/json', 'x-api-key': process.env.CITO_API_KEY },
 	});
 	const body = await response.text();
@@ -52,23 +54,58 @@ async function fetchCitoMatches() {
 }
 
 /**
- * Return whether an event tier is S or A.
+ * Fetch all matches needed for one calendar refresh.
  *
- * @param {unknown} tier Event tier.
- * @returns {boolean} Whether the match should enter the calendar.
+ * @returns {Promise<object[]>} Cito match records.
  */
-function isQualifyingTier(tier) {
-	return tier === 'S' || tier === 'A';
+async function fetchCitoMatches() {
+	const [upcoming, recent] = await Promise.all([
+		fetchCitoEndpoint(CITO_UPCOMING_PATH),
+		fetchCitoEndpoint(CITO_RECENT_PATH),
+	]);
+	return [...upcoming, ...recent];
 }
 
 /**
- * Identify the scheduled 12-hour UTC slot.
+ * Return whether an event has enough prestige to enter the calendar.
+ *
+ * @param {unknown} prestigeScore Event prestige score.
+ * @returns {boolean} Whether the match should enter the calendar.
+ */
+function isQualifyingPrestige(prestigeScore) {
+	return Number(prestigeScore) >= MINIMUM_PRESTIGE_SCORE;
+}
+
+/**
+ * Identify the current three-hour slot in Eastern time.
  *
  * @param {Date} date Current time.
  * @returns {string} Slot identifier.
  */
 function citoSlot(date) {
-	return `${date.toISOString().slice(0, 10)}-${String(date.getUTCHours()).padStart(2, '0')}`;
+	const parts = new Intl.DateTimeFormat('en-CA', {
+		timeZone: 'America/New_York',
+		year: 'numeric',
+		month: '2-digit',
+		day: '2-digit',
+		hour: '2-digit',
+		hourCycle: 'h23',
+	}).formatToParts(date).reduce((result, part) => {
+		result[part.type] = part.value;
+		return result;
+	}, {});
+	return `${parts.year}-${parts.month}-${parts.day}-${parts.hour}`;
+}
+
+/**
+ * Return whether the current time is an allowed three-hour Eastern slot.
+ *
+ * @param {Date} date Current time.
+ * @returns {boolean} Whether the API may be called.
+ */
+function isCitoSlot(date) {
+	const hour = Number(citoSlot(date).slice(-2));
+	return date.getMinutes() === 0 && hour % 3 === 0;
 }
 
 /**
@@ -130,7 +167,7 @@ function teamName(team) {
  * @returns {object|null} Normalized match or null for non-S/A events.
  */
 function normalizeCitoMatch(match) {
-	if (!isQualifyingTier(match?.event?.tier)) return null;
+	if (!isQualifyingPrestige(match?.event?.prestigeScore)) return null;
 	const team1Name = match.team1Name || teamName(match.team1);
 	const team2Name = match.team2Name || teamName(match.team2);
 	if (!team1Name || !team2Name || !match.id) return null;
@@ -179,21 +216,18 @@ function completedDetailLines(match) {
  *
  * @param {object} match Raw or enriched match.
  * @param {boolean} isResult Whether the match has completed.
- * @param {string} id Stable match ID.
  * @param {string} format Match format.
- * @param {string} eventName Event name.
  * @returns {string} Detailed event description.
  */
-function buildDescription(match, isResult, id, format, eventName) {
+function buildDescription(match, isResult, format) {
 	const score1 = firstValue(match.team1, ['score']);
 	const score2 = firstValue(match.team2, ['score']);
+	const hasScore = score1 !== undefined && score1 !== null && score2 !== undefined && score2 !== null;
 	const lines = [
-		`Event: ${eventName}`,
 		`Format: ${format}`,
-		`Match ID: ${id}`,
-		`Status: ${isResult ? 'completed' : 'scheduled'}`,
+		`Status: ${isResult && hasScore ? 'completed' : isResult ? 'in progress' : 'scheduled'}`,
 	];
-	if (isResult && score1 !== undefined && score2 !== undefined) {
+	if (isResult && hasScore) {
 		lines.push(`Final score: ${match.team1.name} ${score1} - ${match.team2.name} ${score2}`);
 	}
 	if (isResult) {
@@ -227,8 +261,9 @@ function normalizeMatch(match, isResult, existingEvent = null) {
 	const event = firstValue(match, ['event', 'eventName', 'tournament']);
 	const eventName = typeof event === 'string' ? event : event?.name || 'Unknown event';
 	const end = new Date(start.getTime() + 3 * 60 * 60 * 1000);
-	const score = isResult && score1 !== undefined && score2 !== undefined ? ` (${score1}-${score2})` : '';
-	const description = buildDescription(match, isResult, id, format, eventName);
+	const hasCompletedScore = isResult && score1 !== undefined && score1 !== null && score2 !== undefined && score2 !== null;
+	const score = hasCompletedScore ? ` (${score1}-${score2})` : '';
+	const description = buildDescription(match, isResult, format);
 	return {
 		id: String(id),
 		start: start.toISOString(),
@@ -263,7 +298,7 @@ function parseIcsEvents(ics) {
 	const events = new Map();
 	const blocks = ics.split('BEGIN:VEVENT').slice(1);
 	for (const block of blocks) {
-		const uid = block.match(/\r?\nUID:(?:[^@\r\n]+@)?([^\r\n]+)/)?.[1];
+		const uid = block.match(/\r?\nUID:([^@\r\n]+)(?:@[^\r\n]+)?/)?.[1];
 		const start = block.match(/\r?\nDTSTART:(\d{8}T\d{6}Z)/)?.[1];
 		if (!uid || !start) continue;
 		const toIso = (value) => `${value.slice(0, 4)}-${value.slice(4, 6)}-${value.slice(6, 8)}T${value.slice(9, 11)}:${value.slice(11, 13)}:${value.slice(13, 15)}Z`;
@@ -276,7 +311,10 @@ function parseIcsEvents(ics) {
 			start: toIso(start),
 			end: toIso(block.match(/\r?\nDTEND:(\d{8}T\d{6}Z)/)?.[1] || start),
 			summary: field('SUMMARY'),
-			description: field('DESCRIPTION'),
+			description: field('DESCRIPTION')
+				.replace(/^Event:.*(?:\r?\n|$)/m, '')
+				.replace(/^Match ID:.*(?:\r?\n|$)/m, '')
+				.trim(),
 			location: field('LOCATION'),
 		};
 		event.teams = event.summary.split(/\s+vs\s+/i).map((team) => team.replace(/\s*\(\d+-\d+\)\s*$/, '').trim());
@@ -388,13 +426,18 @@ async function generateCalendar() {
 		if (error.code === 'ENOENT') return {};
 		throw error;
 	});
+	if (!isCitoSlot(slot)) {
+		throw new Error(`CitoAPI may only be called on a three-hour Eastern slot; current slot is ${currentSlot}`);
+	}
 	if (state.lastSuccessfulSlot === currentSlot) {
-		throw new Error(`CitoAPI has already been called for the ${currentSlot} UTC slot`);
+		throw new Error(`CitoAPI has already been called for the ${currentSlot} Eastern slot`);
 	}
 	const citoMatches = (await fetchCitoMatches()).map(normalizeCitoMatch).filter(Boolean);
 	const incomingEvents = citoMatches.map((match) => normalizeMatch(
 		match,
-		match.status === 'completed' || (match.team1.score !== null && match.team2.score !== null),
+		match.status === 'completed' || match.status === 'finished' ||
+			(match.team1.score !== null && match.team1.score !== undefined &&
+				match.team2.score !== null && match.team2.score !== undefined),
 		existingEvents.get(match.id),
 	)).filter(Boolean);
 	const mergedEvents = new Map(existingEvents);
@@ -419,8 +462,9 @@ module.exports = {
 	buildDescription,
 	normalizeMatch,
 	normalizeCitoMatch,
-	isQualifyingTier,
+	isQualifyingPrestige,
 	citoSlot,
+	isCitoSlot,
 	filterMatches,
 	escapeIcsText,
 	toIcs,

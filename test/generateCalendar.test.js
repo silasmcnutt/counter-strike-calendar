@@ -2,23 +2,25 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
 	normalizeMatch,
+	parseIcsEvents,
 	mergeCalendarEvent,
 	normalizeCitoMatch,
-	isQualifyingTier,
+	isQualifyingPrestige,
 	citoSlot,
+	isCitoSlot,
 	filterMatches,
 	toIcs,
 } = require('../scripts/generateCalendar');
 
-test('keeps only S and A tier Cito matches', () => {
-	assert.equal(isQualifyingTier('S'), true);
-	assert.equal(isQualifyingTier('A'), true);
-	assert.equal(isQualifyingTier('B'), false);
+test('keeps only matches with prestige score 80 or higher', () => {
+	assert.equal(isQualifyingPrestige(80), true);
+	assert.equal(isQualifyingPrestige(100), true);
+	assert.equal(isQualifyingPrestige(79), false);
 	assert.equal(normalizeCitoMatch({
 		id: 'cs2-match-1',
 		startsAt: '2026-10-26T18:00:00.000Z',
 		status: 'upcoming',
-		event: { name: 'Example', tier: 'A' },
+		event: { name: 'Example', prestigeScore: 80 },
 		bestOf: 3,
 		team1Name: 'Spirit',
 		team2Name: 'G2',
@@ -28,15 +30,17 @@ test('keeps only S and A tier Cito matches', () => {
 	assert.equal(normalizeCitoMatch({
 		id: 'cs2-match-2',
 		startsAt: '2026-10-26T18:00:00.000Z',
-		event: { name: 'Lower tier', tier: 'B' },
+		event: { name: 'Lower prestige', prestigeScore: 79 },
 		team1Name: 'Spirit',
 		team2Name: 'G2',
 	}), null);
 });
 
-test('creates 12-hour UTC Cito slots', () => {
-	assert.equal(citoSlot(new Date('2026-10-26T00:00:00.000Z')), '2026-10-26-00');
-	assert.equal(citoSlot(new Date('2026-10-26T12:00:00.000Z')), '2026-10-26-12');
+test('creates three-hour Eastern Cito slots', () => {
+	assert.equal(citoSlot(new Date('2026-10-26T04:00:00.000Z')), '2026-10-26-00');
+	assert.equal(citoSlot(new Date('2026-10-26T07:00:00.000Z')), '2026-10-26-03');
+	assert.equal(isCitoSlot(new Date('2026-10-26T04:00:00.000Z')), true);
+	assert.equal(isCitoSlot(new Date('2026-10-26T05:00:00.000Z')), false);
 });
 
 test('normalizes upcoming Cito matches', () => {
@@ -50,8 +54,8 @@ test('normalizes upcoming Cito matches', () => {
 	}, false);
 	assert.equal(match.id, 'cs2-match-2399739');
 	assert.equal(match.summary, 'Spirit vs FURIA');
-	assert.match(match.description, /Event: Example event/);
 	assert.match(match.description, /Status: scheduled/);
+	assert.equal(match.location, 'Example event');
 	assert.equal(match.start, '2026-10-27T14:00:00.000Z');
 });
 
@@ -66,7 +70,21 @@ test('includes map scores without player statistics in completed descriptions', 
 		maps: [{ map_name: 'Mirage', score: { Spirit: '16', G2: '12' } }],
 	}, true);
 	assert.match(match.description, /Map scores:\n- Mirage: Spirit 16 - G2 12/);
+	assert.match(match.description, /Status: completed/);
+	assert.doesNotMatch(match.description, /Event:|Match ID:/);
 	assert.doesNotMatch(match.description, /Player statistics|donk|K-D/);
+});
+
+test('omits incomplete scores from title and marks the description in progress', () => {
+	const match = normalizeMatch({
+		id: 8,
+		date: '2026-10-26T08:00:00.000Z',
+		team1: { name: 'Spirit', score: 1 },
+		team2: { name: 'G2', score: null },
+		event: 'Example event',
+	}, true);
+	assert.equal(match.summary, 'Spirit vs G2');
+	assert.match(match.description, /Status: in progress/);
 });
 
 test('keeps matches with either top team and removes duplicates', () => {
@@ -84,6 +102,18 @@ test('writes UTC DTSTART and escaped ICS text', () => {
 	assert.match(ics, /DTSTART:20261026T100000Z/);
 	assert.match(ics, /SUMMARY:A\\, B/);
 	assert.match(ics, /DESCRIPTION:Line 1\\nLine 2/);
+});
+
+test('removes legacy event name and match ID lines from existing descriptions', () => {
+	const ics = toIcs([{
+		id: '1',
+		start: '2026-10-26T10:00:00.000Z',
+		end: '2026-10-26T13:00:00.000Z',
+		summary: 'Spirit vs G2',
+		description: 'Event: Example\nFormat: BO3\nMatch ID: 1\nStatus: completed',
+		location: 'Example',
+	}]);
+	assert.equal(parseIcsEvents(ics).get('1').description, 'Format: BO3\nStatus: completed');
 });
 
 test('preserves an existing start when result details omit the time', () => {

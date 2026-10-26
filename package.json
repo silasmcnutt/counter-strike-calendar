@@ -1,7 +1,7 @@
 {
   "name": "counter-strike-calendar",
   "version": "1.0.0",
-  "description": "A UTC ICS calendar containing recent and upcoming S-tier and A-tier Counter-Strike matches.",
+  "description": "A UTC ICS calendar containing recent and upcoming Counter-Strike matches from high-prestige events.",
   "private": true,
   "main": "scripts/main.js",
   "scripts": {

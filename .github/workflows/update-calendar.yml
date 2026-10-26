@@ -2,7 +2,7 @@ name: Update Counter-Strike calendar
 
 on:
   schedule:
-    - cron: '0 0,12 * * *'
+    - cron: '0 * * * *'
 
 permissions:
   contents: write
