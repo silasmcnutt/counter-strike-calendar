@@ -117,7 +117,8 @@ feed when required API requests fail.
 The GitHub workflow validates that the rankings response contains actual team
 data before generating the calendar. If the upstream scraper returns a
 temporary HTTP 200 response without rankings, startup retries for one minute
-and then prints the API log before failing.
+and then prints the API response and API log before failing. The health check
+follows the upstream service's HTTP redirect for the rankings route.
 
 ## Project layout
 
