@@ -383,9 +383,6 @@ async function generateCalendar() {
 	const existingIcs = await fs.readFile(icsPath, 'utf8').catch(() => '');
 	const existingEvents = parseIcsEvents(existingIcs);
 	const slot = new Date();
-	if (slot.getUTCMinutes() !== 0 || ![0, 12].includes(slot.getUTCHours())) {
-		throw new Error('CitoAPI calls are restricted to 00:00 and 12:00 UTC');
-	}
 	const currentSlot = citoSlot(slot);
 	const state = await fs.readFile(CITO_STATE_PATH, 'utf8').then(JSON.parse).catch((error) => {
 		if (error.code === 'ENOENT') return {};
