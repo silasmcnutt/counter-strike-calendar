@@ -44,10 +44,14 @@ async function fetchApi(endpoint) {
  * @returns {Set<string>} Normalized top-team names.
  */
 function extractTopTeams(response) {
-	const rows = Array.isArray(response)
-		? response[0]?.ranking || response
-		: response?.ranking || response?.data;
-	if (!Array.isArray(rows)) throw new Error('Ranking response is not an array');
+	const candidates = Array.isArray(response)
+		? [response[0]?.ranking, response[0]?.data?.ranking, response[0]?.data, response]
+		: [response?.ranking, response?.data?.ranking, response?.data, response?.results, response?.teams];
+	const rows = candidates.find(Array.isArray);
+	if (!rows) {
+		const preview = JSON.stringify(response).slice(0, 500);
+		throw new Error(`Ranking response did not contain a team array. Response: ${preview}`);
+	}
 	const names = rows
 		.map((row) => row?.team?.name || row?.name || row?.teamName)
 		.filter((name) => typeof name === 'string' && name.trim())

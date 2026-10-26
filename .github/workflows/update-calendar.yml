@@ -42,7 +42,8 @@ jobs:
         run: |
           nohup python ../hltv-scraper-api/app.py > /tmp/hltv-scraper-api.log 2>&1 &
           for attempt in {1..30}; do
-            if curl --fail --silent http://127.0.0.1:8000/api/v1/teams/rankings/hltv > /dev/null; then
+            if curl --fail --silent http://127.0.0.1:8000/api/v1/teams/rankings/hltv \
+              | python -c "import json,sys; data=json.load(sys.stdin); candidates=[data[0].get('ranking'),data[0].get('data',{}).get('ranking'),data[0].get('data')] if isinstance(data,list) and data else [data.get('ranking'),data.get('data',{}).get('ranking'),data.get('data'),data.get('results'),data.get('teams')] if isinstance(data,dict) else []; sys.exit(0 if any(isinstance(rows,list) and rows for rows in candidates) else 1)"; then
               exit 0
             fi
             sleep 2

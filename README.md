@@ -114,6 +114,11 @@ incomplete data or be affected by HLTV availability and rate limiting. The
 generator fails instead of silently replacing the calendar with an empty
 feed when required API requests fail.
 
+The GitHub workflow validates that the rankings response contains actual team
+data before generating the calendar. If the upstream scraper returns a
+temporary HTTP 200 response without rankings, startup retries for one minute
+and then prints the API log before failing.
+
 ## Project layout
 
 - [`scripts/generateCalendar.js`](./scripts/generateCalendar.js) - API

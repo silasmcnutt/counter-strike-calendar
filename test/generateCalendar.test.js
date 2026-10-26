@@ -17,6 +17,11 @@ test('extracts the first 30 teams from nested ranking rows', () => {
 	assert.equal(teams.has('team31'), false);
 });
 
+test('extracts rankings from nested data wrappers', () => {
+	const teams = extractTopTeams({ data: { ranking: [{ name: 'Spirit' }] } });
+	assert.deepEqual([...teams], ['spirit']);
+});
+
 test('converts completed HLTV time to UTC', () => {
 	const match = normalizeMatch({
 		id: 42,
