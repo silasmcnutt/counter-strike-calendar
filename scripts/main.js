@@ -1,5 +1,5 @@
 /**
- * Generate the calendar using the local hltv-scraper-api service.
+ * Generate the calendar using the local SocksPls/hltv-api library.
  *
  * Keeping this file as the package entry point preserves the original
  * `node scripts/main.js` workflow while all implementation lives in the

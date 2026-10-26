@@ -5,6 +5,8 @@ const {
 	normalizeMatch,
 	mergeMatchDetail,
 	mergeCalendarEvent,
+	adaptLibraryMatch,
+	collectMapResults,
 	filterMatches,
 	toIcs,
 } = require('../scripts/generateCalendar');
@@ -22,6 +24,37 @@ test('extracts rankings from nested data wrappers', () => {
 	assert.deepEqual([...teams], ['spirit']);
 });
 
+test('adapts SocksPls library match records', () => {
+	const upcoming = adaptLibraryMatch({
+		'match-id': 123,
+		date: '2026-10-27',
+		time: '15:30',
+		team1: 'Spirit',
+		team2: 'FURIA',
+		event: 'Example event',
+		url: 'https://hltv.org/matches/123/spirit-vs-furia',
+	}, false);
+	assert.equal(upcoming.id, 123);
+	assert.equal(upcoming.hour, '15:30');
+	assert.equal(upcoming.link, 'https://hltv.org/matches/123/spirit-vs-furia');
+	assert.equal(upcoming.team1, 'Spirit');
+});
+
+test('collects map scores by library match ID', () => {
+	const maps = collectMapResults([{
+		'match-id': 123,
+		map: 'Mirage',
+		team1: 'Spirit',
+		team1score: 16,
+		team2: 'FURIA',
+		team2score: 12,
+	}]);
+	assert.deepEqual(maps.get('123'), [{
+		map_name: 'Mirage',
+		score: { Spirit: 16, FURIA: 12 },
+	}]);
+});
+
 test('converts completed HLTV time to UTC', () => {
 	const match = normalizeMatch({
 		id: 42,
@@ -37,7 +70,7 @@ test('converts completed HLTV time to UTC', () => {
 	assert.match(match.description, /Final score: Spirit 2 - G2 1/);
 });
 
-test('parses the scraper API match-detail date format', () => {
+test('parses an HLTV match-detail date format', () => {
 	const match = normalizeMatch({
 		id: 2399736,
 		date: '26th of October 2026',

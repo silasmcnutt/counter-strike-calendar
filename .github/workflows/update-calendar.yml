@@ -32,26 +32,13 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install scraper API
+      - name: Install HLTV library
         run: |
-          git clone --depth 1 https://github.com/M3MONs/hltv-scraper-api.git ../hltv-scraper-api
+          git clone --depth 1 https://github.com/SocksPls/hltv-api.git ../hltv-api
           python -m pip install --upgrade pip
-          python -m pip install -r ../hltv-scraper-api/requirements.txt
-
-      - name: Start scraper API
-        run: |
-          nohup python ../hltv-scraper-api/app.py > /tmp/hltv-scraper-api.log 2>&1 &
-          for attempt in {1..30}; do
-            if curl --fail --silent --show-error --location http://127.0.0.1:8000/api/v1/teams/rankings/hltv \
-              | python -c "import json,sys; data=json.load(sys.stdin); candidates=[data[0].get('ranking'),data[0].get('data',{}).get('ranking'),data[0].get('data')] if isinstance(data,list) and data else [data.get('ranking'),data.get('data',{}).get('ranking'),data.get('data'),data.get('results'),data.get('teams')] if isinstance(data,dict) else []; sys.exit(0 if any(isinstance(rows,list) and rows for rows in candidates) else 1)"; then
-              exit 0
-            fi
-            sleep 2
-          done
-          echo "The rankings endpoint did not return usable team data."
-          curl --silent --show-error --location --include http://127.0.0.1:8000/api/v1/teams/rankings/hltv || true
-          cat /tmp/hltv-scraper-api.log
-          exit 1
+          grep -v '^lxml==' ../hltv-api/requirements.txt > /tmp/hltv-requirements.txt
+          python -m pip install -r /tmp/hltv-requirements.txt
+          python -m pip install 'lxml>=5'
 
       - name: Install Node dependencies
         run: npm ci
@@ -60,6 +47,8 @@ jobs:
         run: npm test
 
       - name: Generate calendar
+        env:
+          HLTV_API_PATH: ../hltv-api
         run: npm run generate
 
       - name: Publish generated files

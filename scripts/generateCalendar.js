@@ -1,44 +1,44 @@
 const fs = require('node:fs/promises');
+const childProcess = require('node:child_process');
 const path = require('node:path');
 
 const ROOT = path.join(__dirname, '..');
-const API_BASE_URL = (process.env.HLTV_API_BASE_URL || 'http://127.0.0.1:8000').replace(/\/$/, '');
-// These paths are defined by M3MONs/hltv-scraper-api:
-// https://github.com/M3MONs/hltv-scraper-api
-const API_ENDPOINTS = {
-	rankings: '/api/v1/teams/rankings/hltv',
-	upcomingMatches: '/api/v1/matches/upcoming',
-	results: (offset) => `/api/v1/results/${offset}`,
-	matchDetails: (id, name) => `/api/v1/matches/${id}/${name}`,
-};
 const LOOKBACK_DAYS = Number(process.env.MATCH_LOOKBACK_DAYS || 14);
-const RESULTS_PAGES = Number(process.env.RESULTS_PAGES || 3);
 const HLTV_TIME_ZONE = 'Europe/Stockholm';
 
 /**
- * Fetch and validate JSON from the scraper API.
+ * Run the replacement library's Python functions and decode their snapshot.
  *
- * @param {string} endpoint API path beginning with `/api`.
- * @returns {Promise<unknown>} Decoded API response.
+ * @returns {object} Snapshot from SocksPls/hltv-api.
  */
-async function fetchApi(endpoint) {
-	const response = await fetch(`${API_BASE_URL}${endpoint}`);
-	const body = await response.text();
-	if (!response.ok) {
-		throw new Error(`API request ${endpoint} failed (${response.status}): ${body.slice(0, 300)}`);
-	}
+function fetchHltvSnapshot(startDate, endDate) {
 	try {
-		return JSON.parse(body);
-	} catch {
-		throw new Error(`API request ${endpoint} returned invalid JSON`);
+		const output = childProcess.execFileSync(
+			process.env.HLTV_PYTHON || 'python',
+			[path.join(__dirname, 'hltv_client.py'), 'snapshot', startDate, endDate],
+			{
+				encoding: 'utf8',
+				env: {
+					...process.env,
+					HLTV_API_PATH: process.env.HLTV_API_PATH || path.join(ROOT, '..', 'hltv-api'),
+					TZ: HLTV_TIME_ZONE,
+				},
+				maxBuffer: 20 * 1024 * 1024,
+				timeout: 10 * 60 * 1000,
+			},
+		);
+		return JSON.parse(output);
+	} catch (error) {
+		const detail = error?.stderr?.toString().trim() || error.message;
+		throw new Error(`HLTV library request failed: ${detail}`);
 	}
 }
 
 /**
  * Convert the scraper's ranking response into the first 30 named teams.
  *
- * The current API returns `{ ranking: [...] }`; the fallback shapes make
- * upgrades of the scraper API fail less mysteriously.
+ * The library returns a list of team records; the fallback shapes also keep
+ * this parser tolerant of wrapped snapshots used by older integrations.
  *
  * @param {unknown} response Ranking response.
  * @returns {Set<string>} Normalized top-team names.
@@ -46,7 +46,7 @@ async function fetchApi(endpoint) {
 function extractTopTeams(response) {
 	const candidates = Array.isArray(response)
 		? [response[0]?.ranking, response[0]?.data?.ranking, response[0]?.data, response]
-		: [response?.ranking, response?.data?.ranking, response?.data, response?.results, response?.teams];
+		: [response?.topTeams, response?.ranking, response?.data?.ranking, response?.data, response?.results, response?.teams];
 	const rows = candidates.find(Array.isArray);
 	if (!rows) {
 		const preview = JSON.stringify(response).slice(0, 500);
@@ -161,6 +161,61 @@ function teamName(team) {
 	if (!team || typeof team !== 'object') return null;
 	const name = firstValue(team, ['name', 'teamName', 'title']);
 	return typeof name === 'string' ? name : null;
+}
+
+/**
+ * Adapt a record returned by SocksPls/hltv-api to the calendar's match shape.
+ *
+ * @param {object} match Raw library match.
+ * @param {boolean} isResult Whether this is a completed result.
+ * @returns {object} Match in the generator's internal shape.
+ */
+function adaptLibraryMatch(match, isResult) {
+	const id = firstValue(match, ['id', 'matchId', 'match-id']);
+	const team1 = firstValue(match, ['team1']);
+	const team2 = firstValue(match, ['team2']);
+	const date = firstValue(match, ['date']);
+	const hour = firstValue(match, ['hour', 'time']);
+	const event = firstValue(match, ['event', 'championship']);
+	const link = firstValue(match, ['link', 'url']);
+	return {
+		...match,
+		id,
+		date,
+		hour,
+		event,
+		link,
+		team1: isResult
+			? { name: team1, score: firstValue(match, ['team1score']) }
+			: team1,
+		team2: isResult
+			? { name: team2, score: firstValue(match, ['team2score']) }
+			: team2,
+	};
+}
+
+/**
+ * Combine one-map rows from get_results_by_date into completed matches.
+ *
+ * @param {object[]} rows Map-level result rows.
+ * @returns {Map<string, object[]>} Maps keyed by match ID.
+ */
+function collectMapResults(rows) {
+	const maps = new Map();
+	for (const row of rows || []) {
+		const id = firstValue(row, ['id', 'matchId', 'match-id']);
+		if (id === undefined || id === null) continue;
+		const map = {
+			map_name: firstValue(row, ['map', 'mapName']) || 'Unknown map',
+			score: {
+				[firstValue(row, ['team1']) || 'Team 1']: firstValue(row, ['team1score']),
+				[firstValue(row, ['team2']) || 'Team 2']: firstValue(row, ['team2score']),
+			},
+		};
+		if (!maps.has(String(id))) maps.set(String(id), []);
+		maps.get(String(id)).push(map);
+	}
+	return maps;
 }
 
 /**
@@ -440,17 +495,25 @@ function toIcs(events) {
  * @returns {Promise<object[]>} Generated events.
  */
 async function generateCalendar() {
-	console.log(`Fetching top 30 teams from ${API_BASE_URL}...`);
-	const topTeams = extractTopTeams(await fetchApi(API_ENDPOINTS.rankings));
 	const icsPath = path.join(ROOT, 'ics', 'finalCalendar.ics');
 	const existingIcs = await fs.readFile(icsPath, 'utf8').catch(() => '');
 	const existingEvents = parseIcsEvents(existingIcs);
-	const upcoming = await fetchApi(API_ENDPOINTS.upcomingMatches);
-	const resultResponses = await Promise.all(
-		Array.from({ length: RESULTS_PAGES }, (_, page) => fetchApi(API_ENDPOINTS.results(page * 100))),
-	);
-	const upcomingRows = Array.isArray(upcoming) ? upcoming : upcoming?.data || [];
-	const resultRows = resultResponses.flatMap((response) => Array.isArray(response) ? response : response?.data || []);
+	const now = new Date();
+	const startDate = new Date(now.getTime() - LOOKBACK_DAYS * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+	const endDate = now.toISOString().slice(0, 10);
+	console.log('Fetching HLTV data with SocksPls/hltv-api...');
+	const snapshot = fetchHltvSnapshot(startDate, endDate);
+	if (snapshot.mapResultsError) {
+		console.warn(`Map scores unavailable from hltv-api: ${snapshot.mapResultsError}`);
+	}
+	const topTeams = extractTopTeams(snapshot);
+	const upcomingRows = (snapshot.upcoming || []).map((match) => adaptLibraryMatch(match, false));
+	const resultRows = (snapshot.results || []).map((match) => adaptLibraryMatch(match, true));
+	const mapResults = collectMapResults(snapshot.mapResults);
+	for (const result of resultRows) {
+		const id = String(result.id);
+		if (mapResults.has(id)) result.maps = mapResults.get(id);
+	}
 	const resultCandidates = resultRows.filter((match) => {
 		const team1 = teamName(match.team1);
 		const team2 = teamName(match.team2);
@@ -461,27 +524,12 @@ async function generateCalendar() {
 		const team2 = teamName(match.team2);
 		return team1 && team2 && [team1, team2].some((team) => topTeams.has(normalizeTeamName(team)));
 	});
-	const enrichMatch = async (match) => {
-		const route = matchRouteFromLink(match.link);
-		if (!route) return match;
-		const detail = await fetchApi(API_ENDPOINTS.matchDetails(route.id, route.name));
-		const detailRecord = Array.isArray(detail) ? detail[0] : detail;
-		return mergeMatchDetail(match, {
-			...(detailRecord?.match || {}),
-			maps: detailRecord?.maps,
-			stats: detailRecord?.stats,
-		});
-	};
-	const [detailedUpcoming, detailedResults] = await Promise.all([
-		Promise.all(upcomingCandidates.map(enrichMatch)),
-		Promise.all(resultCandidates.map(enrichMatch)),
-	]);
 	const incomingEvents = [
-		...detailedUpcoming.map((match) => {
+		...upcomingCandidates.map((match) => {
 			const id = firstValue(match, ['id', 'matchId']) || matchIdFromLink(match.link);
 			return normalizeMatch(match, false, existingEvents.get(String(id)));
 		}),
-		...detailedResults.map((match) => {
+		...resultCandidates.map((match) => {
 			const id = firstValue(match, ['id', 'matchId']) || matchIdFromLink(match.link);
 			return normalizeMatch(match, true, existingEvents.get(String(id)));
 		}),
@@ -508,6 +556,8 @@ module.exports = {
 	completedDetailLines,
 	buildDescription,
 	normalizeMatch,
+	adaptLibraryMatch,
+	collectMapResults,
 	filterMatches,
 	escapeIcsText,
 	toIcs,

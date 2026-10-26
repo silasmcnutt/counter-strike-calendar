@@ -13,8 +13,9 @@ This repository publishes an iCalendar feed containing:
 - Completed matches from the previous 14 days involving a top-30 team.
 - Scores and map-by-map results for completed matches when HLTV provides them.
 
-The calendar is generated with the unofficial
-[M3MONs/hltv-scraper-api](https://github.com/M3MONs/hltv-scraper-api) service.
+The calendar uses the unofficial
+[SocksPls/hltv-api](https://github.com/SocksPls/hltv-api) Python library
+directly. No Flask server or other local API service is required.
 The generator keeps existing events by match ID, adds new upcoming matches,
 and updates existing events when scores, maps, or start times become
 available. New matches without a usable start time are omitted.
@@ -44,22 +45,22 @@ how frequently it refreshes a subscribed feed; GitHub updates the file hourly.
 ### Requirements
 
 - Node.js 18 or newer
-- Python 3.12 or newer for the upstream API
+- Python 3.12 or newer for the HLTV library
 - Git
 
-### Start the API
+### Install the HLTV library
 
-Clone and start the API in a separate terminal. Follow its installation
-instructions for the Python dependencies:
+The generator invokes the library through a small JSON bridge. Clone it next
+to this repository and install its dependencies:
 
 ```powershell
-git clone https://github.com/M3MONs/hltv-scraper-api.git
-cd hltv-scraper-api
+git clone https://github.com/SocksPls/hltv-api.git ..\hltv-api
+cd ..\hltv-api
 python -m pip install -r requirements.txt
-python app.py
+cd ..\counter-strike-calendar
 ```
 
-The API should be available at `http://127.0.0.1:8000`.
+If the library is in another location, set `HLTV_API_PATH` to that directory.
 
 ### Generate the calendar
 
@@ -83,14 +84,13 @@ The generator uses these optional environment variables:
 
 | Variable | Default | Description |
 | --- | --- | --- |
-| `HLTV_API_BASE_URL` | `http://127.0.0.1:8000` | Base URL of the running scraper API |
+| `HLTV_API_PATH` | `..\hltv-api` | Directory containing the cloned `main.py` library |
 | `MATCH_LOOKBACK_DAYS` | `14` | Age limit for completed events |
-| `RESULTS_PAGES` | `3` | Number of 100-result pages to request |
 
 Example:
 
 ```powershell
-$env:HLTV_API_BASE_URL = "http://127.0.0.1:8000"
+$env:HLTV_API_PATH = "..\hltv-api"
 $env:MATCH_LOOKBACK_DAYS = "14"
 npm run generate
 ```
@@ -99,26 +99,21 @@ All event times in the ICS feed are UTC timestamps. The API's timezone-less
 HLTV times are interpreted in `Europe/Stockholm`, including daylight-saving
 transitions, before conversion to UTC.
 
-## API endpoints used
+## Library functions used
 
-The generator uses these endpoints from
-[M3MONs/hltv-scraper-api](https://github.com/M3MONs/hltv-scraper-api):
+The bridge invokes these functions from
+[SocksPls/hltv-api](https://github.com/SocksPls/hltv-api):
 
-- `GET /api/v1/teams/rankings/hltv`
-- `GET /api/v1/matches/upcoming`
-- `GET /api/v1/results/{offset}`
-- `GET /api/v1/matches/{id}/{match_name}`
+- `top30teams()` for the current ranking.
+- `get_matches()` for upcoming matches.
+- `get_results()` for completed matches.
+- `get_results_by_date()` for map-by-map scores during the lookback window.
 
-The upstream service is an unofficial scraper and may occasionally return
-incomplete data or be affected by HLTV availability and rate limiting. The
-generator fails instead of silently replacing the calendar with an empty
-feed when required API requests fail.
-
-The GitHub workflow validates that the rankings response contains actual team
-data before generating the calendar. If the upstream scraper returns a
-temporary HTTP 200 response without rankings, startup retries for one minute
-and then prints the API response and API log before failing. The health check
-follows the upstream service's HTTP redirect for the rankings route.
+The upstream library scrapes HLTV directly and may occasionally be affected by
+HLTV availability, Cloudflare, or rate limiting. The generator reports library
+errors instead of silently replacing the calendar with an empty feed. If the
+optional map-results page is unavailable, the generator logs a warning and
+continues with the aggregate completed-match score.
 
 ## Project layout
 
