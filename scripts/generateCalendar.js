@@ -98,14 +98,15 @@ function citoSlot(date) {
 }
 
 /**
- * Return whether the current time is an allowed three-hour Eastern slot.
+ * Return whether the current time is within an allowed three-hour Eastern slot.
+ * The slot state prevents a second call during the same three-hour window.
  *
  * @param {Date} date Current time.
  * @returns {boolean} Whether the API may be called.
  */
 function isCitoSlot(date) {
 	const hour = Number(citoSlot(date).slice(-2));
-	return date.getMinutes() === 0 && hour % 3 === 0;
+	return hour % 3 === 0;
 }
 
 /**

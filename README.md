@@ -37,7 +37,8 @@ https://raw.githubusercontent.com/silasmcnutt/counter-strike-calendar/main/ics/f
 ### Apple Calendar or Outlook
 
 Add a calendar subscription using the same URL. The calendar client controls how frequently it refreshes a subscribed feed;
-GitHub updates the file every three hours on the hour in Eastern time.
+GitHub updates the file every three hours during the corresponding Eastern
+time window. A short delay after the window begins is allowed.
 
 ## Local development
 
@@ -93,9 +94,9 @@ The generator makes requests to:
 
 The API key is sent using the `x-api-key` header. The workflow checks once per
 hour, while the generator permits API calls only at 00:00, 03:00, 06:00, and
-other three-hour boundaries in `America/New_York`. It records the last
-successful Eastern slot in `jsons/cito-api-state.json`, preventing duplicate
-calls for the same slot.
+other three-hour boundaries in `America/New_York`. It records the last successful Eastern slot in
+`jsons/cito-api-state.json`, preventing duplicate calls for the same
+three-hour slot even if the GitHub job starts a few minutes late.
 
 The endpoint is called only after the configured key is available. The response
 is expected to contain a `data` array, with each match's `event.prestigeScore`,

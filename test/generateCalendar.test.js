@@ -40,6 +40,7 @@ test('creates three-hour Eastern Cito slots', () => {
 	assert.equal(citoSlot(new Date('2026-10-26T04:00:00.000Z')), '2026-10-26-00');
 	assert.equal(citoSlot(new Date('2026-10-26T07:00:00.000Z')), '2026-10-26-03');
 	assert.equal(isCitoSlot(new Date('2026-10-26T04:00:00.000Z')), true);
+	assert.equal(isCitoSlot(new Date('2026-10-26T04:07:00.000Z')), true);
 	assert.equal(isCitoSlot(new Date('2026-10-26T05:00:00.000Z')), false);
 });
 
