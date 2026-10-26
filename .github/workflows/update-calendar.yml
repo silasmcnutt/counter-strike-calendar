@@ -1,0 +1,68 @@
+name: Update Counter-Strike calendar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-calendar
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out calendar
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install scraper API
+        run: |
+          git clone --depth 1 https://github.com/M3MONs/hltv-scraper-api.git ../hltv-scraper-api
+          python -m pip install --upgrade pip
+          python -m pip install -r ../hltv-scraper-api/requirements.txt
+
+      - name: Start scraper API
+        run: |
+          nohup python ../hltv-scraper-api/app.py > /tmp/hltv-scraper-api.log 2>&1 &
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:8000/api/v1/teams/rankings/hltv > /dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          cat /tmp/hltv-scraper-api.log
+          exit 1
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Test calendar generator
+        run: npm test
+
+      - name: Generate calendar
+        run: npm run generate
+
+      - name: Publish generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ics/finalCalendar.ics jsons/finalCalendar.json
+          git diff --cached --quiet || git commit -m "Update calendar"
+          git push
