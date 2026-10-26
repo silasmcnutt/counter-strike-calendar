@@ -1,7 +1,7 @@
 {
   "name": "counter-strike-calendar",
   "version": "1.0.0",
-  "description": "A UTC ICS calendar containing recent and upcoming matches involving HLTV top-30 teams.",
+  "description": "A UTC ICS calendar containing recent and upcoming S-tier and A-tier Counter-Strike matches.",
   "private": true,
   "main": "scripts/main.js",
   "scripts": {

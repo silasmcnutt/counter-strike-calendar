@@ -9,16 +9,15 @@
 
 This repository publishes an iCalendar feed containing:
 
-- Upcoming matches where at least one team is in HLTV's current top 30.
-- Completed matches from the previous 14 days involving a top-30 team.
-- Scores and map-by-map results for completed matches when HLTV provides them.
+- Upcoming and completed matches from CitoAPI whose event is S or A tier.
+- Completed scores and map-by-map results when CitoAPI provides them.
 
-The calendar uses the unofficial
-[SocksPls/hltv-api](https://github.com/SocksPls/hltv-api) Python library
-directly. No Flask server or other local API service is required.
+The calendar uses CitoAPI's CS2 matches endpoint. It only includes matches
+whose event tier is S or A, and updates existing events by match ID.
 The generator keeps existing events by match ID, adds new upcoming matches,
 and updates existing events when scores, maps, or start times become
-available. New matches without a usable start time are omitted.
+available. New matches without a usable start time are omitted. Completed
+events are removed once they are 14 days old; future events remain scheduled.
 
 ## Subscribe to the calendar
 
@@ -37,30 +36,15 @@ https://raw.githubusercontent.com/silasmcnutt/counter-strike-calendar/main/ics/f
 
 ### Apple Calendar or Outlook
 
-Add a calendar subscription using the same URL. The calendar client controls
-how frequently it refreshes a subscribed feed; GitHub updates the file hourly.
+Add a calendar subscription using the same URL. The calendar client controls how frequently it refreshes a subscribed feed;
+GitHub updates the file at 00:00 and 12:00 UTC.
 
 ## Local development
 
 ### Requirements
 
 - Node.js 18 or newer
-- Python 3.12 or newer for the HLTV library
-- Git
-
-### Install the HLTV library
-
-The generator invokes the library through a small JSON bridge. Clone it next
-to this repository and install its dependencies:
-
-```powershell
-git clone https://github.com/SocksPls/hltv-api.git ..\hltv-api
-cd ..\hltv-api
-python -m pip install -r requirements.txt
-cd ..\counter-strike-calendar
-```
-
-If the library is in another location, set `HLTV_API_PATH` to that directory.
+- A CitoAPI key
 
 ### Generate the calendar
 
@@ -72,6 +56,9 @@ npm test
 npm run generate
 ```
 
+The local generator reads `CITO_API_KEY` from `.env`. Never commit that file.
+GitHub Actions reads the `CITO_API_KEY` repository secret.
+
 The generated files are:
 
 - [`ics/finalCalendar.ics`](./ics/finalCalendar.ics) - the calendar feed.
@@ -80,49 +67,56 @@ The generated files are:
 
 ## Configuration
 
-The generator uses these optional environment variables:
+The generator uses this optional environment variable:
 
 | Variable | Default | Description |
 | --- | --- | --- |
-| `HLTV_API_PATH` | `..\hltv-api` | Directory containing the cloned `main.py` library |
-| `MATCH_LOOKBACK_DAYS` | `14` | Age limit for completed events |
+| `MATCH_LOOKBACK_DAYS` | `14` | Age limit for past events |
 
 Example:
 
 ```powershell
-$env:HLTV_API_PATH = "..\hltv-api"
 $env:MATCH_LOOKBACK_DAYS = "14"
 npm run generate
 ```
 
-All event times in the ICS feed are UTC timestamps. The API's timezone-less
-HLTV times are interpreted in `Europe/Stockholm`, including daylight-saving
-transitions, before conversion to UTC.
+All event times in the ICS feed are UTC timestamps. CitoAPI provides ISO 8601
+timestamps with timezone information, which are preserved and serialized as
+UTC.
 
-## Library functions used
+## CitoAPI integration
 
-The bridge invokes these functions from
-[SocksPls/hltv-api](https://github.com/SocksPls/hltv-api):
+The generator makes one request to:
 
-- `top30teams()` for the current ranking.
-- `get_matches()` for upcoming matches.
-- `get_results()` for completed matches.
-- `get_results_by_date()` for map-by-map scores during the lookback window.
+- `GET https://api.citoapi.com/api/v1/cs2/matches/today`
 
-The upstream library scrapes HLTV directly and may occasionally be affected by
-HLTV availability, Cloudflare, or rate limiting. The generator reports library
-errors instead of silently replacing the calendar with an empty feed. If the
-optional map-results page is unavailable, the generator logs a warning and
-continues with the aggregate completed-match score.
+The API key is sent using the `x-api-key` header. The workflow runs at 00:00
+and 12:00 UTC. The generator also enforces that schedule and records the last
+successful UTC slot in `jsons/cito-api-state.json`, preventing duplicate calls
+for the same slot.
+
+The endpoint is called only after the configured key is available. The response
+is expected to contain a `data` array, with each match's `event.tier`,
+`startsAt`, teams, scores, and optional map results.
+
+GitHub setup:
+
+1. Add `CITO_API_KEY` under **Settings > Secrets and variables > Actions** as
+   a repository secret.
+2. Ensure workflow permissions allow **Read and write permissions**.
+3. Keep the workflow file on the default branch. GitHub runs it at 00:00 and
+   12:00 UTC; scheduled workflows can be delayed by GitHub load.
+4. The generator rejects duplicate executions for the same UTC slot and
+   commits the updated ICS, JSON, and slot state files.
 
 ## Project layout
 
-- [`scripts/generateCalendar.js`](./scripts/generateCalendar.js) - API
+- [`scripts/generateCalendar.js`](./scripts/generateCalendar.js) - CitoAPI
   integration, event merging, filtering, and ICS serialization.
 - [`scripts/main.js`](./scripts/main.js) - command-line entry point.
 - [`test/generateCalendar.test.js`](./test/generateCalendar.test.js) - tests.
 - [`.github/workflows/update-calendar.yml`](./.github/workflows/update-calendar.yml)
-  - hourly GitHub Actions job.
+  - twice-daily GitHub Actions job.
 
 ## License
 

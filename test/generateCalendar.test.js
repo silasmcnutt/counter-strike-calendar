@@ -1,121 +1,54 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
-	extractTopTeams,
 	normalizeMatch,
-	mergeMatchDetail,
 	mergeCalendarEvent,
-	adaptLibraryMatch,
-	collectMapResults,
+	normalizeCitoMatch,
+	isQualifyingTier,
+	citoSlot,
 	filterMatches,
 	toIcs,
 } = require('../scripts/generateCalendar');
 
-test('extracts the first 30 teams from nested ranking rows', () => {
-	const rankings = Array.from({ length: 31 }, (_, index) => ({ rank: index + 1, team: { name: `Team ${index + 1}` } }));
-	const teams = extractTopTeams([{ ranking: rankings }]);
-	assert.equal(teams.size, 30);
-	assert.equal(teams.has('team30'), true);
-	assert.equal(teams.has('team31'), false);
+test('keeps only S and A tier Cito matches', () => {
+	assert.equal(isQualifyingTier('S'), true);
+	assert.equal(isQualifyingTier('A'), true);
+	assert.equal(isQualifyingTier('B'), false);
+	assert.equal(normalizeCitoMatch({
+		id: 'cs2-match-1',
+		startsAt: '2026-10-26T18:00:00.000Z',
+		status: 'upcoming',
+		event: { name: 'Example', tier: 'A' },
+		bestOf: 3,
+		team1Name: 'Spirit',
+		team2Name: 'G2',
+		team1Score: null,
+		team2Score: null,
+	}).event, 'Example');
+	assert.equal(normalizeCitoMatch({
+		id: 'cs2-match-2',
+		startsAt: '2026-10-26T18:00:00.000Z',
+		event: { name: 'Lower tier', tier: 'B' },
+		team1Name: 'Spirit',
+		team2Name: 'G2',
+	}), null);
 });
 
-test('extracts rankings from nested data wrappers', () => {
-	const teams = extractTopTeams({ data: { ranking: [{ name: 'Spirit' }] } });
-	assert.deepEqual([...teams], ['spirit']);
+test('creates 12-hour UTC Cito slots', () => {
+	assert.equal(citoSlot(new Date('2026-10-26T00:00:00.000Z')), '2026-10-26-00');
+	assert.equal(citoSlot(new Date('2026-10-26T12:00:00.000Z')), '2026-10-26-12');
 });
 
-test('adapts SocksPls library match records', () => {
-	const upcoming = adaptLibraryMatch({
-		'match-id': 123,
-		date: '2026-10-27',
-		time: '15:30',
-		team1: 'Spirit',
-		team2: 'FURIA',
-		event: 'Example event',
-		url: 'https://hltv.org/matches/123/spirit-vs-furia',
-	}, false);
-	assert.equal(upcoming.id, 123);
-	assert.equal(upcoming.hour, '15:30');
-	assert.equal(upcoming.link, 'https://hltv.org/matches/123/spirit-vs-furia');
-	assert.equal(upcoming.team1, 'Spirit');
-});
-
-test('collects map scores by library match ID', () => {
-	const maps = collectMapResults([{
-		'match-id': 123,
-		map: 'Mirage',
-		team1: 'Spirit',
-		team1score: 16,
-		team2: 'FURIA',
-		team2score: 12,
-	}]);
-	assert.deepEqual(maps.get('123'), [{
-		map_name: 'Mirage',
-		score: { Spirit: 16, FURIA: 12 },
-	}]);
-});
-
-test('converts completed HLTV time to UTC', () => {
+test('normalizes upcoming Cito matches', () => {
 	const match = normalizeMatch({
-		id: 42,
-		date: '25th of October 2026',
-		hour: '12:00',
-		team1: { name: 'Spirit', score: 2 },
-		team2: { name: 'G2', score: 1 },
-		map: 'bo3',
-		event: { name: 'Example event' },
-	}, true);
-	assert.equal(match.summary, 'Spirit vs G2 (2-1)');
-	assert.equal(match.start, '2026-10-25T11:00:00.000Z');
-	assert.match(match.description, /Final score: Spirit 2 - G2 1/);
-});
-
-test('parses an HLTV match-detail date format', () => {
-	const match = normalizeMatch({
-		id: 2399736,
-		date: '26th of October 2026',
-		hour: '09:00',
-		team1: { name: 'Nemiga', score: '0' },
-		team2: { name: 'Aurora', score: '2' },
-		map: 'bo3',
-		event: 'PGL Masters Bucharest 2026',
-	}, true);
-	assert.equal(match.start, '2026-10-26T08:00:00.000Z');
-	assert.equal(match.summary, 'Nemiga vs Aurora (0-2)');
-});
-
-test('preserves results when match details contain null placeholders', () => {
-	const result = {
-		id: '2399725',
-		date: '2026-10-24',
-		link: '/matches/2399725/g2-vs-natus-vincere',
-		team1: { name: 'G2', score: '2' },
-		team2: { name: 'Natus Vincere', score: '0' },
-		event: 'PGL Masters Bucharest 2026',
-		map: 'bo3',
-	};
-	const detail = {
-		date: null,
-		hour: null,
-		event: null,
-		team1: { name: null, score: null },
-		team2: { name: null, score: null },
-	};
-	const match = normalizeMatch(mergeMatchDetail(result, detail), true);
-	assert.equal(match, null);
-});
-
-test('normalizes upcoming matches using their API link as the match ID', () => {
-	const match = normalizeMatch({
-		link: '/matches/2399739/spirit-vs-furia',
-		date: '2026-10-27',
-		hour: '15:00',
-		meta: 'bo3',
+		id: 'cs2-match-2399739',
+		date: '2026-10-27T14:00:00.000Z',
+		format: 'BO3',
 		event: 'Example event',
 		team1: { name: 'Spirit' },
 		team2: { name: 'FURIA' },
 	}, false);
-	assert.equal(match.id, '2399739');
+	assert.equal(match.id, 'cs2-match-2399739');
 	assert.equal(match.summary, 'Spirit vs FURIA');
 	assert.match(match.description, /Event: Example event/);
 	assert.match(match.description, /Status: scheduled/);
@@ -125,8 +58,7 @@ test('normalizes upcoming matches using their API link as the match ID', () => {
 test('includes map scores without player statistics in completed descriptions', () => {
 	const match = normalizeMatch({
 		id: 7,
-		date: '26th of October 2026',
-		hour: '09:00',
+		date: '2026-10-26T08:00:00.000Z',
 		team1: { name: 'Spirit', score: '2' },
 		team2: { name: 'G2', score: '1' },
 		map: 'bo3',
@@ -137,26 +69,6 @@ test('includes map scores without player statistics in completed descriptions', 
 	assert.doesNotMatch(match.description, /Player statistics|donk|K-D/);
 });
 
-test('merges detail maps alongside the match object', () => {
-	const result = {
-		id: '2399736',
-		date: '2026-10-26',
-		team1: { name: 'Nemiga', score: '0' },
-		team2: { name: 'Aurora', score: '2' },
-	};
-	const detail = {
-		match: { date: '26th of October 2026', hour: '09:00' },
-		maps: [{ map_name: 'Mirage', score: { Nemiga: '14', Aurora: '16' } }],
-	};
-	const merged = mergeMatchDetail(result, {
-		...detail.match,
-		maps: detail.maps,
-	});
-	const match = normalizeMatch(merged, true);
-	assert.match(match.description, /Mirage: Nemiga 14 - Aurora 16/);
-	assert.doesNotMatch(match.description, /Player statistics/);
-});
-
 test('keeps matches with either top team and removes duplicates', () => {
 	const now = new Date('2026-10-26T12:00:00Z');
 	const matches = [
@@ -164,7 +76,7 @@ test('keeps matches with either top team and removes duplicates', () => {
 		{ id: '1', start: '2026-10-26T10:00:00.000Z', teams: ['Spirit', 'Unknown'] },
 		{ id: '2', start: '2026-10-01T10:00:00.000Z', teams: ['Spirit', 'G2'] },
 	];
-	assert.deepEqual(filterMatches(matches, new Set(['spirit']), now).map(({ id }) => [id]), [['1']]);
+	assert.deepEqual(filterMatches(matches, now).map(({ id }) => [id]), [['1']]);
 });
 
 test('writes UTC DTSTART and escaped ICS text', () => {
@@ -177,7 +89,7 @@ test('writes UTC DTSTART and escaped ICS text', () => {
 test('preserves an existing start when result details omit the time', () => {
 	const incoming = normalizeMatch({
 		id: '1',
-		date: '2026-10-24',
+		date: undefined,
 		team1: { name: 'G2', score: '2' },
 		team2: { name: 'Natus Vincere', score: '0' },
 		event: 'Example event',
@@ -188,4 +100,36 @@ test('preserves an existing start when result details omit the time', () => {
 	});
 	assert.equal(incoming.start, '2026-10-24T10:00:00.000Z');
 	assert.equal(mergeCalendarEvent({ id: '1', start: '2026-10-24T10:00:00.000Z' }, incoming).start, '2026-10-24T10:00:00.000Z');
+});
+
+test('updates an existing event with newly available Cito results', () => {
+	const existing = {
+		id: 'cs2-match-1',
+		start: '2026-10-26T18:00:00.000Z',
+		end: '2026-10-26T21:00:00.000Z',
+		summary: 'Spirit vs G2',
+		description: 'Status: scheduled',
+	};
+	const incoming = normalizeMatch({
+		id: 'cs2-match-1',
+		date: '2026-10-26T18:00:00.000Z',
+		event: { name: 'Example event' },
+		team1: { name: 'Spirit', score: 2 },
+		team2: { name: 'G2', score: 1 },
+	}, true, existing);
+	const updated = mergeCalendarEvent(existing, incoming);
+	assert.equal(updated.id, existing.id);
+	assert.equal(updated.summary, 'Spirit vs G2 (2-1)');
+	assert.match(updated.description, /Final score: Spirit 2 - G2 1/);
+});
+
+test('removes events at and beyond the two-week threshold', () => {
+	const now = new Date('2026-10-26T12:00:00.000Z');
+	const matches = [
+		{ id: 'exact', start: '2026-10-12T12:00:00.000Z' },
+		{ id: 'old', start: '2026-10-12T11:59:59.000Z' },
+		{ id: 'recent', start: '2026-10-12T12:00:01.000Z' },
+		{ id: 'future', start: '2026-11-01T12:00:00.000Z' },
+	];
+	assert.deepEqual(filterMatches(matches, now).map(({ id }) => id), ['recent', 'future']);
 });

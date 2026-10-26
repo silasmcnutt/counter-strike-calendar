@@ -1,9 +1,8 @@
 name: Update Counter-Strike calendar
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 0,12 * * *'
 
 permissions:
   contents: write
@@ -27,19 +26,6 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install HLTV library
-        run: |
-          git clone --depth 1 https://github.com/SocksPls/hltv-api.git ../hltv-api
-          python -m pip install --upgrade pip
-          grep -v '^lxml==' ../hltv-api/requirements.txt > /tmp/hltv-requirements.txt
-          python -m pip install -r /tmp/hltv-requirements.txt
-          python -m pip install 'lxml>=5'
-
       - name: Install Node dependencies
         run: npm ci
 
@@ -48,13 +34,13 @@ jobs:
 
       - name: Generate calendar
         env:
-          HLTV_API_PATH: ../hltv-api
+          CITO_API_KEY: ${{ secrets.CITO_API_KEY }}
         run: npm run generate
 
       - name: Publish generated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ics/finalCalendar.ics jsons/finalCalendar.json
+          git add ics/finalCalendar.ics jsons/finalCalendar.json jsons/cito-api-state.json
           git diff --cached --quiet || git commit -m "Update calendar"
           git push
