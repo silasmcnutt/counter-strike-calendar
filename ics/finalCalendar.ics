@@ -4,111 +4,381 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
+UID:cs2-match-2399728@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261025T080000Z
+DTEND:20261025T110000Z
+SUMMARY:FUT vs Liquid (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: FUT 2 - Liquid 0\nMap scores:\n- Cache: FUT 13 - Liquid 5\n- Dust2: FUT 13 - Liquid 9
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399727@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261025T080000Z
+DTEND:20261025T110000Z
+SUMMARY:Spirit vs TYLOO (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Spirit 2 - TYLOO 0\nMap scores:\n- Mirage: Spirit 13 - TYLOO 5\n- Anubis: Spirit 13 - TYLOO 3
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399729@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261025T094000Z
+DTEND:20261025T124000Z
+SUMMARY:Vitality vs The MongolZ (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Vitality 2 - The MongolZ 0\nMap scores:\n- Inferno: Vitality 13 - The MongolZ 6\n- Cache: Vitality 13 - The MongolZ 3
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399730@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261025T100000Z
+DTEND:20261025T130000Z
+SUMMARY:BETBOOM vs Nemiga (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: BETBOOM 2 - Nemiga 0\nMap scores:\n- Anubis: BETBOOM 13 - Nemiga 3\n- Mirage: BETBOOM 13 - Nemiga 11
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399731@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261025T130000Z
+DTEND:20261025T160000Z
+SUMMARY:G2 vs Aurora (0-2)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: G2 0 - Aurora 2\nMap scores:\n- Cache: G2 11 - Aurora 13\n- Inferno: G2 14 - Aurora 16
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399732@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261025T130000Z
+DTEND:20261025T160000Z
+SUMMARY:MOUZ vs 9z (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: MOUZ 2 - 9z 0\nMap scores:\n- Dust2: MOUZ 13 - 9z 5\n- Nuke: MOUZ 13 - 9z 3
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399734@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261025T145000Z
+DTEND:20261025T175000Z
+SUMMARY:Legacy vs DENDELE (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Legacy 2 - DENDELE 0\nMap scores:\n- Cache: Legacy 13 - DENDELE 9\n- Mirage: Legacy 19 - DENDELE 17
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399733@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261025T154500Z
+DTEND:20261025T184500Z
+SUMMARY:FURIA vs Natus Vincere (0-2)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: FURIA 0 - Natus Vincere 2\nMap scores:\n- Ancient: FURIA 10 - Natus Vincere 13\n- Dust2: FURIA 5 - Natus Vincere 13
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
 UID:cs2-match-2399736@counter-strike-calendar
-DTSTAMP:20261026T155037Z
+DTSTAMP:20261026T233847Z
 DTSTART:20261026T080000Z
 DTEND:20261026T110000Z
 SUMMARY:Nemiga vs Aurora (0-2)
-DESCRIPTION:Event: PGL Masters Bucharest 2026\nFormat: BO3\nMatch ID: cs2-match-2399736\nStatus: completed\nFinal score: Nemiga 0 - Aurora 2\nMap scores:\n- Mirage: Nemiga 14 - Aurora 16\n- Anubis: Nemiga 4 - Aurora 13
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Nemiga 0 - Aurora 2\nMap scores:\n- Mirage: Nemiga 14 - Aurora 16\n- Anubis: Nemiga 4 - Aurora 13
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399735@counter-strike-calendar
-DTSTAMP:20261026T155037Z
+DTSTAMP:20261026T233847Z
 DTSTART:20261026T080000Z
 DTEND:20261026T110000Z
 SUMMARY:The MongolZ vs MOUZ (0-2)
-DESCRIPTION:Event: PGL Masters Bucharest 2026\nFormat: BO3\nMatch ID: cs2-match-2399735\nStatus: completed\nFinal score: The MongolZ 0 - MOUZ 2\nMap scores:\n- Nuke: The MongolZ 11 - MOUZ 13\n- Mirage: The MongolZ 9 - MOUZ 13
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: The MongolZ 0 - MOUZ 2\nMap scores:\n- Nuke: The MongolZ 11 - MOUZ 13\n- Mirage: The MongolZ 9 - MOUZ 13
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399116@counter-strike-calendar
-DTSTAMP:20261026T155037Z
+DTSTAMP:20261026T233847Z
 DTSTART:20261026T090000Z
 DTEND:20261026T120000Z
 SUMMARY:Nemesis vs INOX Division (2-0)
-DESCRIPTION:Event: NODWIN Clutch Series 13\nFormat: BO3\nMatch ID: cs2-match-2399116\nStatus: completed\nFinal score: Nemesis 2 - INOX Division 0\nMap scores:\n- Dust2: Nemesis 13 - INOX Division 7\n- Cache: Nemesis 13 - INOX Division 5
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Nemesis 2 - INOX Division 0\nMap scores:\n- Dust2: Nemesis 13 - INOX Division 7\n- Cache: Nemesis 13 - INOX Division 5
 LOCATION:NODWIN Clutch Series 13
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399737@counter-strike-calendar
-DTSTAMP:20261026T155037Z
+DTSTAMP:20261026T233847Z
 DTSTART:20261026T102000Z
 DTEND:20261026T132000Z
 SUMMARY:Vitality vs FUT (1-2)
-DESCRIPTION:Event: PGL Masters Bucharest 2026\nFormat: BO3\nMatch ID: cs2-match-2399737\nStatus: completed\nFinal score: Vitality 1 - FUT 2\nMap scores:\n- Mirage: Vitality 13 - FUT 9\n- Dust2: Vitality 9 - FUT 13\n- Anubis: Vitality 10 - FUT 13
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Vitality 1 - FUT 2\nMap scores:\n- Mirage: Vitality 13 - FUT 9\n- Dust2: Vitality 9 - FUT 13\n- Anubis: Vitality 10 - FUT 13
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399738@counter-strike-calendar
-DTSTAMP:20261026T155037Z
+DTSTAMP:20261026T233847Z
 DTSTART:20261026T105500Z
 DTEND:20261026T135500Z
 SUMMARY:9z vs TYLOO (1-2)
-DESCRIPTION:Event: PGL Masters Bucharest 2026\nFormat: BO3\nMatch ID: cs2-match-2399738\nStatus: completed\nFinal score: 9z 1 - TYLOO 2\nMap scores:\n- Inferno: 9z 13 - TYLOO 11\n- Nuke: 9z 5 - TYLOO 13\n- Mirage: 9z 7 - TYLOO 13
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: 9z 1 - TYLOO 2\nMap scores:\n- Inferno: 9z 13 - TYLOO 11\n- Nuke: 9z 5 - TYLOO 13\n- Mirage: 9z 7 - TYLOO 13
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399117@counter-strike-calendar
-DTSTAMP:20261026T155037Z
+DTSTAMP:20261026T233847Z
 DTSTART:20261026T120000Z
 DTEND:20261026T150000Z
 SUMMARY:FOKUS vs ex-Zero Tenacity (2-0)
-DESCRIPTION:Event: NODWIN Clutch Series 13\nFormat: BO3\nMatch ID: cs2-match-2399117\nStatus: completed\nFinal score: FOKUS 2 - ex-Zero Tenacity 0\nMap scores:\n- Dust2: FOKUS 13 - ex-Zero Tenacity 11\n- Nuke: FOKUS 13 - ex-Zero Tenacity 6
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: FOKUS 2 - ex-Zero Tenacity 0\nMap scores:\n- Dust2: FOKUS 13 - ex-Zero Tenacity 11\n- Nuke: FOKUS 13 - ex-Zero Tenacity 6
 LOCATION:NODWIN Clutch Series 13
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399739@counter-strike-calendar
-DTSTAMP:20261026T155037Z
+DTSTAMP:20261026T233847Z
 DTSTART:20261026T134000Z
 DTEND:20261026T164000Z
-SUMMARY:Spirit vs FURIA (1-1)
-DESCRIPTION:Event: PGL Masters Bucharest 2026\nFormat: BO3\nMatch ID: cs2-match-2399739\nStatus: completed\nFinal score: Spirit 1 - FURIA 1\nMap scores:\n- Nuke: Spirit 13 - FURIA 7\n- Ancient: Spirit 8 - FURIA 13
+SUMMARY:Spirit vs FURIA (2-1)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Spirit 2 - FURIA 1\nMap scores:\n- Nuke: Spirit 13 - FURIA 7\n- Ancient: Spirit 8 - FURIA 13\n- Mirage: Spirit 13 - FURIA 11
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399740@counter-strike-calendar
-DTSTAMP:20261026T155037Z
+DTSTAMP:20261026T233847Z
 DTSTART:20261026T135500Z
 DTEND:20261026T165500Z
-SUMMARY:Liquid vs Legacy (1-0)
-DESCRIPTION:Event: PGL Masters Bucharest 2026\nFormat: BO3\nMatch ID: cs2-match-2399740\nStatus: completed\nFinal score: Liquid 1 - Legacy 0\nMap scores:\n- Ancient: Liquid 13 - Legacy 10\n- Inferno: Liquid 4 - Legacy 5
+SUMMARY:Liquid vs Legacy (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Liquid 2 - Legacy 0\nMap scores:\n- Ancient: Liquid 13 - Legacy 10\n- Inferno: Liquid 13 - Legacy 8
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399118@counter-strike-calendar
-DTSTAMP:20261026T155037Z
+DTSTAMP:20261026T233847Z
 DTSTART:20261026T150000Z
 DTEND:20261026T180000Z
 SUMMARY:Metizport vs BRUTE (0-0)
-DESCRIPTION:Event: NODWIN Clutch Series 13\nFormat: BO3\nMatch ID: cs2-match-2399118\nStatus: completed\nFinal score: Metizport 0 - BRUTE 0\nMap scores:\n- Inferno: Metizport 6 - BRUTE 13
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Metizport 0 - BRUTE 0\nMap scores:\n- Inferno: Metizport 6 - BRUTE 13
 LOCATION:NODWIN Clutch Series 13
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399742@counter-strike-calendar
-DTSTAMP:20261026T155037Z
-DTSTART:20261026T170000Z
-DTEND:20261026T200000Z
-SUMMARY:G2 vs DENDELE
-DESCRIPTION:Event: PGL Masters Bucharest 2026\nFormat: BO3\nMatch ID: cs2-match-2399742\nStatus: scheduled
+DTSTAMP:20261026T233847Z
+DTSTART:20261026T163000Z
+DTEND:20261026T193000Z
+SUMMARY:G2 vs DENDELE (1-2)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: G2 1 - DENDELE 2\nMap scores:\n- Nuke: G2 5 - DENDELE 13\n- Ancient: G2 16 - DENDELE 14\n- Inferno: G2 5 - DENDELE 13
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399741@counter-strike-calendar
-DTSTAMP:20261026T155037Z
+DTSTAMP:20261026T233847Z
 DTSTART:20261026T170000Z
 DTEND:20261026T200000Z
-SUMMARY:BETBOOM vs Natus Vincere
-DESCRIPTION:Event: PGL Masters Bucharest 2026\nFormat: BO3\nMatch ID: cs2-match-2399741\nStatus: scheduled
+SUMMARY:BETBOOM vs Natus Vincere (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: BETBOOM 2 - Natus Vincere 0\nMap scores:\n- Dust2: BETBOOM 13 - Natus Vincere 10\n- Nuke: BETBOOM 13 - Natus Vincere 9
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399119@counter-strike-calendar
-DTSTAMP:20261026T155037Z
+DTSTAMP:20261026T233847Z
 DTSTART:20261026T180000Z
 DTEND:20261026T210000Z
 SUMMARY:Nuclear TigeRES vs UNiTY
-DESCRIPTION:Event: NODWIN Clutch Series 13\nFormat: BO3\nMatch ID: cs2-match-2399119\nStatus: scheduled
+DESCRIPTION:Format: BO3\nStatus: scheduled
 LOCATION:NODWIN Clutch Series 13
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399866@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261027T080000Z
+DTEND:20261027T110000Z
+SUMMARY:B8 vs K27
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:RLG Tesla Cup 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399867@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261027T110000Z
+DTEND:20261027T140000Z
+SUMMARY:Alliance vs FaZe
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:RLG Tesla Cup 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399743@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261027T110000Z
+DTEND:20261027T140000Z
+SUMMARY:Liquid vs Aurora
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399744@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261027T110000Z
+DTEND:20261027T140000Z
+SUMMARY:Nemiga vs DENDELE
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399745@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261027T140000Z
+DTEND:20261027T170000Z
+SUMMARY:Spirit vs MOUZ
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399746@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261027T140000Z
+DTEND:20261027T170000Z
+SUMMARY:The MongolZ vs Legacy
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399869@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261027T170000Z
+DTEND:20261027T200000Z
+SUMMARY:Luminosity vs HOTU
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:RLG Tesla Cup 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399747@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261027T170000Z
+DTEND:20261027T200000Z
+SUMMARY:Vitality vs Natus Vincere
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399748@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261027T170000Z
+DTEND:20261027T200000Z
+SUMMARY:FURIA vs TYLOO
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399870@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261027T200000Z
+DTEND:20261027T230000Z
+SUMMARY:Envy vs GamerLegion
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:RLG Tesla Cup 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399855@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261102T070000Z
+DTEND:20261102T100000Z
+SUMMARY:Legacy vs The MongolZ
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:IEM Beijing 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399857@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261102T070000Z
+DTEND:20261102T100000Z
+SUMMARY:FURIA vs FaZe
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:IEM Beijing 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399856@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261102T070000Z
+DTEND:20261102T100000Z
+SUMMARY:HEROIC vs B8
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:IEM Beijing 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399860@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261102T070000Z
+DTEND:20261102T100000Z
+SUMMARY:9z vs BETBOOM
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:IEM Beijing 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399861@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261102T070000Z
+DTEND:20261102T100000Z
+SUMMARY:Aurora vs Liquid
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:IEM Beijing 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399859@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261102T070000Z
+DTEND:20261102T100000Z
+SUMMARY:MOUZ vs TYLOO
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:IEM Beijing 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399862@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261102T070000Z
+DTEND:20261102T100000Z
+SUMMARY:PARIVISION vs G2
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:IEM Beijing 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399858@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261102T070000Z
+DTEND:20261102T100000Z
+SUMMARY:Natus Vincere vs Falcons
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:IEM Beijing 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399851@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261111T030000Z
+DTEND:20261111T060000Z
+SUMMARY:Legacy vs FURIA
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:BLAST Rivals 2026 Season 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399852@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261111T053000Z
+DTEND:20261111T083000Z
+SUMMARY:Vitality vs Falcons
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:BLAST Rivals 2026 Season 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399853@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261111T080000Z
+DTEND:20261111T110000Z
+SUMMARY:Spirit vs FUT
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:BLAST Rivals 2026 Season 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399854@counter-strike-calendar
+DTSTAMP:20261026T233847Z
+DTSTART:20261111T103000Z
+DTEND:20261111T133000Z
+SUMMARY:MOUZ vs G2
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:BLAST Rivals 2026 Season 2
 END:VEVENT
 END:VCALENDAR
