@@ -427,10 +427,12 @@ async function generateCalendar() {
 		if (error.code === 'ENOENT') return {};
 		throw error;
 	});
-	if (!isCitoSlot(slot)) {
+	const manualRun = process.env.GITHUB_EVENT_NAME === 'workflow_dispatch' ||
+		process.env.CITO_MANUAL_RUN === 'true';
+	if (!manualRun && !isCitoSlot(slot)) {
 		throw new Error(`CitoAPI may only be called on a three-hour Eastern slot; current slot is ${currentSlot}`);
 	}
-	if (state.lastSuccessfulSlot === currentSlot) {
+	if (!manualRun && state.lastSuccessfulSlot === currentSlot) {
 		throw new Error(`CitoAPI has already been called for the ${currentSlot} Eastern slot`);
 	}
 	const citoMatches = (await fetchCitoMatches()).map(normalizeCitoMatch).filter(Boolean);

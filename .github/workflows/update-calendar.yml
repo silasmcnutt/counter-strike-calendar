@@ -3,6 +3,7 @@ name: Update Counter-Strike calendar
 on:
   schedule:
     - cron: '0 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write

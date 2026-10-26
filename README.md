@@ -108,11 +108,16 @@ GitHub setup:
 1. Add `CITO_API_KEY` under **Settings > Secrets and variables > Actions** as
    a repository secret.
 2. Ensure workflow permissions allow **Read and write permissions**.
-   3. Keep the workflow file on the default branch. GitHub runs its hourly check
+3. Keep the workflow file on the default branch. GitHub runs its hourly check
    in UTC; the generator selects the three-hour Eastern slots. Scheduled
    workflows can be delayed by GitHub load.
-   4. The generator rejects duplicate executions for the same Eastern slot and
-   commits the updated ICS, JSON, and slot state files.
+4. The generator rejects duplicate scheduled executions for the same Eastern
+   slot and commits the updated ICS, JSON, and slot state files.
+
+To refresh manually, open **Actions > Update Counter-Strike calendar**, select
+**Run workflow**, choose the branch, and confirm. A manual run intentionally
+bypasses the three-hour slot restriction and duplicate-slot check so it can be
+started whenever desired.
 
 ## Project layout
 
