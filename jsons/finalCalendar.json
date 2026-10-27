@@ -160,22 +160,6 @@
     "location": "NODWIN Clutch Series 13"
   },
   {
-    "id": "cs2-match-2399866",
-    "start": "2026-10-27T08:00:00Z",
-    "end": "2026-10-27T11:00:00Z",
-    "summary": "B8 vs K27",
-    "description": "Format: BO3\nStatus: scheduled",
-    "location": "RLG Tesla Cup 2026"
-  },
-  {
-    "id": "cs2-match-2399867",
-    "start": "2026-10-27T11:00:00Z",
-    "end": "2026-10-27T14:00:00Z",
-    "summary": "Alliance vs FaZe",
-    "description": "Format: BO3\nStatus: scheduled",
-    "location": "RLG Tesla Cup 2026"
-  },
-  {
     "id": "cs2-match-2399743",
     "start": "2026-10-27T11:00:00.000Z",
     "end": "2026-10-27T14:00:00.000Z",
@@ -208,14 +192,6 @@
     "location": "PGL Masters Bucharest 2026"
   },
   {
-    "id": "cs2-match-2399869",
-    "start": "2026-10-27T17:00:00Z",
-    "end": "2026-10-27T20:00:00Z",
-    "summary": "Luminosity vs HOTU",
-    "description": "Format: BO3\nStatus: scheduled",
-    "location": "RLG Tesla Cup 2026"
-  },
-  {
     "id": "cs2-match-2399747",
     "start": "2026-10-27T17:00:00.000Z",
     "end": "2026-10-27T20:00:00.000Z",
@@ -230,14 +206,6 @@
     "summary": "FURIA vs TYLOO",
     "description": "Format: BO3\nStatus: scheduled",
     "location": "PGL Masters Bucharest 2026"
-  },
-  {
-    "id": "cs2-match-2399870",
-    "start": "2026-10-27T20:00:00Z",
-    "end": "2026-10-27T23:00:00Z",
-    "summary": "Envy vs GamerLegion",
-    "description": "Format: BO3\nStatus: scheduled",
-    "location": "RLG Tesla Cup 2026"
   },
   {
     "id": "cs2-match-2399855",
