@@ -80,14 +80,6 @@
     "location": "PGL Masters Bucharest 2026"
   },
   {
-    "id": "cs2-match-2399116",
-    "start": "2026-10-26T09:00:00Z",
-    "end": "2026-10-26T12:00:00Z",
-    "summary": "Nemesis vs INOX Division (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Nemesis 2 - INOX Division 0\nMap scores:\n- Dust2: Nemesis 13 - INOX Division 7\n- Cache: Nemesis 13 - INOX Division 5",
-    "location": "NODWIN Clutch Series 13"
-  },
-  {
     "id": "cs2-match-2399737",
     "start": "2026-10-26T10:20:00.000Z",
     "end": "2026-10-26T13:20:00.000Z",
@@ -102,14 +94,6 @@
     "summary": "9z vs TYLOO (1-2)",
     "description": "Format: BO3\nStatus: completed\nFinal score: 9z 1 - TYLOO 2\nMap scores:\n- Inferno: 9z 13 - TYLOO 11\n- Nuke: 9z 5 - TYLOO 13\n- Mirage: 9z 7 - TYLOO 13",
     "location": "PGL Masters Bucharest 2026"
-  },
-  {
-    "id": "cs2-match-2399117",
-    "start": "2026-10-26T12:00:00Z",
-    "end": "2026-10-26T15:00:00Z",
-    "summary": "FOKUS vs ex-Zero Tenacity (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: FOKUS 2 - ex-Zero Tenacity 0\nMap scores:\n- Dust2: FOKUS 13 - ex-Zero Tenacity 11\n- Nuke: FOKUS 13 - ex-Zero Tenacity 6",
-    "location": "NODWIN Clutch Series 13"
   },
   {
     "id": "cs2-match-2399739",
@@ -128,14 +112,6 @@
     "location": "PGL Masters Bucharest 2026"
   },
   {
-    "id": "cs2-match-2399118",
-    "start": "2026-10-26T15:00:00Z",
-    "end": "2026-10-26T18:00:00Z",
-    "summary": "Metizport vs BRUTE (0-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Metizport 0 - BRUTE 0\nMap scores:\n- Inferno: Metizport 6 - BRUTE 13",
-    "location": "NODWIN Clutch Series 13"
-  },
-  {
     "id": "cs2-match-2399742",
     "start": "2026-10-26T16:30:00.000Z",
     "end": "2026-10-26T19:30:00.000Z",
@@ -150,14 +126,6 @@
     "summary": "BETBOOM vs Natus Vincere (2-0)",
     "description": "Format: BO3\nStatus: completed\nFinal score: BETBOOM 2 - Natus Vincere 0\nMap scores:\n- Dust2: BETBOOM 13 - Natus Vincere 10\n- Nuke: BETBOOM 13 - Natus Vincere 9",
     "location": "PGL Masters Bucharest 2026"
-  },
-  {
-    "id": "cs2-match-2399119",
-    "start": "2026-10-26T18:00:00Z",
-    "end": "2026-10-26T21:00:00Z",
-    "summary": "Nuclear TigeRES vs UNiTY",
-    "description": "Format: BO3\nStatus: scheduled",
-    "location": "NODWIN Clutch Series 13"
   },
   {
     "id": "cs2-match-2399743",

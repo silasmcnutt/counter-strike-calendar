@@ -94,15 +94,6 @@ DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: The MongolZ 0 - MOUZ 2\
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
-UID:cs2-match-2399116@counter-strike-calendar
-DTSTAMP:20261027T143910Z
-DTSTART:20261026T090000Z
-DTEND:20261026T120000Z
-SUMMARY:Nemesis vs INOX Division (2-0)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Nemesis 2 - INOX Division 0\nMap scores:\n- Dust2: Nemesis 13 - INOX Division 7\n- Cache: Nemesis 13 - INOX Division 5
-LOCATION:NODWIN Clutch Series 13
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2399737@counter-strike-calendar
 DTSTAMP:20261027T143910Z
 DTSTART:20261026T102000Z
@@ -119,15 +110,6 @@ DTEND:20261026T135500Z
 SUMMARY:9z vs TYLOO (1-2)
 DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: 9z 1 - TYLOO 2\nMap scores:\n- Inferno: 9z 13 - TYLOO 11\n- Nuke: 9z 5 - TYLOO 13\n- Mirage: 9z 7 - TYLOO 13
 LOCATION:PGL Masters Bucharest 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:cs2-match-2399117@counter-strike-calendar
-DTSTAMP:20261027T143910Z
-DTSTART:20261026T120000Z
-DTEND:20261026T150000Z
-SUMMARY:FOKUS vs ex-Zero Tenacity (2-0)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: FOKUS 2 - ex-Zero Tenacity 0\nMap scores:\n- Dust2: FOKUS 13 - ex-Zero Tenacity 11\n- Nuke: FOKUS 13 - ex-Zero Tenacity 6
-LOCATION:NODWIN Clutch Series 13
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399739@counter-strike-calendar
@@ -148,15 +130,6 @@ DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Liquid 2 - Legacy 0\nMa
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
-UID:cs2-match-2399118@counter-strike-calendar
-DTSTAMP:20261027T143910Z
-DTSTART:20261026T150000Z
-DTEND:20261026T180000Z
-SUMMARY:Metizport vs BRUTE (0-0)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Metizport 0 - BRUTE 0\nMap scores:\n- Inferno: Metizport 6 - BRUTE 13
-LOCATION:NODWIN Clutch Series 13
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2399742@counter-strike-calendar
 DTSTAMP:20261027T143910Z
 DTSTART:20261026T163000Z
@@ -173,15 +146,6 @@ DTEND:20261026T200000Z
 SUMMARY:BETBOOM vs Natus Vincere (2-0)
 DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: BETBOOM 2 - Natus Vincere 0\nMap scores:\n- Dust2: BETBOOM 13 - Natus Vincere 10\n- Nuke: BETBOOM 13 - Natus Vincere 9
 LOCATION:PGL Masters Bucharest 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:cs2-match-2399119@counter-strike-calendar
-DTSTAMP:20261027T143910Z
-DTSTART:20261026T180000Z
-DTEND:20261026T210000Z
-SUMMARY:Nuclear TigeRES vs UNiTY
-DESCRIPTION:Format: BO3\nStatus: scheduled
-LOCATION:NODWIN Clutch Series 13
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399743@counter-strike-calendar
