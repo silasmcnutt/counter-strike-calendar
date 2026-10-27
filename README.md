@@ -46,8 +46,9 @@ For Apple Calendar and Outlook, choose the option to subscribe to a calendar
 using a URL and paste the same link.
 
 Calendar applications decide how often they refresh subscriptions. This
-calendar is updated approximately every three hours, although scheduled
-updates may occasionally be delayed.
+calendar is updated every four hours on the hour, although scheduled updates
+may occasionally be delayed. The workflow can also be run manually at any
+time from GitHub Actions.
 
 ## Data source
 

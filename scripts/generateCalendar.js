@@ -6,7 +6,6 @@ const LOOKBACK_DAYS = Number(process.env.MATCH_LOOKBACK_DAYS || 14);
 const CITO_API_BASE_URL = (process.env.CITO_API_BASE_URL || 'https://api.citoapi.com').replace(/\/$/, '');
 const CITO_UPCOMING_PATH = '/api/v1/cs2/matches/upcoming';
 const CITO_RECENT_PATH = '/api/v1/cs2/matches/recent';
-const CITO_STATE_PATH = path.join(ROOT, 'jsons', 'cito-api-state.json');
 
 /**
  * Load local environment values without printing them.
@@ -92,39 +91,6 @@ function isQualifyingPrestige(prestigeScore) {
 function isQualifyingEvent(event) {
 	return isQualifyingPrestige(event?.prestigeScore) &&
 		Number(String(event?.prizePool ?? '').replace(/[$,\s]/g, '')) >= MINIMUM_PRIZE_POOL;
-}
-
-/**
- * Identify the current three-hour slot in Eastern time.
- *
- * @param {Date} date Current time.
- * @returns {string} Slot identifier.
- */
-function citoSlot(date) {
-	const parts = new Intl.DateTimeFormat('en-CA', {
-		timeZone: 'America/New_York',
-		year: 'numeric',
-		month: '2-digit',
-		day: '2-digit',
-		hour: '2-digit',
-		hourCycle: 'h23',
-	}).formatToParts(date).reduce((result, part) => {
-		result[part.type] = part.value;
-		return result;
-	}, {});
-	return `${parts.year}-${parts.month}-${parts.day}-${parts.hour}`;
-}
-
-/**
- * Return whether the current time is within an allowed three-hour Eastern slot.
- * The slot state prevents a second call during the same three-hour window.
- *
- * @param {Date} date Current time.
- * @returns {boolean} Whether the API may be called.
- */
-function isCitoSlot(date) {
-	const hour = Number(citoSlot(date).slice(-2));
-	return hour % 3 === 0;
 }
 
 /**
@@ -439,20 +405,6 @@ async function generateCalendar() {
 	const icsPath = path.join(ROOT, 'ics', 'finalCalendar.ics');
 	const existingIcs = await fs.readFile(icsPath, 'utf8').catch(() => '');
 	const existingEvents = parseIcsEvents(existingIcs);
-	const slot = new Date();
-	const currentSlot = citoSlot(slot);
-	const state = await fs.readFile(CITO_STATE_PATH, 'utf8').then(JSON.parse).catch((error) => {
-		if (error.code === 'ENOENT') return {};
-		throw error;
-	});
-	const manualRun = process.env.GITHUB_EVENT_NAME === 'workflow_dispatch' ||
-		process.env.CITO_MANUAL_RUN === 'true';
-	if (!manualRun && !isCitoSlot(slot)) {
-		throw new Error(`CitoAPI may only be called on a three-hour Eastern slot; current slot is ${currentSlot}`);
-	}
-	if (!manualRun && state.lastSuccessfulSlot === currentSlot) {
-		throw new Error(`CitoAPI has already been called for the ${currentSlot} Eastern slot`);
-	}
 	const citoMatches = (await fetchCitoMatches()).map(normalizeCitoMatch).filter(Boolean);
 	const incomingEvents = citoMatches.map((match) => normalizeMatch(
 		match,
@@ -469,7 +421,6 @@ async function generateCalendar() {
 	const events = filterMatches(mergedMatches);
 	await fs.writeFile(path.join(ROOT, 'jsons', 'finalCalendar.json'), `${JSON.stringify(events, null, 2)}\n`);
 	await fs.writeFile(path.join(ROOT, 'ics', 'finalCalendar.ics'), toIcs(events));
-	await fs.writeFile(CITO_STATE_PATH, `${JSON.stringify({ lastSuccessfulSlot: currentSlot }, null, 2)}\n`);
 	console.log(`Wrote ${events.length} matches to jsons/finalCalendar.json and ics/finalCalendar.ics`);
 	return events;
 }
@@ -485,8 +436,6 @@ module.exports = {
 	normalizeCitoMatch,
 	isQualifyingPrestige,
 	isQualifyingEvent,
-	citoSlot,
-	isCitoSlot,
 	filterMatches,
 	escapeIcsText,
 	toIcs,

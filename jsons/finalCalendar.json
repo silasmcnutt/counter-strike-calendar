@@ -1,32 +1,32 @@
 [
   {
     "id": "cs2-match-2399728",
-    "start": "2026-10-25T08:00:00.000Z",
-    "end": "2026-10-25T11:00:00.000Z",
+    "start": "2026-10-25T08:00:00Z",
+    "end": "2026-10-25T11:00:00Z",
     "summary": "FUT vs Liquid (2-0)",
     "description": "Format: BO3\nStatus: completed\nFinal score: FUT 2 - Liquid 0\nMap scores:\n- Cache: FUT 13 - Liquid 5\n- Dust2: FUT 13 - Liquid 9",
     "location": "PGL Masters Bucharest 2026"
   },
   {
     "id": "cs2-match-2399727",
-    "start": "2026-10-25T08:00:00.000Z",
-    "end": "2026-10-25T11:00:00.000Z",
+    "start": "2026-10-25T08:00:00Z",
+    "end": "2026-10-25T11:00:00Z",
     "summary": "Spirit vs TYLOO (2-0)",
     "description": "Format: BO3\nStatus: completed\nFinal score: Spirit 2 - TYLOO 0\nMap scores:\n- Mirage: Spirit 13 - TYLOO 5\n- Anubis: Spirit 13 - TYLOO 3",
     "location": "PGL Masters Bucharest 2026"
   },
   {
     "id": "cs2-match-2399729",
-    "start": "2026-10-25T09:40:00.000Z",
-    "end": "2026-10-25T12:40:00.000Z",
+    "start": "2026-10-25T09:40:00Z",
+    "end": "2026-10-25T12:40:00Z",
     "summary": "Vitality vs The MongolZ (2-0)",
     "description": "Format: BO3\nStatus: completed\nFinal score: Vitality 2 - The MongolZ 0\nMap scores:\n- Inferno: Vitality 13 - The MongolZ 6\n- Cache: Vitality 13 - The MongolZ 3",
     "location": "PGL Masters Bucharest 2026"
   },
   {
     "id": "cs2-match-2399730",
-    "start": "2026-10-25T10:00:00.000Z",
-    "end": "2026-10-25T13:00:00.000Z",
+    "start": "2026-10-25T10:00:00Z",
+    "end": "2026-10-25T13:00:00Z",
     "summary": "BETBOOM vs Nemiga (2-0)",
     "description": "Format: BO3\nStatus: completed\nFinal score: BETBOOM 2 - Nemiga 0\nMap scores:\n- Anubis: BETBOOM 13 - Nemiga 3\n- Mirage: BETBOOM 13 - Nemiga 11",
     "location": "PGL Masters Bucharest 2026"
@@ -161,16 +161,16 @@
   },
   {
     "id": "cs2-match-2399866",
-    "start": "2026-10-27T08:00:00.000Z",
-    "end": "2026-10-27T11:00:00.000Z",
+    "start": "2026-10-27T08:00:00Z",
+    "end": "2026-10-27T11:00:00Z",
     "summary": "B8 vs K27",
     "description": "Format: BO3\nStatus: scheduled",
     "location": "RLG Tesla Cup 2026"
   },
   {
     "id": "cs2-match-2399867",
-    "start": "2026-10-27T11:00:00.000Z",
-    "end": "2026-10-27T14:00:00.000Z",
+    "start": "2026-10-27T11:00:00Z",
+    "end": "2026-10-27T14:00:00Z",
     "summary": "Alliance vs FaZe",
     "description": "Format: BO3\nStatus: scheduled",
     "location": "RLG Tesla Cup 2026"
@@ -179,38 +179,38 @@
     "id": "cs2-match-2399743",
     "start": "2026-10-27T11:00:00.000Z",
     "end": "2026-10-27T14:00:00.000Z",
-    "summary": "Liquid vs Aurora",
-    "description": "Format: BO3\nStatus: scheduled",
+    "summary": "Liquid vs Aurora (1-2)",
+    "description": "Format: BO3\nStatus: completed\nFinal score: Liquid 1 - Aurora 2\nMap scores:\n- Anubis: Liquid 11 - Aurora 13\n- Inferno: Liquid 13 - Aurora 11\n- Cache: Liquid 10 - Aurora 13",
     "location": "PGL Masters Bucharest 2026"
   },
   {
     "id": "cs2-match-2399744",
     "start": "2026-10-27T11:00:00.000Z",
     "end": "2026-10-27T14:00:00.000Z",
-    "summary": "Nemiga vs DENDELE",
-    "description": "Format: BO3\nStatus: scheduled",
-    "location": "PGL Masters Bucharest 2026"
-  },
-  {
-    "id": "cs2-match-2399745",
-    "start": "2026-10-27T14:00:00.000Z",
-    "end": "2026-10-27T17:00:00.000Z",
-    "summary": "Spirit vs MOUZ",
-    "description": "Format: BO3\nStatus: scheduled",
+    "summary": "Nemiga vs DENDELE (2-0)",
+    "description": "Format: BO3\nStatus: completed\nFinal score: Nemiga 2 - DENDELE 0\nMap scores:\n- Nuke: Nemiga 13 - DENDELE 3\n- Ancient: Nemiga 13 - DENDELE 6",
     "location": "PGL Masters Bucharest 2026"
   },
   {
     "id": "cs2-match-2399746",
-    "start": "2026-10-27T14:00:00.000Z",
-    "end": "2026-10-27T17:00:00.000Z",
+    "start": "2026-10-27T14:00:00Z",
+    "end": "2026-10-27T17:00:00Z",
     "summary": "The MongolZ vs Legacy",
     "description": "Format: BO3\nStatus: scheduled",
     "location": "PGL Masters Bucharest 2026"
   },
   {
+    "id": "cs2-match-2399745",
+    "start": "2026-10-27T14:30:00.000Z",
+    "end": "2026-10-27T17:30:00.000Z",
+    "summary": "Spirit vs MOUZ",
+    "description": "Format: BO3\nStatus: scheduled",
+    "location": "PGL Masters Bucharest 2026"
+  },
+  {
     "id": "cs2-match-2399869",
-    "start": "2026-10-27T17:00:00.000Z",
-    "end": "2026-10-27T20:00:00.000Z",
+    "start": "2026-10-27T17:00:00Z",
+    "end": "2026-10-27T20:00:00Z",
     "summary": "Luminosity vs HOTU",
     "description": "Format: BO3\nStatus: scheduled",
     "location": "RLG Tesla Cup 2026"
@@ -233,8 +233,8 @@
   },
   {
     "id": "cs2-match-2399870",
-    "start": "2026-10-27T20:00:00.000Z",
-    "end": "2026-10-27T23:00:00.000Z",
+    "start": "2026-10-27T20:00:00Z",
+    "end": "2026-10-27T23:00:00Z",
     "summary": "Envy vs GamerLegion",
     "description": "Format: BO3\nStatus: scheduled",
     "location": "RLG Tesla Cup 2026"
