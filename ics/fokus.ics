@@ -5,29 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399117@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261026T120000Z
 DTEND:20261026T150000Z
 SUMMARY:FOKUS vs ex-Zero Tenacity (2-0)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: FOKUS 2 - ex-Zero Tenacity 0\nMap scores:\n- Dust2: FOKUS 13 - ex-Zero Tenacity 11\n- Nuke: FOKUS 13 - ex-Zero Tenacity 6
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: FOKUS 2 - ex-Zero Tenacity 0\nMap scores:\n- Dust2: FOKUS 13 - ex-Zero Tenacity 11\n- Nuke: FOKUS 13 - ex-Zero Tenacity 6
 LOCATION:NODWIN Clutch Series 13
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399121@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261027T120000Z
 DTEND:20261027T150000Z
 SUMMARY:Nuclear TigeRES vs FOKUS (1-2)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Nuclear TigeRES 1 - FOKUS 2\nMap scores:\n- Nuke: Nuclear TigeRES 11 - FOKUS 13\n- Anubis: Nuclear TigeRES 13 - FOKUS 8\n- Ancient: Nuclear TigeRES 8 - FOKUS 13
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Nuclear TigeRES 1 - FOKUS 2\nMap scores:\n- Nuke: Nuclear TigeRES 11 - FOKUS 13\n- Anubis: Nuclear TigeRES 13 - FOKUS 8\n- Ancient: Nuclear TigeRES 8 - FOKUS 13
 LOCATION:NODWIN Clutch Series 13
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399122@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261027T155000Z
 DTEND:20261027T185000Z
 SUMMARY:BRUTE vs FOKUS (1-2)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: BRUTE 1 - FOKUS 2\nMap scores:\n- Cache: BRUTE 13 - FOKUS 11\n- Mirage: BRUTE 23 - FOKUS 25\n- Nuke: BRUTE 10 - FOKUS 13
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: BRUTE 1 - FOKUS 2\nMap scores:\n- Cache: BRUTE 13 - FOKUS 11\n- Mirage: BRUTE 23 - FOKUS 25\n- Nuke: BRUTE 10 - FOKUS 13
 LOCATION:NODWIN Clutch Series 13
 END:VEVENT
 END:VCALENDAR

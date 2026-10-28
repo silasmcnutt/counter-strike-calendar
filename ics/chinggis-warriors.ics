@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399921@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261027T073000Z
 DTEND:20261027T103000Z
 SUMMARY:Chinggis Warriors vs the ONE (2-0)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Chinggis Warriors 2 - the ONE 0\nMap scores:\n- Ancient: Chinggis Warriors 13 - the ONE 5\n- Dust2: Chinggis Warriors 13 - the ONE 9
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Chinggis Warriors 2 - the ONE 0\nMap scores:\n- Ancient: Chinggis Warriors 13 - the ONE 5\n- Dust2: Chinggis Warriors 13 - the ONE 9
 LOCATION:MESA Pro Series Halloween Cup 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399923@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261028T073000Z
 DTEND:20261028T103000Z
 SUMMARY:The Audacity vs Chinggis Warriors
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DESCRIPTION:Format: BO3\nStatus: scheduled
 LOCATION:MESA Pro Series Halloween Cup 2026
 END:VEVENT
 END:VCALENDAR

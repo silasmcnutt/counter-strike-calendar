@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399728@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261025T080000Z
 DTEND:20261025T110000Z
 SUMMARY:FUT vs Liquid (2-0)
@@ -14,38 +14,38 @@ LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399740@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261026T135500Z
 DTEND:20261026T165500Z
 SUMMARY:Liquid vs Legacy (2-0)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Liquid 2 - Legacy 0\nMap scores:\n- Ancient: Liquid 13 - Legacy 10\n- Inferno: Liquid 13 - Legacy 8
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Liquid 2 - Legacy 0\nMap scores:\n- Ancient: Liquid 13 - Legacy 10\n- Inferno: Liquid 13 - Legacy 8
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399743@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261027T110000Z
 DTEND:20261027T140000Z
 SUMMARY:Liquid vs Aurora (1-2)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Liquid 1 - Aurora 2\nMap scores:\n- Anubis: Liquid 11 - Aurora 13\n- Inferno: Liquid 13 - Aurora 11\n- Cache: Liquid 10 - Aurora 13
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Liquid 1 - Aurora 2\nMap scores:\n- Anubis: Liquid 11 - Aurora 13\n- Inferno: Liquid 13 - Aurora 11\n- Cache: Liquid 10 - Aurora 13
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399750@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261028T140000Z
 DTEND:20261028T170000Z
 SUMMARY:Liquid vs FURIA
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DESCRIPTION:Format: BO3\nStatus: scheduled
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399861@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261102T070000Z
 DTEND:20261102T100000Z
 SUMMARY:Aurora vs Liquid
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DESCRIPTION:Format: BO3\nStatus: scheduled
 LOCATION:IEM Beijing 2026
 END:VEVENT
 END:VCALENDAR

@@ -5,29 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399508@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261025T180000Z
 DTEND:20261025T210000Z
 SUMMARY:FORZE Reload vs ex-RUSTEC (2-1)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: FORZE Reload 2 - ex-RUSTEC 1\nMap scores:\n- Anubis: FORZE Reload 2 - ex-RUSTEC 13\n- Ancient: FORZE Reload 13 - ex-RUSTEC 8\n- Dust2: FORZE Reload 13 - ex-RUSTEC 10
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: FORZE Reload 2 - ex-RUSTEC 1\nMap scores:\n- Anubis: FORZE Reload 2 - ex-RUSTEC 13\n- Ancient: FORZE Reload 13 - ex-RUSTEC 8\n- Dust2: FORZE Reload 13 - ex-RUSTEC 10
 LOCATION:CCT 2026 Europe Series 12
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399512@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261027T120000Z
 DTEND:20261027T150000Z
 SUMMARY:ex-RUSTEC vs Spirit Academy (0-2)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: ex-RUSTEC 0 - Spirit Academy 2\nMap scores:\n- Mirage: ex-RUSTEC 6 - Spirit Academy 13\n- Anubis: ex-RUSTEC 8 - Spirit Academy 13
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: ex-RUSTEC 0 - Spirit Academy 2\nMap scores:\n- Mirage: ex-RUSTEC 6 - Spirit Academy 13\n- Anubis: ex-RUSTEC 8 - Spirit Academy 13
 LOCATION:CCT 2026 Europe Series 12
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399517@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261028T180000Z
 DTEND:20261028T210000Z
 SUMMARY:ex-RUSTEC vs Illyrians
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DESCRIPTION:Format: BO3\nStatus: scheduled
 LOCATION:CCT 2026 Europe Series 12
 END:VEVENT
 END:VCALENDAR

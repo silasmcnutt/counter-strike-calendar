@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399707@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261027T162000Z
 DTEND:20261027T192000Z
 SUMMARY:Astralis vs fnatic (0-2)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Astralis 0 - fnatic 2\nMap scores:\n- Cache: Astralis 6 - fnatic 13\n- Ancient: Astralis 6 - fnatic 13
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Astralis 0 - fnatic 2\nMap scores:\n- Cache: Astralis 6 - fnatic 13\n- Ancient: Astralis 6 - fnatic 13
 LOCATION:Stake Ranked Episode 5
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399711@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261028T160000Z
 DTEND:20261028T190000Z
 SUMMARY:BIG vs fnatic
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DESCRIPTION:Format: BO3\nStatus: scheduled
 LOCATION:Stake Ranked Episode 5
 END:VEVENT
 END:VCALENDAR
