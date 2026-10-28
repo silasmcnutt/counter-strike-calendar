@@ -213,7 +213,7 @@ function buildDescription(match, isResult, format) {
 	const hasScore = score1 !== undefined && score1 !== null && score2 !== undefined && score2 !== null;
 	const lines = [
 		`Format: ${format}`,
-		`Status: ${isResult && hasScore ? 'completed' : isResult ? 'in progress' : 'scheduled'}`,
+		`Status: ${isResult && hasScore ? 'Completed' : isResult ? 'In progress' : 'Scheduled'}`,
 	];
 	if (isResult && hasScore) {
 		lines.push(`Final score: ${match.team1.name} ${score1} - ${match.team2.name} ${score2}`);
