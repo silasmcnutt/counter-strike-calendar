@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399511@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261026T180000Z
 DTEND:20261026T210000Z
 SUMMARY:6yuBoJlbl vs mellren (2-0)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: 6yuBoJlbl 2 - mellren 0\nMap scores:\n- Ancient: 6yuBoJlbl 13 - mellren 7\n- Mirage: 6yuBoJlbl 13 - mellren 7
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: 6yuBoJlbl 2 - mellren 0\nMap scores:\n- Ancient: 6yuBoJlbl 13 - mellren 7\n- Mirage: 6yuBoJlbl 13 - mellren 7
 LOCATION:CCT 2026 Europe Series 12
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399516@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261028T150000Z
 DTEND:20261028T180000Z
 SUMMARY:6yuBoJlbl vs LFO 10
-DESCRIPTION:Format: BO3\nStatus: scheduled
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:CCT 2026 Europe Series 12
 END:VEVENT
 END:VCALENDAR

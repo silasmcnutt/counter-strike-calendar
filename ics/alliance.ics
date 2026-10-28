@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399867@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261027T105500Z
 DTEND:20261027T135500Z
 SUMMARY:Alliance vs FaZe (0-2)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Alliance 0 - FaZe 2\nMap scores:\n- Ancient: Alliance 6 - FaZe 13\n- Mirage: Alliance 2 - FaZe 13
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Alliance 0 - FaZe 2\nMap scores:\n- Ancient: Alliance 6 - FaZe 13\n- Mirage: Alliance 2 - FaZe 13
 LOCATION:RLG Tesla Cup 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399871@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261028T080000Z
 DTEND:20261028T110000Z
-SUMMARY:B8 vs Alliance
-DESCRIPTION:Format: BO3\nStatus: scheduled
+SUMMARY:B8 vs Alliance (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: B8 2 - Alliance 1\nMap scores:\n- Inferno: B8 10 - Alliance 13\n- Mirage: B8 13 - Alliance 9\n- Ancient: B8 13 - Alliance 10
 LOCATION:RLG Tesla Cup 2026
 END:VEVENT
 END:VCALENDAR

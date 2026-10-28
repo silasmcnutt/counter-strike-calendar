@@ -100,7 +100,7 @@
     "start": "2026-10-26T08:00:00.000Z",
     "end": "2026-10-26T11:00:00.000Z",
     "summary": "Nemiga vs Aurora (0-2)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Nemiga 0 - Aurora 2\nMap scores:\n- Mirage: Nemiga 14 - Aurora 16\n- Anubis: Nemiga 4 - Aurora 13",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Nemiga 0 - Aurora 2\nMap scores:\n- Mirage: Nemiga 14 - Aurora 16\n- Anubis: Nemiga 4 - Aurora 13",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "Nemiga",
@@ -112,7 +112,7 @@
     "start": "2026-10-26T08:00:00.000Z",
     "end": "2026-10-26T11:00:00.000Z",
     "summary": "The MongolZ vs MOUZ (0-2)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: The MongolZ 0 - MOUZ 2\nMap scores:\n- Nuke: The MongolZ 11 - MOUZ 13\n- Mirage: The MongolZ 9 - MOUZ 13",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: The MongolZ 0 - MOUZ 2\nMap scores:\n- Nuke: The MongolZ 11 - MOUZ 13\n- Mirage: The MongolZ 9 - MOUZ 13",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "The MongolZ",
@@ -124,7 +124,7 @@
     "start": "2026-10-26T10:20:00.000Z",
     "end": "2026-10-26T13:20:00.000Z",
     "summary": "Vitality vs FUT (1-2)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Vitality 1 - FUT 2\nMap scores:\n- Mirage: Vitality 13 - FUT 9\n- Dust2: Vitality 9 - FUT 13\n- Anubis: Vitality 10 - FUT 13",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Vitality 1 - FUT 2\nMap scores:\n- Mirage: Vitality 13 - FUT 9\n- Dust2: Vitality 9 - FUT 13\n- Anubis: Vitality 10 - FUT 13",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "Vitality",
@@ -136,7 +136,7 @@
     "start": "2026-10-26T10:55:00.000Z",
     "end": "2026-10-26T13:55:00.000Z",
     "summary": "9z vs TYLOO (1-2)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: 9z 1 - TYLOO 2\nMap scores:\n- Inferno: 9z 13 - TYLOO 11\n- Nuke: 9z 5 - TYLOO 13\n- Mirage: 9z 7 - TYLOO 13",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: 9z 1 - TYLOO 2\nMap scores:\n- Inferno: 9z 13 - TYLOO 11\n- Nuke: 9z 5 - TYLOO 13\n- Mirage: 9z 7 - TYLOO 13",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "9z",
@@ -148,7 +148,7 @@
     "start": "2026-10-26T13:40:00.000Z",
     "end": "2026-10-26T16:40:00.000Z",
     "summary": "Spirit vs FURIA (2-1)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Spirit 2 - FURIA 1\nMap scores:\n- Nuke: Spirit 13 - FURIA 7\n- Ancient: Spirit 8 - FURIA 13\n- Mirage: Spirit 13 - FURIA 11",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Spirit 2 - FURIA 1\nMap scores:\n- Nuke: Spirit 13 - FURIA 7\n- Ancient: Spirit 8 - FURIA 13\n- Mirage: Spirit 13 - FURIA 11",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "Spirit",
@@ -160,7 +160,7 @@
     "start": "2026-10-26T13:55:00.000Z",
     "end": "2026-10-26T16:55:00.000Z",
     "summary": "Liquid vs Legacy (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Liquid 2 - Legacy 0\nMap scores:\n- Ancient: Liquid 13 - Legacy 10\n- Inferno: Liquid 13 - Legacy 8",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Liquid 2 - Legacy 0\nMap scores:\n- Ancient: Liquid 13 - Legacy 10\n- Inferno: Liquid 13 - Legacy 8",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "Liquid",
@@ -172,7 +172,7 @@
     "start": "2026-10-26T16:30:00.000Z",
     "end": "2026-10-26T19:30:00.000Z",
     "summary": "G2 vs DENDELE (1-2)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: G2 1 - DENDELE 2\nMap scores:\n- Nuke: G2 5 - DENDELE 13\n- Ancient: G2 16 - DENDELE 14\n- Inferno: G2 5 - DENDELE 13",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: G2 1 - DENDELE 2\nMap scores:\n- Nuke: G2 5 - DENDELE 13\n- Ancient: G2 16 - DENDELE 14\n- Inferno: G2 5 - DENDELE 13",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "G2",
@@ -184,7 +184,7 @@
     "start": "2026-10-26T17:00:00.000Z",
     "end": "2026-10-26T20:00:00.000Z",
     "summary": "BETBOOM vs Natus Vincere (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: BETBOOM 2 - Natus Vincere 0\nMap scores:\n- Dust2: BETBOOM 13 - Natus Vincere 10\n- Nuke: BETBOOM 13 - Natus Vincere 9",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: BETBOOM 2 - Natus Vincere 0\nMap scores:\n- Dust2: BETBOOM 13 - Natus Vincere 10\n- Nuke: BETBOOM 13 - Natus Vincere 9",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "BETBOOM",
@@ -196,7 +196,7 @@
     "start": "2026-10-27T11:00:00.000Z",
     "end": "2026-10-27T14:00:00.000Z",
     "summary": "Liquid vs Aurora (1-2)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Liquid 1 - Aurora 2\nMap scores:\n- Anubis: Liquid 11 - Aurora 13\n- Inferno: Liquid 13 - Aurora 11\n- Cache: Liquid 10 - Aurora 13",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Liquid 1 - Aurora 2\nMap scores:\n- Anubis: Liquid 11 - Aurora 13\n- Inferno: Liquid 13 - Aurora 11\n- Cache: Liquid 10 - Aurora 13",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "Liquid",
@@ -208,7 +208,7 @@
     "start": "2026-10-27T11:00:00.000Z",
     "end": "2026-10-27T14:00:00.000Z",
     "summary": "Nemiga vs DENDELE (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Nemiga 2 - DENDELE 0\nMap scores:\n- Nuke: Nemiga 13 - DENDELE 3\n- Ancient: Nemiga 13 - DENDELE 6",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Nemiga 2 - DENDELE 0\nMap scores:\n- Nuke: Nemiga 13 - DENDELE 3\n- Ancient: Nemiga 13 - DENDELE 6",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "Nemiga",
@@ -220,7 +220,7 @@
     "start": "2026-10-27T12:55:00.000Z",
     "end": "2026-10-27T15:55:00.000Z",
     "summary": "The MongolZ vs Legacy (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: The MongolZ 2 - Legacy 0\nMap scores:\n- Mirage: The MongolZ 13 - Legacy 8\n- Inferno: The MongolZ 13 - Legacy 8",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: The MongolZ 2 - Legacy 0\nMap scores:\n- Mirage: The MongolZ 13 - Legacy 8\n- Inferno: The MongolZ 13 - Legacy 8",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "The MongolZ",
@@ -232,7 +232,7 @@
     "start": "2026-10-27T14:35:00.000Z",
     "end": "2026-10-27T17:35:00.000Z",
     "summary": "Spirit vs MOUZ (1-2)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Spirit 1 - MOUZ 2\nMap scores:\n- Nuke: Spirit 13 - MOUZ 2\n- Dust2: Spirit 8 - MOUZ 13\n- Mirage: Spirit 14 - MOUZ 16",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Spirit 1 - MOUZ 2\nMap scores:\n- Nuke: Spirit 13 - MOUZ 2\n- Dust2: Spirit 8 - MOUZ 13\n- Mirage: Spirit 14 - MOUZ 16",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "Spirit",
@@ -244,7 +244,7 @@
     "start": "2026-10-27T16:15:00.000Z",
     "end": "2026-10-27T19:15:00.000Z",
     "summary": "FURIA vs TYLOO (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: FURIA 2 - TYLOO 0\nMap scores:\n- Inferno: FURIA 13 - TYLOO 5\n- Mirage: FURIA 13 - TYLOO 2",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: FURIA 2 - TYLOO 0\nMap scores:\n- Inferno: FURIA 13 - TYLOO 5\n- Mirage: FURIA 13 - TYLOO 2",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "FURIA",
@@ -256,7 +256,7 @@
     "start": "2026-10-27T17:50:00.000Z",
     "end": "2026-10-27T20:50:00.000Z",
     "summary": "Vitality vs Natus Vincere (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Vitality 2 - Natus Vincere 0\nMap scores:\n- Inferno: Vitality 13 - Natus Vincere 2\n- Dust2: Vitality 13 - Natus Vincere 9",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Vitality 2 - Natus Vincere 0\nMap scores:\n- Inferno: Vitality 13 - Natus Vincere 2\n- Dust2: Vitality 13 - Natus Vincere 9",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "Vitality",
@@ -265,8 +265,8 @@
   },
   {
     "id": "cs2-match-2399749",
-    "start": "2026-10-28T11:00:00.000Z",
-    "end": "2026-10-28T14:00:00.000Z",
+    "start": "2026-10-28T11:00:00Z",
+    "end": "2026-10-28T14:00:00Z",
     "summary": "The MongolZ vs Nemiga",
     "description": "Format: BO3\nStatus: scheduled",
     "location": "PGL Masters Bucharest 2026",
@@ -280,7 +280,7 @@
     "start": "2026-10-28T14:00:00.000Z",
     "end": "2026-10-28T17:00:00.000Z",
     "summary": "Liquid vs FURIA",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "Liquid",
@@ -292,7 +292,7 @@
     "start": "2026-10-28T17:00:00.000Z",
     "end": "2026-10-28T20:00:00.000Z",
     "summary": "Spirit vs Natus Vincere",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "Spirit",
@@ -304,7 +304,7 @@
     "start": "2026-11-02T07:00:00.000Z",
     "end": "2026-11-02T10:00:00.000Z",
     "summary": "Legacy vs The MongolZ",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
     "teams": [
       "Legacy",
@@ -316,7 +316,7 @@
     "start": "2026-11-02T07:00:00.000Z",
     "end": "2026-11-02T10:00:00.000Z",
     "summary": "FURIA vs FaZe",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
     "teams": [
       "FURIA",
@@ -328,7 +328,7 @@
     "start": "2026-11-02T07:00:00.000Z",
     "end": "2026-11-02T10:00:00.000Z",
     "summary": "HEROIC vs B8",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
     "teams": [
       "HEROIC",
@@ -340,7 +340,7 @@
     "start": "2026-11-02T07:00:00.000Z",
     "end": "2026-11-02T10:00:00.000Z",
     "summary": "9z vs BETBOOM",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
     "teams": [
       "9z",
@@ -352,7 +352,7 @@
     "start": "2026-11-02T07:00:00.000Z",
     "end": "2026-11-02T10:00:00.000Z",
     "summary": "Aurora vs Liquid",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
     "teams": [
       "Aurora",
@@ -364,7 +364,7 @@
     "start": "2026-11-02T07:00:00.000Z",
     "end": "2026-11-02T10:00:00.000Z",
     "summary": "MOUZ vs TYLOO",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
     "teams": [
       "MOUZ",
@@ -376,7 +376,7 @@
     "start": "2026-11-02T07:00:00.000Z",
     "end": "2026-11-02T10:00:00.000Z",
     "summary": "PARIVISION vs G2",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
     "teams": [
       "PARIVISION",
@@ -388,7 +388,7 @@
     "start": "2026-11-02T07:00:00.000Z",
     "end": "2026-11-02T10:00:00.000Z",
     "summary": "Natus Vincere vs Falcons",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
     "teams": [
       "Natus Vincere",
@@ -400,7 +400,7 @@
     "start": "2026-11-11T03:00:00.000Z",
     "end": "2026-11-11T06:00:00.000Z",
     "summary": "Legacy vs FURIA",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "BLAST Rivals 2026 Season 2",
     "teams": [
       "Legacy",
@@ -412,7 +412,7 @@
     "start": "2026-11-11T05:30:00.000Z",
     "end": "2026-11-11T08:30:00.000Z",
     "summary": "Vitality vs Falcons",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "BLAST Rivals 2026 Season 2",
     "teams": [
       "Vitality",
@@ -424,7 +424,7 @@
     "start": "2026-11-11T08:00:00.000Z",
     "end": "2026-11-11T11:00:00.000Z",
     "summary": "Spirit vs FUT",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "BLAST Rivals 2026 Season 2",
     "teams": [
       "Spirit",
@@ -433,10 +433,10 @@
   },
   {
     "id": "cs2-match-2399854",
-    "start": "2026-11-11T10:30:00Z",
-    "end": "2026-11-11T13:30:00Z",
+    "start": "2026-11-11T10:30:00.000Z",
+    "end": "2026-11-11T13:30:00.000Z",
     "summary": "MOUZ vs G2",
-    "description": "Format: BO3\nStatus: scheduled",
+    "description": "Format: BO3\nStatus: Scheduled",
     "location": "BLAST Rivals 2026 Season 2",
     "teams": [
       "MOUZ",

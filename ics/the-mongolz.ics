@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399729@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261025T094000Z
 DTEND:20261025T124000Z
 SUMMARY:Vitality vs The MongolZ (2-0)
@@ -14,25 +14,25 @@ LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399735@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261026T080000Z
 DTEND:20261026T110000Z
 SUMMARY:The MongolZ vs MOUZ (0-2)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: The MongolZ 0 - MOUZ 2\nMap scores:\n- Nuke: The MongolZ 11 - MOUZ 13\n- Mirage: The MongolZ 9 - MOUZ 13
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: The MongolZ 0 - MOUZ 2\nMap scores:\n- Nuke: The MongolZ 11 - MOUZ 13\n- Mirage: The MongolZ 9 - MOUZ 13
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399746@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261027T125500Z
 DTEND:20261027T155500Z
 SUMMARY:The MongolZ vs Legacy (2-0)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: The MongolZ 2 - Legacy 0\nMap scores:\n- Mirage: The MongolZ 13 - Legacy 8\n- Inferno: The MongolZ 13 - Legacy 8
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: The MongolZ 2 - Legacy 0\nMap scores:\n- Mirage: The MongolZ 13 - Legacy 8\n- Inferno: The MongolZ 13 - Legacy 8
 LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399749@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261028T110000Z
 DTEND:20261028T140000Z
 SUMMARY:The MongolZ vs Nemiga
@@ -41,11 +41,11 @@ LOCATION:PGL Masters Bucharest 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399855@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261102T070000Z
 DTEND:20261102T100000Z
 SUMMARY:Legacy vs The MongolZ
-DESCRIPTION:Format: BO3\nStatus: scheduled
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:IEM Beijing 2026
 END:VEVENT
 END:VCALENDAR

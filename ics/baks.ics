@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399513@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261027T150000Z
 DTEND:20261027T180000Z
 SUMMARY:BAKS vs Saint Sinners (2-1)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: BAKS 2 - Saint Sinners 1\nMap scores:\n- Dust2: BAKS 5 - Saint Sinners 13\n- Mirage: BAKS 13 - Saint Sinners 7\n- Ancient: BAKS 13 - Saint Sinners 9
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: BAKS 2 - Saint Sinners 1\nMap scores:\n- Dust2: BAKS 5 - Saint Sinners 13\n- Mirage: BAKS 13 - Saint Sinners 7\n- Ancient: BAKS 13 - Saint Sinners 9
 LOCATION:CCT 2026 Europe Series 12
 END:VEVENT
 END:VCALENDAR

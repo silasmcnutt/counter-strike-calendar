@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399920@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261027T050500Z
 DTEND:20261027T080500Z
 SUMMARY:5star vs The Audacity (0-2)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: 5star 0 - The Audacity 2\nMap scores:\n- Ancient: 5star 11 - The Audacity 13\n- Cache: 5star 5 - The Audacity 13
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: 5star 0 - The Audacity 2\nMap scores:\n- Ancient: 5star 11 - The Audacity 13\n- Cache: 5star 5 - The Audacity 13
 LOCATION:MESA Pro Series Halloween Cup 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399923@counter-strike-calendar
-DTSTAMP:20261028T043410Z
-DTSTART:20261028T073000Z
-DTEND:20261028T103000Z
-SUMMARY:The Audacity vs Chinggis Warriors
-DESCRIPTION:Format: BO3\nStatus: scheduled
+DTSTAMP:20261028T125608Z
+DTSTART:20261028T072000Z
+DTEND:20261028T102000Z
+SUMMARY:The Audacity vs Chinggis Warriors (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: The Audacity 2 - Chinggis Warriors 1\nMap scores:\n- Ancient: The Audacity 11 - Chinggis Warriors 13\n- Nuke: The Audacity 13 - Chinggis Warriors 5\n- Cache: The Audacity 13 - Chinggis Warriors 8
 LOCATION:MESA Pro Series Halloween Cup 2026
 END:VEVENT
 END:VCALENDAR

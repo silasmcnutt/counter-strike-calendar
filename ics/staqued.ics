@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399890@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261027T030000Z
 DTEND:20261027T060000Z
 SUMMARY:FlyQuest vs Staqued (2-0)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: FlyQuest 2 - Staqued 0\nMap scores:\n- Ancient: FlyQuest 13 - Staqued 5\n- Inferno: FlyQuest 13 - Staqued 7
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: FlyQuest 2 - Staqued 0\nMap scores:\n- Ancient: FlyQuest 13 - Staqued 5\n- Inferno: FlyQuest 13 - Staqued 7
 LOCATION:DFRAG Invitational 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399895@counter-strike-calendar
-DTSTAMP:20261028T043410Z
+DTSTAMP:20261028T125608Z
 DTSTART:20261027T073500Z
 DTEND:20261027T103500Z
 SUMMARY:Staqued vs Abyssal (0-2)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Staqued 0 - Abyssal 2\nMap scores:\n- Inferno: Staqued 2 - Abyssal 13\n- Cache: Staqued 8 - Abyssal 13
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Staqued 0 - Abyssal 2\nMap scores:\n- Inferno: Staqued 2 - Abyssal 13\n- Cache: Staqued 8 - Abyssal 13
 LOCATION:DFRAG Invitational 2026
 END:VEVENT
 END:VCALENDAR
