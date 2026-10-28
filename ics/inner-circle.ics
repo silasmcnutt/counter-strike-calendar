@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399706@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261027T142500Z
 DTEND:20261027T172500Z
 SUMMARY:Inner Circle vs Nemesis (2-0)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Inner Circle 2 - Nemesis 0\nMap scores:\n- Nuke: Inner Circle 13 - Nemesis 5\n- Mirage: Inner Circle 13 - Nemesis 4
+DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Inner Circle 2 - Nemesis 0\nMap scores:\n- Nuke: Inner Circle 13 - Nemesis 5\n- Mirage: Inner Circle 13 - Nemesis 4
 LOCATION:Stake Ranked Episode 5
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399712@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261028T183000Z
 DTEND:20261028T213000Z
 SUMMARY:Inner Circle vs MIBR
-DESCRIPTION:Format: BO3\nStatus: scheduled
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:Stake Ranked Episode 5
 END:VEVENT
 END:VCALENDAR

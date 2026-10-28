@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399888@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261026T030000Z
 DTEND:20261026T060000Z
 SUMMARY:Ground Zero vs Off Chops (0-2)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Ground Zero 0 - Off Chops 2\nMap scores:\n- Dust2: Ground Zero 8 - Off Chops 13\n- Anubis: Ground Zero 7 - Off Chops 13
+DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Ground Zero 0 - Off Chops 2\nMap scores:\n- Dust2: Ground Zero 8 - Off Chops 13\n- Anubis: Ground Zero 7 - Off Chops 13
 LOCATION:DFRAG Invitational 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399894@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261026T074500Z
 DTEND:20261026T104500Z
 SUMMARY:NEXVOID vs Ground Zero (2-0)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: NEXVOID 2 - Ground Zero 0\nMap scores:\n- Ancient: NEXVOID 13 - Ground Zero 11\n- Anubis: NEXVOID 13 - Ground Zero 8
+DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: NEXVOID 2 - Ground Zero 0\nMap scores:\n- Ancient: NEXVOID 13 - Ground Zero 11\n- Anubis: NEXVOID 13 - Ground Zero 8
 LOCATION:DFRAG Invitational 2026
 END:VEVENT
 END:VCALENDAR

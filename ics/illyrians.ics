@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399510@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261026T150000Z
 DTEND:20261026T180000Z
 SUMMARY:HAVU vs Illyrians (0-2)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: HAVU 0 - Illyrians 2\nMap scores:\n- Mirage: HAVU 9 - Illyrians 13\n- Dust2: HAVU 10 - Illyrians 13
+DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: HAVU 0 - Illyrians 2\nMap scores:\n- Mirage: HAVU 9 - Illyrians 13\n- Dust2: HAVU 10 - Illyrians 13
+LOCATION:CCT 2026 Europe Series 12
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399517@counter-strike-calendar
+DTSTAMP:20261028T043130Z
+DTSTART:20261028T180000Z
+DTEND:20261028T210000Z
+SUMMARY:ex-RUSTEC vs Illyrians
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:CCT 2026 Europe Series 12
 END:VEVENT
 END:VCALENDAR

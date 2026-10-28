@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399870@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261027T173000Z
 DTEND:20261027T203000Z
 SUMMARY:Envy vs GamerLegion (1-2)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Envy 1 - GamerLegion 2\nMap scores:\n- Dust2: Envy 6 - GamerLegion 13\n- Ancient: Envy 13 - GamerLegion 3\n- Nuke: Envy 10 - GamerLegion 13
+DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Envy 1 - GamerLegion 2\nMap scores:\n- Dust2: Envy 6 - GamerLegion 13\n- Ancient: Envy 13 - GamerLegion 3\n- Nuke: Envy 10 - GamerLegion 13
 LOCATION:RLG Tesla Cup 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399874@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261028T170000Z
 DTEND:20261028T200000Z
 SUMMARY:Luminosity vs Envy
-DESCRIPTION:Format: BO3\nStatus: scheduled
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:RLG Tesla Cup 2026
 END:VEVENT
 END:VCALENDAR

@@ -5,29 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399920@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261027T050500Z
 DTEND:20261027T080500Z
 SUMMARY:5star vs The Audacity (0-2)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: 5star 0 - The Audacity 2\nMap scores:\n- Ancient: 5star 11 - The Audacity 13\n- Cache: 5star 5 - The Audacity 13
+DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: 5star 0 - The Audacity 2\nMap scores:\n- Ancient: 5star 11 - The Audacity 13\n- Cache: 5star 5 - The Audacity 13
 LOCATION:MESA Pro Series Halloween Cup 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399922@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261028T050000Z
 DTEND:20261028T080000Z
 SUMMARY:5star vs the ONE
-DESCRIPTION:Format: BO3\nStatus: scheduled
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:MESA Pro Series Halloween Cup 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399438@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261031T130000Z
 DTEND:20261031T160000Z
 SUMMARY:1win vs 5star
-DESCRIPTION:Format: BO3\nStatus: scheduled
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:GLuck Moscow Cyber Games 2026
 END:VEVENT
 END:VCALENDAR

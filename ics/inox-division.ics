@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399116@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261026T090000Z
 DTEND:20261026T120000Z
 SUMMARY:Nemesis vs INOX Division (2-0)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Nemesis 2 - INOX Division 0\nMap scores:\n- Dust2: Nemesis 13 - INOX Division 7\n- Cache: Nemesis 13 - INOX Division 5
+DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Nemesis 2 - INOX Division 0\nMap scores:\n- Dust2: Nemesis 13 - INOX Division 7\n- Cache: Nemesis 13 - INOX Division 5
 LOCATION:NODWIN Clutch Series 13
 END:VEVENT
 END:VCALENDAR

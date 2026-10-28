@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399820@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261025T222500Z
 DTEND:20261026T012500Z
 SUMMARY:Imperial vs paiN (2-0)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Imperial 2 - paiN 0\nMap scores:\n- Anubis: Imperial 13 - paiN 7\n- Cache: Imperial 13 - paiN 9
+DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Imperial 2 - paiN 0\nMap scores:\n- Anubis: Imperial 13 - paiN 7\n- Cache: Imperial 13 - paiN 9
 LOCATION:Circuit X Curitiba Season 4
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399948@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261029T130000Z
 DTEND:20261029T160000Z
 SUMMARY:Imperial vs QUINTESSÊNCIA
-DESCRIPTION:Format: BO3\nStatus: scheduled
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:Gamers Club Masters VII
 END:VEVENT
 END:VCALENDAR

@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399118@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261026T150000Z
 DTEND:20261026T180000Z
 SUMMARY:Metizport vs BRUTE (0-2)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Metizport 0 - BRUTE 2\nMap scores:\n- Inferno: Metizport 6 - BRUTE 13\n- Nuke: Metizport 17 - BRUTE 19
+DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Metizport 0 - BRUTE 2\nMap scores:\n- Inferno: Metizport 6 - BRUTE 13\n- Nuke: Metizport 17 - BRUTE 19
 LOCATION:NODWIN Clutch Series 13
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399935@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261030T161500Z
 DTEND:20261030T191500Z
 SUMMARY:Metizport vs SNITKO
-DESCRIPTION:Format: BO1\nStatus: scheduled
+DESCRIPTION:Format: BO1\nStatus: Scheduled
 LOCATION:HyperX Retake Season 13
 END:VEVENT
 END:VCALENDAR

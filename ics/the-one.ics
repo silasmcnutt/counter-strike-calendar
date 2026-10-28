@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399921@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261027T073000Z
 DTEND:20261027T103000Z
 SUMMARY:Chinggis Warriors vs the ONE (2-0)
-DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Chinggis Warriors 2 - the ONE 0\nMap scores:\n- Ancient: Chinggis Warriors 13 - the ONE 5\n- Dust2: Chinggis Warriors 13 - the ONE 9
+DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Chinggis Warriors 2 - the ONE 0\nMap scores:\n- Ancient: Chinggis Warriors 13 - the ONE 5\n- Dust2: Chinggis Warriors 13 - the ONE 9
 LOCATION:MESA Pro Series Halloween Cup 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399922@counter-strike-calendar
-DTSTAMP:20261027T213955Z
+DTSTAMP:20261028T043130Z
 DTSTART:20261028T050000Z
 DTEND:20261028T080000Z
 SUMMARY:5star vs the ONE
-DESCRIPTION:Format: BO3\nStatus: scheduled
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:MESA Pro Series Halloween Cup 2026
 END:VEVENT
 END:VCALENDAR
