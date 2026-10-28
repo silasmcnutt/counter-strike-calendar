@@ -76,7 +76,7 @@ test('normalizes upcoming Cito matches', () => {
 	}, false);
 	assert.equal(match.id, 'cs2-match-2399739');
 	assert.equal(match.summary, 'Spirit vs FURIA');
-	assert.match(match.description, /Status: scheduled/);
+	assert.match(match.description, /Status: Scheduled/);
 	assert.equal(match.location, 'Example event');
 	assert.equal(match.start, '2026-10-27T14:00:00.000Z');
 });
@@ -92,7 +92,7 @@ test('includes map scores without player statistics in completed descriptions', 
 		maps: [{ map_name: 'Mirage', score: { Spirit: '16', G2: '12' } }],
 	}, true);
 	assert.match(match.description, /Map scores:\n- Mirage: Spirit 16 - G2 12/);
-	assert.match(match.description, /Status: completed/);
+	assert.match(match.description, /Status: Completed/);
 	assert.doesNotMatch(match.description, /Event:|Match ID:/);
 	assert.doesNotMatch(match.description, /Player statistics|donk|K-D/);
 });
@@ -106,7 +106,7 @@ test('omits incomplete scores from title and marks the description in progress',
 		event: 'Example event',
 	}, true);
 	assert.equal(match.summary, 'Spirit vs G2');
-	assert.match(match.description, /Status: in progress/);
+	assert.match(match.description, /Status: In progress/);
 });
 
 test('keeps matches with either top team and removes duplicates', () => {
