@@ -2,6 +2,9 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 
 const ROOT = path.join(__dirname, '..');
+const ICS_DIRECTORY = path.join(ROOT, 'ics');
+const ALL_TEAMS_ICS_FILENAME = '_ALL-TEAMS.ics';
+const ALL_TEAMS_ICS_PATH = path.join(ICS_DIRECTORY, ALL_TEAMS_ICS_FILENAME);
 const LOOKBACK_DAYS = Number(process.env.MATCH_LOOKBACK_DAYS || 14);
 const CITO_API_BASE_URL = (process.env.CITO_API_BASE_URL || 'https://api.citoapi.com').replace(/\/$/, '');
 const CITO_UPCOMING_PATH = '/api/v1/cs2/matches/upcoming';
@@ -151,8 +154,8 @@ function teamName(team) {
  * @param {object} match Cito match record.
  * @returns {object|null} Normalized match or null for non-S/A events.
  */
-function normalizeCitoMatch(match) {
-	if (!isQualifyingEvent(match?.event)) return null;
+function normalizeCitoMatch(match, includeAllEvents = false) {
+	if (!includeAllEvents && !isQualifyingEvent(match?.event)) return null;
 	const team1Name = match.team1Name || teamName(match.team1);
 	const team2Name = match.team2Name || teamName(match.team2);
 	if (!team1Name || !team2Name || !match.id) return null;
@@ -210,7 +213,7 @@ function buildDescription(match, isResult, format) {
 	const hasScore = score1 !== undefined && score1 !== null && score2 !== undefined && score2 !== null;
 	const lines = [
 		`Format: ${format}`,
-		`Status: ${isResult && hasScore ? 'completed' : isResult ? 'in progress' : 'scheduled'}`,
+		`Status: ${isResult && hasScore ? 'Complete' : isResult ? 'In progress' : 'Scheduled'}`,
 	];
 	if (isResult && hasScore) {
 		lines.push(`Final score: ${match.team1.name} ${score1} - ${match.team2.name} ${score2}`);
@@ -347,7 +350,7 @@ function filterMatches(matches, now = new Date()) {
 			return true;
 		})
 		.sort((a, b) => new Date(a.start) - new Date(b.start))
-		.map(({ teams, ...match }) => match);
+		.map((match) => match);
 }
 
 /**
@@ -358,6 +361,23 @@ function filterMatches(matches, now = new Date()) {
  */
 function escapeIcsText(value) {
 	return String(value).replace(/\\/g, '\\\\').replace(/([,;])/g, '\\$1').replace(/\r?\n/g, '\\n');
+}
+
+/**
+ * Create a stable, lowercase filename component from a team name.
+ *
+ * @param {string} teamName Display team name.
+ * @returns {string} Filesystem-safe team slug.
+ */
+function teamSlug(teamName) {
+	const slug = String(teamName)
+		.normalize('NFKD')
+		.replace(/[^\w\s-]/g, '')
+		.trim()
+		.toLowerCase()
+		.replace(/[\s_]+/g, '-')
+		.replace(/-+/g, '-');
+	return slug || 'unknown-team';
 }
 
 /**
@@ -402,13 +422,26 @@ function toIcs(events) {
  */
 async function generateCalendar() {
 	loadLocalEnv();
-	const icsPath = path.join(ROOT, 'ics', 'finalCalendar.ics');
-	const existingIcs = await fs.readFile(icsPath, 'utf8').catch(() => '');
+	const existingIcs = await fs.readFile(ALL_TEAMS_ICS_PATH, 'utf8').catch((error) => {
+		if (error.code === 'ENOENT') return '';
+		throw error;
+	});
 	const existingEvents = parseIcsEvents(existingIcs);
-	const citoMatches = (await fetchCitoMatches()).map(normalizeCitoMatch).filter(Boolean);
-	const incomingEvents = citoMatches.map((match) => normalizeMatch(
+	const existingTeamEvents = new Map();
+	for (const filename of await fs.readdir(ICS_DIRECTORY).catch(() => [])) {
+		if (!filename.endsWith('.ics') || filename === ALL_TEAMS_ICS_FILENAME) continue;
+		const teamIcs = await fs.readFile(path.join(ICS_DIRECTORY, filename), 'utf8');
+		for (const [id, event] of parseIcsEvents(teamIcs)) existingTeamEvents.set(id, event);
+	}
+	const citoMatches = await fetchCitoMatches();
+	const allTeamMatches = citoMatches.map((match) => normalizeCitoMatch(match, true)).filter(Boolean);
+	const filteredMatches = citoMatches
+		.filter((match) => isQualifyingEvent(match.event))
+		.map((match) => normalizeCitoMatch(match))
+		.filter(Boolean);
+	const incomingEvents = filteredMatches.map((match) => normalizeMatch(
 		match,
-		match.status === 'completed' || match.status === 'finished' ||
+		match.status === 'Completed' || match.status === 'Finished' ||
 			(match.team1.score !== null && match.team1.score !== undefined &&
 				match.team2.score !== null && match.team2.score !== undefined),
 		existingEvents.get(match.id),
@@ -419,9 +452,42 @@ async function generateCalendar() {
 	}
 	const mergedMatches = [...mergedEvents.values()];
 	const events = filterMatches(mergedMatches);
+	const incomingTeamEvents = allTeamMatches.map((match) => normalizeMatch(
+		match,
+		match.status === 'Completed' || match.status === 'Finished' ||
+			(match.team1.score !== null && match.team1.score !== undefined &&
+				match.team2.score !== null && match.team2.score !== undefined),
+		existingTeamEvents.get(match.id),
+	)).filter(Boolean);
+	const mergedTeamEvents = new Map(existingTeamEvents);
+	for (const incoming of incomingTeamEvents) {
+		mergedTeamEvents.set(incoming.id, mergeCalendarEvent(mergedTeamEvents.get(incoming.id), incoming));
+	}
+	const teamMatches = filterMatches([...mergedTeamEvents.values()]);
 	await fs.writeFile(path.join(ROOT, 'jsons', 'finalCalendar.json'), `${JSON.stringify(events, null, 2)}\n`);
-	await fs.writeFile(path.join(ROOT, 'ics', 'finalCalendar.ics'), toIcs(events));
-	console.log(`Wrote ${events.length} matches to jsons/finalCalendar.json and ics/finalCalendar.ics`);
+	await fs.mkdir(ICS_DIRECTORY, { recursive: true });
+	await fs.writeFile(ALL_TEAMS_ICS_PATH, toIcs(events));
+
+	const teamEvents = new Map();
+	for (const event of teamMatches) {
+		for (const team of event.teams || []) {
+			const slug = teamSlug(team);
+			if (!teamEvents.has(slug)) teamEvents.set(slug, []);
+			teamEvents.get(slug).push(event);
+		}
+	}
+	const currentTeamFiles = new Set([ALL_TEAMS_ICS_FILENAME]);
+	for (const [slug, teamMatches] of teamEvents) {
+		const filename = `${slug}.ics`;
+		currentTeamFiles.add(filename);
+		await fs.writeFile(path.join(ICS_DIRECTORY, filename), toIcs(teamMatches));
+	}
+	for (const filename of await fs.readdir(ICS_DIRECTORY)) {
+		if (filename.endsWith('.ics') && !currentTeamFiles.has(filename)) {
+			await fs.unlink(path.join(ICS_DIRECTORY, filename));
+		}
+	}
+	console.log(`Wrote ${events.length} matches to jsons/finalCalendar.json and ${teamEvents.size + 1} ICS files`);
 	return events;
 }
 
@@ -438,6 +504,7 @@ module.exports = {
 	isQualifyingEvent,
 	filterMatches,
 	escapeIcsText,
+	teamSlug,
 	toIcs,
 	generateCalendar,
 };

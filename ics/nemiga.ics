@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2399730@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261025T100000Z
+DTEND:20261025T130000Z
+SUMMARY:BETBOOM vs Nemiga (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: BETBOOM 2 - Nemiga 0\nMap scores:\n- Anubis: BETBOOM 13 - Nemiga 3\n- Mirage: BETBOOM 13 - Nemiga 11
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399736@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261026T080000Z
+DTEND:20261026T110000Z
+SUMMARY:Nemiga vs Aurora (0-2)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Nemiga 0 - Aurora 2\nMap scores:\n- Mirage: Nemiga 14 - Aurora 16\n- Anubis: Nemiga 4 - Aurora 13
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399744@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261027T110000Z
+DTEND:20261027T140000Z
+SUMMARY:Nemiga vs DENDELE (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Nemiga 2 - DENDELE 0\nMap scores:\n- Nuke: Nemiga 13 - DENDELE 3\n- Ancient: Nemiga 13 - DENDELE 6
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399749@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261028T110000Z
+DTEND:20261028T140000Z
+SUMMARY:The MongolZ vs Nemiga
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:PGL Masters Bucharest 2026
+END:VEVENT
+END:VCALENDAR

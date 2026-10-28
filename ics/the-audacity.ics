@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2399920@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261027T050500Z
+DTEND:20261027T080500Z
+SUMMARY:5star vs The Audacity (0-2)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: 5star 0 - The Audacity 2\nMap scores:\n- Ancient: 5star 11 - The Audacity 13\n- Cache: 5star 5 - The Audacity 13
+LOCATION:MESA Pro Series Halloween Cup 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399923@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261028T073000Z
+DTEND:20261028T103000Z
+SUMMARY:The Audacity vs Chinggis Warriors
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:MESA Pro Series Halloween Cup 2026
+END:VEVENT
+END:VCALENDAR

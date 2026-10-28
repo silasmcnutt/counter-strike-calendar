@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2399705@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261027T110000Z
+DTEND:20261027T140000Z
+SUMMARY:magic vs BIG (1-2)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: magic 1 - BIG 2\nMap scores:\n- Ancient: magic 13 - BIG 10\n- Cache: magic 9 - BIG 13\n- Mirage: magic 11 - BIG 13
+LOCATION:Stake Ranked Episode 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399709@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261028T110000Z
+DTEND:20261028T140000Z
+SUMMARY:magic vs Astralis
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:Stake Ranked Episode 5
+END:VEVENT
+END:VCALENDAR

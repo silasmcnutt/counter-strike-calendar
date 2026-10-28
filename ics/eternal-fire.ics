@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2399708@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261027T181000Z
+DTEND:20261027T211000Z
+SUMMARY:MIBR vs Eternal Fire (2-1)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: MIBR 2 - Eternal Fire 1\nMap scores:\n- Ancient: MIBR 10 - Eternal Fire 13\n- Mirage: MIBR 13 - Eternal Fire 10\n- Anubis: MIBR 13 - Eternal Fire 10
+LOCATION:Stake Ranked Episode 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399710@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261028T133000Z
+DTEND:20261028T163000Z
+SUMMARY:Nemesis vs Eternal Fire
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:Stake Ranked Episode 5
+END:VEVENT
+END:VCALENDAR

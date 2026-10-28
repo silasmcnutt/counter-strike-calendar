@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2399119@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261026T180000Z
+DTEND:20261026T210000Z
+SUMMARY:Nuclear TigeRES vs UNiTY (2-1)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Nuclear TigeRES 2 - UNiTY 1\nMap scores:\n- Ancient: Nuclear TigeRES 11 - UNiTY 13\n- Anubis: Nuclear TigeRES 13 - UNiTY 10\n- Inferno: Nuclear TigeRES 19 - UNiTY 16
+LOCATION:NODWIN Clutch Series 13
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399121@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261027T120000Z
+DTEND:20261027T150000Z
+SUMMARY:Nuclear TigeRES vs FOKUS (1-2)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Nuclear TigeRES 1 - FOKUS 2\nMap scores:\n- Nuke: Nuclear TigeRES 11 - FOKUS 13\n- Anubis: Nuclear TigeRES 13 - FOKUS 8\n- Ancient: Nuclear TigeRES 8 - FOKUS 13
+LOCATION:NODWIN Clutch Series 13
+END:VEVENT
+END:VCALENDAR
