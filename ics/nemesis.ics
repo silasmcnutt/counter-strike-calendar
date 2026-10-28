@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2399116@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261026T090000Z
+DTEND:20261026T120000Z
+SUMMARY:Nemesis vs INOX Division (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Nemesis 2 - INOX Division 0\nMap scores:\n- Dust2: Nemesis 13 - INOX Division 7\n- Cache: Nemesis 13 - INOX Division 5
+LOCATION:NODWIN Clutch Series 13
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399120@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261027T090000Z
+DTEND:20261027T120000Z
+SUMMARY:Nemesis vs BRUTE (0-2)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Nemesis 0 - BRUTE 2\nMap scores:\n- Mirage: Nemesis 3 - BRUTE 13\n- Cache: Nemesis 10 - BRUTE 13
+LOCATION:NODWIN Clutch Series 13
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399706@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261027T142500Z
+DTEND:20261027T172500Z
+SUMMARY:Inner Circle vs Nemesis (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Inner Circle 2 - Nemesis 0\nMap scores:\n- Nuke: Inner Circle 13 - Nemesis 5\n- Mirage: Inner Circle 13 - Nemesis 4
+LOCATION:Stake Ranked Episode 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399710@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261028T133000Z
+DTEND:20261028T163000Z
+SUMMARY:Nemesis vs Eternal Fire
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:Stake Ranked Episode 5
+END:VEVENT
+END:VCALENDAR

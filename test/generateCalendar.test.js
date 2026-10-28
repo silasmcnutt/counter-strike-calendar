@@ -8,6 +8,7 @@ const {
 	isQualifyingPrestige,
 	isQualifyingEvent,
 	filterMatches,
+	teamSlug,
 	toIcs,
 } = require('../scripts/generateCalendar');
 
@@ -15,6 +16,11 @@ test('uses the documented default event filter thresholds', () => {
 	assert.equal(isQualifyingEvent({ prestigeScore: 80, prizePool: 100000 }), true);
 	assert.equal(isQualifyingEvent({ prestigeScore: 79.99, prizePool: 100000 }), false);
 	assert.equal(isQualifyingEvent({ prestigeScore: 80, prizePool: 99999 }), false);
+});
+
+test('creates lowercase team filename slugs', () => {
+	assert.equal(teamSlug('Natus Vincere'), 'natus-vincere');
+	assert.equal(teamSlug('G2 Esports'), 'g2-esports');
 });
 
 test('keeps only matches with qualifying prestige and prize pool', () => {
@@ -50,6 +56,13 @@ test('keeps only matches with qualifying prestige and prize pool', () => {
 		team1Name: 'Spirit',
 		team2Name: 'G2',
 	}), null);
+	assert.equal(normalizeCitoMatch({
+		id: 'cs2-match-4',
+		startsAt: '2026-10-26T18:00:00.000Z',
+		event: { name: 'Lower tier', prestigeScore: 20, prizePool: 1000 },
+		team1Name: 'Spirit',
+		team2Name: 'G2',
+	}, true).event, 'Lower tier');
 });
 
 test('normalizes upcoming Cito matches', () => {

@@ -7,54 +7,64 @@
 
 # Counter-Strike Calendar
 
-An automatically updated calendar for notable professional Counter-Strike
-matches.
+Follow professional Counter-Strike matches through calendar subscriptions.
 
-## What is included?
+## Choose a calendar
 
-- Upcoming matches from high-profile events.
-- Recent completed matches.
-- Match scores and map scores when available.
-- Match times shown in UTC.
-- Event names shown as the event location.
+### All teams
 
-The calendar currently includes events with:
-
-- A prestige score of at least **80**.
-- A prize pool of at least **$100,000**.
-
-Completed matches are kept for two weeks. Upcoming matches remain on the
-calendar until they become old enough to be removed.
-
-## Subscribe
-
-Add this URL as a calendar subscription in Google Calendar, Apple Calendar,
-Outlook, or another calendar app:
+Subscribe to every qualifying match:
 
 ```text
-https://raw.githubusercontent.com/silasmcnutt/counter-strike-calendar/main/ics/finalCalendar.ics
+https://raw.githubusercontent.com/silasmcnutt/counter-strike-calendar/main/ics/_ALL-TEAMS.ics
 ```
 
-### Google Calendar
+### Individual teams
 
-1. Open Google Calendar.
-2. Select **Other calendars** > **From URL**.
-3. Paste the URL above.
+Each team has its own calendar. Team filenames are lowercase and hyphenated.
+Replace `<team-name>` with the team's filename:
+
+```text
+https://raw.githubusercontent.com/silasmcnutt/counter-strike-calendar/main/ics/<team-name>.ics
+```
+
+Examples:
+
+```text
+https://raw.githubusercontent.com/silasmcnutt/counter-strike-calendar/main/ics/spirit.ics
+https://raw.githubusercontent.com/silasmcnutt/counter-strike-calendar/main/ics/natus-vincere.ics
+https://raw.githubusercontent.com/silasmcnutt/counter-strike-calendar/main/ics/g2.ics
+```
+
+Team calendars contain every upcoming and recent match involving that team,
+regardless of event prestige or prize pool. They include score updates and map
+scores when available. Matches are kept for two weeks, just like the all-teams
+calendar.
+
+## Add a calendar
+
+Use the subscription URL in Google Calendar, Apple Calendar, Outlook, or
+another calendar app.
+
+For Google Calendar:
+
+1. Open **Other calendars**.
+2. Select **From URL**.
+3. Paste the calendar URL.
 4. Select **Add calendar**.
 
-For Apple Calendar and Outlook, choose the option to subscribe to a calendar
-using a URL and paste the same link.
+Calendar apps control how often they refresh subscriptions. This project
+updates the feeds approximately every four hours.
 
-Calendar applications decide how often they refresh subscriptions. This
-calendar is updated every four hours on the hour, although scheduled updates
-may occasionally be delayed. The workflow can also be run manually at any
-time from GitHub Actions.
+## Match selection
 
-## Data source
+The feeds focus on larger events with:
 
-Match information is provided by [CitoAPI](https://citoapi.com/). Event
-selection is intentionally limited to larger, higher-prestige events so the
-calendar stays focused on matches that are likely to be most useful to fans.
+- A prestige score of at least **80**
+- A prize pool of at least **$100,000**
+
+Upcoming and recent matches are included. Completed matches remain available
+for two weeks.
 
 ## License
 

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2399512@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261027T120000Z
+DTEND:20261027T150000Z
+SUMMARY:ex-RUSTEC vs Spirit Academy (0-2)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: ex-RUSTEC 0 - Spirit Academy 2\nMap scores:\n- Mirage: ex-RUSTEC 6 - Spirit Academy 13\n- Anubis: ex-RUSTEC 8 - Spirit Academy 13
+LOCATION:CCT 2026 Europe Series 12
+END:VEVENT
+END:VCALENDAR

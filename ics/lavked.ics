@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2399514@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261027T180000Z
+DTEND:20261027T210000Z
+SUMMARY:Inner Circle Academy vs Lavked (0-2)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Inner Circle Academy 0 - Lavked 2\nMap scores:\n- Mirage: Inner Circle Academy 17 - Lavked 19\n- Anubis: Inner Circle Academy 8 - Lavked 13
+LOCATION:CCT 2026 Europe Series 12
+END:VEVENT
+END:VCALENDAR

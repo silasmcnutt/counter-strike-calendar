@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2399888@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261026T030000Z
+DTEND:20261026T060000Z
+SUMMARY:Ground Zero vs Off Chops (0-2)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Ground Zero 0 - Off Chops 2\nMap scores:\n- Dust2: Ground Zero 8 - Off Chops 13\n- Anubis: Ground Zero 7 - Off Chops 13
+LOCATION:DFRAG Invitational 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399892@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261026T060000Z
+DTEND:20261026T090000Z
+SUMMARY:Alter Ego vs Off Chops (2-0)
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Alter Ego 2 - Off Chops 0\nMap scores:\n- Inferno: Alter Ego 13 - Off Chops 11\n- Ancient: Alter Ego 13 - Off Chops 3
+LOCATION:DFRAG Invitational 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399896@counter-strike-calendar
+DTSTAMP:20261027T213955Z
+DTSTART:20261028T030000Z
+DTEND:20261028T060000Z
+SUMMARY:Off Chops vs NEXVOID
+DESCRIPTION:Format: BO3\nStatus: scheduled
+LOCATION:DFRAG Invitational 2026
+END:VEVENT
+END:VCALENDAR
