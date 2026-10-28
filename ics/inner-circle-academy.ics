@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399514@counter-strike-calendar
-DTSTAMP:20261028T125608Z
+DTSTAMP:20261028T172929Z
 DTSTART:20261027T180000Z
 DTEND:20261027T210000Z
 SUMMARY:Inner Circle Academy vs Lavked (0-2)
@@ -14,11 +14,11 @@ LOCATION:CCT 2026 Europe Series 12
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399515@counter-strike-calendar
-DTSTAMP:20261028T125608Z
+DTSTAMP:20261028T172929Z
 DTSTART:20261028T120000Z
 DTEND:20261028T150000Z
-SUMMARY:Inner Circle Academy vs Saint Sinners
-DESCRIPTION:Format: BO3\nStatus: scheduled
+SUMMARY:Inner Circle Academy vs Saint Sinners (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Inner Circle Academy 0 - Saint Sinners 2\nMap scores:\n- Dust2: Inner Circle Academy 5 - Saint Sinners 13\n- Anubis: Inner Circle Academy 10 - Saint Sinners 13
 LOCATION:CCT 2026 Europe Series 12
 END:VEVENT
 END:VCALENDAR
