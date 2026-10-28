@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399117@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261026T120000Z
 DTEND:20261026T150000Z
 SUMMARY:FOKUS vs ex-Zero Tenacity (2-0)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: FOKUS 2 - ex-Zero Tenacity 0\nMap scores:\n- Dust2: FOKUS 13 - ex-Zero Tenacity 11\n- Nuke: FOKUS 13 - ex-Zero Tenacity 6
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: FOKUS 2 - ex-Zero Tenacity 0\nMap scores:\n- Dust2: FOKUS 13 - ex-Zero Tenacity 11\n- Nuke: FOKUS 13 - ex-Zero Tenacity 6
 LOCATION:NODWIN Clutch Series 13
 END:VEVENT
 END:VCALENDAR

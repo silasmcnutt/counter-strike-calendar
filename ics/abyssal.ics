@@ -5,29 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399891@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261027T030000Z
 DTEND:20261027T060000Z
 SUMMARY:Rooster vs Abyssal (2-1)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Rooster 2 - Abyssal 1\nMap scores:\n- Inferno: Rooster 15 - Abyssal 19\n- Mirage: Rooster 13 - Abyssal 10\n- Nuke: Rooster 13 - Abyssal 11
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Rooster 2 - Abyssal 1\nMap scores:\n- Inferno: Rooster 15 - Abyssal 19\n- Mirage: Rooster 13 - Abyssal 10\n- Nuke: Rooster 13 - Abyssal 11
 LOCATION:DFRAG Invitational 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399895@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261027T073500Z
 DTEND:20261027T103500Z
 SUMMARY:Staqued vs Abyssal (0-2)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Staqued 0 - Abyssal 2\nMap scores:\n- Inferno: Staqued 2 - Abyssal 13\n- Cache: Staqued 8 - Abyssal 13
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Staqued 0 - Abyssal 2\nMap scores:\n- Inferno: Staqued 2 - Abyssal 13\n- Cache: Staqued 8 - Abyssal 13
 LOCATION:DFRAG Invitational 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399897@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261028T060000Z
 DTEND:20261028T090000Z
 SUMMARY:Abyssal vs Rooster
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DESCRIPTION:Format: BO3\nStatus: scheduled
 LOCATION:DFRAG Invitational 2026
 END:VEVENT
 END:VCALENDAR

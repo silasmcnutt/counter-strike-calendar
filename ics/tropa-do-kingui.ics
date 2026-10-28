@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399918@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261025T181500Z
 DTEND:20261025T211500Z
 SUMMARY:Tropa do KinGui vs Yawara (2-0)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Tropa do KinGui 2 - Yawara 0\nMap scores:\n- Ancient: Tropa do KinGui 13 - Yawara 6\n- Anubis: Tropa do KinGui 13 - Yawara 10
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Tropa do KinGui 2 - Yawara 0\nMap scores:\n- Ancient: Tropa do KinGui 13 - Yawara 6\n- Anubis: Tropa do KinGui 13 - Yawara 10
 LOCATION:CCT 2026 South America Series 7
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399919@counter-strike-calendar
-DTSTAMP:20261028T043130Z
+DTSTAMP:20261028T043410Z
 DTSTART:20261025T214000Z
 DTEND:20261026T004000Z
 SUMMARY:Tropa do KinGui vs BORRACHEIROS (2-0)
-DESCRIPTION:Format: BO3\nStatus: Complete\nFinal score: Tropa do KinGui 2 - BORRACHEIROS 0\nMap scores:\n- Mirage: Tropa do KinGui 19 - BORRACHEIROS 17\n- Ancient: Tropa do KinGui 13 - BORRACHEIROS 5
+DESCRIPTION:Format: BO3\nStatus: completed\nFinal score: Tropa do KinGui 2 - BORRACHEIROS 0\nMap scores:\n- Mirage: Tropa do KinGui 19 - BORRACHEIROS 17\n- Ancient: Tropa do KinGui 13 - BORRACHEIROS 5
 LOCATION:CCT 2026 South America Series 7
 END:VEVENT
 END:VCALENDAR
