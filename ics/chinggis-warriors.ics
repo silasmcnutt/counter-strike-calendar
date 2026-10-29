@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399921@counter-strike-calendar
-DTSTAMP:20261029T030535Z
+DTSTAMP:20261029T102927Z
 DTSTART:20261027T073000Z
 DTEND:20261027T103000Z
 SUMMARY:Chinggis Warriors vs the ONE (2-0)
@@ -14,7 +14,7 @@ LOCATION:MESA Pro Series Halloween Cup 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399923@counter-strike-calendar
-DTSTAMP:20261029T030535Z
+DTSTAMP:20261029T102927Z
 DTSTART:20261028T072000Z
 DTEND:20261028T102000Z
 SUMMARY:The Audacity vs Chinggis Warriors (2-1)
@@ -23,11 +23,20 @@ LOCATION:MESA Pro Series Halloween Cup 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399924@counter-strike-calendar
-DTSTAMP:20261029T030535Z
+DTSTAMP:20261029T102927Z
 DTSTART:20261029T030000Z
 DTEND:20261029T060000Z
-SUMMARY:5star vs Chinggis Warriors
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:5star vs Chinggis Warriors (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: 5star 1 - Chinggis Warriors 2\nMap scores:\n- Inferno: 5star 13 - Chinggis Warriors 10\n- Ancient: 5star 9 - Chinggis Warriors 13\n- Nuke: 5star 10 - Chinggis Warriors 13
+LOCATION:MESA Pro Series Halloween Cup 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399925@counter-strike-calendar
+DTSTAMP:20261029T102927Z
+DTSTART:20261029T070000Z
+DTEND:20261029T100000Z
+SUMMARY:The Audacity vs Chinggis Warriors (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: The Audacity 1 - Chinggis Warriors 2\nMap scores:\n- Inferno: The Audacity 16 - Chinggis Warriors 14\n- Mirage: The Audacity 10 - Chinggis Warriors 13\n- Nuke: The Audacity 8 - Chinggis Warriors 13
 LOCATION:MESA Pro Series Halloween Cup 2026
 END:VEVENT
 END:VCALENDAR
