@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2399521@counter-strike-calendar
+DTSTAMP:20261029T234037Z
+DTSTART:20261029T180000Z
+DTEND:20261029T210000Z
+SUMMARY:9INE vs Black Phoenix (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: 9INE 2 - Black Phoenix 1\nMap scores:\n- Dust2: 9INE 8 - Black Phoenix 13\n- Nuke: 9INE 13 - Black Phoenix 7\n- Cache: 9INE 22 - Black Phoenix 20
+LOCATION:CCT 2026 Europe Series 12
+END:VEVENT
+END:VCALENDAR

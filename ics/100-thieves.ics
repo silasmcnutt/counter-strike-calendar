@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399962@counter-strike-calendar
-DTSTAMP:20261029T174042Z
+DTSTAMP:20261029T234037Z
 DTSTART:20261029T130000Z
 DTEND:20261029T160000Z
 SUMMARY:100 Thieves vs Arena Pro (2-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: 100 Thieves 2 - Arena Pro 0\nMap scores:\n- Mirage: 100 Thieves 13 - Arena Pro 1\n- Dust2: 100 Thieves 13 - Arena Pro 2
+LOCATION:FiRe Last Chance 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399964@counter-strike-calendar
+DTSTAMP:20261029T234037Z
+DTSTART:20261029T163000Z
+DTEND:20261029T193000Z
+SUMMARY:100 Thieves vs Bounty Hunters (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: 100 Thieves 2 - Bounty Hunters 0\nMap scores:\n- Ancient: 100 Thieves 13 - Bounty Hunters 11\n- Dust2: 100 Thieves 13 - Bounty Hunters 6
 LOCATION:FiRe Last Chance 2026
 END:VEVENT
 END:VCALENDAR

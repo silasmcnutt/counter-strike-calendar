@@ -253,8 +253,8 @@
   },
   {
     "id": "cs2-match-2399747",
-    "start": "2026-10-27T17:50:00.000Z",
-    "end": "2026-10-27T20:50:00.000Z",
+    "start": "2026-10-27T17:50:00Z",
+    "end": "2026-10-27T20:50:00Z",
     "summary": "Vitality vs Natus Vincere (2-0)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: Vitality 2 - Natus Vincere 0\nMap scores:\n- Inferno: Vitality 13 - Natus Vincere 2\n- Dust2: Vitality 13 - Natus Vincere 9",
     "location": "PGL Masters Bucharest 2026",
@@ -265,8 +265,8 @@
   },
   {
     "id": "cs2-match-2399749",
-    "start": "2026-10-28T11:00:00.000Z",
-    "end": "2026-10-28T14:00:00.000Z",
+    "start": "2026-10-28T11:00:00Z",
+    "end": "2026-10-28T14:00:00Z",
     "summary": "The MongolZ vs Nemiga (0-2)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: The MongolZ 0 - Nemiga 2\nMap scores:\n- Cache: The MongolZ 5 - Nemiga 13\n- Dust2: The MongolZ 15 - Nemiga 19",
     "location": "PGL Masters Bucharest 2026",
@@ -277,8 +277,8 @@
   },
   {
     "id": "cs2-match-2399750",
-    "start": "2026-10-28T13:40:00.000Z",
-    "end": "2026-10-28T16:40:00.000Z",
+    "start": "2026-10-28T13:40:00Z",
+    "end": "2026-10-28T16:40:00Z",
     "summary": "Liquid vs FURIA (0-2)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: Liquid 0 - FURIA 2\nMap scores:\n- Nuke: Liquid 11 - FURIA 13\n- Inferno: Liquid 5 - FURIA 13",
     "location": "PGL Masters Bucharest 2026",
@@ -357,6 +357,18 @@
     "teams": [
       "Nemiga",
       "Vitality"
+    ]
+  },
+  {
+    "id": "cs2-match-2399757",
+    "start": "2026-10-30T15:00:00.000Z",
+    "end": "2026-10-30T18:00:00.000Z",
+    "summary": "MOUZ vs FURIA",
+    "description": "Format: BO3\nStatus: Scheduled",
+    "location": "PGL Masters Bucharest 2026",
+    "teams": [
+      "MOUZ",
+      "FURIA"
     ]
   },
   {

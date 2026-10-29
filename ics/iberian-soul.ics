@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399929@counter-strike-calendar
-DTSTAMP:20261029T174042Z
+DTSTAMP:20261029T234037Z
 DTSTART:20261029T141000Z
 DTEND:20261029T171000Z
 SUMMARY:Iberian Soul vs ZOTIX (1-0)
 DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: Iberian Soul 1 - ZOTIX 0\nMap scores:\n- Ancient: Iberian Soul 13 - ZOTIX 3
+LOCATION:HyperX Retake Season 13
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399930@counter-strike-calendar
+DTSTAMP:20261029T234037Z
+DTSTART:20261029T171000Z
+DTEND:20261029T201000Z
+SUMMARY:TYLOO vs Iberian Soul (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: TYLOO 1 - Iberian Soul 2\nMap scores:\n- Nuke: TYLOO 14 - Iberian Soul 16\n- Inferno: TYLOO 13 - Iberian Soul 8\n- Ancient: TYLOO 5 - Iberian Soul 13
 LOCATION:HyperX Retake Season 13
 END:VEVENT
 END:VCALENDAR

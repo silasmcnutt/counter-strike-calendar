@@ -5,11 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399511@counter-strike-calendar
-DTSTAMP:20261029T174042Z
+DTSTAMP:20261029T234037Z
 DTSTART:20261026T180000Z
 DTEND:20261026T210000Z
 SUMMARY:6yuBoJlbl vs mellren (2-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: 6yuBoJlbl 2 - mellren 0\nMap scores:\n- Ancient: 6yuBoJlbl 13 - mellren 7\n- Mirage: 6yuBoJlbl 13 - mellren 7
 LOCATION:CCT 2026 Europe Series 12
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400015@counter-strike-calendar
+DTSTAMP:20261029T234037Z
+DTSTART:20261029T180000Z
+DTEND:20261029T210000Z
+SUMMARY:mellren vs Falcons Force (0-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: mellren 0 - Falcons Force 1
+LOCATION:CCT 2026 Europe Series 13 Closed Qualifier
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400029@counter-strike-calendar
+DTSTAMP:20261029T234037Z
+DTSTART:20261029T184422Z
+DTEND:20261029T214422Z
+SUMMARY:megoshort vs mellren (1-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: megoshort 1 - mellren 0
+LOCATION:CCT 2026 Europe Series 13 Closed Qualifier
 END:VEVENT
 END:VCALENDAR

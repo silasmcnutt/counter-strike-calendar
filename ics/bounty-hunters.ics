@@ -5,11 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399963@counter-strike-calendar
-DTSTAMP:20261029T174042Z
+DTSTAMP:20261029T234037Z
 DTSTART:20261029T130000Z
 DTEND:20261029T160000Z
 SUMMARY:BARCA vs Bounty Hunters (1-2)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: BARCA 1 - Bounty Hunters 2\nMap scores:\n- Cache: BARCA 13 - Bounty Hunters 10\n- Dust2: BARCA 5 - Bounty Hunters 13\n- Ancient: BARCA 11 - Bounty Hunters 13
+LOCATION:FiRe Last Chance 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399964@counter-strike-calendar
+DTSTAMP:20261029T234037Z
+DTSTART:20261029T163000Z
+DTEND:20261029T193000Z
+SUMMARY:100 Thieves vs Bounty Hunters (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: 100 Thieves 2 - Bounty Hunters 0\nMap scores:\n- Ancient: 100 Thieves 13 - Bounty Hunters 11\n- Dust2: 100 Thieves 13 - Bounty Hunters 6
+LOCATION:FiRe Last Chance 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399978@counter-strike-calendar
+DTSTAMP:20261029T234037Z
+DTSTART:20261031T130000Z
+DTEND:20261031T160000Z
+SUMMARY:BARCA vs Bounty Hunters
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:FiRe Last Chance 2026
 END:VEVENT
 END:VCALENDAR
