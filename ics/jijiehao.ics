@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399927@counter-strike-calendar
-DTSTAMP:20261029T102927Z
+DTSTAMP:20261029T174042Z
 DTSTART:20261029T103000Z
 DTEND:20261029T133000Z
-SUMMARY:JiJieHao vs SAW Youngsters
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:JiJieHao vs SAW Youngsters (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: JiJieHao 2 - SAW Youngsters 1\nMap scores:\n- Inferno: JiJieHao 11 - SAW Youngsters 13\n- Mirage: JiJieHao 13 - SAW Youngsters 10\n- Dust2: JiJieHao 13 - SAW Youngsters 2
 LOCATION:HyperX Retake Season 13
 END:VEVENT
 END:VCALENDAR

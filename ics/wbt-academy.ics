@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399926@counter-strike-calendar
-DTSTAMP:20261029T102927Z
+DTSTAMP:20261029T174042Z
 DTSTART:20261029T090000Z
 DTEND:20261029T120000Z
 SUMMARY:WBT Academy vs SAW Youngsters (0-1)
 DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: WBT Academy 0 - SAW Youngsters 1\nMap scores:\n- Anubis: WBT Academy 6 - SAW Youngsters 13
+LOCATION:HyperX Retake Season 13
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399928@counter-strike-calendar
+DTSTAMP:20261029T174042Z
+DTSTART:20261029T140000Z
+DTEND:20261029T170000Z
+SUMMARY:WBT Academy vs SAW Youngsters (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: WBT Academy 2 - SAW Youngsters 1\nMap scores:\n- Dust2: WBT Academy 7 - SAW Youngsters 13\n- Mirage: WBT Academy 13 - SAW Youngsters 7\n- Anubis: WBT Academy 13 - SAW Youngsters 6
 LOCATION:HyperX Retake Season 13
 END:VEVENT
 END:VCALENDAR

@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400014@counter-strike-calendar
-DTSTAMP:20261029T102927Z
-DTSTART:20261029T150000Z
-DTEND:20261029T180000Z
-SUMMARY:Spirit Academy vs megoshort
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DTSTAMP:20261029T174042Z
+DTSTART:20261029T153000Z
+DTEND:20261029T183000Z
+SUMMARY:Spirit Academy vs megoshort (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Spirit Academy 2 - megoshort 0\nMap scores:\n- Ancient: Spirit Academy 13 - megoshort 7\n- Dust2: Spirit Academy 13 - megoshort 7
 LOCATION:CCT 2026 Europe Series 13 Closed Qualifier
 END:VEVENT
 END:VCALENDAR
