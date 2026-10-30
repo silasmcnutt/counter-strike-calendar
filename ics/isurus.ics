@@ -5,11 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399971@counter-strike-calendar
-DTSTAMP:20261030T171942Z
+DTSTAMP:20261030T232035Z
 DTSTART:20261030T133500Z
 DTEND:20261030T163500Z
 SUMMARY:ShindeN vs Isurus (2-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: ShindeN 2 - Isurus 0\nMap scores:\n- Cache: ShindeN 13 - Isurus 3\n- Inferno: ShindeN 13 - Isurus 7
+LOCATION:FiRe Last Chance 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399973@counter-strike-calendar
+DTSTAMP:20261030T232035Z
+DTSTART:20261030T153500Z
+DTEND:20261030T183500Z
+SUMMARY:Signatus vs Isurus (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Signatus 0 - Isurus 2\nMap scores:\n- Ancient: Signatus 8 - Isurus 13\n- Nuke: Signatus 3 - Isurus 13
+LOCATION:FiRe Last Chance 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399980@counter-strike-calendar
+DTSTAMP:20261030T232035Z
+DTSTART:20261031T161500Z
+DTEND:20261031T191500Z
+SUMMARY:ShindeN vs Isurus
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:FiRe Last Chance 2026
 END:VEVENT
 END:VCALENDAR

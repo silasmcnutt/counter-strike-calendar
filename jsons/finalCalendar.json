@@ -325,8 +325,8 @@
   },
   {
     "id": "cs2-match-2399754",
-    "start": "2026-10-29T13:25:00.000Z",
-    "end": "2026-10-29T16:25:00.000Z",
+    "start": "2026-10-29T13:25:00Z",
+    "end": "2026-10-29T16:25:00Z",
     "summary": "Aurora vs MOUZ (0-2)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: Aurora 0 - MOUZ 2\nMap scores:\n- Mirage: Aurora 6 - MOUZ 13\n- Cache: Aurora 2 - MOUZ 13",
     "location": "PGL Masters Bucharest 2026",
@@ -337,8 +337,8 @@
   },
   {
     "id": "cs2-match-2399755",
-    "start": "2026-10-29T15:20:00.000Z",
-    "end": "2026-10-29T18:20:00.000Z",
+    "start": "2026-10-29T15:20:00Z",
+    "end": "2026-10-29T18:20:00Z",
     "summary": "BETBOOM vs FURIA (0-2)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: BETBOOM 0 - FURIA 2\nMap scores:\n- Dust2: BETBOOM 12 - FURIA 16\n- Cache: BETBOOM 7 - FURIA 13",
     "location": "PGL Masters Bucharest 2026",
@@ -361,10 +361,10 @@
   },
   {
     "id": "cs2-match-2399757",
-    "start": "2026-10-30T15:00:00Z",
-    "end": "2026-10-30T18:00:00Z",
-    "summary": "MOUZ vs FURIA",
-    "description": "Format: BO3\nStatus: Scheduled",
+    "start": "2026-10-30T15:00:00.000Z",
+    "end": "2026-10-30T18:00:00.000Z",
+    "summary": "MOUZ vs FURIA (1-2)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: MOUZ 1 - FURIA 2\nMap scores:\n- Dust2: MOUZ 6 - FURIA 13\n- Mirage: MOUZ 13 - FURIA 9\n- Cache: MOUZ 9 - FURIA 13",
     "location": "PGL Masters Bucharest 2026",
     "teams": [
       "MOUZ",
@@ -372,15 +372,75 @@
     ]
   },
   {
+    "id": "cs2-match-2399758",
+    "start": "2026-10-31T08:00:00.000Z",
+    "end": "2026-10-31T11:00:00.000Z",
+    "summary": "Vitality vs MOUZ",
+    "description": "Format: BO3\nStatus: Scheduled",
+    "location": "PGL Masters Bucharest 2025",
+    "teams": [
+      "Vitality",
+      "MOUZ"
+    ]
+  },
+  {
+    "id": "cs2-match-2399759",
+    "start": "2026-10-31T11:00:00.000Z",
+    "end": "2026-10-31T14:00:00.000Z",
+    "summary": "Nemiga vs FURIA",
+    "description": "Format: BO5\nStatus: Scheduled",
+    "location": "PGL Masters Bucharest 2025",
+    "teams": [
+      "Nemiga",
+      "FURIA"
+    ]
+  },
+  {
     "id": "cs2-match-2399855",
-    "start": "2026-11-02T07:00:00.000Z",
-    "end": "2026-11-02T10:00:00.000Z",
+    "start": "2026-11-02T02:00:00.000Z",
+    "end": "2026-11-02T05:00:00.000Z",
     "summary": "Legacy vs The MongolZ",
     "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
     "teams": [
       "Legacy",
       "The MongolZ"
+    ]
+  },
+  {
+    "id": "cs2-match-2399856",
+    "start": "2026-11-02T02:00:00.000Z",
+    "end": "2026-11-02T05:00:00.000Z",
+    "summary": "HEROIC vs B8",
+    "description": "Format: BO3\nStatus: Scheduled",
+    "location": "IEM Beijing 2026",
+    "teams": [
+      "HEROIC",
+      "B8"
+    ]
+  },
+  {
+    "id": "cs2-match-2399861",
+    "start": "2026-11-02T04:30:00.000Z",
+    "end": "2026-11-02T07:30:00.000Z",
+    "summary": "Aurora vs Liquid",
+    "description": "Format: BO3\nStatus: Scheduled",
+    "location": "IEM Beijing 2026",
+    "teams": [
+      "Aurora",
+      "Liquid"
+    ]
+  },
+  {
+    "id": "cs2-match-2399862",
+    "start": "2026-11-02T04:30:00.000Z",
+    "end": "2026-11-02T07:30:00.000Z",
+    "summary": "PARIVISION vs G2",
+    "description": "Format: BO3\nStatus: Scheduled",
+    "location": "IEM Beijing 2026",
+    "teams": [
+      "PARIVISION",
+      "G2"
     ]
   },
   {
@@ -396,18 +456,6 @@
     ]
   },
   {
-    "id": "cs2-match-2399856",
-    "start": "2026-11-02T07:00:00.000Z",
-    "end": "2026-11-02T10:00:00.000Z",
-    "summary": "HEROIC vs B8",
-    "description": "Format: BO3\nStatus: Scheduled",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "HEROIC",
-      "B8"
-    ]
-  },
-  {
     "id": "cs2-match-2399860",
     "start": "2026-11-02T07:00:00.000Z",
     "end": "2026-11-02T10:00:00.000Z",
@@ -420,21 +468,9 @@
     ]
   },
   {
-    "id": "cs2-match-2399861",
-    "start": "2026-11-02T07:00:00.000Z",
-    "end": "2026-11-02T10:00:00.000Z",
-    "summary": "Aurora vs Liquid",
-    "description": "Format: BO3\nStatus: Scheduled",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "Aurora",
-      "Liquid"
-    ]
-  },
-  {
     "id": "cs2-match-2399859",
-    "start": "2026-11-02T07:00:00.000Z",
-    "end": "2026-11-02T10:00:00.000Z",
+    "start": "2026-11-02T09:30:00.000Z",
+    "end": "2026-11-02T12:30:00.000Z",
     "summary": "MOUZ vs TYLOO",
     "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
@@ -444,21 +480,9 @@
     ]
   },
   {
-    "id": "cs2-match-2399862",
-    "start": "2026-11-02T07:00:00.000Z",
-    "end": "2026-11-02T10:00:00.000Z",
-    "summary": "PARIVISION vs G2",
-    "description": "Format: BO3\nStatus: Scheduled",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "PARIVISION",
-      "G2"
-    ]
-  },
-  {
     "id": "cs2-match-2399858",
-    "start": "2026-11-02T07:00:00.000Z",
-    "end": "2026-11-02T10:00:00.000Z",
+    "start": "2026-11-02T09:30:00.000Z",
+    "end": "2026-11-02T12:30:00.000Z",
     "summary": "Natus Vincere vs Falcons",
     "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",

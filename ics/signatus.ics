@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399970@counter-strike-calendar
-DTSTAMP:20261030T171942Z
+DTSTAMP:20261030T232035Z
 DTSTART:20261030T130000Z
 DTEND:20261030T160000Z
 SUMMARY:Fluxo vs Signatus (2-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Fluxo 2 - Signatus 0\nMap scores:\n- Dust2: Fluxo 13 - Signatus 0\n- Cache: Fluxo 13 - Signatus 9
+LOCATION:FiRe Last Chance 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399973@counter-strike-calendar
+DTSTAMP:20261030T232035Z
+DTSTART:20261030T153500Z
+DTEND:20261030T183500Z
+SUMMARY:Signatus vs Isurus (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Signatus 0 - Isurus 2\nMap scores:\n- Ancient: Signatus 8 - Isurus 13\n- Nuke: Signatus 3 - Isurus 13
 LOCATION:FiRe Last Chance 2026
 END:VEVENT
 END:VCALENDAR

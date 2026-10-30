@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399707@counter-strike-calendar
-DTSTAMP:20261030T171942Z
+DTSTAMP:20261030T232035Z
 DTSTART:20261027T162000Z
 DTEND:20261027T192000Z
 SUMMARY:Astralis vs fnatic (0-2)
@@ -14,7 +14,7 @@ LOCATION:Stake Ranked Episode 5
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399711@counter-strike-calendar
-DTSTAMP:20261030T171942Z
+DTSTAMP:20261030T232035Z
 DTSTART:20261028T171000Z
 DTEND:20261028T201000Z
 SUMMARY:BIG vs fnatic (0-2)
@@ -23,11 +23,20 @@ LOCATION:Stake Ranked Episode 5
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399715@counter-strike-calendar
-DTSTAMP:20261030T171942Z
+DTSTAMP:20261030T232035Z
 DTSTART:20261029T163000Z
 DTEND:20261029T193000Z
 SUMMARY:fnatic vs MIBR (2-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: fnatic 2 - MIBR 0\nMap scores:\n- Ancient: fnatic 13 - MIBR 9\n- Mirage: fnatic 13 - MIBR 7
+LOCATION:Stake Ranked Episode 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399718@counter-strike-calendar
+DTSTAMP:20261030T232035Z
+DTSTART:20261030T160000Z
+DTEND:20261030T190000Z
+SUMMARY:fnatic vs Eternal Fire (2-3)
+DESCRIPTION:Format: BO5\nStatus: Completed\nFinal score: fnatic 2 - Eternal Fire 3\nMap scores:\n- Anubis: fnatic 13 - Eternal Fire 8\n- Ancient: fnatic 13 - Eternal Fire 2\n- Cache: fnatic 9 - Eternal Fire 13\n- Dust2: fnatic 11 - Eternal Fire 13\n- Mirage: fnatic 8 - Eternal Fire 13
 LOCATION:Stake Ranked Episode 5
 END:VEVENT
 END:VCALENDAR

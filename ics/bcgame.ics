@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399936@counter-strike-calendar
-DTSTAMP:20261030T171942Z
-DTSTART:20261030T161500Z
-DTEND:20261030T191500Z
-SUMMARY:BC.Game vs OG
-DESCRIPTION:Format: BO1\nStatus: Scheduled
+DTSTAMP:20261030T232035Z
+DTSTART:20261030T163000Z
+DTEND:20261030T193000Z
+SUMMARY:BC.Game vs OG (1-0)
+DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: BC.Game 1 - OG 0\nMap scores:\n- Cache: BC.Game 13 - OG 6
+LOCATION:HyperX Retake Season 13
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399937@counter-strike-calendar
+DTSTAMP:20261030T232035Z
+DTSTART:20261030T181500Z
+DTEND:20261030T211500Z
+SUMMARY:BC.Game vs Metizport (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: BC.Game 1 - Metizport 2\nMap scores:\n- Nuke: BC.Game 13 - Metizport 3\n- Mirage: BC.Game 9 - Metizport 13\n- Ancient: BC.Game 6 - Metizport 13
 LOCATION:HyperX Retake Season 13
 END:VEVENT
 END:VCALENDAR
