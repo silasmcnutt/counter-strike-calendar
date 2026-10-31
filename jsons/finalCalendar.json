@@ -375,9 +375,9 @@
     "id": "cs2-match-2399758",
     "start": "2026-10-31T08:00:00.000Z",
     "end": "2026-10-31T11:00:00.000Z",
-    "summary": "Vitality vs MOUZ",
-    "description": "Format: BO3\nStatus: Scheduled",
-    "location": "PGL Masters Bucharest 2025",
+    "summary": "Vitality vs MOUZ (0-2)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Vitality 0 - MOUZ 2\nMap scores:\n- Nuke: Vitality 7 - MOUZ 13\n- Inferno: Vitality 7 - MOUZ 13",
+    "location": "PGL Masters Bucharest 2026",
     "teams": [
       "Vitality",
       "MOUZ"
