@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2400049@counter-strike-calendar
+DTSTAMP:20261031T225317Z
+DTSTART:20261031T162000Z
+DTEND:20261031T192000Z
+SUMMARY:Phantom Academy vs uwuza (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Phantom Academy 2 - uwuza 0\nMap scores:\n- Dust2: Phantom Academy 13 - uwuza 5\n- Nuke: Phantom Academy 13 - uwuza 8
+LOCATION:BaseStack League Season 1
+END:VEVENT
+END:VCALENDAR

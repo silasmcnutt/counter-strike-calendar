@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2400048@counter-strike-calendar
+DTSTAMP:20261031T225317Z
+DTSTART:20261031T191500Z
+DTEND:20261031T221500Z
+SUMMARY:Ducks vs TTG (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Ducks 2 - TTG 1\nMap scores:\n- Mirage: Ducks 13 - TTG 8\n- Nuke: Ducks 5 - TTG 13\n- Dust2: Ducks 13 - TTG 11
+LOCATION:CCT 2026 Contenders Europe Series 10
+END:VEVENT
+END:VCALENDAR

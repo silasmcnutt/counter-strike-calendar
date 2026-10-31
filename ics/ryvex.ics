@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400036@counter-strike-calendar
-DTSTAMP:20261031T162401Z
-DTSTART:20261031T130000Z
-DTEND:20261031T160000Z
-SUMMARY:Ryvex vs Privateer
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DTSTAMP:20261031T225317Z
+DTSTART:20261031T133500Z
+DTEND:20261031T163500Z
+SUMMARY:Ryvex vs Privateer (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Ryvex 2 - Privateer 1\nMap scores:\n- Nuke: Ryvex 9 - Privateer 13\n- Mirage: Ryvex 13 - Privateer 11\n- Inferno: Ryvex 13 - Privateer 10
+LOCATION:EPIC49
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400037@counter-strike-calendar
+DTSTAMP:20261031T225317Z
+DTSTART:20261031T173000Z
+DTEND:20261031T203000Z
+SUMMARY:The Last Resort vs Ryvex (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: The Last Resort 2 - Ryvex 0\nMap scores:\n- Dust2: The Last Resort 13 - Ryvex 6\n- Inferno: The Last Resort 13 - Ryvex 11
 LOCATION:EPIC49
 END:VEVENT
 END:VCALENDAR

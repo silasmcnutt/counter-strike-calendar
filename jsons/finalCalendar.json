@@ -349,8 +349,8 @@
   },
   {
     "id": "cs2-match-2399756",
-    "start": "2026-10-30T12:00:00.000Z",
-    "end": "2026-10-30T15:00:00.000Z",
+    "start": "2026-10-30T12:00:00Z",
+    "end": "2026-10-30T15:00:00Z",
     "summary": "Nemiga vs Vitality (2-0)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: Nemiga 2 - Vitality 0\nMap scores:\n- Cache: Nemiga 13 - Vitality 8\n- Dust2: Nemiga 13 - Vitality 11",
     "location": "PGL Masters Bucharest 2026",
@@ -361,8 +361,8 @@
   },
   {
     "id": "cs2-match-2399757",
-    "start": "2026-10-30T15:00:00.000Z",
-    "end": "2026-10-30T18:00:00.000Z",
+    "start": "2026-10-30T15:00:00Z",
+    "end": "2026-10-30T18:00:00Z",
     "summary": "MOUZ vs FURIA (1-2)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: MOUZ 1 - FURIA 2\nMap scores:\n- Dust2: MOUZ 6 - FURIA 13\n- Mirage: MOUZ 13 - FURIA 9\n- Cache: MOUZ 9 - FURIA 13",
     "location": "PGL Masters Bucharest 2026",
