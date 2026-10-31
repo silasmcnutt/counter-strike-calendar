@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400035@counter-strike-calendar
-DTSTAMP:20261031T095932Z
+DTSTAMP:20261031T162401Z
 DTSTART:20261031T130000Z
 DTEND:20261031T160000Z
-SUMMARY:The Last Resort vs The Pigs
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:The Last Resort vs The Pigs (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: The Last Resort 2 - The Pigs 1\nMap scores:\n- Cache: The Last Resort 8 - The Pigs 13\n- Inferno: The Last Resort 13 - The Pigs 6\n- Nuke: The Last Resort 13 - The Pigs 3
 LOCATION:EPIC49
 END:VEVENT
 END:VCALENDAR

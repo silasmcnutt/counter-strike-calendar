@@ -387,9 +387,9 @@
     "id": "cs2-match-2399759",
     "start": "2026-10-31T11:00:00.000Z",
     "end": "2026-10-31T14:00:00.000Z",
-    "summary": "Nemiga vs FURIA",
-    "description": "Format: BO5\nStatus: Scheduled",
-    "location": "PGL Masters Bucharest 2025",
+    "summary": "Nemiga vs FURIA (2-3)",
+    "description": "Format: BO5\nStatus: Completed\nFinal score: Nemiga 2 - FURIA 3\nMap scores:\n- Ancient: Nemiga 13 - FURIA 2\n- Dust2: Nemiga 5 - FURIA 13\n- Cache: Nemiga 2 - FURIA 13\n- Mirage: Nemiga 13 - FURIA 11\n- Nuke: Nemiga 6 - FURIA 13",
+    "location": "PGL Masters Bucharest 2026",
     "teams": [
       "Nemiga",
       "FURIA"

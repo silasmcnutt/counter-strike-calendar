@@ -5,10 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400032@counter-strike-calendar
-DTSTAMP:20261031T095932Z
+DTSTAMP:20261031T162401Z
 DTSTART:20261031T100000Z
 DTEND:20261031T130000Z
-SUMMARY:Optibet vs Fraternity
+SUMMARY:Optibet vs Fraternity (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Optibet 2 - Fraternity 1\nMap scores:\n- Nuke: Optibet 10 - Fraternity 13\n- Ancient: Optibet 13 - Fraternity 8\n- Dust2: Optibet 13 - Fraternity 5
+LOCATION:GOEXANIMO Battle of Baltics 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400034@counter-strike-calendar
+DTSTAMP:20261031T162401Z
+DTSTART:20261031T164000Z
+DTEND:20261031T194000Z
+SUMMARY:Optibet vs Galaxy
 DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:GOEXANIMO Battle of Baltics 2026
 END:VEVENT
