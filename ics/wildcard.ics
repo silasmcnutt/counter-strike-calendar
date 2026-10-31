@@ -5,11 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399974@counter-strike-calendar
-DTSTAMP:20261030T232035Z
+DTSTAMP:20261031T025539Z
 DTSTART:20261030T183000Z
 DTEND:20261030T213000Z
 SUMMARY:Wildcard vs Hacha (2-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Wildcard 2 - Hacha 0\nMap scores:\n- Nuke: Wildcard 13 - Hacha 6\n- Inferno: Wildcard 13 - Hacha 10
+LOCATION:FiRe Last Chance 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399976@counter-strike-calendar
+DTSTAMP:20261031T025539Z
+DTSTART:20261030T212500Z
+DTEND:20261031T002500Z
+SUMMARY:Wildcard vs BESTIA (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Wildcard 1 - BESTIA 2\nMap scores:\n- Inferno: Wildcard 8 - BESTIA 13\n- Nuke: Wildcard 13 - BESTIA 6\n- Mirage: Wildcard 4 - BESTIA 13
+LOCATION:FiRe Last Chance 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399981@counter-strike-calendar
+DTSTAMP:20261031T025539Z
+DTSTART:20261031T161500Z
+DTEND:20261031T191500Z
+SUMMARY:Hacha vs Wildcard
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:FiRe Last Chance 2026
 END:VEVENT
 END:VCALENDAR
