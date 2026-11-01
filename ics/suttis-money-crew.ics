@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400043@counter-strike-calendar
-DTSTAMP:20261101T171843Z
+DTSTAMP:20261101T231110Z
 DTSTART:20261031T223000Z
 DTEND:20261101T013000Z
 SUMMARY:LAG vs Sutti's Money Crew (2-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: LAG 2 - Sutti's Money Crew 0\nMap scores:\n- Mirage: LAG 13 - Sutti's Money Crew 3\n- Inferno: LAG 13 - Sutti's Money Crew 6
-LOCATION:NSTLGA Texas Open 2026
+LOCATION:NSTLGA Washington Open 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400045@counter-strike-calendar
-DTSTAMP:20261101T171843Z
-DTSTART:20261101T160000Z
-DTEND:20261101T190000Z
-SUMMARY:Sutti's Money Crew vs Holly Molly
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DTSTAMP:20261101T231110Z
+DTSTART:20261101T170000Z
+DTEND:20261101T200000Z
+SUMMARY:Sutti's Money Crew vs Holly Molly (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Sutti's Money Crew 0 - Holly Molly 2\nMap scores:\n- Nuke: Sutti's Money Crew 6 - Holly Molly 13\n- Dust2: Sutti's Money Crew 11 - Holly Molly 13
 LOCATION:NSTLGA Washington Open 2026
 END:VEVENT
 END:VCALENDAR

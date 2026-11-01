@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400047@counter-strike-calendar
-DTSTAMP:20261101T171843Z
+DTSTAMP:20261101T231110Z
 DTSTART:20261031T163000Z
 DTEND:20261031T193000Z
 SUMMARY:prodigy RU vs Monte (0-2)
@@ -14,11 +14,20 @@ LOCATION:CCT 2026 Contenders Europe Series 10
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400054@counter-strike-calendar
-DTSTAMP:20261101T171843Z
+DTSTAMP:20261101T231110Z
 DTSTART:20261101T163000Z
 DTEND:20261101T193000Z
-SUMMARY:prodigy RU vs Ducks
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:prodigy RU vs Ducks (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: prodigy RU 2 - Ducks 1\nMap scores:\n- Mirage: prodigy RU 11 - Ducks 13\n- Dust2: prodigy RU 13 - Ducks 8\n- Ancient: prodigy RU 16 - Ducks 13
+LOCATION:CCT 2026 Contenders Europe Series 10
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400055@counter-strike-calendar
+DTSTAMP:20261101T231110Z
+DTSTART:20261101T200500Z
+DTEND:20261101T230500Z
+SUMMARY:Monte vs prodigy RU (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Monte 2 - prodigy RU 0\nMap scores:\n- Cache: Monte 13 - prodigy RU 7\n- Nuke: Monte 13 - prodigy RU 10
 LOCATION:CCT 2026 Contenders Europe Series 10
 END:VEVENT
 END:VCALENDAR
