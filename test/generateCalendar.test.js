@@ -7,6 +7,7 @@ const {
 	normalizeCitoMatch,
 	isQualifyingPrestige,
 	isQualifyingEvent,
+	normalizeCalendarMatches,
 	filterMatches,
 	teamSlug,
 	toIcs,
@@ -164,15 +165,30 @@ test('updates an existing event with newly available Cito results', () => {
 	};
 	const incoming = normalizeMatch({
 		id: 'cs2-match-1',
-		date: '2026-10-26T18:00:00.000Z',
+		date: '2026-10-26T19:00:00.000Z',
 		event: { name: 'Example event' },
 		team1: { name: 'Spirit', score: 2 },
 		team2: { name: 'G2', score: 1 },
 	}, true, existing);
 	const updated = mergeCalendarEvent(existing, incoming);
 	assert.equal(updated.id, existing.id);
+	assert.equal(updated.start, '2026-10-26T19:00:00.000Z');
+	assert.equal(updated.end, '2026-10-26T22:00:00.000Z');
 	assert.equal(updated.summary, 'Spirit vs G2 (2-1)');
 	assert.match(updated.description, /Final score: Spirit 2 - G2 1/);
+});
+
+test('refreshes known matches when a later response omits event metadata', () => {
+	const existing = new Map([['cs2-match-1', { id: 'cs2-match-1' }]]);
+	const matches = normalizeCalendarMatches([{
+		id: 'cs2-match-1',
+		startsAt: '2026-10-26T19:00:00.000Z',
+		team1Name: 'Spirit',
+		team2Name: 'G2',
+		event: undefined,
+	}], existing);
+	assert.equal(matches.length, 1);
+	assert.equal(matches[0].date, '2026-10-26T19:00:00.000Z');
 });
 
 test('removes events at and beyond the two-week threshold', () => {

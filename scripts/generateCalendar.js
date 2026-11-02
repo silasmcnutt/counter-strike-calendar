@@ -178,6 +178,24 @@ function normalizeCitoMatch(match, includeAllEvents = false) {
 }
 
 /**
+ * Normalize matches for the all-teams calendar.
+ *
+ * New matches still need to meet the event filters, but known matches must be
+ * normalized even when a later API response omits event metadata so their
+ * current start time and result details can be applied.
+ *
+ * @param {object[]} matches Raw Cito match records.
+ * @param {Map<string, object>} existingEvents Existing calendar events.
+ * @returns {object[]} Normalized matches.
+ */
+function normalizeCalendarMatches(matches, existingEvents) {
+	return matches
+		.filter((match) => isQualifyingEvent(match.event) || existingEvents.has(String(match.id)))
+		.map((match) => normalizeCitoMatch(match, existingEvents.has(String(match.id))))
+		.filter(Boolean);
+}
+
+/**
  * Format completed-match map scores for an ICS description.
  *
  * @param {object} match Enriched match record.
@@ -435,10 +453,7 @@ async function generateCalendar() {
 	}
 	const citoMatches = await fetchCitoMatches();
 	const allTeamMatches = citoMatches.map((match) => normalizeCitoMatch(match, true)).filter(Boolean);
-	const filteredMatches = citoMatches
-		.filter((match) => isQualifyingEvent(match.event))
-		.map((match) => normalizeCitoMatch(match))
-		.filter(Boolean);
+	const filteredMatches = normalizeCalendarMatches(citoMatches, existingEvents);
 	const incomingEvents = filteredMatches.map((match) => normalizeMatch(
 		match,
 		match.status === 'Completed' || match.status === 'Finished' ||
@@ -502,6 +517,7 @@ module.exports = {
 	normalizeCitoMatch,
 	isQualifyingPrestige,
 	isQualifyingEvent,
+	normalizeCalendarMatches,
 	filterMatches,
 	escapeIcsText,
 	teamSlug,
