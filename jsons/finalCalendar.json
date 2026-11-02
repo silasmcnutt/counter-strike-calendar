@@ -397,10 +397,10 @@
   },
   {
     "id": "cs2-match-2399855",
-    "start": "2026-11-02T02:00:00Z",
-    "end": "2026-11-02T05:00:00Z",
-    "summary": "Legacy vs The MongolZ",
-    "description": "Format: BO3\nStatus: Scheduled",
+    "start": "2026-11-02T02:00:00.000Z",
+    "end": "2026-11-02T05:00:00.000Z",
+    "summary": "Legacy vs The MongolZ (1-2)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Legacy 1 - The MongolZ 2\nMap scores:\n- Mirage: Legacy 16 - The MongolZ 13\n- Dust2: Legacy 6 - The MongolZ 13\n- Ancient: Legacy 8 - The MongolZ 13",
     "location": "IEM Beijing 2026",
     "teams": [
       "Legacy",
@@ -409,10 +409,10 @@
   },
   {
     "id": "cs2-match-2399856",
-    "start": "2026-11-02T02:00:00Z",
-    "end": "2026-11-02T05:00:00Z",
-    "summary": "HEROIC vs B8",
-    "description": "Format: BO3\nStatus: Scheduled",
+    "start": "2026-11-02T02:00:00.000Z",
+    "end": "2026-11-02T05:00:00.000Z",
+    "summary": "HEROIC vs B8 (2-0)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: HEROIC 2 - B8 0\nMap scores:\n- Nuke: HEROIC 13 - B8 4\n- Dust2: HEROIC 13 - B8 7",
     "location": "IEM Beijing 2026",
     "teams": [
       "HEROIC",
@@ -423,8 +423,8 @@
     "id": "cs2-match-2399861",
     "start": "2026-11-02T04:30:00.000Z",
     "end": "2026-11-02T07:30:00.000Z",
-    "summary": "Aurora vs Liquid",
-    "description": "Format: BO3\nStatus: Scheduled",
+    "summary": "Aurora vs Liquid (0-2)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Aurora 0 - Liquid 2\nMap scores:\n- Inferno: Aurora 3 - Liquid 13\n- Anubis: Aurora 4 - Liquid 13",
     "location": "IEM Beijing 2026",
     "teams": [
       "Aurora",
@@ -433,10 +433,10 @@
   },
   {
     "id": "cs2-match-2399862",
-    "start": "2026-11-02T04:30:00.000Z",
-    "end": "2026-11-02T07:30:00.000Z",
-    "summary": "PARIVISION vs G2",
-    "description": "Format: BO3\nStatus: Scheduled",
+    "start": "2026-11-02T05:30:00.000Z",
+    "end": "2026-11-02T08:30:00.000Z",
+    "summary": "PARIVISION vs G2 (2-1)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: PARIVISION 2 - G2 1\nMap scores:\n- Dust2: PARIVISION 9 - G2 13\n- Anubis: PARIVISION 13 - G2 7\n- Ancient: PARIVISION 13 - G2 9",
     "location": "IEM Beijing 2026",
     "teams": [
       "PARIVISION",
@@ -444,23 +444,11 @@
     ]
   },
   {
-    "id": "cs2-match-2399857",
-    "start": "2026-11-02T07:00:00.000Z",
-    "end": "2026-11-02T10:00:00.000Z",
-    "summary": "FURIA vs FaZe",
-    "description": "Format: BO3\nStatus: Scheduled",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "FURIA",
-      "FaZe"
-    ]
-  },
-  {
     "id": "cs2-match-2399860",
     "start": "2026-11-02T07:00:00.000Z",
     "end": "2026-11-02T10:00:00.000Z",
-    "summary": "9z vs BETBOOM",
-    "description": "Format: BO3\nStatus: Scheduled",
+    "summary": "9z vs BETBOOM (1-2)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: 9z 1 - BETBOOM 2\nMap scores:\n- Dust2: 9z 13 - BETBOOM 8\n- Ancient: 9z 7 - BETBOOM 13\n- Mirage: 9z 9 - BETBOOM 13",
     "location": "IEM Beijing 2026",
     "teams": [
       "9z",
@@ -468,9 +456,21 @@
     ]
   },
   {
+    "id": "cs2-match-2399857",
+    "start": "2026-11-02T08:50:00.000Z",
+    "end": "2026-11-02T11:50:00.000Z",
+    "summary": "FURIA vs FaZe (2-1)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: FURIA 2 - FaZe 1\nMap scores:\n- Ancient: FURIA 11 - FaZe 13\n- Dust2: FURIA 13 - FaZe 5\n- Cache: FURIA 13 - FaZe 4",
+    "location": "IEM Beijing 2026",
+    "teams": [
+      "FURIA",
+      "FaZe"
+    ]
+  },
+  {
     "id": "cs2-match-2399859",
-    "start": "2026-11-02T09:30:00.000Z",
-    "end": "2026-11-02T12:30:00.000Z",
+    "start": "2026-11-02T09:30:00Z",
+    "end": "2026-11-02T12:30:00Z",
     "summary": "MOUZ vs TYLOO",
     "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
@@ -481,8 +481,8 @@
   },
   {
     "id": "cs2-match-2399858",
-    "start": "2026-11-02T09:30:00.000Z",
-    "end": "2026-11-02T12:30:00.000Z",
+    "start": "2026-11-02T12:00:00.000Z",
+    "end": "2026-11-02T15:00:00.000Z",
     "summary": "Natus Vincere vs Falcons",
     "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
