@@ -397,8 +397,8 @@
   },
   {
     "id": "cs2-match-2399855",
-    "start": "2026-11-02T02:00:00.000Z",
-    "end": "2026-11-02T05:00:00.000Z",
+    "start": "2026-11-02T02:00:00Z",
+    "end": "2026-11-02T05:00:00Z",
     "summary": "Legacy vs The MongolZ",
     "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
@@ -409,8 +409,8 @@
   },
   {
     "id": "cs2-match-2399856",
-    "start": "2026-11-02T02:00:00.000Z",
-    "end": "2026-11-02T05:00:00.000Z",
+    "start": "2026-11-02T02:00:00Z",
+    "end": "2026-11-02T05:00:00Z",
     "summary": "HEROIC vs B8",
     "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",

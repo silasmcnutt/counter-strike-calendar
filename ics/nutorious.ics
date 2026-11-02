@@ -5,20 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400044@counter-strike-calendar
-DTSTAMP:20261101T231110Z
+DTSTAMP:20261102T025649Z
 DTSTART:20261101T014000Z
 DTEND:20261101T044000Z
 SUMMARY:NuTorious vs Holly Molly (2-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: NuTorious 2 - Holly Molly 0\nMap scores:\n- Anubis: NuTorious 13 - Holly Molly 11\n- Cache: NuTorious 19 - Holly Molly 17
-LOCATION:NSTLGA Washington Open 2026
+LOCATION:NSTLGA Texas Open 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400046@counter-strike-calendar
-DTSTAMP:20261101T231110Z
-DTSTART:20261101T210000Z
-DTEND:20261102T000000Z
-SUMMARY:LAG vs NuTorious
-DESCRIPTION:Format: BO5\nStatus: Scheduled
-LOCATION:NSTLGA Washington Open 2026
+DTSTAMP:20261102T025649Z
+DTSTART:20261101T212000Z
+DTEND:20261102T002000Z
+SUMMARY:LAG vs NuTorious (3-1)
+DESCRIPTION:Format: BO5\nStatus: Completed\nFinal score: LAG 3 - NuTorious 1\nMap scores:\n- Inferno: LAG 13 - NuTorious 7\n- Anubis: LAG 13 - NuTorious 0\n- Nuke: LAG 10 - NuTorious 13\n- Ancient: LAG 13 - NuTorious 8
+LOCATION:NSTLGA Texas Open 2026
 END:VEVENT
 END:VCALENDAR
