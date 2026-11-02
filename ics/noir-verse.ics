@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2400058@counter-strike-calendar
+DTSTAMP:20261102T205605Z
+DTSTART:20261102T150000Z
+DTEND:20261102T180000Z
+SUMMARY:Spirit Academy vs Noir Verse (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Spirit Academy 1 - Noir Verse 2\nMap scores:\n- Cache: Spirit Academy 13 - Noir Verse 4\n- Ancient: Spirit Academy 12 - Noir Verse 16\n- Mirage: Spirit Academy 4 - Noir Verse 13
+LOCATION:NODWIN Clutch Series 14 Closed Qualifier
+END:VEVENT
+END:VCALENDAR

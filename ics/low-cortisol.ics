@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2399959@counter-strike-calendar
+DTSTAMP:20261102T205605Z
+DTSTART:20261031T230000Z
+DTEND:20261101T020000Z
+SUMMARY:Imperial vs Low Cortisol (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Imperial 2 - Low Cortisol 1\nMap scores:\n- Anubis: Imperial 8 - Low Cortisol 13\n- Inferno: Imperial 13 - Low Cortisol 7\n- Nuke: Imperial 13 - Low Cortisol 11
+LOCATION:Gamers Club Masters VII
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2399960@counter-strike-calendar
+DTSTAMP:20261102T205605Z
+DTSTART:20261101T150000Z
+DTEND:20261101T180000Z
+SUMMARY:NAOCOPULAS vs Low Cortisol (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: NAOCOPULAS 0 - Low Cortisol 2\nMap scores:\n- Nuke: NAOCOPULAS 7 - Low Cortisol 13\n- Mirage: NAOCOPULAS 8 - Low Cortisol 13
+LOCATION:Gamers Club Masters VII
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400078@counter-strike-calendar
+DTSTAMP:20261102T205605Z
+DTSTART:20261104T190000Z
+DTEND:20261104T220000Z
+SUMMARY:BORRACHEIROS vs Low Cortisol
+DESCRIPTION:Format: BO3\nStatus: Scheduled
+LOCATION:CCT 2026 South America Series 8
+END:VEVENT
+END:VCALENDAR
