@@ -3,7 +3,7 @@ const path = require('node:path');
 
 const ROOT = path.join(__dirname, '..');
 const ICS_DIRECTORY = path.join(ROOT, 'ics');
-const ALL_TEAMS_ICS_FILENAME = '_ALL-TEAMS.ics';
+const ALL_TEAMS_ICS_FILENAME = '!-ALL-TEAMS-!.ics';
 const ALL_TEAMS_ICS_PATH = path.join(ICS_DIRECTORY, ALL_TEAMS_ICS_FILENAME);
 const LOOKBACK_DAYS = Number(process.env.MATCH_LOOKBACK_DAYS || 14);
 const CITO_API_BASE_URL = (process.env.CITO_API_BASE_URL || 'https://api.citoapi.com').replace(/\/$/, '');

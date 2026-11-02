@@ -16,7 +16,7 @@ Follow professional Counter-Strike matches through calendar subscriptions.
 Subscribe to every qualifying match:
 
 ```text
-https://raw.githubusercontent.com/silasmcnutt/counter-strike-calendar/main/ics/_ALL-TEAMS.ics
+https://raw.githubusercontent.com/silasmcnutt/counter-strike-calendar/main/ics/!-ALL-TEAMS-!.ics
 ```
 
 ### Individual teams
