@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400016@counter-strike-calendar
-DTSTAMP:20261103T153231Z
+DTSTAMP:20261103T211952Z
 DTSTART:20261031T090000Z
 DTEND:20261031T120000Z
 SUMMARY:PsychoFace vs DONSTU (0-2)
@@ -14,7 +14,7 @@ LOCATION:CCT 2026 Europe Series 13 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400050@counter-strike-calendar
-DTSTAMP:20261103T153231Z
+DTSTAMP:20261103T211952Z
 DTSTART:20261101T090000Z
 DTEND:20261101T120000Z
 SUMMARY:PsychoFace vs Saint Sinners (2-1)
@@ -23,7 +23,7 @@ LOCATION:CCT 2026 Europe Series 13 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400066@counter-strike-calendar
-DTSTAMP:20261103T153231Z
+DTSTAMP:20261103T211952Z
 DTSTART:20261102T150000Z
 DTEND:20261102T180000Z
 SUMMARY:Misa vs PsychoFace (0-2)
@@ -32,11 +32,11 @@ LOCATION:CCT 2026 Europe Series 13 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400069@counter-strike-calendar
-DTSTAMP:20261103T153231Z
+DTSTAMP:20261103T211952Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Spirit Academy vs PsychoFace (1-2)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Spirit Academy 1 - PsychoFace 2\nMap scores:\n- Ancient: Spirit Academy 1 - PsychoFace 13\n- Ancient: Spirit Academy 1 - PsychoFace 13\n- Cache: Spirit Academy 13 - PsychoFace 10
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Spirit Academy 1 - PsychoFace 2\nMap scores:\n- Ancient: Spirit Academy 1 - PsychoFace 13\n- Cache: Spirit Academy 13 - PsychoFace 10\n- Mirage: Spirit Academy 7 - PsychoFace 13
 LOCATION:CCT 2026 Europe Series 13 Closed Qualifier
 END:VEVENT
 END:VCALENDAR

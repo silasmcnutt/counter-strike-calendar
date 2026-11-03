@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400175@counter-strike-calendar
-DTSTAMP:20261103T153231Z
+DTSTAMP:20261103T211952Z
 DTSTART:20261103T140000Z
 DTEND:20261103T170000Z
-SUMMARY:Banda Chuya vs MOUZ NXT
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:Banda Chuya vs MOUZ NXT (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Banda Chuya 2 - MOUZ NXT 0\nMap scores:\n- Ancient: Banda Chuya 13 - MOUZ NXT 11\n- Nuke: Banda Chuya 16 - MOUZ NXT 14
+LOCATION:ESL Challenger League Season 52 Europe Cup 10
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400183@counter-strike-calendar
+DTSTAMP:20261103T211952Z
+DTSTART:20261103T180000Z
+DTEND:20261103T210000Z
+SUMMARY:mellren vs MOUZ NXT (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: mellren 2 - MOUZ NXT 0\nMap scores:\n- Nuke: mellren 13 - MOUZ NXT 8\n- Mirage: mellren 13 - MOUZ NXT 10
 LOCATION:ESL Challenger League Season 52 Europe Cup 10
 END:VEVENT
 END:VCALENDAR

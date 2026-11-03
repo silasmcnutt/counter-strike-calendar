@@ -409,8 +409,8 @@
   },
   {
     "id": "cs2-match-2399856",
-    "start": "2026-11-02T02:00:00.000Z",
-    "end": "2026-11-02T05:00:00.000Z",
+    "start": "2026-11-02T02:00:00Z",
+    "end": "2026-11-02T05:00:00Z",
     "summary": "HEROIC vs B8 (2-0)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: HEROIC 2 - B8 0\nMap scores:\n- Nuke: HEROIC 13 - B8 4\n- Dust2: HEROIC 13 - B8 7",
     "location": "IEM Beijing 2026",
@@ -568,7 +568,7 @@
     "start": "2026-11-03T10:15:00.000Z",
     "end": "2026-11-03T13:15:00.000Z",
     "summary": "FURIA vs Natus Vincere (2-1)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: FURIA 2 - Natus Vincere 1\nMap scores:\n- Ancient: FURIA 12 - Natus Vincere 16\n- Nuke: FURIA 16 - Natus Vincere 12\n- Cache: FURIA 13 - Natus Vincere 10\n- Ancient: FURIA 12 - Natus Vincere 16\n- Nuke: FURIA 16 - Natus Vincere 12",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: FURIA 2 - Natus Vincere 1\nMap scores:\n- Ancient: FURIA 12 - Natus Vincere 16\n- Nuke: FURIA 16 - Natus Vincere 12\n- Cache: FURIA 13 - Natus Vincere 10",
     "location": "IEM Beijing 2026",
     "teams": [
       "FURIA",
@@ -580,7 +580,7 @@
     "start": "2026-11-03T11:00:00.000Z",
     "end": "2026-11-03T14:00:00.000Z",
     "summary": "Legacy vs B8 (1-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Legacy 1 - B8 2\nMap scores:\n- Dust2: Legacy 11 - B8 13\n- Cache: Legacy 13 - B8 6\n- Mirage: Legacy 9 - B8 13\n- Dust2: Legacy 11 - B8 13\n- Cache: Legacy 13 - B8 6",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Legacy 1 - B8 2\nMap scores:\n- Dust2: Legacy 11 - B8 13\n- Cache: Legacy 13 - B8 6\n- Mirage: Legacy 9 - B8 13",
     "location": "IEM Beijing 2026",
     "teams": [
       "Legacy",

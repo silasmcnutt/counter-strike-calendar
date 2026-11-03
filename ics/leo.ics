@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400012@counter-strike-calendar
-DTSTAMP:20261103T153231Z
+DTSTAMP:20261103T211952Z
 DTSTART:20261029T090000Z
 DTEND:20261029T120000Z
 SUMMARY:Leo vs MAYBE (2-1)
@@ -14,7 +14,7 @@ LOCATION:CCT 2026 Europe Series 13 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400030@counter-strike-calendar
-DTSTAMP:20261103T153231Z
+DTSTAMP:20261103T211952Z
 DTSTART:20261030T150000Z
 DTEND:20261030T180000Z
 SUMMARY:Leo vs Honvéd (2-0)
@@ -23,7 +23,7 @@ LOCATION:CCT 2026 Europe Series 13 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400057@counter-strike-calendar
-DTSTAMP:20261103T153231Z
+DTSTAMP:20261103T211952Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Leo vs Saint Sinners (2-0)
@@ -32,20 +32,29 @@ LOCATION:NODWIN Clutch Series 14 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400197@counter-strike-calendar
-DTSTAMP:20261103T153231Z
+DTSTAMP:20261103T211952Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Leo vs Noir Verse (0-2)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Leo 0 - Noir Verse 2\nMap scores:\n- Mirage: Leo 9 - Noir Verse 12\n- Cache: Leo 6 - Noir Verse 3\n- Mirage: Leo 9 - Noir Verse 13\n- Cache: Leo 16 - Noir Verse 19
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Leo 0 - Noir Verse 2\nMap scores:\n- Mirage: Leo 9 - Noir Verse 13\n- Cache: Leo 16 - Noir Verse 19
 LOCATION:NODWIN Clutch Series 14 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400070@counter-strike-calendar
-DTSTAMP:20261103T153231Z
+DTSTAMP:20261103T211952Z
 DTSTART:20261103T150000Z
 DTEND:20261103T180000Z
-SUMMARY:Leo vs Illyrians
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:Leo vs Illyrians (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Leo 2 - Illyrians 0\nMap scores:\n- Ancient: Leo 13 - Illyrians 11\n- Dust2: Leo 13 - Illyrians 4
 LOCATION:CCT 2026 Europe Series 13 Closed Qualifier
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400281@counter-strike-calendar
+DTSTAMP:20261103T211952Z
+DTSTART:20261104T090000Z
+DTEND:20261104T120000Z
+SUMMARY:Leo vs Spirit Academy
+DESCRIPTION:Format: BO3\nStatus: Scheduled
+LOCATION:NODWIN Clutch Series 14 Closed Qualifier
 END:VEVENT
 END:VCALENDAR
