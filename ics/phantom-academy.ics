@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400049@counter-strike-calendar
-DTSTAMP:20261103T041508Z
+DTSTAMP:20261103T153231Z
 DTSTART:20261031T162000Z
 DTEND:20261031T192000Z
 SUMMARY:Phantom Academy vs uwuza (2-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Phantom Academy 2 - uwuza 0\nMap scores:\n- Dust2: Phantom Academy 13 - uwuza 5\n- Nuke: Phantom Academy 13 - uwuza 8
 LOCATION:BaseStack League Season 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400216@counter-strike-calendar
+DTSTAMP:20261103T153231Z
+DTSTART:20261106T180000Z
+DTEND:20261106T210000Z
+SUMMARY:Saint Sinners vs Phantom Academy
+DESCRIPTION:Format: BO3\nStatus: Scheduled
+LOCATION:CCT 2026 Europe Series 14 Closed Qualifier
 END:VEVENT
 END:VCALENDAR

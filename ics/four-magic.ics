@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400168@counter-strike-calendar
-DTSTAMP:20261103T041508Z
+DTSTAMP:20261103T153231Z
 DTSTART:20261103T140000Z
 DTEND:20261103T170000Z
-SUMMARY:Acend vs Four Magic
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:Acend vs Four Magic (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Acend 2 - Four Magic 0\nMap scores:\n- Ancient: Acend 13 - Four Magic 5\n- Dust2: Acend 13 - Four Magic 8
 LOCATION:ESL Challenger League Season 52 Europe Cup 10
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400213@counter-strike-calendar
+DTSTAMP:20261103T153231Z
+DTSTART:20261106T090000Z
+DTEND:20261106T120000Z
+SUMMARY:SAW Youngsters vs Four Magic
+DESCRIPTION:Format: BO3\nStatus: Scheduled
+LOCATION:CCT 2026 Europe Series 14 Closed Qualifier
 END:VEVENT
 END:VCALENDAR
