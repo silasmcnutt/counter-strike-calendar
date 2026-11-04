@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400075@counter-strike-calendar
-DTSTAMP:20261103T211952Z
+DTSTAMP:20261104T033328Z
 DTSTART:20261103T220000Z
 DTEND:20261104T010000Z
-SUMMARY:BESTIA Academy vs Zetta
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:BESTIA Academy vs Zetta (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: BESTIA Academy 1 - Zetta 2\nMap scores:\n- Ancient: BESTIA Academy 13 - Zetta 5\n- Dust2: BESTIA Academy 11 - Zetta 13\n- Mirage: BESTIA Academy 13 - Zetta 16
 LOCATION:CCT 2026 South America Series 8
 END:VEVENT
 END:VCALENDAR
