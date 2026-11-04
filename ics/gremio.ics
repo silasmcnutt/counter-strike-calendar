@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400077@counter-strike-calendar
-DTSTAMP:20261104T114000Z
+DTSTAMP:20261104T185642Z
 DTSTART:20261104T160000Z
 DTEND:20261104T190000Z
-SUMMARY:Grêmio vs your end
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:Grêmio vs your end (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Grêmio 1 - your end 2\nMap scores:\n- Cache: Grêmio 5 - your end 13\n- Dust2: Grêmio 13 - your end 10\n- Inferno: Grêmio 9 - your end 13
 LOCATION:CCT 2026 South America Series 8
 END:VEVENT
 END:VCALENDAR
