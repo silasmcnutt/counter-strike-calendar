@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400289@counter-strike-calendar
-DTSTAMP:20261105T003453Z
+DTSTAMP:20261105T114109Z
 DTSTART:20261105T090000Z
 DTEND:20261105T120000Z
-SUMMARY:Walczaki vs Balkan Outlaws
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:Walczaki vs Balkan Outlaws (0-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Walczaki 0 - Balkan Outlaws 1
 LOCATION:European Pro League Series 10
 END:VEVENT
 END:VCALENDAR
