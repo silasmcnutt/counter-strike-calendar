@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400209@counter-strike-calendar
-DTSTAMP:20261104T185642Z
+DTSTAMP:20261105T003453Z
 DTSTART:20261104T090000Z
 DTEND:20261104T120000Z
 SUMMARY:Illyrians vs Bebop (2-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Illyrians 2 - Bebop 0\nMap scores:\n- Ancient: Illyrians 13 - Bebop 2\n- Dust2: Illyrians 13 - Bebop 10
+LOCATION:CCT 2026 Europe Series 14 Closed Qualifier
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400221@counter-strike-calendar
+DTSTAMP:20261105T003453Z
+DTSTART:20261105T090000Z
+DTEND:20261105T120000Z
+SUMMARY:Bebop vs megoshort
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:CCT 2026 Europe Series 14 Closed Qualifier
 END:VEVENT
 END:VCALENDAR

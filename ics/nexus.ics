@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400123@counter-strike-calendar
-DTSTAMP:20261104T185642Z
+DTSTAMP:20261105T003453Z
 DTSTART:20261104T180000Z
 DTEND:20261104T210000Z
-SUMMARY:Nexus vs The Last Resort
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:Nexus vs The Last Resort (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Nexus 2 - The Last Resort 0\nMap scores:\n- Cache: Nexus 13 - The Last Resort 8\n- Inferno: Nexus 13 - The Last Resort 7
 LOCATION:CCT 2026 Europe Series 13
 END:VEVENT
 END:VCALENDAR
