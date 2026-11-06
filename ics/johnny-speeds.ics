@@ -5,10 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400063@counter-strike-calendar
-DTSTAMP:20261105T190838Z
+DTSTAMP:20261106T003550Z
 DTSTART:20261105T180000Z
 DTEND:20261105T210000Z
-SUMMARY:Johnny Speeds vs Drama
+SUMMARY:Johnny Speeds vs Drama (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Johnny Speeds 2 - Drama 0\nMap scores:\n- Mirage: Johnny Speeds 13 - Drama 1\n- Dust2: Johnny Speeds 13 - Drama 8
+LOCATION:NODWIN Clutch Series 14 Closed Qualifier
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400297@counter-strike-calendar
+DTSTAMP:20261106T003550Z
+DTSTART:20261106T150000Z
+DTEND:20261106T180000Z
+SUMMARY:Johnny Speeds vs BASEMENT BOYS
 DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:NODWIN Clutch Series 14 Closed Qualifier
 END:VEVENT
