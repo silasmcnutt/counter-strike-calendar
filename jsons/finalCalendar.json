@@ -637,8 +637,8 @@
   },
   {
     "id": "cs2-match-2400003",
-    "start": "2026-11-04T07:00:00.000Z",
-    "end": "2026-11-04T10:00:00.000Z",
+    "start": "2026-11-04T07:00:00Z",
+    "end": "2026-11-04T10:00:00Z",
     "summary": "PARIVISION vs MOUZ (0-2)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: PARIVISION 0 - MOUZ 2\nMap scores:\n- Ancient: PARIVISION 2 - MOUZ 13\n- Mirage: PARIVISION 9 - MOUZ 13",
     "location": "IEM Beijing 2026",
@@ -649,8 +649,8 @@
   },
   {
     "id": "cs2-match-2400002",
-    "start": "2026-11-04T07:00:00.000Z",
-    "end": "2026-11-04T10:00:00.000Z",
+    "start": "2026-11-04T07:00:00Z",
+    "end": "2026-11-04T10:00:00Z",
     "summary": "Liquid vs BETBOOM (1-2)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: Liquid 1 - BETBOOM 2\nMap scores:\n- Anubis: Liquid 5 - BETBOOM 13\n- Nuke: Liquid 13 - BETBOOM 11\n- Mirage: Liquid 11 - BETBOOM 13",
     "location": "IEM Beijing 2026",
@@ -687,8 +687,8 @@
     "id": "cs2-match-2400006",
     "start": "2026-11-06T06:30:00.000Z",
     "end": "2026-11-06T09:30:00.000Z",
-    "summary": "PARIVISION vs Natus Vincere",
-    "description": "Format: BO3\nStatus: Scheduled",
+    "summary": "PARIVISION vs Natus Vincere (1-2)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: PARIVISION 1 - Natus Vincere 2\nMap scores:\n- Mirage: PARIVISION 16 - Natus Vincere 14\n- Inferno: PARIVISION 9 - Natus Vincere 13\n- Ancient: PARIVISION 10 - Natus Vincere 13",
     "location": "IEM Beijing 2026",
     "teams": [
       "PARIVISION",
@@ -697,14 +697,26 @@
   },
   {
     "id": "cs2-match-2400007",
-    "start": "2026-11-06T09:45:00.000Z",
-    "end": "2026-11-06T12:45:00.000Z",
+    "start": "2026-11-06T09:45:00Z",
+    "end": "2026-11-06T12:45:00Z",
     "summary": "FURIA vs BETBOOM",
     "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
     "teams": [
       "FURIA",
       "BETBOOM"
+    ]
+  },
+  {
+    "id": "cs2-match-2400008",
+    "start": "2026-11-07T06:30:00.000Z",
+    "end": "2026-11-07T09:30:00.000Z",
+    "summary": "The MongolZ vs Natus Vincere",
+    "description": "Format: BO3\nStatus: Scheduled",
+    "location": "IEM Beijing 2026",
+    "teams": [
+      "The MongolZ",
+      "Natus Vincere"
     ]
   },
   {
