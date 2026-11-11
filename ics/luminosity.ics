@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399874@counter-strike-calendar
-DTSTAMP:20261111T114523Z
-DTSTART:20261028T164000Z
-DTEND:20261028T194000Z
-SUMMARY:Luminosity vs Envy (1-2)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Luminosity 1 - Envy 2\nMap scores:\n- Inferno: Luminosity 11 - Envy 13\n- Dust2: Luminosity 13 - Envy 8\n- Ancient: Luminosity 10 - Envy 13
-LOCATION:RLG Tesla Cup 2026
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2400286@counter-strike-calendar
-DTSTAMP:20261111T114523Z
+DTSTAMP:20261111T192617Z
 DTSTART:20261117T183000Z
 DTEND:20261117T213000Z
 SUMMARY:GamerLegion vs Luminosity

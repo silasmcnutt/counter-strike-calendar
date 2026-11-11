@@ -1,29 +1,5 @@
 [
   {
-    "id": "cs2-match-2399750",
-    "start": "2026-10-28T13:40:00Z",
-    "end": "2026-10-28T16:40:00Z",
-    "summary": "Liquid vs FURIA (0-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Liquid 0 - FURIA 2\nMap scores:\n- Nuke: Liquid 11 - FURIA 13\n- Inferno: Liquid 5 - FURIA 13",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Liquid",
-      "FURIA"
-    ]
-  },
-  {
-    "id": "cs2-match-2399751",
-    "start": "2026-10-28T16:00:00Z",
-    "end": "2026-10-28T19:00:00Z",
-    "summary": "Spirit vs Natus Vincere (1-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Spirit 1 - Natus Vincere 2\nMap scores:\n- Cache: Spirit 2 - Natus Vincere 13\n- Dust2: Spirit 13 - Natus Vincere 10\n- Anubis: Spirit 3 - Natus Vincere 13",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Spirit",
-      "Natus Vincere"
-    ]
-  },
-  {
     "id": "cs2-match-2399752",
     "start": "2026-10-29T08:00:00Z",
     "end": "2026-10-29T11:00:00Z",
@@ -481,10 +457,10 @@
   },
   {
     "id": "cs2-match-2399854",
-    "start": "2026-11-11T09:30:00Z",
-    "end": "2026-11-11T12:30:00Z",
-    "summary": "MOUZ vs G2",
-    "description": "Format: BO3\nStatus: Scheduled",
+    "start": "2026-11-11T09:30:00.000Z",
+    "end": "2026-11-11T12:30:00.000Z",
+    "summary": "MOUZ vs G2 (1-2)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: MOUZ 1 - G2 2\nMap scores:\n- Nuke: MOUZ 13 - G2 7\n- Ancient: MOUZ 14 - G2 16\n- Inferno: MOUZ 7 - G2 13",
     "location": "BLAST Rivals 2026 Season 2",
     "teams": [
       "MOUZ",
@@ -513,6 +489,30 @@
     "teams": [
       "FURIA",
       "Vitality"
+    ]
+  },
+  {
+    "id": "cs2-match-2400202",
+    "start": "2026-11-12T07:00:00.000Z",
+    "end": "2026-11-12T10:00:00.000Z",
+    "summary": "FUT vs MOUZ",
+    "description": "Format: BO3\nStatus: Scheduled",
+    "location": "BLAST Rivals 2026 Season 2",
+    "teams": [
+      "FUT",
+      "MOUZ"
+    ]
+  },
+  {
+    "id": "cs2-match-2400203",
+    "start": "2026-11-12T09:30:00.000Z",
+    "end": "2026-11-12T12:30:00.000Z",
+    "summary": "Spirit vs G2",
+    "description": "Format: BO3\nStatus: Scheduled",
+    "location": "BLAST Rivals 2026 Season 2",
+    "teams": [
+      "Spirit",
+      "G2"
     ]
   }
 ]
