@@ -1,17 +1,5 @@
 [
   {
-    "id": "cs2-match-2399749",
-    "start": "2026-10-28T11:00:00Z",
-    "end": "2026-10-28T14:00:00Z",
-    "summary": "The MongolZ vs Nemiga (0-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: The MongolZ 0 - Nemiga 2\nMap scores:\n- Cache: The MongolZ 5 - Nemiga 13\n- Dust2: The MongolZ 15 - Nemiga 19",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "The MongolZ",
-      "Nemiga"
-    ]
-  },
-  {
     "id": "cs2-match-2399750",
     "start": "2026-10-28T13:40:00Z",
     "end": "2026-10-28T16:40:00Z",
@@ -457,10 +445,10 @@
   },
   {
     "id": "cs2-match-2399851",
-    "start": "2026-11-11T02:00:00Z",
-    "end": "2026-11-11T05:00:00Z",
-    "summary": "Legacy vs FURIA",
-    "description": "Format: BO3\nStatus: Scheduled",
+    "start": "2026-11-11T02:00:00.000Z",
+    "end": "2026-11-11T05:00:00.000Z",
+    "summary": "Legacy vs FURIA (0-2)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Legacy 0 - FURIA 2\nMap scores:\n- Inferno: Legacy 10 - FURIA 13\n- Mirage: Legacy 7 - FURIA 13",
     "location": "BLAST Rivals 2026 Season 2",
     "teams": [
       "Legacy",
@@ -469,10 +457,10 @@
   },
   {
     "id": "cs2-match-2399852",
-    "start": "2026-11-11T04:30:00.000Z",
-    "end": "2026-11-11T07:30:00.000Z",
-    "summary": "Vitality vs Falcons",
-    "description": "Format: BO3\nStatus: Scheduled",
+    "start": "2026-11-11T04:15:00.000Z",
+    "end": "2026-11-11T07:15:00.000Z",
+    "summary": "Vitality vs Falcons (2-0)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Vitality 2 - Falcons 0\nMap scores:\n- Anubis: Vitality 13 - Falcons 10\n- Dust2: Vitality 13 - Falcons 10",
     "location": "BLAST Rivals 2026 Season 2",
     "teams": [
       "Vitality",
@@ -481,10 +469,10 @@
   },
   {
     "id": "cs2-match-2399853",
-    "start": "2026-11-11T07:00:00.000Z",
-    "end": "2026-11-11T10:00:00.000Z",
-    "summary": "Spirit vs FUT",
-    "description": "Format: BO3\nStatus: Scheduled",
+    "start": "2026-11-11T06:30:00.000Z",
+    "end": "2026-11-11T09:30:00.000Z",
+    "summary": "Spirit vs FUT (2-1)",
+    "description": "Format: BO3\nStatus: Completed\nFinal score: Spirit 2 - FUT 1\nMap scores:\n- Cache: Spirit 13 - FUT 9\n- Nuke: Spirit 0 - FUT 13\n- Ancient: Spirit 13 - FUT 5",
     "location": "BLAST Rivals 2026 Season 2",
     "teams": [
       "Spirit",
@@ -493,14 +481,38 @@
   },
   {
     "id": "cs2-match-2399854",
-    "start": "2026-11-11T09:30:00.000Z",
-    "end": "2026-11-11T12:30:00.000Z",
+    "start": "2026-11-11T09:30:00Z",
+    "end": "2026-11-11T12:30:00Z",
     "summary": "MOUZ vs G2",
     "description": "Format: BO3\nStatus: Scheduled",
     "location": "BLAST Rivals 2026 Season 2",
     "teams": [
       "MOUZ",
       "G2"
+    ]
+  },
+  {
+    "id": "cs2-match-2400200",
+    "start": "2026-11-12T02:00:00.000Z",
+    "end": "2026-11-12T05:00:00.000Z",
+    "summary": "Legacy vs Falcons",
+    "description": "Format: BO3\nStatus: Scheduled",
+    "location": "BLAST Rivals 2026 Season 2",
+    "teams": [
+      "Legacy",
+      "Falcons"
+    ]
+  },
+  {
+    "id": "cs2-match-2400201",
+    "start": "2026-11-12T04:30:00.000Z",
+    "end": "2026-11-12T07:30:00.000Z",
+    "summary": "FURIA vs Vitality",
+    "description": "Format: BO3\nStatus: Scheduled",
+    "location": "BLAST Rivals 2026 Season 2",
+    "teams": [
+      "FURIA",
+      "Vitality"
     ]
   }
 ]

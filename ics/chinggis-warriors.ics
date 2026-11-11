@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399923@counter-strike-calendar
-DTSTAMP:20261111T031525Z
-DTSTART:20261028T072000Z
-DTEND:20261028T102000Z
-SUMMARY:The Audacity vs Chinggis Warriors (2-1)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: The Audacity 2 - Chinggis Warriors 1\nMap scores:\n- Ancient: The Audacity 11 - Chinggis Warriors 13\n- Nuke: The Audacity 13 - Chinggis Warriors 5\n- Cache: The Audacity 13 - Chinggis Warriors 8
-LOCATION:MESA Pro Series Halloween Cup 2026
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2399924@counter-strike-calendar
-DTSTAMP:20261111T031525Z
+DTSTAMP:20261111T114523Z
 DTSTART:20261029T030000Z
 DTEND:20261029T060000Z
 SUMMARY:5star vs Chinggis Warriors (1-2)
@@ -23,11 +14,20 @@ LOCATION:MESA Pro Series Halloween Cup 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399925@counter-strike-calendar
-DTSTAMP:20261111T031525Z
+DTSTAMP:20261111T114523Z
 DTSTART:20261029T070000Z
 DTEND:20261029T100000Z
 SUMMARY:The Audacity vs Chinggis Warriors (1-2)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: The Audacity 1 - Chinggis Warriors 2\nMap scores:\n- Inferno: The Audacity 16 - Chinggis Warriors 14\n- Mirage: The Audacity 10 - Chinggis Warriors 13\n- Nuke: The Audacity 8 - Chinggis Warriors 13
 LOCATION:MESA Pro Series Halloween Cup 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400497@counter-strike-calendar
+DTSTAMP:20261111T114523Z
+DTSTART:20261124T050000Z
+DTEND:20261124T080000Z
+SUMMARY:100 Thieves vs Chinggis Warriors
+DESCRIPTION:Format: BO1\nStatus: Scheduled
+LOCATION:PGL Major Singapore 2026 Stage 1
 END:VEVENT
 END:VCALENDAR

@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399709@counter-strike-calendar
-DTSTAMP:20261111T031525Z
-DTSTART:20261028T110000Z
-DTEND:20261028T140000Z
-SUMMARY:magic vs Astralis (1-2)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: magic 1 - Astralis 2\nMap scores:\n- Dust2: magic 7 - Astralis 13\n- Cache: magic 13 - Astralis 11\n- Ancient: magic 9 - Astralis 13
-LOCATION:Stake Ranked Episode 5
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2399713@counter-strike-calendar
-DTSTAMP:20261111T031525Z
+DTSTAMP:20261111T114523Z
 DTSTART:20261029T130000Z
 DTEND:20261029T160000Z
 SUMMARY:Astralis vs Inner Circle (2-1)
@@ -23,7 +14,7 @@ LOCATION:Stake Ranked Episode 5
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399716@counter-strike-calendar
-DTSTAMP:20261111T031525Z
+DTSTAMP:20261111T114523Z
 DTSTART:20261029T183000Z
 DTEND:20261029T213000Z
 SUMMARY:Eternal Fire vs Astralis (2-1)
