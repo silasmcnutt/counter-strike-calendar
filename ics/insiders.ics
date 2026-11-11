@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2400456@counter-strike-calendar
+DTSTAMP:20261111T031525Z
+DTSTART:20261110T185000Z
+DTEND:20261110T215000Z
+SUMMARY:Insiders vs GameSport (0-1)
+DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: Insiders 0 - GameSport 1\nMap scores:\n- Mirage: Insiders 6 - GameSport 13
+LOCATION:PGL Cluj-Napoca 2027 Open Qualifier 1
+END:VEVENT
+END:VCALENDAR

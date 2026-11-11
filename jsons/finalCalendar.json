@@ -1,269 +1,5 @@
 [
   {
-    "id": "cs2-match-2399728",
-    "start": "2026-10-25T08:00:00Z",
-    "end": "2026-10-25T11:00:00Z",
-    "summary": "FUT vs Liquid (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: FUT 2 - Liquid 0\nMap scores:\n- Cache: FUT 13 - Liquid 5\n- Dust2: FUT 13 - Liquid 9",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "FUT",
-      "Liquid"
-    ]
-  },
-  {
-    "id": "cs2-match-2399727",
-    "start": "2026-10-25T08:00:00Z",
-    "end": "2026-10-25T11:00:00Z",
-    "summary": "Spirit vs TYLOO (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Spirit 2 - TYLOO 0\nMap scores:\n- Mirage: Spirit 13 - TYLOO 5\n- Anubis: Spirit 13 - TYLOO 3",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Spirit",
-      "TYLOO"
-    ]
-  },
-  {
-    "id": "cs2-match-2399729",
-    "start": "2026-10-25T09:40:00Z",
-    "end": "2026-10-25T12:40:00Z",
-    "summary": "Vitality vs The MongolZ (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Vitality 2 - The MongolZ 0\nMap scores:\n- Inferno: Vitality 13 - The MongolZ 6\n- Cache: Vitality 13 - The MongolZ 3",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Vitality",
-      "The MongolZ"
-    ]
-  },
-  {
-    "id": "cs2-match-2399730",
-    "start": "2026-10-25T10:00:00Z",
-    "end": "2026-10-25T13:00:00Z",
-    "summary": "BETBOOM vs Nemiga (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: BETBOOM 2 - Nemiga 0\nMap scores:\n- Anubis: BETBOOM 13 - Nemiga 3\n- Mirage: BETBOOM 13 - Nemiga 11",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "BETBOOM",
-      "Nemiga"
-    ]
-  },
-  {
-    "id": "cs2-match-2399731",
-    "start": "2026-10-25T13:00:00Z",
-    "end": "2026-10-25T16:00:00Z",
-    "summary": "G2 vs Aurora (0-2)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: G2 0 - Aurora 2\nMap scores:\n- Cache: G2 11 - Aurora 13\n- Inferno: G2 14 - Aurora 16",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "G2",
-      "Aurora"
-    ]
-  },
-  {
-    "id": "cs2-match-2399732",
-    "start": "2026-10-25T13:00:00Z",
-    "end": "2026-10-25T16:00:00Z",
-    "summary": "MOUZ vs 9z (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: MOUZ 2 - 9z 0\nMap scores:\n- Dust2: MOUZ 13 - 9z 5\n- Nuke: MOUZ 13 - 9z 3",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "MOUZ",
-      "9z"
-    ]
-  },
-  {
-    "id": "cs2-match-2399734",
-    "start": "2026-10-25T14:50:00Z",
-    "end": "2026-10-25T17:50:00Z",
-    "summary": "Legacy vs DENDELE (2-0)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: Legacy 2 - DENDELE 0\nMap scores:\n- Cache: Legacy 13 - DENDELE 9\n- Mirage: Legacy 19 - DENDELE 17",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Legacy",
-      "DENDELE"
-    ]
-  },
-  {
-    "id": "cs2-match-2399733",
-    "start": "2026-10-25T15:45:00Z",
-    "end": "2026-10-25T18:45:00Z",
-    "summary": "FURIA vs Natus Vincere (0-2)",
-    "description": "Format: BO3\nStatus: completed\nFinal score: FURIA 0 - Natus Vincere 2\nMap scores:\n- Ancient: FURIA 10 - Natus Vincere 13\n- Dust2: FURIA 5 - Natus Vincere 13",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "FURIA",
-      "Natus Vincere"
-    ]
-  },
-  {
-    "id": "cs2-match-2399736",
-    "start": "2026-10-26T08:00:00Z",
-    "end": "2026-10-26T11:00:00Z",
-    "summary": "Nemiga vs Aurora (0-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Nemiga 0 - Aurora 2\nMap scores:\n- Mirage: Nemiga 14 - Aurora 16\n- Anubis: Nemiga 4 - Aurora 13",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Nemiga",
-      "Aurora"
-    ]
-  },
-  {
-    "id": "cs2-match-2399735",
-    "start": "2026-10-26T08:00:00Z",
-    "end": "2026-10-26T11:00:00Z",
-    "summary": "The MongolZ vs MOUZ (0-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: The MongolZ 0 - MOUZ 2\nMap scores:\n- Nuke: The MongolZ 11 - MOUZ 13\n- Mirage: The MongolZ 9 - MOUZ 13",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "The MongolZ",
-      "MOUZ"
-    ]
-  },
-  {
-    "id": "cs2-match-2399737",
-    "start": "2026-10-26T10:20:00Z",
-    "end": "2026-10-26T13:20:00Z",
-    "summary": "Vitality vs FUT (1-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Vitality 1 - FUT 2\nMap scores:\n- Mirage: Vitality 13 - FUT 9\n- Dust2: Vitality 9 - FUT 13\n- Anubis: Vitality 10 - FUT 13",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Vitality",
-      "FUT"
-    ]
-  },
-  {
-    "id": "cs2-match-2399738",
-    "start": "2026-10-26T10:55:00Z",
-    "end": "2026-10-26T13:55:00Z",
-    "summary": "9z vs TYLOO (1-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: 9z 1 - TYLOO 2\nMap scores:\n- Inferno: 9z 13 - TYLOO 11\n- Nuke: 9z 5 - TYLOO 13\n- Mirage: 9z 7 - TYLOO 13",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "9z",
-      "TYLOO"
-    ]
-  },
-  {
-    "id": "cs2-match-2399739",
-    "start": "2026-10-26T13:40:00Z",
-    "end": "2026-10-26T16:40:00Z",
-    "summary": "Spirit vs FURIA (2-1)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Spirit 2 - FURIA 1\nMap scores:\n- Nuke: Spirit 13 - FURIA 7\n- Ancient: Spirit 8 - FURIA 13\n- Mirage: Spirit 13 - FURIA 11",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Spirit",
-      "FURIA"
-    ]
-  },
-  {
-    "id": "cs2-match-2399740",
-    "start": "2026-10-26T13:55:00Z",
-    "end": "2026-10-26T16:55:00Z",
-    "summary": "Liquid vs Legacy (2-0)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Liquid 2 - Legacy 0\nMap scores:\n- Ancient: Liquid 13 - Legacy 10\n- Inferno: Liquid 13 - Legacy 8",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Liquid",
-      "Legacy"
-    ]
-  },
-  {
-    "id": "cs2-match-2399742",
-    "start": "2026-10-26T16:30:00Z",
-    "end": "2026-10-26T19:30:00Z",
-    "summary": "G2 vs DENDELE (1-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: G2 1 - DENDELE 2\nMap scores:\n- Nuke: G2 5 - DENDELE 13\n- Ancient: G2 16 - DENDELE 14\n- Inferno: G2 5 - DENDELE 13",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "G2",
-      "DENDELE"
-    ]
-  },
-  {
-    "id": "cs2-match-2399741",
-    "start": "2026-10-26T17:00:00Z",
-    "end": "2026-10-26T20:00:00Z",
-    "summary": "BETBOOM vs Natus Vincere (2-0)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: BETBOOM 2 - Natus Vincere 0\nMap scores:\n- Dust2: BETBOOM 13 - Natus Vincere 10\n- Nuke: BETBOOM 13 - Natus Vincere 9",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "BETBOOM",
-      "Natus Vincere"
-    ]
-  },
-  {
-    "id": "cs2-match-2399743",
-    "start": "2026-10-27T11:00:00Z",
-    "end": "2026-10-27T14:00:00Z",
-    "summary": "Liquid vs Aurora (1-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Liquid 1 - Aurora 2\nMap scores:\n- Anubis: Liquid 11 - Aurora 13\n- Inferno: Liquid 13 - Aurora 11\n- Cache: Liquid 10 - Aurora 13",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Liquid",
-      "Aurora"
-    ]
-  },
-  {
-    "id": "cs2-match-2399744",
-    "start": "2026-10-27T11:00:00Z",
-    "end": "2026-10-27T14:00:00Z",
-    "summary": "Nemiga vs DENDELE (2-0)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Nemiga 2 - DENDELE 0\nMap scores:\n- Nuke: Nemiga 13 - DENDELE 3\n- Ancient: Nemiga 13 - DENDELE 6",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Nemiga",
-      "DENDELE"
-    ]
-  },
-  {
-    "id": "cs2-match-2399746",
-    "start": "2026-10-27T12:55:00Z",
-    "end": "2026-10-27T15:55:00Z",
-    "summary": "The MongolZ vs Legacy (2-0)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: The MongolZ 2 - Legacy 0\nMap scores:\n- Mirage: The MongolZ 13 - Legacy 8\n- Inferno: The MongolZ 13 - Legacy 8",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "The MongolZ",
-      "Legacy"
-    ]
-  },
-  {
-    "id": "cs2-match-2399745",
-    "start": "2026-10-27T14:35:00Z",
-    "end": "2026-10-27T17:35:00Z",
-    "summary": "Spirit vs MOUZ (1-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Spirit 1 - MOUZ 2\nMap scores:\n- Nuke: Spirit 13 - MOUZ 2\n- Dust2: Spirit 8 - MOUZ 13\n- Mirage: Spirit 14 - MOUZ 16",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Spirit",
-      "MOUZ"
-    ]
-  },
-  {
-    "id": "cs2-match-2399748",
-    "start": "2026-10-27T16:15:00Z",
-    "end": "2026-10-27T19:15:00Z",
-    "summary": "FURIA vs TYLOO (2-0)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: FURIA 2 - TYLOO 0\nMap scores:\n- Inferno: FURIA 13 - TYLOO 5\n- Mirage: FURIA 13 - TYLOO 2",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "FURIA",
-      "TYLOO"
-    ]
-  },
-  {
-    "id": "cs2-match-2399747",
-    "start": "2026-10-27T17:50:00Z",
-    "end": "2026-10-27T20:50:00Z",
-    "summary": "Vitality vs Natus Vincere (2-0)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Vitality 2 - Natus Vincere 0\nMap scores:\n- Inferno: Vitality 13 - Natus Vincere 2\n- Dust2: Vitality 13 - Natus Vincere 9",
-    "location": "PGL Masters Bucharest 2026",
-    "teams": [
-      "Vitality",
-      "Natus Vincere"
-    ]
-  },
-  {
     "id": "cs2-match-2399749",
     "start": "2026-10-28T11:00:00Z",
     "end": "2026-10-28T14:00:00Z",
@@ -661,8 +397,8 @@
   },
   {
     "id": "cs2-match-2400005",
-    "start": "2026-11-04T09:30:00.000Z",
-    "end": "2026-11-04T12:30:00.000Z",
+    "start": "2026-11-04T09:30:00Z",
+    "end": "2026-11-04T12:30:00Z",
     "summary": "The MongolZ vs FURIA (2-1)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: The MongolZ 2 - FURIA 1\nMap scores:\n- Inferno: The MongolZ 10 - FURIA 13\n- Cache: The MongolZ 13 - FURIA 8\n- Dust2: The MongolZ 13 - FURIA 11",
     "location": "IEM Beijing 2026",
@@ -673,8 +409,8 @@
   },
   {
     "id": "cs2-match-2400004",
-    "start": "2026-11-04T10:20:00.000Z",
-    "end": "2026-11-04T13:20:00.000Z",
+    "start": "2026-11-04T10:20:00Z",
+    "end": "2026-11-04T13:20:00Z",
     "summary": "Natus Vincere vs Falcons (2-1)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: Natus Vincere 2 - Falcons 1\nMap scores:\n- Ancient: Natus Vincere 11 - Falcons 13\n- Inferno: Natus Vincere 13 - Falcons 4\n- Mirage: Natus Vincere 13 - Falcons 3",
     "location": "IEM Beijing 2026",
@@ -685,8 +421,8 @@
   },
   {
     "id": "cs2-match-2400006",
-    "start": "2026-11-06T06:30:00.000Z",
-    "end": "2026-11-06T09:30:00.000Z",
+    "start": "2026-11-06T06:30:00Z",
+    "end": "2026-11-06T09:30:00Z",
     "summary": "PARIVISION vs Natus Vincere (1-2)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: PARIVISION 1 - Natus Vincere 2\nMap scores:\n- Mirage: PARIVISION 16 - Natus Vincere 14\n- Inferno: PARIVISION 9 - Natus Vincere 13\n- Ancient: PARIVISION 10 - Natus Vincere 13",
     "location": "IEM Beijing 2026",
@@ -709,8 +445,8 @@
   },
   {
     "id": "cs2-match-2400008",
-    "start": "2026-11-07T06:30:00.000Z",
-    "end": "2026-11-07T09:30:00.000Z",
+    "start": "2026-11-07T06:30:00Z",
+    "end": "2026-11-07T09:30:00Z",
     "summary": "The MongolZ vs Natus Vincere",
     "description": "Format: BO3\nStatus: Scheduled",
     "location": "IEM Beijing 2026",
@@ -721,8 +457,8 @@
   },
   {
     "id": "cs2-match-2399851",
-    "start": "2026-11-11T02:00:00.000Z",
-    "end": "2026-11-11T05:00:00.000Z",
+    "start": "2026-11-11T02:00:00Z",
+    "end": "2026-11-11T05:00:00Z",
     "summary": "Legacy vs FURIA",
     "description": "Format: BO3\nStatus: Scheduled",
     "location": "BLAST Rivals 2026 Season 2",
