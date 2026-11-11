@@ -2,11 +2,11 @@ name: Update Counter-Strike Calendar
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 * * * *'  # hourly at minute 0
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write  # allows GITHUB_TOKEN to push commits
 
 concurrency:
   group: update-calendar
@@ -14,24 +14,25 @@ concurrency:
 
 jobs:
   update:
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, proxmox]
     timeout-minutes: 20
 
     steps:
-      - name: Check out calendar
+      - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # needed for git push
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: '20'
           cache: npm
 
-      - name: Install Node dependencies
+      - name: Install dependencies
         run: npm ci
 
-      - name: Test calendar generator
+      - name: Run tests
         run: npm test
 
       - name: Generate calendar
@@ -39,10 +40,14 @@ jobs:
           CITO_API_KEY: ${{ secrets.CITO_API_KEY }}
         run: npm run generate
 
-      - name: Publish generated files
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add ics jsons/finalCalendar.json
-          git diff --cached --quiet || git commit -m "Update calendar"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Update calendar [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
