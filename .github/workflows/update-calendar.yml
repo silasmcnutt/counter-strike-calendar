@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   update:
-    runs-on: [self-hosted, linux, proxmox]
+    runs-on: [self-hosted, linux, x64]
     timeout-minutes: 20
 
     steps:
