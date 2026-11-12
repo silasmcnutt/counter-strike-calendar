@@ -4,26 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399877@counter-strike-calendar
-DTSTAMP:20261112T093351Z
-DTSTART:20261029T111000Z
-DTEND:20261029T141000Z
-SUMMARY:FaZe vs GamerLegion (1-2)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: FaZe 1 - GamerLegion 2\nMap scores:\n- Dust2: FaZe 9 - GamerLegion 13\n- Mirage: FaZe 16 - GamerLegion 14\n- Nuke: FaZe 7 - GamerLegion 13
-LOCATION:RLG Tesla Cup 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:cs2-match-2399879@counter-strike-calendar
-DTSTAMP:20261112T093351Z
-DTSTART:20261029T173000Z
-DTEND:20261029T203000Z
-SUMMARY:HOTU vs GamerLegion (2-0)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: HOTU 2 - GamerLegion 0\nMap scores:\n- Dust2: HOTU 13 - GamerLegion 6\n- Nuke: HOTU 13 - GamerLegion 9
-LOCATION:RLG Tesla Cup 2026
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2400286@counter-strike-calendar
-DTSTAMP:20261112T093351Z
+DTSTAMP:20261112T180148Z
 DTSTART:20261117T183000Z
 DTEND:20261117T213000Z
 SUMMARY:GamerLegion vs Luminosity

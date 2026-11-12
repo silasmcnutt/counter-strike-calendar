@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2400473@counter-strike-calendar
+DTSTAMP:20261112T180148Z
+DTSTART:20261112T140000Z
+DTEND:20261112T170000Z
+SUMMARY:TitanFlow vs Saint Sinners (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: TitanFlow 1 - Saint Sinners 2\nMap scores:\n- Inferno: TitanFlow 13 - Saint Sinners 4\n- Dust2: TitanFlow 10 - Saint Sinners 13\n- Mirage: TitanFlow 7 - Saint Sinners 13
+LOCATION:ESL Challenger League Season 52 Europe Cup 12
+END:VEVENT
+END:VCALENDAR

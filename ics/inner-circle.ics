@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399713@counter-strike-calendar
-DTSTAMP:20261112T093351Z
-DTSTART:20261029T130000Z
-DTEND:20261029T160000Z
-SUMMARY:Astralis vs Inner Circle (2-1)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Astralis 2 - Inner Circle 1\nMap scores:\n- Ancient: Astralis 14 - Inner Circle 16\n- Dust2: Astralis 13 - Inner Circle 11\n- Cache: Astralis 13 - Inner Circle 8
-LOCATION:Stake Ranked Episode 5
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2400283@counter-strike-calendar
-DTSTAMP:20261112T093351Z
+DTSTAMP:20261112T180148Z
 DTSTART:20261117T110000Z
 DTEND:20261117T140000Z
 SUMMARY:Inner Circle vs Betclic
