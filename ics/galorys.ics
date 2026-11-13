@@ -4,26 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399967@counter-strike-calendar
-DTSTAMP:20261112T180148Z
-DTSTART:20261029T192500Z
-DTEND:20261029T222500Z
-SUMMARY:Galorys vs Procyon (1-2)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Galorys 1 - Procyon 2\nMap scores:\n- Inferno: Galorys 11 - Procyon 13\n- Ancient: Galorys 13 - Procyon 11\n- Dust2: Galorys 17 - Procyon 19
-LOCATION:FiRe Last Chance 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:cs2-match-2399969@counter-strike-calendar
-DTSTAMP:20261112T180148Z
-DTSTART:20261029T234000Z
-DTEND:20261030T024000Z
-SUMMARY:Tactical Chaos vs Galorys (0-2)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Tactical Chaos 0 - Galorys 2\nMap scores:\n- Ancient: Tactical Chaos 6 - Galorys 13\n- Nuke: Tactical Chaos 2 - Galorys 13
-LOCATION:FiRe Last Chance 2026
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2399979@counter-strike-calendar
-DTSTAMP:20261112T180148Z
+DTSTAMP:20261113T000046Z
 DTSTART:20261031T130000Z
 DTEND:20261031T160000Z
 SUMMARY:Galorys vs Procyon (1-2)
@@ -32,7 +14,7 @@ LOCATION:FiRe Last Chance 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400110@counter-strike-calendar
-DTSTAMP:20261112T180148Z
+DTSTAMP:20261113T000046Z
 DTSTART:20261113T160000Z
 DTEND:20261113T190000Z
 SUMMARY:Galorys vs RED Canids Academy

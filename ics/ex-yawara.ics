@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400106@counter-strike-calendar
-DTSTAMP:20261112T180148Z
-DTSTART:20261112T160000Z
-DTEND:20261112T190000Z
-SUMMARY:ex-Yawara vs Isurus
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DTSTAMP:20261113T000046Z
+DTSTART:20261112T185811Z
+DTEND:20261112T215811Z
+SUMMARY:ex-Yawara vs Isurus (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: ex-Yawara 2 - Isurus 1\nMap scores:\n- Dust2: ex-Yawara 13 - Isurus 11\n- Nuke: ex-Yawara 5 - Isurus 13\n- Mirage: ex-Yawara 13 - Isurus 10
 LOCATION:CCT 2026 South America Series 8
 END:VEVENT
 END:VCALENDAR

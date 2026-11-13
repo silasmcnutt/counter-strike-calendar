@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2400028@counter-strike-calendar
-DTSTAMP:20261112T180148Z
-DTSTART:20261029T184346Z
-DTEND:20261029T214346Z
-SUMMARY:MAYBE vs benched gods (1-0)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: MAYBE 1 - benched gods 0
-LOCATION:CCT 2026 Europe Series 13 Closed Qualifier
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2400169@counter-strike-calendar
-DTSTAMP:20261112T180148Z
+DTSTAMP:20261113T000046Z
 DTSTART:20261103T140000Z
 DTEND:20261103T170000Z
 SUMMARY:benched gods vs LFO 10 (1-0)
@@ -23,7 +14,7 @@ LOCATION:ESL Challenger League Season 52 Europe Cup 10
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400176@counter-strike-calendar
-DTSTAMP:20261112T180148Z
+DTSTAMP:20261113T000046Z
 DTSTART:20261103T180000Z
 DTEND:20261103T210000Z
 SUMMARY:Acend vs benched gods (1-0)
@@ -32,7 +23,7 @@ LOCATION:ESL Challenger League Season 52 Europe Cup 10
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400287@counter-strike-calendar
-DTSTAMP:20261112T180148Z
+DTSTAMP:20261113T000046Z
 DTSTART:20261104T113000Z
 DTEND:20261104T143000Z
 SUMMARY:Azuolas vs benched gods (0-1)
@@ -41,7 +32,7 @@ LOCATION:European Pro League Series 10
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400184@counter-strike-calendar
-DTSTAMP:20261112T180148Z
+DTSTAMP:20261113T000046Z
 DTSTART:20261104T140000Z
 DTEND:20261104T170000Z
 SUMMARY:benched gods vs Four Magic (2-1)
@@ -50,7 +41,7 @@ LOCATION:ESL Challenger League Season 52 Europe Cup 10
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400190@counter-strike-calendar
-DTSTAMP:20261112T180148Z
+DTSTAMP:20261113T000046Z
 DTSTART:20261104T180000Z
 DTEND:20261104T210000Z
 SUMMARY:RBLS vs benched gods (2-0)
@@ -59,11 +50,20 @@ LOCATION:ESL Challenger League Season 52 Europe Cup 10
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400467@counter-strike-calendar
-DTSTAMP:20261112T180148Z
-DTSTART:20261112T140000Z
-DTEND:20261112T170000Z
+DTSTAMP:20261113T000046Z
+DTSTART:20261112T165603Z
+DTEND:20261112T195603Z
 SUMMARY:benched gods vs Noir Verse (1-2)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: benched gods 1 - Noir Verse 2\nMap scores:\n- Ancient: benched gods 13 - Noir Verse 9\n- Cache: benched gods 10 - Noir Verse 13\n- Anubis: benched gods 10 - Noir Verse 13
+LOCATION:ESL Challenger League Season 52 Europe Cup 12
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400478@counter-strike-calendar
+DTSTAMP:20261113T000046Z
+DTSTART:20261112T191755Z
+DTEND:20261112T221755Z
+SUMMARY:Four Magic vs benched gods (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Four Magic 2 - benched gods 0\nMap scores:\n- Mirage: Four Magic 13 - benched gods 2\n- Dust2: Four Magic 13 - benched gods 7
 LOCATION:ESL Challenger League Season 52 Europe Cup 12
 END:VEVENT
 END:VCALENDAR

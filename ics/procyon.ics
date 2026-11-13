@@ -4,26 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399967@counter-strike-calendar
-DTSTAMP:20261112T180148Z
-DTSTART:20261029T192500Z
-DTEND:20261029T222500Z
-SUMMARY:Galorys vs Procyon (1-2)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Galorys 1 - Procyon 2\nMap scores:\n- Inferno: Galorys 11 - Procyon 13\n- Ancient: Galorys 13 - Procyon 11\n- Dust2: Galorys 17 - Procyon 19
-LOCATION:FiRe Last Chance 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:cs2-match-2399968@counter-strike-calendar
-DTSTAMP:20261112T180148Z
-DTSTART:20261029T234000Z
-DTEND:20261030T024000Z
-SUMMARY:NRG vs Procyon (2-1)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: NRG 2 - Procyon 1\nMap scores:\n- Inferno: NRG 4 - Procyon 13\n- Dust2: NRG 13 - Procyon 7\n- Nuke: NRG 16 - Procyon 14
-LOCATION:FiRe Last Chance 2026
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2399979@counter-strike-calendar
-DTSTAMP:20261112T180148Z
+DTSTAMP:20261113T000046Z
 DTSTART:20261031T130000Z
 DTEND:20261031T160000Z
 SUMMARY:Galorys vs Procyon (1-2)
@@ -32,7 +14,7 @@ LOCATION:FiRe Last Chance 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2399982@counter-strike-calendar
-DTSTAMP:20261112T180148Z
+DTSTAMP:20261113T000046Z
 DTSTART:20261031T194500Z
 DTEND:20261031T224500Z
 SUMMARY:BESTIA vs Procyon (2-0)
@@ -41,11 +23,11 @@ LOCATION:FiRe Last Chance 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400107@counter-strike-calendar
-DTSTAMP:20261112T180148Z
-DTSTART:20261112T190000Z
-DTEND:20261112T220000Z
-SUMMARY:Procyon vs tao toma
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DTSTAMP:20261113T000046Z
+DTSTART:20261112T220913Z
+DTEND:20261113T010913Z
+SUMMARY:Procyon vs tao toma (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Procyon 1 - tao toma 2\nMap scores:\n- Mirage: Procyon 5 - tao toma 13\n- Inferno: Procyon 13 - tao toma 11\n- Cache: Procyon 7 - tao toma 13
 LOCATION:CCT 2026 South America Series 8
 END:VEVENT
 END:VCALENDAR
