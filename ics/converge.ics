@@ -5,10 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400426@counter-strike-calendar
-DTSTAMP:20261113T160027Z
+DTSTAMP:20261113T222632Z
 DTSTART:20261113T170000Z
 DTEND:20261113T200000Z
-SUMMARY:Lilmix vs Converge
+SUMMARY:Lilmix vs Converge (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Lilmix 2 - Converge 0\nMap scores:\n- Cache: Lilmix 16 - Converge 13\n- Dust2: Lilmix 13 - Converge 11
+LOCATION:Svenska Cupen 2026 Closed Qualifier
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400431@counter-strike-calendar
+DTSTAMP:20261113T222632Z
+DTSTART:20261114T140000Z
+DTEND:20261114T170000Z
+SUMMARY:Converge vs Talent Factory
 DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:Svenska Cupen 2026 Closed Qualifier
 END:VEVENT

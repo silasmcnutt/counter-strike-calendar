@@ -5,10 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400427@counter-strike-calendar
-DTSTAMP:20261113T160027Z
-DTSTART:20261113T193000Z
-DTEND:20261113T223000Z
-SUMMARY:Brandbergen Shooters vs Talent Factory
+DTSTAMP:20261113T222632Z
+DTSTART:20261113T194500Z
+DTEND:20261113T224500Z
+SUMMARY:Brandbergen Shooters vs Talent Factory (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Brandbergen Shooters 2 - Talent Factory 0\nMap scores:\n- Ancient: Brandbergen Shooters 13 - Talent Factory 2\n- Nuke: Brandbergen Shooters 13 - Talent Factory 7
+LOCATION:Svenska Cupen 2026 Closed Qualifier
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400432@counter-strike-calendar
+DTSTAMP:20261113T222632Z
+DTSTART:20261114T163000Z
+DTEND:20261114T193000Z
+SUMMARY:Lilmix vs Brandbergen Shooters
 DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:Svenska Cupen 2026 Closed Qualifier
 END:VEVENT

@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2399979@counter-strike-calendar
-DTSTAMP:20261113T160027Z
+DTSTAMP:20261113T222632Z
 DTSTART:20261031T130000Z
 DTEND:20261031T160000Z
 SUMMARY:Galorys vs Procyon (1-2)
@@ -14,11 +14,11 @@ LOCATION:FiRe Last Chance 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400110@counter-strike-calendar
-DTSTAMP:20261113T160027Z
+DTSTAMP:20261113T222632Z
 DTSTART:20261113T161500Z
 DTEND:20261113T191500Z
-SUMMARY:Galorys vs RED Canids Academy
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:Galorys vs RED Canids Academy (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Galorys 2 - RED Canids Academy 1\nMap scores:\n- Cache: Galorys 13 - RED Canids Academy 11\n- Ancient: Galorys 2 - RED Canids Academy 13\n- Anubis: Galorys 13 - RED Canids Academy 11
 LOCATION:CCT 2026 South America Series 8
 END:VEVENT
 END:VCALENDAR

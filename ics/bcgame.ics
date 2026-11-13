@@ -4,35 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399936@counter-strike-calendar
-DTSTAMP:20261113T160027Z
-DTSTART:20261030T163000Z
-DTEND:20261030T193000Z
-SUMMARY:BC.Game vs OG (1-0)
-DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: BC.Game 1 - OG 0\nMap scores:\n- Cache: BC.Game 13 - OG 6
-LOCATION:HyperX Retake Season 13
-END:VEVENT
-BEGIN:VEVENT
-UID:cs2-match-2399937@counter-strike-calendar
-DTSTAMP:20261113T160027Z
-DTSTART:20261030T181500Z
-DTEND:20261030T211500Z
-SUMMARY:BC.Game vs Metizport (1-2)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: BC.Game 1 - Metizport 2\nMap scores:\n- Nuke: BC.Game 13 - Metizport 3\n- Mirage: BC.Game 9 - Metizport 13\n- Ancient: BC.Game 6 - Metizport 13
-LOCATION:HyperX Retake Season 13
-END:VEVENT
-BEGIN:VEVENT
-UID:cs2-match-2399939@counter-strike-calendar
-DTSTAMP:20261113T160027Z
-DTSTART:20261030T212000Z
-DTEND:20261031T002000Z
-SUMMARY:OG vs BC.Game (2-0)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: OG 2 - BC.Game 0\nMap scores:\n- Inferno: OG 13 - BC.Game 9\n- Cache: OG 16 - BC.Game 14
-LOCATION:HyperX Retake Season 13
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2400498@counter-strike-calendar
-DTSTAMP:20261113T160027Z
+DTSTAMP:20261113T222632Z
 DTSTART:20261124T060000Z
 DTEND:20261124T090000Z
 SUMMARY:Liquid vs BC.Game

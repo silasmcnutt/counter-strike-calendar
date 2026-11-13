@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399525@counter-strike-calendar
-DTSTAMP:20261113T160027Z
-DTSTART:20261030T180000Z
-DTEND:20261030T210000Z
-SUMMARY:Phantom vs Lavked (2-0)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Phantom 2 - Lavked 0\nMap scores:\n- Mirage: Phantom 13 - Lavked 8\n- Nuke: Phantom 13 - Lavked 6
-LOCATION:CCT 2026 Europe Series 12
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2400470@counter-strike-calendar
-DTSTAMP:20261113T160027Z
+DTSTAMP:20261113T222632Z
 DTSTART:20261112T140000Z
 DTEND:20261112T170000Z
 SUMMARY:Lavked vs DNK (2-1)
@@ -23,11 +14,20 @@ LOCATION:ESL Challenger League Season 52 Europe Cup 12
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400476@counter-strike-calendar
-DTSTAMP:20261113T160027Z
+DTSTAMP:20261113T222632Z
 DTSTART:20261112T180000Z
 DTEND:20261112T210000Z
 SUMMARY:Drama vs Lavked (0-2)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Drama 0 - Lavked 2\nMap scores:\n- Inferno: Drama 11 - Lavked 13\n- Mirage: Drama 9 - Lavked 13
+LOCATION:ESL Challenger League Season 52 Europe Cup 12
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400488@counter-strike-calendar
+DTSTAMP:20261113T222632Z
+DTSTART:20261113T180000Z
+DTEND:20261113T210000Z
+SUMMARY:Lavked vs Alliance (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Lavked 0 - Alliance 2\nMap scores:\n- Nuke: Lavked 4 - Alliance 13\n- Mirage: Lavked 5 - Alliance 13
 LOCATION:ESL Challenger League Season 52 Europe Cup 12
 END:VEVENT
 END:VCALENDAR

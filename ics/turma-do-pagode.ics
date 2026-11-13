@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399955@counter-strike-calendar
-DTSTAMP:20261113T160027Z
-DTSTART:20261030T220000Z
-DTEND:20261031T010000Z
-SUMMARY:DENDELE vs Turma do Pagode (2-0)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: DENDELE 2 - Turma do Pagode 0\nMap scores:\n- Ancient: DENDELE 13 - Turma do Pagode 3\n- Nuke: DENDELE 13 - Turma do Pagode 10
-LOCATION:Gamers Club Masters VII
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2399957@counter-strike-calendar
-DTSTAMP:20261113T160027Z
+DTSTAMP:20261113T222632Z
 DTSTART:20261031T160000Z
 DTEND:20261031T190000Z
 SUMMARY:Low Cortisol BR vs Turma do Pagode (2-1)
@@ -23,11 +14,11 @@ LOCATION:Gamers Club Masters VII
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400109@counter-strike-calendar
-DTSTAMP:20261113T160027Z
+DTSTAMP:20261113T222632Z
 DTSTART:20261113T130000Z
 DTEND:20261113T160000Z
-SUMMARY:Turma do Pagode vs RUSH (1-1)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Turma do Pagode 1 - RUSH 1\nMap scores:\n- Nuke: Turma do Pagode 13 - RUSH 6\n- Dust2: Turma do Pagode 11 - RUSH 13\n- Ancient: Turma do Pagode 13 - RUSH 9
+SUMMARY:Turma do Pagode vs RUSH (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Turma do Pagode 2 - RUSH 1\nMap scores:\n- Nuke: Turma do Pagode 13 - RUSH 6\n- Dust2: Turma do Pagode 11 - RUSH 13\n- Ancient: Turma do Pagode 13 - RUSH 9
 LOCATION:CCT 2026 South America Series 8
 END:VEVENT
 END:VCALENDAR
