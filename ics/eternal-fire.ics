@@ -4,26 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399717@counter-strike-calendar
-DTSTAMP:20261113T074231Z
-DTSTART:20261030T130000Z
-DTEND:20261030T160000Z
-SUMMARY:MIBR vs Eternal Fire (0-2)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: MIBR 0 - Eternal Fire 2\nMap scores:\n- Ancient: MIBR 7 - Eternal Fire 13\n- Inferno: MIBR 8 - Eternal Fire 13
-LOCATION:Stake Ranked Episode 5
-END:VEVENT
-BEGIN:VEVENT
-UID:cs2-match-2399718@counter-strike-calendar
-DTSTAMP:20261113T074231Z
-DTSTART:20261030T160000Z
-DTEND:20261030T190000Z
-SUMMARY:fnatic vs Eternal Fire (2-3)
-DESCRIPTION:Format: BO5\nStatus: Completed\nFinal score: fnatic 2 - Eternal Fire 3\nMap scores:\n- Anubis: fnatic 13 - Eternal Fire 8\n- Ancient: fnatic 13 - Eternal Fire 2\n- Cache: fnatic 9 - Eternal Fire 13\n- Dust2: fnatic 11 - Eternal Fire 13\n- Mirage: fnatic 8 - Eternal Fire 13
-LOCATION:Stake Ranked Episode 5
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2400501@counter-strike-calendar
-DTSTAMP:20261113T074231Z
+DTSTAMP:20261113T160027Z
 DTSTART:20261124T070000Z
 DTEND:20261124T100000Z
 SUMMARY:Eternal Fire vs FlyQuest
