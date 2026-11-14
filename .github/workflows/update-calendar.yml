@@ -2,7 +2,7 @@ name: Update Counter-Strike Calendar
 
 on:
   schedule:
-    - cron: '17 * * * *'  # hourly at minute 0
+    - cron: '10 */2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: [self-hosted, linux, x64]
-    timeout-minutes: 20
+    timeout-minutes: 60
 
     steps:
       - name: Check out repository
