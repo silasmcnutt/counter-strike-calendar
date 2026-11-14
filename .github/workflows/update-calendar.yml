@@ -2,7 +2,7 @@ name: Update Counter-Strike Calendar
 
 on:
   schedule:
-    - cron: '0 * * * *'  # hourly at minute 0
+    - cron: '17 * * * *'  # hourly at minute 0
   workflow_dispatch:
 
 permissions:
