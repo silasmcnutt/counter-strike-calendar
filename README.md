@@ -43,6 +43,7 @@ calendar.
 
 ## Add a calendar
 
+**Option 1: Native subscription (simplest)**
 Use the subscription URL in Google Calendar, Apple Calendar, Outlook, or
 another calendar app.
 
@@ -53,8 +54,79 @@ For Google Calendar:
 3. Paste the calendar URL.
 4. Select **Add calendar**.
 
-Calendar apps control how often they refresh subscriptions. This project
-updates the feeds approximately every four hours.
+Calendar apps control how often they refresh subscriptions (typically every
+few hours). This project updates the feeds approximately every four hours.
+
+**Option 2: Automated sync via Google Apps Script (more frequent)**
+If you need updates more often than the native subscription provides,
+use the included Google Apps Script to synchronize the ICS feed to a
+calendar you own every 15 minutes.
+
+## Automated Google Calendar Sync (Google Apps Script)
+
+For more reliable, frequent updates than native calendar subscriptions, use the included Google Apps Script to automatically synchronize an ICS feed to your Google Calendar every 15 minutes.
+
+### Setup
+
+1. **Create a new Google Apps Script project**
+   - Go to [script.google.com](https://script.google.com)
+   - Click **New Project**
+   - Name it (e.g., "Counter-Strike Calendar Sync")
+
+2. **Copy the script**
+   - Copy the entire contents of [`gas-ics-sync.gs`](./gas-ics-sync.gs) into the editor
+   - Replace the default `Code.gs` content
+
+3. **Configure the script**
+   - Edit the **CONFIGURATION** section at the top:
+     ```javascript
+     const CONFIG = {
+       icsUrl: 'https://raw.githubusercontent.com/silasmcnutt/counter-strike-calendar/main/ics/!-ALL-TEAMS-!.ics',
+       calendarId: 'your-calendar-id@group.calendar.google.com',
+       syncInterval: 15,
+     };
+     ```
+   - **Finding your Calendar ID:**
+     1. Open Google Calendar → Settings (gear icon) → Settings
+     2. **Create a new calendar** (left sidebar → **+ Create calendar** → name it → **Create calendar**)
+     3. Select that new calendar on the left
+     4. Scroll to **Integrate calendar** → copy **Calendar ID**
+     - **Must be a calendar you own**, not a subscribed/imported calendar (those are read-only and end with `@import.calendar.google.com`)
+
+4. **Authorize the script**
+   - Click **Run** → `install`
+   - Approve the authorization popup (choose your account, allow access)
+
+5. **Run initial sync**
+   - Click **Run** → `startSync`
+   - Check **Executions** log for results (events deleted/imported)
+
+6. **Verify automatic trigger**
+   - The `install()` function creates a 15-minute time-driven trigger
+   - Check **Triggers** (clock icon) → confirm `startSync` runs every 15 minutes
+
+### Stopping Synchronization
+
+To stop automatic sync:
+- In the Apps Script editor, click **Triggers** (clock icon) → delete the `startSync` trigger
+- Or run `uninstall()` from the editor
+
+### How It Works
+
+This script is a lightweight, standalone replacement for **[GAS-ICS-Sync](https://github.com/motemen/gas-ics-sync)**. Unlike native calendar subscriptions (which Google controls and may refresh slowly), this script:
+
+- Runs on Google's servers every 15 minutes via time-driven trigger
+- **Completely replaces** the target calendar's events with the latest ICS feed
+- Downloads → validates → deletes all old events → imports all new events (atomic-ish)
+- Uses a script lock to prevent overlapping runs
+- Logs detailed results (events deleted, events imported, errors)
+
+### Limitations
+
+- **Destructive:** Every sync deletes ALL events in the target calendar — use a dedicated calendar
+- **Partial failure:** If import fails mid-way, calendar may contain partial events (no transactional rollback)
+- **Execution time:** Large calendars (>500 events) may exceed 6-minute max execution time
+- **No incremental sync:** By design — the ICS source is the source of truth
 
 ## Match selection
 
