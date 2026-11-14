@@ -421,8 +421,8 @@
   },
   {
     "id": "cs2-match-2400204",
-    "start": "2026-11-13T08:00:00.000Z",
-    "end": "2026-11-13T11:00:00.000Z",
+    "start": "2026-11-13T08:00:00Z",
+    "end": "2026-11-13T11:00:00Z",
     "summary": "Vitality vs MOUZ (0-2)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: Vitality 0 - MOUZ 2\nMap scores:\n- Mirage: Vitality 8 - MOUZ 13\n- Cache: Vitality 14 - MOUZ 16",
     "location": "BLAST Rivals 2026 Season 2",
@@ -433,8 +433,8 @@
   },
   {
     "id": "cs2-match-2400205",
-    "start": "2026-11-13T10:55:00.000Z",
-    "end": "2026-11-13T13:55:00.000Z",
+    "start": "2026-11-13T10:55:00Z",
+    "end": "2026-11-13T13:55:00Z",
     "summary": "G2 vs Falcons (1-2)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: G2 1 - Falcons 2\nMap scores:\n- Dust2: G2 13 - Falcons 11\n- Mirage: G2 2 - Falcons 13\n- Anubis: G2 8 - Falcons 13",
     "location": "BLAST Rivals 2026 Season 2",
@@ -449,7 +449,7 @@
     "end": "2026-11-14T11:00:00.000Z",
     "summary": "Spirit vs MOUZ (2-0)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: Spirit 2 - MOUZ 0\nMap scores:\n- Mirage: Spirit 13 - MOUZ 7\n- Ancient: Spirit 13 - MOUZ 11",
-    "location": "BLAST Rivals 2026 Season 2",
+    "location": "BLAST Rivals 2026 Season 1undefined",
     "teams": [
       "Spirit",
       "MOUZ"
@@ -461,7 +461,7 @@
     "end": "2026-11-14T13:35:00.000Z",
     "summary": "FURIA vs Falcons (2-0)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: FURIA 2 - Falcons 0\nMap scores:\n- Ancient: FURIA 16 - Falcons 14\n- Dust2: FURIA 13 - Falcons 5",
-    "location": "BLAST Rivals 2026 Season 2",
+    "location": "BLAST Rivals 2026 Season 1undefined",
     "teams": [
       "FURIA",
       "Falcons"
@@ -473,7 +473,7 @@
     "end": "2026-11-15T11:00:00.000Z",
     "summary": "Spirit vs FURIA",
     "description": "Format: BO5\nStatus: Scheduled",
-    "location": "BLAST Rivals 2026 Season 2",
+    "location": "BLAST Rivals 2026 Season 1undefined",
     "teams": [
       "Spirit",
       "FURIA"
