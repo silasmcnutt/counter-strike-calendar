@@ -469,10 +469,10 @@
   },
   {
     "id": "cs2-match-2400208",
-    "start": "2026-11-15T08:00:00Z",
-    "end": "2026-11-15T11:00:00Z",
-    "summary": "Spirit vs FURIA",
-    "description": "Format: BO5\nStatus: Scheduled",
+    "start": "2026-11-15T08:00:00.000Z",
+    "end": "2026-11-15T11:00:00.000Z",
+    "summary": "Spirit vs FURIA (0-3)",
+    "description": "Format: BO5\nStatus: Completed\nFinal score: Spirit 0 - FURIA 3\nMap scores:\n- Ancient: Spirit 11 - FURIA 13\n- Dust2: Spirit 5 - FURIA 13\n- Mirage: Spirit 8 - FURIA 13",
     "location": "BLAST Rivals 2026 Season 2",
     "teams": [
       "Spirit",

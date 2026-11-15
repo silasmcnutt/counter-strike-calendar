@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399944@counter-strike-calendar
-DTSTAMP:20261115T091239Z
-DTSTART:20261101T101500Z
-DTEND:20261101T131500Z
-SUMMARY:Metizport vs JiJieHao (2-0)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Metizport 2 - JiJieHao 0\nMap scores:\n- Inferno: Metizport 16 - JiJieHao 14\n- Mirage: Metizport 19 - JiJieHao 17
-LOCATION:HyperX Retake Season 13
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2399947@counter-strike-calendar
-DTSTAMP:20261115T091239Z
+DTSTAMP:20261115T165853Z
 DTSTART:20261101T191000Z
 DTEND:20261101T221000Z
 SUMMARY:Metizport vs WBT Academy (1-2)
@@ -23,7 +14,7 @@ LOCATION:HyperX Retake Season 13
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400153@counter-strike-calendar
-DTSTAMP:20261115T091239Z
+DTSTAMP:20261115T165853Z
 DTSTART:20261113T090000Z
 DTEND:20261113T120000Z
 SUMMARY:Metizport vs Nexus (2-1)
@@ -31,8 +22,17 @@ DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Metizport 2 - Nexus 1\n
 LOCATION:CCT 2026 Europe Series 13
 END:VEVENT
 BEGIN:VEVENT
+UID:cs2-match-2400163@counter-strike-calendar
+DTSTAMP:20261115T165853Z
+DTSTART:20261115T150000Z
+DTEND:20261115T180000Z
+SUMMARY:Black Phoenix vs Metizport (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Black Phoenix 2 - Metizport 0\nMap scores:\n- Cache: Black Phoenix 13 - Metizport 11\n- Mirage: Black Phoenix 13 - Metizport 9
+LOCATION:CCT 2026 Europe Series 13
+END:VEVENT
+BEGIN:VEVENT
 UID:cs2-match-2400521@counter-strike-calendar
-DTSTAMP:20261115T091239Z
+DTSTAMP:20261115T165853Z
 DTSTART:20261117T190000Z
 DTEND:20261117T220000Z
 SUMMARY:Envy vs Metizport

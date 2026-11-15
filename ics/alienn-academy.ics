@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400540@counter-strike-calendar
-DTSTAMP:20261115T091239Z
-DTSTART:20261115T070000Z
-DTEND:20261115T100000Z
-SUMMARY:alienn academy vs Revenge
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DTSTAMP:20261115T165853Z
+DTSTART:20261115T073000Z
+DTEND:20261115T103000Z
+SUMMARY:alienn academy vs Revenge (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: alienn academy 2 - Revenge 0\nMap scores:\n- Cache: alienn academy 13 - Revenge 3\n- Anubis: alienn academy 28 - Revenge 26
+LOCATION:BRO Cyber League Season 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400543@counter-strike-calendar
+DTSTAMP:20261115T165853Z
+DTSTART:20261115T120000Z
+DTEND:20261115T150000Z
+SUMMARY:DNK vs alienn academy (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: DNK 0 - alienn academy 2\nMap scores:\n- Cache: DNK 14 - alienn academy 16\n- Ancient: DNK 4 - alienn academy 13
 LOCATION:BRO Cyber League Season 2
 END:VEVENT
 END:VCALENDAR

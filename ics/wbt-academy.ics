@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2399945@counter-strike-calendar
-DTSTAMP:20261115T091239Z
-DTSTART:20261101T140500Z
-DTEND:20261101T170500Z
-SUMMARY:WBT Academy vs Iberian Soul (2-0)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: WBT Academy 2 - Iberian Soul 0\nMap scores:\n- Anubis: WBT Academy 13 - Iberian Soul 6\n- Nuke: WBT Academy 13 - Iberian Soul 4
-LOCATION:HyperX Retake Season 13
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2399947@counter-strike-calendar
-DTSTAMP:20261115T091239Z
+DTSTAMP:20261115T165853Z
 DTSTART:20261101T191000Z
 DTEND:20261101T221000Z
 SUMMARY:Metizport vs WBT Academy (1-2)

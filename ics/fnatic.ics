@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400411@counter-strike-calendar
-DTSTAMP:20261115T091239Z
+DTSTAMP:20261115T165853Z
 DTSTART:20261115T090000Z
 DTEND:20261115T120000Z
-SUMMARY:FaZe vs fnatic
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:FaZe vs fnatic (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: FaZe 1 - fnatic 2\nMap scores:\n- Anubis: FaZe 7 - fnatic 13\n- Mirage: FaZe 13 - fnatic 7\n- Ancient: FaZe 6 - fnatic 13
 LOCATION:PGL Cluj-Napoca 2027 Closed Qualifier
 END:VEVENT
 END:VCALENDAR
