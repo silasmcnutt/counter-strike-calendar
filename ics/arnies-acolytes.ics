@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400533@counter-strike-calendar
-DTSTAMP:20261115T165853Z
+DTSTAMP:20261115T224414Z
 DTSTART:20261115T022000Z
 DTEND:20261115T052000Z
 SUMMARY:LAG vs Arnie's Acolytes (2-0)
@@ -14,11 +14,11 @@ LOCATION:Austin LAN 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400538@counter-strike-calendar
-DTSTAMP:20261115T165853Z
+DTSTAMP:20261115T224414Z
 DTSTART:20261115T161500Z
 DTEND:20261115T191500Z
-SUMMARY:Arnie's Acolytes vs Celestial
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:Arnie's Acolytes vs Celestial (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Arnie's Acolytes 0 - Celestial 2\nMap scores:\n- Dust2: Arnie's Acolytes 5 - Celestial 13\n- Mirage: Arnie's Acolytes 9 - Celestial 13
 LOCATION:Austin LAN 2026
 END:VEVENT
 END:VCALENDAR

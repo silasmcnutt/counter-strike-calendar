@@ -445,8 +445,8 @@
   },
   {
     "id": "cs2-match-2400206",
-    "start": "2026-11-14T08:00:00.000Z",
-    "end": "2026-11-14T11:00:00.000Z",
+    "start": "2026-11-14T08:00:00Z",
+    "end": "2026-11-14T11:00:00Z",
     "summary": "Spirit vs MOUZ (2-0)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: Spirit 2 - MOUZ 0\nMap scores:\n- Mirage: Spirit 13 - MOUZ 7\n- Ancient: Spirit 13 - MOUZ 11",
     "location": "BLAST Rivals 2026 Season 2",
@@ -457,8 +457,8 @@
   },
   {
     "id": "cs2-match-2400207",
-    "start": "2026-11-14T10:35:00.000Z",
-    "end": "2026-11-14T13:35:00.000Z",
+    "start": "2026-11-14T10:35:00Z",
+    "end": "2026-11-14T13:35:00Z",
     "summary": "FURIA vs Falcons (2-0)",
     "description": "Format: BO3\nStatus: Completed\nFinal score: FURIA 2 - Falcons 0\nMap scores:\n- Ancient: FURIA 16 - Falcons 14\n- Dust2: FURIA 13 - Falcons 5",
     "location": "BLAST Rivals 2026 Season 2",

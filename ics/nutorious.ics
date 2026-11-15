@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2400046@counter-strike-calendar
-DTSTAMP:20261115T165853Z
-DTSTART:20261101T212000Z
-DTEND:20261102T002000Z
-SUMMARY:LAG vs NuTorious (3-1)
-DESCRIPTION:Format: BO5\nStatus: Completed\nFinal score: LAG 3 - NuTorious 1\nMap scores:\n- Inferno: LAG 13 - NuTorious 7\n- Anubis: LAG 13 - NuTorious 0\n- Nuke: LAG 10 - NuTorious 13\n- Ancient: LAG 13 - NuTorious 8
-LOCATION:NSTLGA Texas Open 2026
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2400531@counter-strike-calendar
-DTSTAMP:20261115T165853Z
+DTSTAMP:20261115T224414Z
 DTSTART:20261115T014500Z
 DTEND:20261115T044500Z
 SUMMARY:Voca vs NuTorious (2-0)
@@ -23,11 +14,11 @@ LOCATION:Austin LAN 2026
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400537@counter-strike-calendar
-DTSTAMP:20261115T165853Z
+DTSTAMP:20261115T224414Z
 DTSTART:20261115T161500Z
 DTEND:20261115T191500Z
-SUMMARY:NuTorious vs It's a Secret
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:NuTorious vs It's a Secret (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: NuTorious 2 - It's a Secret 0\nMap scores:\n- Anubis: NuTorious 13 - It's a Secret 10\n- Ancient: NuTorious 13 - It's a Secret 6
 LOCATION:Austin LAN 2026
 END:VEVENT
 END:VCALENDAR
