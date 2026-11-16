@@ -1,53 +1,5 @@
 [
   {
-    "id": "cs2-match-2399855",
-    "start": "2026-11-02T02:00:00Z",
-    "end": "2026-11-02T05:00:00Z",
-    "summary": "Legacy vs The MongolZ (1-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Legacy 1 - The MongolZ 2\nMap scores:\n- Mirage: Legacy 16 - The MongolZ 13\n- Dust2: Legacy 6 - The MongolZ 13\n- Ancient: Legacy 8 - The MongolZ 13",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "Legacy",
-      "The MongolZ"
-    ]
-  },
-  {
-    "id": "cs2-match-2399856",
-    "start": "2026-11-02T02:00:00Z",
-    "end": "2026-11-02T05:00:00Z",
-    "summary": "HEROIC vs B8 (2-0)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: HEROIC 2 - B8 0\nMap scores:\n- Nuke: HEROIC 13 - B8 4\n- Dust2: HEROIC 13 - B8 7",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "HEROIC",
-      "B8"
-    ]
-  },
-  {
-    "id": "cs2-match-2399861",
-    "start": "2026-11-02T04:30:00Z",
-    "end": "2026-11-02T07:30:00Z",
-    "summary": "Aurora vs Liquid (0-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Aurora 0 - Liquid 2\nMap scores:\n- Inferno: Aurora 3 - Liquid 13\n- Anubis: Aurora 4 - Liquid 13",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "Aurora",
-      "Liquid"
-    ]
-  },
-  {
-    "id": "cs2-match-2399862",
-    "start": "2026-11-02T05:30:00Z",
-    "end": "2026-11-02T08:30:00Z",
-    "summary": "PARIVISION vs G2 (2-1)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: PARIVISION 2 - G2 1\nMap scores:\n- Dust2: PARIVISION 9 - G2 13\n- Anubis: PARIVISION 13 - G2 7\n- Ancient: PARIVISION 13 - G2 9",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "PARIVISION",
-      "G2"
-    ]
-  },
-  {
     "id": "cs2-match-2399860",
     "start": "2026-11-02T07:00:00Z",
     "end": "2026-11-02T10:00:00Z",
