@@ -1,53 +1,5 @@
 [
   {
-    "id": "cs2-match-2399860",
-    "start": "2026-11-02T07:00:00Z",
-    "end": "2026-11-02T10:00:00Z",
-    "summary": "9z vs BETBOOM (1-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: 9z 1 - BETBOOM 2\nMap scores:\n- Dust2: 9z 13 - BETBOOM 8\n- Ancient: 9z 7 - BETBOOM 13\n- Mirage: 9z 9 - BETBOOM 13",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "9z",
-      "BETBOOM"
-    ]
-  },
-  {
-    "id": "cs2-match-2399857",
-    "start": "2026-11-02T08:50:00Z",
-    "end": "2026-11-02T11:50:00Z",
-    "summary": "FURIA vs FaZe (2-1)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: FURIA 2 - FaZe 1\nMap scores:\n- Ancient: FURIA 11 - FaZe 13\n- Dust2: FURIA 13 - FaZe 5\n- Cache: FURIA 13 - FaZe 4",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "FURIA",
-      "FaZe"
-    ]
-  },
-  {
-    "id": "cs2-match-2399859",
-    "start": "2026-11-02T10:15:00Z",
-    "end": "2026-11-02T13:15:00Z",
-    "summary": "MOUZ vs TYLOO (2-0)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: MOUZ 2 - TYLOO 0\nMap scores:\n- Inferno: MOUZ 13 - TYLOO 6\n- Nuke: MOUZ 13 - TYLOO 7",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "MOUZ",
-      "TYLOO"
-    ]
-  },
-  {
-    "id": "cs2-match-2399858",
-    "start": "2026-11-02T11:45:00Z",
-    "end": "2026-11-02T14:45:00Z",
-    "summary": "Natus Vincere vs Falcons (2-0)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Natus Vincere 2 - Falcons 0\nMap scores:\n- Ancient: Natus Vincere 13 - Falcons 5\n- Mirage: Natus Vincere 13 - Falcons 11",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "Natus Vincere",
-      "Falcons"
-    ]
-  },
-  {
     "id": "cs2-match-2399990",
     "start": "2026-11-03T02:00:00Z",
     "end": "2026-11-03T05:00:00Z",
