@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400411@counter-strike-calendar
-DTSTAMP:20261117T130841Z
+DTSTAMP:20261117T221207Z
 DTSTART:20261115T090000Z
 DTEND:20261115T120000Z
 SUMMARY:FaZe vs fnatic (1-2)
@@ -14,25 +14,34 @@ LOCATION:PGL Cluj-Napoca 2027 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400417@counter-strike-calendar
-DTSTAMP:20261117T130841Z
-DTSTART:20261115T153500Z
-DTEND:20261115T183500Z
+DTSTAMP:20261117T221207Z
+DTSTART:20261115T172957Z
+DTEND:20261115T202957Z
 SUMMARY:magic vs fnatic (0-2)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: magic 0 - fnatic 2\nMap scores:\n- Inferno: magic 6 - fnatic 13\n- Anubis: magic 9 - fnatic 13
 LOCATION:PGL Cluj-Napoca 2027 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400421@counter-strike-calendar
-DTSTAMP:20261117T130841Z
-DTSTART:20261117T120000Z
-DTEND:20261117T150000Z
-SUMMARY:fnatic vs 100 Thieves (1-0)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: fnatic 1 - 100 Thieves 0\nMap scores:\n- Ancient: fnatic 13 - 100 Thieves 5
+DTSTAMP:20261117T221207Z
+DTSTART:20261117T144024Z
+DTEND:20261117T174024Z
+SUMMARY:fnatic vs 100 Thieves (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: fnatic 1 - 100 Thieves 2\nMap scores:\n- Ancient: fnatic 13 - 100 Thieves 5\n- Dust2: fnatic 10 - 100 Thieves 13\n- Inferno: fnatic 7 - 100 Thieves 13
+LOCATION:PGL Cluj-Napoca 2027 Closed Qualifier
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400423@counter-strike-calendar
+DTSTAMP:20261117T221207Z
+DTSTART:20261117T171100Z
+DTEND:20261117T201100Z
+SUMMARY:magic vs fnatic (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: magic 0 - fnatic 2\nMap scores:\n- Inferno: magic 5 - fnatic 13\n- Nuke: magic 7 - fnatic 13
 LOCATION:PGL Cluj-Napoca 2027 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400701@counter-strike-calendar
-DTSTAMP:20261117T130841Z
+DTSTAMP:20261117T221207Z
 DTSTART:20261130T110000Z
 DTEND:20261130T140000Z
 SUMMARY:fnatic vs BRUTE

@@ -5,10 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400286@counter-strike-calendar
-DTSTAMP:20261117T130841Z
-DTSTART:20261117T183000Z
-DTEND:20261117T213000Z
-SUMMARY:GamerLegion vs Luminosity
+DTSTAMP:20261117T221207Z
+DTSTART:20261117T203716Z
+DTEND:20261117T233716Z
+SUMMARY:GamerLegion vs Luminosity (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: GamerLegion 1 - Luminosity 2\nMap scores:\n- Mirage: GamerLegion 14 - Luminosity 16\n- Nuke: GamerLegion 13 - Luminosity 7\n- Cache: GamerLegion 9 - Luminosity 13
+LOCATION:Stake Ranked Episode 6
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400443@counter-strike-calendar
+DTSTAMP:20261117T221207Z
+DTSTART:20261118T183000Z
+DTEND:20261118T213000Z
+SUMMARY:Ninjas in Pyjamas vs Luminosity
 DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:Stake Ranked Episode 6
 END:VEVENT
