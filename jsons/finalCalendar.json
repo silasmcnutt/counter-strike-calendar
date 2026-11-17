@@ -1,29 +1,5 @@
 [
   {
-    "id": "cs2-match-2399990",
-    "start": "2026-11-03T02:00:00Z",
-    "end": "2026-11-03T05:00:00Z",
-    "summary": "Liquid vs PARIVISION (0-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Liquid 0 - PARIVISION 2\nMap scores:\n- Ancient: Liquid 7 - PARIVISION 13\n- Inferno: Liquid 9 - PARIVISION 13",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "Liquid",
-      "PARIVISION"
-    ]
-  },
-  {
-    "id": "cs2-match-2399991",
-    "start": "2026-11-03T02:00:00Z",
-    "end": "2026-11-03T05:00:00Z",
-    "summary": "Aurora vs G2 (2-1)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Aurora 2 - G2 1\nMap scores:\n- Nuke: Aurora 13 - G2 9\n- Inferno: Aurora 9 - G2 13\n- Dust2: Aurora 16 - G2 13",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "Aurora",
-      "G2"
-    ]
-  },
-  {
     "id": "cs2-match-2399992",
     "start": "2026-11-03T04:35:00Z",
     "end": "2026-11-03T07:35:00Z",
