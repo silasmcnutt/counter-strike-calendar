@@ -1,29 +1,5 @@
 [
   {
-    "id": "cs2-match-2400005",
-    "start": "2026-11-04T09:30:00Z",
-    "end": "2026-11-04T12:30:00Z",
-    "summary": "The MongolZ vs FURIA (2-1)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: The MongolZ 2 - FURIA 1\nMap scores:\n- Inferno: The MongolZ 10 - FURIA 13\n- Cache: The MongolZ 13 - FURIA 8\n- Dust2: The MongolZ 13 - FURIA 11",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "The MongolZ",
-      "FURIA"
-    ]
-  },
-  {
-    "id": "cs2-match-2400004",
-    "start": "2026-11-04T10:20:00Z",
-    "end": "2026-11-04T13:20:00Z",
-    "summary": "Natus Vincere vs Falcons (2-1)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: Natus Vincere 2 - Falcons 1\nMap scores:\n- Ancient: Natus Vincere 11 - Falcons 13\n- Inferno: Natus Vincere 13 - Falcons 4\n- Mirage: Natus Vincere 13 - Falcons 3",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "Natus Vincere",
-      "Falcons"
-    ]
-  },
-  {
     "id": "cs2-match-2400006",
     "start": "2026-11-06T06:30:00Z",
     "end": "2026-11-06T09:30:00Z",
