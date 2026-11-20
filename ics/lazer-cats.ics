@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400271@counter-strike-calendar
-DTSTAMP:20261120T124512Z
+DTSTAMP:20261120T214557Z
 DTSTART:20261120T120000Z
 DTEND:20261120T150000Z
-SUMMARY:Lazer Cats vs Hype Tech
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:Lazer Cats vs Hype Tech (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Lazer Cats 0 - Hype Tech 2\nMap scores:\n- Dust2: Lazer Cats 4 - Hype Tech 13\n- Inferno: Lazer Cats 7 - Hype Tech 13
 LOCATION:CCT 2026 Europe Series 14
 END:VEVENT
 END:VCALENDAR

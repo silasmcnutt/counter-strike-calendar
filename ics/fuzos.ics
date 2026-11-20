@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400546@counter-strike-calendar
-DTSTAMP:20261120T124512Z
+DTSTAMP:20261120T214557Z
 DTSTART:20261120T160000Z
 DTEND:20261120T190000Z
-SUMMARY:Fuzos vs Famalicão
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+SUMMARY:Fuzos vs Famalicão (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Fuzos 0 - Famalicão 2\nMap scores:\n- Cache: Fuzos 6 - Famalicão 13\n- Inferno: Fuzos 4 - Famalicão 13
 LOCATION:Master League Portugal Season 19
 END:VEVENT
 END:VCALENDAR
