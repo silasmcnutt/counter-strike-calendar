@@ -1,29 +1,5 @@
 [
   {
-    "id": "cs2-match-2400006",
-    "start": "2026-11-06T06:30:00Z",
-    "end": "2026-11-06T09:30:00Z",
-    "summary": "PARIVISION vs Natus Vincere (1-2)",
-    "description": "Format: BO3\nStatus: Completed\nFinal score: PARIVISION 1 - Natus Vincere 2\nMap scores:\n- Mirage: PARIVISION 16 - Natus Vincere 14\n- Inferno: PARIVISION 9 - Natus Vincere 13\n- Ancient: PARIVISION 10 - Natus Vincere 13",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "PARIVISION",
-      "Natus Vincere"
-    ]
-  },
-  {
-    "id": "cs2-match-2400007",
-    "start": "2026-11-06T09:45:00Z",
-    "end": "2026-11-06T12:45:00Z",
-    "summary": "FURIA vs BETBOOM",
-    "description": "Format: BO3\nStatus: Scheduled",
-    "location": "IEM Beijing 2026",
-    "teams": [
-      "FURIA",
-      "BETBOOM"
-    ]
-  },
-  {
     "id": "cs2-match-2400008",
     "start": "2026-11-07T06:30:00Z",
     "end": "2026-11-07T09:30:00Z",
