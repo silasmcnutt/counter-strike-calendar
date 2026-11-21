@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400231@counter-strike-calendar
-DTSTAMP:20261121T030748Z
+DTSTAMP:20261121T123015Z
 DTSTART:20261109T150000Z
 DTEND:20261109T180000Z
 SUMMARY:Phantom Academy vs Illyrians (1-2)
@@ -14,11 +14,11 @@ LOCATION:CCT 2026 Europe Series 14 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400637@counter-strike-calendar
-DTSTAMP:20261121T030748Z
-DTSTART:20261121T090000Z
-DTEND:20261121T120000Z
-SUMMARY:Azuolas vs Phantom Academy
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DTSTAMP:20261121T123015Z
+DTSTART:20261121T102743Z
+DTEND:20261121T132743Z
+SUMMARY:Azuolas vs Phantom Academy (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Azuolas 0 - Phantom Academy 2\nMap scores:\n- Mirage: Azuolas 5 - Phantom Academy 13\n- Ancient: Azuolas 4 - Phantom Academy 13
 LOCATION:CCT 2026 Europe Series 15 Closed Qualifier
 END:VEVENT
 END:VCALENDAR
