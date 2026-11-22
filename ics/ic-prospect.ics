@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400742@counter-strike-calendar
-DTSTAMP:20261122T174542Z
+DTSTAMP:20261122T233319Z
 DTSTART:20261122T131515Z
 DTEND:20261122T161515Z
 SUMMARY:IC Prospect vs TOP G (2-1)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: IC Prospect 2 - TOP G 1\nMap scores:\n- Ancient: IC Prospect 13 - TOP G 10\n- Mirage: IC Prospect 10 - TOP G 13\n- Anubis: IC Prospect 13 - TOP G 8
+LOCATION:UESF Championship of Ukraine 2026 Stage 5 Finals
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400744@counter-strike-calendar
+DTSTAMP:20261122T233319Z
+DTSTART:20261122T162500Z
+DTEND:20261122T192500Z
+SUMMARY:IC Prospect vs B8 Academy (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: IC Prospect 0 - B8 Academy 2\nMap scores:\n- Mirage: IC Prospect 6 - B8 Academy 13\n- Anubis: IC Prospect 8 - B8 Academy 13
 LOCATION:UESF Championship of Ukraine 2026 Stage 5 Finals
 END:VEVENT
 END:VCALENDAR
