@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2400231@counter-strike-calendar
-DTSTAMP:20261123T112654Z
-DTSTART:20261109T150000Z
-DTEND:20261109T180000Z
-SUMMARY:Phantom Academy vs Illyrians (1-2)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Phantom Academy 1 - Illyrians 2\nMap scores:\n- Dust2: Phantom Academy 13 - Illyrians 11\n- Cache: Phantom Academy 10 - Illyrians 13\n- Mirage: Phantom Academy 9 - Illyrians 13
-LOCATION:CCT 2026 Europe Series 14 Closed Qualifier
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2400637@counter-strike-calendar
-DTSTAMP:20261123T112654Z
+DTSTAMP:20261123T200506Z
 DTSTART:20261121T090000Z
 DTEND:20261121T120000Z
 SUMMARY:Azuolas vs Phantom Academy (0-2)
@@ -23,20 +14,20 @@ LOCATION:CCT 2026 Europe Series 15 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400643@counter-strike-calendar
-DTSTAMP:20261123T112654Z
-DTSTART:20261122T153145Z
-DTEND:20261122T183145Z
+DTSTAMP:20261123T200506Z
+DTSTART:20261122T151500Z
+DTEND:20261122T181500Z
 SUMMARY:Phantom Academy vs Lilmix (0-1)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Phantom Academy 0 - Lilmix 1
 LOCATION:CCT 2026 Europe Series 15 Closed Qualifier
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400647@counter-strike-calendar
-DTSTAMP:20261123T112654Z
-DTSTART:20261123T150000Z
-DTEND:20261123T180000Z
-SUMMARY:Illyrians vs Phantom Academy
-DESCRIPTION:Format: Unknown\nStatus: Scheduled
+DTSTAMP:20261123T200506Z
+DTSTART:20261123T171723Z
+DTEND:20261123T201723Z
+SUMMARY:Illyrians vs Phantom Academy (0-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Illyrians 0 - Phantom Academy 2\nMap scores:\n- Cache: Illyrians 10 - Phantom Academy 13\n- Ancient: Illyrians 4 - Phantom Academy 13
 LOCATION:CCT 2026 Europe Series 15 Closed Qualifier
 END:VEVENT
 END:VCALENDAR
