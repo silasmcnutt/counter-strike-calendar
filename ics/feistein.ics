@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400733@counter-strike-calendar
-DTSTAMP:20261124T044240Z
+DTSTAMP:20261124T173037Z
 DTSTART:20261121T015500Z
 DTEND:20261121T045500Z
 SUMMARY:Swole Patrol vs Feistein (1-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Swole Patrol 1 - Feistein 0
+LOCATION:CROSSFIRE Season 7
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400797@counter-strike-calendar
+DTSTAMP:20261124T173037Z
+DTSTART:20261124T044624Z
+DTEND:20261124T074624Z
+SUMMARY:Feistein vs Elusive (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Feistein 1 - Elusive 2\nMap scores:\n- Inferno: Feistein 13 - Elusive 11\n- Anubis: Feistein 6 - Elusive 13\n- Ancient: Feistein 11 - Elusive 13
 LOCATION:CROSSFIRE Season 7
 END:VEVENT
 END:VCALENDAR

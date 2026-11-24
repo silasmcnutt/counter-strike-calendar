@@ -5,11 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400497@counter-strike-calendar
-DTSTAMP:20261124T044240Z
-DTSTART:20261124T050000Z
-DTEND:20261124T080000Z
-SUMMARY:100 Thieves vs Chinggis Warriors
-DESCRIPTION:Format: BO1\nStatus: Scheduled
+DTSTAMP:20261124T173037Z
+DTSTART:20261124T060914Z
+DTEND:20261124T090914Z
+SUMMARY:100 Thieves vs Chinggis Warriors (1-0)
+DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: 100 Thieves 1 - Chinggis Warriors 0\nMap scores:\n- Dust2: 100 Thieves 13 - Chinggis Warriors 6
+LOCATION:PGL Major Singapore 2026 Stage 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400558@counter-strike-calendar
+DTSTAMP:20261124T173037Z
+DTSTART:20261124T092029Z
+DTEND:20261124T122029Z
+SUMMARY:HEROIC vs Chinggis Warriors (1-0)
+DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: HEROIC 1 - Chinggis Warriors 0\nMap scores:\n- Nuke: HEROIC 13 - Chinggis Warriors 3
+LOCATION:PGL Major Singapore 2026 Stage 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400572@counter-strike-calendar
+DTSTAMP:20261124T173037Z
+DTSTART:20261125T103000Z
+DTEND:20261125T133000Z
+SUMMARY:BC.Game vs Chinggis Warriors
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:PGL Major Singapore 2026 Stage 1
 END:VEVENT
 END:VCALENDAR

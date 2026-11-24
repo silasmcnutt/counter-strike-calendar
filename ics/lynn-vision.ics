@@ -5,10 +5,28 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400495@counter-strike-calendar
-DTSTAMP:20261124T044240Z
-DTSTART:20261124T040500Z
-DTEND:20261124T070500Z
-SUMMARY:9z vs Lynn Vision
+DTSTAMP:20261124T173037Z
+DTSTART:20261124T050619Z
+DTEND:20261124T080619Z
+SUMMARY:9z vs Lynn Vision (0-1)
+DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: 9z 0 - Lynn Vision 1\nMap scores:\n- Inferno: 9z 11 - Lynn Vision 13
+LOCATION:PGL Major Singapore 2026 Stage 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400557@counter-strike-calendar
+DTSTAMP:20261124T173037Z
+DTSTART:20261124T093541Z
+DTEND:20261124T123541Z
+SUMMARY:Ninjas in Pyjamas vs Lynn Vision (1-0)
+DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: Ninjas in Pyjamas 1 - Lynn Vision 0\nMap scores:\n- Ancient: Ninjas in Pyjamas 13 - Lynn Vision 10
+LOCATION:PGL Major Singapore 2026 Stage 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400568@counter-strike-calendar
+DTSTAMP:20261124T173037Z
+DTSTART:20261125T070000Z
+DTEND:20261125T100000Z
+SUMMARY:Wildcard vs Lynn Vision
 DESCRIPTION:Format: BO1\nStatus: Scheduled
 LOCATION:PGL Major Singapore 2026 Stage 1
 END:VEVENT
