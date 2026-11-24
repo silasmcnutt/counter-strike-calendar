@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400752@counter-strike-calendar
-DTSTAMP:20261123T200506Z
-DTSTART:20261124T020000Z
-DTEND:20261124T050000Z
-SUMMARY:Villainous vs Wanted Goons
-DESCRIPTION:Format: Unknown\nStatus: Scheduled
-LOCATION:Unknown event
+DTSTAMP:20261124T044240Z
+DTSTART:20261124T040208Z
+DTEND:20261124T070208Z
+SUMMARY:Villainous vs Wanted Goons (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Villainous 2 - Wanted Goons 0\nMap scores:\n- Anubis: Villainous 13 - Wanted Goons 11\n- Inferno: Villainous 13 - Wanted Goons 11
+LOCATION:CROSSFIRE Season 7
 END:VEVENT
 END:VCALENDAR
