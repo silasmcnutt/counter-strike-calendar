@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2400100@counter-strike-calendar
-DTSTAMP:20261124T173037Z
-DTSTART:20261110T192000Z
-DTEND:20261110T222000Z
-SUMMARY:Isurus vs RED Canids Academy (2-0)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Isurus 2 - RED Canids Academy 0\nMap scores:\n- Mirage: Isurus 13 - RED Canids Academy 3\n- Nuke: Isurus 13 - RED Canids Academy 10
-LOCATION:CCT 2026 South America Series 8
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2400106@counter-strike-calendar
-DTSTAMP:20261124T173037Z
+DTSTAMP:20261125T021719Z
 DTSTART:20261112T160000Z
 DTEND:20261112T190000Z
 SUMMARY:ex-Yawara vs Isurus (2-1)
