@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400269@counter-strike-calendar
-DTSTAMP:20261125T141036Z
+DTSTAMP:20261126T001255Z
 DTSTART:20261119T184000Z
 DTEND:20261119T214000Z
 SUMMARY:aimclub vs Nexus (0-2)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: aimclub 0 - Nexus 2\nMap scores:\n- Inferno: aimclub 11 - Nexus 13\n- Ancient: aimclub 9 - Nexus 13
 LOCATION:CCT 2026 Europe Series 14
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400656@counter-strike-calendar
+DTSTAMP:20261126T001255Z
+DTSTART:20261125T203037Z
+DTEND:20261125T233037Z
+SUMMARY:aimclub vs Noir Verse (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: aimclub 2 - Noir Verse 1\nMap scores:\n- Cache: aimclub 13 - Noir Verse 8\n- Anubis: aimclub 6 - Noir Verse 13\n- Mirage: aimclub 13 - Noir Verse 4
+LOCATION:CCT 2026 Europe Series 15
 END:VEVENT
 END:VCALENDAR
