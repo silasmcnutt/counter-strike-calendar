@@ -5,11 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400798@counter-strike-calendar
-DTSTAMP:20261126T104522Z
-DTSTART:20261125T090000Z
-DTEND:20261125T120000Z
+DTSTAMP:20261126T212441Z
+DTSTART:20261125T110604Z
+DTEND:20261125T140604Z
 SUMMARY:Spirit Academy vs Quintessence (2-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Spirit Academy 2 - Quintessence 0\nMap scores:\n- Dust2: Spirit Academy 13 - Quintessence 2\n- Cache: Spirit Academy 13 - Quintessence 11
+LOCATION:CCT 2026 Europe Series 16 Closed Qualifier
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400802@counter-strike-calendar
+DTSTAMP:20261126T212441Z
+DTSTART:20261126T110612Z
+DTEND:20261126T140612Z
+SUMMARY:Quintessence vs SAW Youngsters (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Quintessence 1 - SAW Youngsters 2\nMap scores:\n- Anubis: Quintessence 4 - SAW Youngsters 13\n- Nuke: Quintessence 13 - SAW Youngsters 5
 LOCATION:CCT 2026 Europe Series 16 Closed Qualifier
 END:VEVENT
 END:VCALENDAR

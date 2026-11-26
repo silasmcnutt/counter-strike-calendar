@@ -4,26 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2400467@counter-strike-calendar
-DTSTAMP:20261126T104522Z
-DTSTART:20261112T140000Z
-DTEND:20261112T170000Z
-SUMMARY:benched gods vs Noir Verse (1-2)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: benched gods 1 - Noir Verse 2\nMap scores:\n- Ancient: benched gods 13 - Noir Verse 9\n- Cache: benched gods 10 - Noir Verse 13\n- Anubis: benched gods 10 - Noir Verse 13
-LOCATION:ESL Challenger League Season 52 Europe Cup 12
-END:VEVENT
-BEGIN:VEVENT
-UID:cs2-match-2400478@counter-strike-calendar
-DTSTAMP:20261126T104522Z
-DTSTART:20261112T180000Z
-DTEND:20261112T210000Z
-SUMMARY:Four Magic vs benched gods (2-0)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Four Magic 2 - benched gods 0\nMap scores:\n- Mirage: Four Magic 13 - benched gods 2\n- Dust2: Four Magic 13 - benched gods 7
-LOCATION:ESL Challenger League Season 52 Europe Cup 12
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2400393@counter-strike-calendar
-DTSTAMP:20261126T104522Z
+DTSTAMP:20261126T212441Z
 DTSTART:20261113T095000Z
 DTEND:20261113T125000Z
 SUMMARY:benched gods vs Azuolas (2-0)
@@ -32,11 +14,20 @@ LOCATION:European Pro League Series 10
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400400@counter-strike-calendar
-DTSTAMP:20261126T104522Z
+DTSTAMP:20261126T212441Z
 DTSTART:20261116T152848Z
 DTEND:20261116T182848Z
 SUMMARY:ex-INOX vs benched gods (2-1)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: ex-INOX 2 - benched gods 1\nMap scores:\n- Anubis: ex-INOX 9 - benched gods 13\n- Dust2: ex-INOX 13 - benched gods 10\n- Ancient: ex-INOX 13 - benched gods 11
 LOCATION:European Pro League Series 10
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400882@counter-strike-calendar
+DTSTAMP:20261126T212441Z
+DTSTART:20261126T165237Z
+DTEND:20261126T195237Z
+SUMMARY:FORZE Reload vs benched gods (2-0)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: FORZE Reload 2 - benched gods 0\nMap scores:\n- Ancient: FORZE Reload 13 - benched gods 9\n- Cache: FORZE Reload 16 - benched gods 12
+LOCATION:Exort Fiesta Series 4
 END:VEVENT
 END:VCALENDAR

@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400497@counter-strike-calendar
-DTSTAMP:20261126T104522Z
+DTSTAMP:20261126T212441Z
 DTSTART:20261124T060914Z
 DTEND:20261124T090914Z
 SUMMARY:100 Thieves vs Chinggis Warriors (1-0)
@@ -14,7 +14,7 @@ LOCATION:PGL Major Singapore 2026 Stage 1
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400558@counter-strike-calendar
-DTSTAMP:20261126T104522Z
+DTSTAMP:20261126T212441Z
 DTSTART:20261124T092029Z
 DTEND:20261124T122029Z
 SUMMARY:HEROIC vs Chinggis Warriors (1-0)
@@ -23,20 +23,20 @@ LOCATION:PGL Major Singapore 2026 Stage 1
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400572@counter-strike-calendar
-DTSTAMP:20261126T104522Z
-DTSTART:20261125T100000Z
-DTEND:20261125T130000Z
+DTSTAMP:20261126T212441Z
+DTSTART:20261125T131014Z
+DTEND:20261125T161014Z
 SUMMARY:BC.Game vs Chinggis Warriors (1-2)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: BC.Game 1 - Chinggis Warriors 2\nMap scores:\n- Ancient: BC.Game 11 - Chinggis Warriors 13\n- Dust2: BC.Game 13 - Chinggis Warriors 6\n- Nuke: BC.Game 10 - Chinggis Warriors 13
 LOCATION:PGL Major Singapore 2026 Stage 1
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400578@counter-strike-calendar
-DTSTAMP:20261126T104522Z
-DTSTART:20261126T110000Z
-DTEND:20261126T140000Z
-SUMMARY:Wildcard vs Chinggis Warriors
-DESCRIPTION:Format: BO3\nStatus: Scheduled
+DTSTAMP:20261126T212441Z
+DTSTART:20261126T120500Z
+DTEND:20261126T150500Z
+SUMMARY:Wildcard vs Chinggis Warriors (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: Wildcard 2 - Chinggis Warriors 1\nMap scores:\n- Dust2: Wildcard 13 - Chinggis Warriors 7\n- Cache: Wildcard 11 - Chinggis Warriors 13\n- Nuke: Wildcard 19 - Chinggis Warriors 16
 LOCATION:PGL Major Singapore 2026 Stage 1
 END:VEVENT
 END:VCALENDAR
