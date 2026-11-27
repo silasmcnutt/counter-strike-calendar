@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2400887@counter-strike-calendar
+DTSTAMP:20261127T223817Z
+DTSTART:20261127T211213Z
+DTEND:20261128T001213Z
+SUMMARY:GenOne vs Evermore (2-1)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: GenOne 2 - Evermore 1\nMap scores:\n- Ancient: GenOne 7 - Evermore 13\n- Anubis: GenOne 13 - Evermore 11\n- Cache: GenOne 13 - Evermore 7
+LOCATION:Exort Fiesta Series 4
+END:VEVENT
+END:VCALENDAR
