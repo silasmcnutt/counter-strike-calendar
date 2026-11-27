@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Counter Strike Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cs2-match-2400888@counter-strike-calendar
+DTSTAMP:20261127T040805Z
+DTSTART:20261126T215155Z
+DTEND:20261127T005155Z
+SUMMARY:ex-CPH Wolves vs ZOTIX (1-2)
+DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: ex-CPH Wolves 1 - ZOTIX 2\nMap scores:\n- Mirage: ex-CPH Wolves 13 - ZOTIX 5\n- Cache: ex-CPH Wolves 8 - ZOTIX 13\n- Anubis: ex-CPH Wolves 6 - ZOTIX 13
+LOCATION:CCT 2026 Contenders Europe Series 11
+END:VEVENT
+END:VCALENDAR
