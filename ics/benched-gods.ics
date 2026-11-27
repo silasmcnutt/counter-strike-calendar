@@ -4,17 +4,8 @@ PRODID:-//Counter Strike Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cs2-match-2400393@counter-strike-calendar
-DTSTAMP:20261127T040805Z
-DTSTART:20261113T095000Z
-DTEND:20261113T125000Z
-SUMMARY:benched gods vs Azuolas (2-0)
-DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: benched gods 2 - Azuolas 0\nMap scores:\n- Mirage: benched gods 13 - Azuolas 8
-LOCATION:European Pro League Series 10
-END:VEVENT
-BEGIN:VEVENT
 UID:cs2-match-2400400@counter-strike-calendar
-DTSTAMP:20261127T040805Z
+DTSTAMP:20261127T134634Z
 DTSTART:20261116T152848Z
 DTEND:20261116T182848Z
 SUMMARY:ex-INOX vs benched gods (2-1)
@@ -23,9 +14,9 @@ LOCATION:European Pro League Series 10
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-match-2400882@counter-strike-calendar
-DTSTAMP:20261127T040805Z
-DTSTART:20261126T150000Z
-DTEND:20261126T180000Z
+DTSTAMP:20261127T134634Z
+DTSTART:20261126T165237Z
+DTEND:20261126T195237Z
 SUMMARY:FORZE Reload vs benched gods (2-0)
 DESCRIPTION:Format: BO3\nStatus: Completed\nFinal score: FORZE Reload 2 - benched gods 0\nMap scores:\n- Ancient: FORZE Reload 13 - benched gods 9\n- Cache: FORZE Reload 16 - benched gods 12
 LOCATION:Exort Fiesta Series 4
