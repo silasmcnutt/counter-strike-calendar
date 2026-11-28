@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400585@counter-strike-calendar
-DTSTAMP:20261127T223817Z
-DTSTART:20261128T050000Z
-DTEND:20261128T080000Z
-SUMMARY:Nemiga vs Ninjas in Pyjamas
-DESCRIPTION:Format: BO1\nStatus: Scheduled
+DTSTAMP:20261128T073445Z
+DTSTART:20261128T055722Z
+DTEND:20261128T085722Z
+SUMMARY:Nemiga vs Ninjas in Pyjamas (0-1)
+DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: Nemiga 0 - Ninjas in Pyjamas 1\nMap scores:\n- Mirage: Nemiga 7 - Ninjas in Pyjamas 13
 LOCATION:PGL Major Singapore 2026 Stage 2
 END:VEVENT
 END:VCALENDAR
