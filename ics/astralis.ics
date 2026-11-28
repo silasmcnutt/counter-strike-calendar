@@ -5,11 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400584@counter-strike-calendar
-DTSTAMP:20261128T073445Z
+DTSTAMP:20261128T164754Z
 DTSTART:20261128T060024Z
 DTEND:20261128T090024Z
 SUMMARY:Astralis vs Imperial (1-0)
 DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: Astralis 1 - Imperial 0\nMap scores:\n- Inferno: Astralis 13 - Imperial 9
+LOCATION:PGL Major Singapore 2026 Stage 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400596@counter-strike-calendar
+DTSTAMP:20261128T164754Z
+DTSTART:20261128T134221Z
+DTEND:20261128T164221Z
+SUMMARY:Natus Vincere vs Astralis (0-1)
+DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: Natus Vincere 0 - Astralis 1\nMap scores:\n- Ancient: Natus Vincere 11 - Astralis 13
+LOCATION:PGL Major Singapore 2026 Stage 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400604@counter-strike-calendar
+DTSTAMP:20261128T164754Z
+DTSTART:20261129T103000Z
+DTEND:20261129T133000Z
+SUMMARY:FUT vs Astralis
+DESCRIPTION:Format: BO3\nStatus: Scheduled
 LOCATION:PGL Major Singapore 2026 Stage 2
 END:VEVENT
 END:VCALENDAR

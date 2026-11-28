@@ -5,11 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cs2-match-2400583@counter-strike-calendar
-DTSTAMP:20261128T073445Z
+DTSTAMP:20261128T164754Z
 DTSTART:20261128T045517Z
 DTEND:20261128T075517Z
 SUMMARY:The MongolZ vs Lynn Vision (1-0)
 DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: The MongolZ 1 - Lynn Vision 0\nMap scores:\n- Inferno: The MongolZ 13 - Lynn Vision 9
+LOCATION:PGL Major Singapore 2026 Stage 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400592@counter-strike-calendar
+DTSTAMP:20261128T164754Z
+DTSTART:20261128T112643Z
+DTEND:20261128T142643Z
+SUMMARY:1win vs The MongolZ (1-0)
+DESCRIPTION:Format: BO1\nStatus: Completed\nFinal score: 1win 1 - The MongolZ 0\nMap scores:\n- Mirage: 1win 13 - The MongolZ 10
+LOCATION:PGL Major Singapore 2026 Stage 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-match-2400601@counter-strike-calendar
+DTSTAMP:20261128T164754Z
+DTSTART:20261129T070000Z
+DTEND:20261129T100000Z
+SUMMARY:The MongolZ vs FlyQuest
+DESCRIPTION:Format: BO1\nStatus: Scheduled
 LOCATION:PGL Major Singapore 2026 Stage 2
 END:VEVENT
 END:VCALENDAR
